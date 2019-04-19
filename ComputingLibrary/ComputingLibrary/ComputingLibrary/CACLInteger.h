@@ -28,9 +28,21 @@ public:
     //拷贝对象
     CACLInteger copy(const CACLInteger number);
 
+    //转换long long为CACLInteger
+    CACLInteger translate(const long long number);
+
     //重载加法
     CACLInteger operator+(const CACLInteger& number);
-    CACLInteger operator+(const int number);
+    CACLInteger operator+(const long long number);
+    //无符号两个CACLInteger相加
+    CACLInteger unsignedAdd(const CACLInteger number1, const CACLInteger number2);
+
+    //重载减法
+    CACLInteger operator-(const CACLInteger& number);
+    CACLInteger operator-(const long long number);
+    //无符号两个CACLInteger相减
+    CACLInteger unsignedSubtract(const CACLInteger number1, const CACLInteger number2);
+
 
 
 private:

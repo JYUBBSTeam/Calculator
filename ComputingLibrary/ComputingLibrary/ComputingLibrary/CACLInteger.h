@@ -57,7 +57,7 @@ public:
     void operator=(const long long number);
 
     //求CACLInteger的绝对值
-    CACLInteger absoluteValue(const CACLInteger number);
+    CACLInteger absoluteValue();
 
 
 

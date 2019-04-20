@@ -1,6 +1,7 @@
 /*
  *创建人:Huang
- *日期:2019.4.19
+ *创建日期:2019.4.19
+ *修改日期：2019.4.20
  *类:CACLInteger
  *重载的运算符：+加法；-减法；*乘法；/除法；%求余； =赋值；>大于；<小于
  *方法：构造方法CACLInteger()；析构方法~CALInteger()；拷贝构造方法CACLInteger(const CACLInteger *obj)；
@@ -11,7 +12,9 @@
 #ifndef _CACLINEGER_H_
 #define _CACLINEGER_H_
 
-//定义的CACLInteger的最大位数
+#include <iostream>
+
+ //定义的CACLInteger的最大位数
 constexpr int MAX_OF_BIT = 200;
 
 class CACLInteger {
@@ -55,6 +58,12 @@ public:
     //重载赋值
     void operator=(const CACLInteger number);
     void operator=(const long long number);
+
+    //重载右移作为输入
+    friend istream& operator>>(istream& _cin, CACLInteger& integer);
+
+    //重载左移作为输出
+    friend ostream& operator<<(ostream& _cout, CACLInteger& integer);
 
     //求CACLInteger的绝对值
     CACLInteger absoluteValue();

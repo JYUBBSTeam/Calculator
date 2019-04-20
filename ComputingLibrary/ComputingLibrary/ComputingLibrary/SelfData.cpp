@@ -1,4 +1,7 @@
 /*
+ *创建人：Huang
+ *创建日期：2019.4.19
+ *修改日期：2019.4.20
  *类：CACLInteger
  *功能：初始化函数initialize()；拷贝函数copy()；转换数字为CACLInteger对象函数translate()
  */

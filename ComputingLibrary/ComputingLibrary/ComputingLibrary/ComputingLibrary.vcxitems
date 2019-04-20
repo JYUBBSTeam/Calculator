@@ -17,6 +17,7 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)CACLInteger.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IO.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)Math.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)Operator.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)SelfData.cpp" />

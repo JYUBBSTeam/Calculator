@@ -13,6 +13,15 @@
 #define _CACLINEGER_H_
 
 #include <iostream>
+/*
+#include "IO.cpp"
+#include "Math.cpp"
+#include "Operator.cpp"
+#include "SelfData.cpp"
+#include "Structure_Destruce.cpp"
+*/
+
+using namespace std;
 
  //定义的CACLInteger的最大位数
 constexpr int MAX_OF_BIT = 200;
@@ -36,34 +45,34 @@ public:
     CACLInteger translate(const long long number);
 
     //重载加法
-    CACLInteger operator+(const CACLInteger number);
-    CACLInteger operator+(const long long number);
+    CACLInteger operator+(const CACLInteger& number) const;
+    CACLInteger operator+(const long long number) const;
     //无符号两个CACLInteger相加
     CACLInteger unsignedAdd(const CACLInteger number1, const CACLInteger number2);
 
     //重载减法
-    CACLInteger operator-(const CACLInteger number);
-    CACLInteger operator-(const long long number);
+    CACLInteger operator-(const CACLInteger& number) const;
+    CACLInteger operator-(const long long number) const;
     //无符号两个CACLInteger相减
     CACLInteger unsignedSubtract(const CACLInteger number1, const CACLInteger number2);
 
     //重载大于号
-    bool operator>(const CACLInteger number);
-    bool operator>(const long long number);
+    bool operator>(const CACLInteger& number) const;
+    bool operator>(const long long number) const;
 
     //重载小于号
-    bool operator<(const CACLInteger number);
-    bool operator<(const long long number);
+    bool operator<(const CACLInteger number) const;
+    bool operator<(const long long number) const;
 
     //重载赋值
-    void operator=(const CACLInteger number);
-    void operator=(const long long number);
+    void operator=(const CACLInteger number) const;
+    void operator=(const long long number) const;
 
     //重载右移作为输入
-    friend istream& operator>>(istream& _cin, CACLInteger& integer);
+    friend istream& operator>>(istream& _cin, const CACLInteger& integer);
 
     //重载左移作为输出
-    friend ostream& operator<<(ostream& _cout, CACLInteger& integer);
+    friend ostream& operator<<(ostream& _cout, const CACLInteger& integer);
 
     //求CACLInteger的绝对值
     CACLInteger absoluteValue();

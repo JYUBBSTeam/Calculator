@@ -12,17 +12,17 @@
 using namespace std;
 
  //重载右移作为输入
-CACLInteger::istream& operator>>(istream& _cin, CACLInteger& integer) {
+istream& operator>>(istream& _cin, const CACLInteger& integer) {
 	string tmpNumber;
 	
 	//检查tmpNumber的符号
 	if (tmpNumber[0] == '+') {
 		integer.symbol = false;
-		tmpNumber.earse(0, 1);
+		tmpNumber.erase(0, 1);
 	}
 	else if (tmpNumber[0] == '-') {
 		integer.symbol = true;
-		tmpNumber.earse(0, 1);
+		tmpNumber.erase(0, 1);
 	}
 	else {
 		integer.symbol = false;
@@ -39,7 +39,7 @@ CACLInteger::istream& operator>>(istream& _cin, CACLInteger& integer) {
 
 
 //重载左移作为输出
-CACLInteger::ostream& operator<<(ostream& _cout, CACLInteger& integer) {
+ostream& operator<<(ostream& _cout, const CACLInteger& integer) {
 	if (integer.symbol == false) {
 		_cout << '-';
 	}

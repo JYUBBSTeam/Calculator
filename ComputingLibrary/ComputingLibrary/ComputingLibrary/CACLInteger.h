@@ -13,13 +13,6 @@
 #define _CACLINEGER_H_
 
 #include <iostream>
-/*
-#include "IO.cpp"
-#include "Math.cpp"
-#include "Operator.cpp"
-#include "SelfData.cpp"
-#include "Structure_Destruce.cpp"
-*/
 
 using namespace std;
 
@@ -42,34 +35,34 @@ public:
     void copy(const CACLInteger number);
 
     //转换long long为CACLInteger
-    CACLInteger translate(const long long number);
+    CACLInteger translate(long long number);
 
     //重载加法
-    CACLInteger operator+(const CACLInteger& number) const;
-    CACLInteger operator+(const long long number) const;
+    CACLInteger operator+(CACLInteger number);
+    CACLInteger operator+(const long long number);
     //无符号两个CACLInteger相加
-    CACLInteger unsignedAdd(const CACLInteger number1, const CACLInteger number2);
+    CACLInteger unsignedAdd(CACLInteger number1, CACLInteger number2);
 
     //重载减法
-    CACLInteger operator-(const CACLInteger& number) const;
-    CACLInteger operator-(const long long number) const;
+    CACLInteger operator-(CACLInteger number);
+    CACLInteger operator-(const long long number);
     //无符号两个CACLInteger相减
-    CACLInteger unsignedSubtract(const CACLInteger number1, const CACLInteger number2);
+    CACLInteger unsignedSubtract(CACLInteger number1, CACLInteger number2);
 
     //重载大于号
-    bool operator>(const CACLInteger& number) const;
-    bool operator>(const long long number) const;
+    bool operator>(const CACLInteger& number);
+    bool operator>(const long long number);
 
     //重载小于号
-    bool operator<(const CACLInteger number) const;
-    bool operator<(const long long number) const;
+    bool operator<(CACLInteger number);
+    bool operator<(const long long number);
 
     //重载赋值
-    void operator=(const CACLInteger number) const;
-    void operator=(const long long number) const;
+    void operator=(const CACLInteger& number);
+    void operator=(const long long number);
 
     //重载右移作为输入
-    friend istream& operator>>(istream& _cin, const CACLInteger& integer);
+    friend istream& operator>>(istream& _cin, CACLInteger& integer);
 
     //重载左移作为输出
     friend ostream& operator<<(ostream& _cout, const CACLInteger& integer);

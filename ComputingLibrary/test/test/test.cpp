@@ -4,11 +4,16 @@
 #include "../../ComputingLibrary/ComputingLibrary/CACLInteger.h"
 
 int main() {
-	CACLInteger test1;
-	test1.initialize();
+    CACLInteger test, test1, test2;
+    int testNum;
 
-	cin >> test1;
-	cout << test1;
+    cin >> test1;
+    //CACLInteger tmp = test1 + test2;
+    bool judge;
+    judge = test1 > test2;
+    //test = testNum;
+    test = test1.absoluteValue();
+    cout << test1 << "***" << test;
 
     return 0;
 }

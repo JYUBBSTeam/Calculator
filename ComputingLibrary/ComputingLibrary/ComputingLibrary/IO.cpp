@@ -11,42 +11,42 @@
 
 using namespace std;
 
- //重载右移作为输入
-istream& operator>>(istream& _cin, const CACLInteger& integer) {
-	string tmpNumber;
-	
-	//检查tmpNumber的符号
-	if (tmpNumber[0] == '+') {
-		integer.symbol = false;
-		tmpNumber.erase(0, 1);
-	}
-	else if (tmpNumber[0] == '-') {
-		integer.symbol = true;
-		tmpNumber.erase(0, 1);
-	}
-	else {
-		integer.symbol = false;
-	}
+//重载右移作为输入
+istream &operator>>(istream &_cin, CACLInteger &integer) {
+    string tmpNumber;
 
-	for (int i = tmpNumber.size() - 1, j = 0; i >= 0; --i, ++j) {
-		integer.num[i] = (short)tmpNumber[j];
-	}
+    cin >> tmpNumber;
 
-	integer.bit = tmpNumber.size();
+    //检查tmpNumber的符号
+    if (tmpNumber[0] == '+') {
+        integer.symbol = false;
+        tmpNumber.erase(0, 1);
+    } else if (tmpNumber[0] >= 48 && tmpNumber[0] <= 57) {
+        integer.symbol = false;
+    } else {
+        integer.symbol = true;
+        tmpNumber.erase(0, 1);
+    }
 
-	return _cin;
+    for (int i = tmpNumber.size() - 1, j = 0; i >= 0; --i, ++j) {
+        integer.num[i] = (short) (tmpNumber[j] - 48);
+    }
+
+    integer.bit = tmpNumber.size();
+
+    return _cin;
 }
 
 
 //重载左移作为输出
-ostream& operator<<(ostream& _cout, const CACLInteger& integer) {
-	if (integer.symbol == false) {
-		_cout << '-';
-	}
+ostream &operator<<(ostream &_cout, const CACLInteger &integer) {
+    if (integer.symbol == true) {
+        _cout << '-';
+    }
 
-	for (int i = integer.bit - 1; i >= 0; --i) {
-		_cout << integer.num[i];
-	}
+    for (int i = integer.bit - 1; i >= 0; --i) {
+        _cout << integer.num[i];
+    }
 
-	return _cout;
+    return _cout;
 }

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/H/Desktop/test/ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
+iostream
+-
+
+C:/Users/H/Desktop/test/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp
+CACLInteger.h
+C:/Users/H/Desktop/test/ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
+
+C:/Users/H/Desktop/test/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.cpp
+CACLInteger.h
+C:/Users/H/Desktop/test/ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
+
+C:/Users/H/Desktop/test/ComputingLibrary/test/test/test.cpp
+../../ComputingLibrary/ComputingLibrary/CACLInteger.h
+C:/Users/H/Desktop/test/ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
+

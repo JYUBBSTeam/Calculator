@@ -8,12 +8,12 @@
 
 #include "CACLInteger.h"
 
-CACLInteger CACLInteger::absoluteValue() {
-    CACLInteger tmp = *this;
-
-    if (tmp.symbol) {
+CACLInteger CACLInteger::absoluteValue(){
+    if (symbol) {
+        CACLInteger tmp = *this;
         tmp.symbol = false;
+        return tmp;
+    } else {
+        return *this;
     }
-
-    return tmp;
 }

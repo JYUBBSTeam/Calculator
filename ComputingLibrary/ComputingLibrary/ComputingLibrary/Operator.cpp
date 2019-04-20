@@ -9,8 +9,8 @@
 
 #include "CACLInteger.h"
 
- //重载加法
-CACLInteger CACLInteger::operator+(const CACLInteger& number) const {
+//重载加法
+CACLInteger CACLInteger::operator+(CACLInteger number) {
     CACLInteger ans;
     ans.initialize();
 
@@ -21,14 +21,14 @@ CACLInteger CACLInteger::operator+(const CACLInteger& number) const {
 
     if ((this->symbol ^ number.symbol) == true) {
         ans = unsignedSubtract(*this, number);
-        ans.symbol = (this->absoluteValue > number.absoluteValue) ? this->symbol : number.symbol;
+        ans.symbol = (this->absoluteValue() > number.absoluteValue()) ? this->symbol : number.symbol;
     }
 
     return ans;
 }
 
 
-CACLInteger CACLInteger::operator+(const long long number) const {
+CACLInteger CACLInteger::operator+(const long long number) {
     CACLInteger translatedNumber = translate(number);
     CACLInteger ans;
 
@@ -40,18 +40,17 @@ CACLInteger CACLInteger::operator+(const long long number) const {
 
 
 //无符号两个CACLInteger相加
-CACLInteger CACLInteger::unsignedAdd(const CACLInteger number1, const CACLInteger number2) {
+CACLInteger CACLInteger::unsignedAdd(CACLInteger number1, CACLInteger number2) {
     CACLInteger ans;
     CACLInteger longer, shorter;
 
-    ans.initialize;
+    ans.initialize();
 
     //比较number1和number2的大小
-    if (number1.absoluteValue > number2.absoluteValue) {
+    if (number1.absoluteValue() > number2.absoluteValue()) {
         longer = number1;
         shorter = number2;
-    }
-    else {
+    } else {
         longer = number2;
         shorter = number1;
     }
@@ -76,8 +75,7 @@ CACLInteger CACLInteger::unsignedAdd(const CACLInteger number1, const CACLIntege
     //判断ans位数
     if (ans.num[longer.bit] == 0) {
         ans.bit = longer.bit;
-    }
-    else {
+    } else {
         ans.bit = longer.bit + 1;
     }
 
@@ -86,32 +84,29 @@ CACLInteger CACLInteger::unsignedAdd(const CACLInteger number1, const CACLIntege
 
 
 //重载减法
-CACLInteger CACLInteger::operator-(const CACLInteger number) const{
+CACLInteger CACLInteger::operator-(CACLInteger number) {
     CACLInteger ans;
     ans.initialize();
 
     if (this->symbol == false && number.symbol == false) {
         ans = unsignedSubtract(*this, number);
-        ans.symbol = (this->absoluteValue > number.absoluteValue) ? false : true;
-    }
-    else if (this->symbol == false && number.symbol == true) {
+        ans.symbol = (this->absoluteValue() > number.absoluteValue()) ? false : true;
+    } else if (this->symbol == false && number.symbol == true) {
         ans = unsignedAdd(*this, number);
         ans.symbol = false;
-    }
-    else if (this->symbol == true && number.symbol == false) {
+    } else if (this->symbol == true && number.symbol == false) {
         ans = unsignedAdd(*this, number);
         ans.symbol = true;
-    }
-    else if (this->symbol == true && number.symbol == true) {
+    } else if (this->symbol == true && number.symbol == true) {
         ans = unsignedSubtract(*this, number);
-        ans.symbol = (this->absoluteValue > number.absoluteValue) ? true : false;
+        ans.symbol = (this->absoluteValue() > number.absoluteValue()) ? true : false;
     }
 
     return ans;
 }
 
 
-CACLInteger CACLInteger::operator-(const long long number) const{
+CACLInteger CACLInteger::operator-(const long long number) {
     CACLInteger translatedNumber = translate(number);
     CACLInteger ans;
 
@@ -123,18 +118,17 @@ CACLInteger CACLInteger::operator-(const long long number) const{
 
 
 //无符号两个CACLInteger相减
-CACLInteger CACLInteger::unsignedSubtract(const CACLInteger number1, const CACLInteger number2) {
+CACLInteger CACLInteger::unsignedSubtract(CACLInteger number1, CACLInteger number2) {
     CACLInteger ans;
     CACLInteger longer, shorter;
 
-    ans.initialize;
+    ans.initialize();
 
     //比较number1和number2的大小
-    if (number1.absoluteValue > number2.absoluteValue) {
+    if (number1.absoluteValue ()> number2.absoluteValue()) {
         longer = number1;
         shorter = number2;
-    }
-    else {
+    } else {
         longer = number2;
         shorter = number1;
     }
@@ -170,32 +164,28 @@ CACLInteger CACLInteger::unsignedSubtract(const CACLInteger number1, const CACLI
 
 
 //重载大于号
-bool CACLInteger::operator>(const CACLInteger number) const{
+bool CACLInteger::operator>(const CACLInteger& number) {
     int max(int a, int b);
 
-    if ((this->symbol ^ number.symbol) == false) {
-        return this->symbol == false ? true : false;
+    if ((symbol ^ number.symbol) == false) {
+        return symbol == false ? true : false;
     }
 
-    //记录this和number的绝对值
-    CACLInteger absThis = this->absoluteValue;
-    CACLInteger absNumber = number.absoluteValue;
-
     //从找到this和number中位数最高的，然后最高位开始比较
-    if (this->symbol == false) {
-        int tmpBit = max(this->symbol, number.symbol);
-        for (int i = tmpBit - 1; i >= 0; --i) {
-            if (this->num[i] < number.num[i]) {
+    if (symbol == false) {
+        int maxBit = max(bit, number.bit);
+        for (int i = maxBit - 1; i >= 0; --i) {
+            if (num[i] < number.num[i]) {
                 return false;
             }
         }
     }
 
     //类似上一个代码块
-    if (this->symbol == true) {
-        int tmpBit = max(this->symbol, number.symbol);
-        for (int i = tmpBit - 1; i >= 0; --i) {
-            if (this->num[i] > number.num[i]) {
+    if (symbol == true) {
+        int maxBit = max(symbol, number.symbol);
+        for (int i = maxBit - 1; i >= 0; --i) {
+            if (num[i] > number.num[i]) {
                 return false;
             }
         }
@@ -210,7 +200,7 @@ int max(int a, int b) {
 }
 
 
-bool CACLInteger::operator>(const long long number) const{
+bool CACLInteger::operator>(const long long number) {
     CACLInteger translatedNumber = translate(number);
 
     return *this > translatedNumber;
@@ -218,20 +208,16 @@ bool CACLInteger::operator>(const long long number) const{
 
 
 //重载小于号
-bool CACLInteger::operator<(const CACLInteger number) const{
-    if ((this->symbol ^ number.symbol) == false) {
-        return this->symbol == false ? false : true;
+bool CACLInteger::operator<(CACLInteger number) {
+    if ((symbol ^ number.symbol) == false) {
+        return symbol == false ? false : true;
     }
 
-    //记录this和number的绝对值
-    CACLInteger absThis = this->absoluteValue;
-    CACLInteger absNumber = number.absoluteValue;
-
     //从找到this和number中位数最高的，然后最高位开始比较
-    if (this->symbol == false) {
-        int tmpBit = max(this->symbol, number.symbol);
-        for (int i = tmpBit - 1; i >= 0; --i) {
-            if (this->num[i] > number.num[i]) {
+    if (symbol == false) {
+        int maxBit = max(symbol, number.symbol);
+        for (int i = maxBit - 1; i >= 0; --i) {
+            if (num[i] > number.num[i]) {
                 return false;
             }
         }
@@ -239,8 +225,8 @@ bool CACLInteger::operator<(const CACLInteger number) const{
 
     //类似上一个代码块
     if (this->symbol == true) {
-        int tmpBit = max(this->symbol, number.symbol);
-        for (int i = tmpBit - 1; i >= 0; --i) {
+        int maxBit = max(this->symbol, number.symbol);
+        for (int i = maxBit - 1; i >= 0; --i) {
             if (this->num[i] < number.num[i]) {
                 return false;
             }
@@ -251,7 +237,7 @@ bool CACLInteger::operator<(const CACLInteger number) const{
 }
 
 
-bool CACLInteger::operator<(const long long number) const{
+bool CACLInteger::operator<(const long long number) {
     CACLInteger translatedNumber = translate(number);
 
     return *this > translatedNumber;
@@ -259,13 +245,18 @@ bool CACLInteger::operator<(const long long number) const{
 
 
 //重载赋值
-void CACLInteger::operator=(const CACLInteger number) const{
-    this->copy(number);
+void CACLInteger::operator=(const CACLInteger& number) {
+    for (int i = 0; i < number.bit; ++i) {
+        num[i] = number.num[i];
+    }
+
+    bit = number.bit;
+    symbol = number.symbol;
 }
 
 
-void CACLInteger::operator=(const long long number) const{
-    CACLInteger translatedNumber = translate(number);
+void CACLInteger::operator=(const long long number) {
+    const CACLInteger translatedNumber = translate(number);
 
-    this->copy(translatedNumber);
+    *this = translatedNumber;
 }

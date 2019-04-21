@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/H/Desktop/test/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp" "C:/Users/H/Desktop/test/cmake-build-debug/CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.obj"
-  "C:/Users/H/Desktop/test/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp" "C:/Users/H/Desktop/test/cmake-build-debug/CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.obj"
-  "C:/Users/H/Desktop/test/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.cpp" "C:/Users/H/Desktop/test/cmake-build-debug/CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.cpp.obj"
-  "C:/Users/H/Desktop/test/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp" "C:/Users/H/Desktop/test/cmake-build-debug/CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp.obj"
-  "C:/Users/H/Desktop/test/ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.cpp" "C:/Users/H/Desktop/test/cmake-build-debug/CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.cpp.obj"
-  "C:/Users/H/Desktop/test/ComputingLibrary/test/test/test.cpp" "C:/Users/H/Desktop/test/cmake-build-debug/CMakeFiles/test.dir/ComputingLibrary/test/test/test.cpp.obj"
+  "C:/Project/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp" "C:/Project/cmake-build-debug/CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.obj"
+  "C:/Project/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp" "C:/Project/cmake-build-debug/CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.obj"
+  "C:/Project/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.cpp" "C:/Project/cmake-build-debug/CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.cpp.obj"
+  "C:/Project/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp" "C:/Project/cmake-build-debug/CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp.obj"
+  "C:/Project/ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp" "C:/Project/cmake-build-debug/CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.obj"
+  "C:/Project/ComputingLibrary/test/test/test.cpp" "C:/Project/cmake-build-debug/CMakeFiles/test.dir/ComputingLibrary/test/test/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\H\Desktop\test
+CMAKE_SOURCE_DIR = C:\Project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\H\Desktop\test\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Project\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\H\Desktop\test\cmake-build-debug\CMakeFiles C:\Users\H\Desktop\test\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Project\cmake-build-debug\CMakeFiles C:\Project\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\H\Desktop\test\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Project\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -230,32 +230,32 @@ ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp.s:
 	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp.s
 .PHONY : ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp.s
 
-ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.obj: ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.cpp.obj
+ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.obj: ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.obj
 
-.PHONY : ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.obj
+.PHONY : ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.obj
 
 # target to build an object file
-ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.cpp.obj:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.cpp.obj
-.PHONY : ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.cpp.obj
+ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.obj:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.obj
+.PHONY : ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.obj
 
-ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.i: ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.cpp.i
+ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.i: ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.i
 
-.PHONY : ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.i
+.PHONY : ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.i
 
 # target to preprocess a source file
-ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.cpp.i:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.cpp.i
-.PHONY : ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.cpp.i
+ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.i:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.i
+.PHONY : ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.i
 
-ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.s: ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.cpp.s
+ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.s: ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.s
 
-.PHONY : ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.s
+.PHONY : ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.s
 
 # target to generate assembly for a file
-ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.cpp.s:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.cpp.s
-.PHONY : ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.cpp.s
+ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.s:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.s
+.PHONY : ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.s
 
 ComputingLibrary/test/test/test.obj: ComputingLibrary/test/test/test.cpp.obj
 
@@ -305,9 +305,9 @@ help:
 	@echo ... ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.obj
 	@echo ... ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.i
 	@echo ... ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.s
-	@echo ... ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.obj
-	@echo ... ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.i
-	@echo ... ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.s
+	@echo ... ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.obj
+	@echo ... ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.i
+	@echo ... ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.s
 	@echo ... ComputingLibrary/test/test/test.obj
 	@echo ... ComputingLibrary/test/test/test.i
 	@echo ... ComputingLibrary/test/test/test.s

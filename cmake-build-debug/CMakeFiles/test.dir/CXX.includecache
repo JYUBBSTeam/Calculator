@@ -6,19 +6,33 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/H/Desktop/test/ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
+C:/Project/ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
 iostream
 -
 
-C:/Users/H/Desktop/test/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp
+C:/Project/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp
 CACLInteger.h
-C:/Users/H/Desktop/test/ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
+C:/Project/ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
+string
+-
 
-C:/Users/H/Desktop/test/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.cpp
+C:/Project/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp
 CACLInteger.h
-C:/Users/H/Desktop/test/ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
+C:/Project/ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
 
-C:/Users/H/Desktop/test/ComputingLibrary/test/test/test.cpp
+C:/Project/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.cpp
+CACLInteger.h
+C:/Project/ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
+
+C:/Project/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp
+CACLInteger.h
+C:/Project/ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
+
+C:/Project/ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp
+CACLInteger.h
+C:/Project/ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
+
+C:/Project/ComputingLibrary/test/test/test.cpp
 ../../ComputingLibrary/ComputingLibrary/CACLInteger.h
-C:/Users/H/Desktop/test/ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
+C:/Project/ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
 

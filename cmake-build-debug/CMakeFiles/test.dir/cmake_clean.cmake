@@ -4,7 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.obj"
   "CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.cpp.obj"
   "CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp.obj"
-  "CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.cpp.obj"
+  "CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.obj"
   "test.pdb"
   "test.exe"
   "test.exe.manifest"

@@ -13,8 +13,8 @@ CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.
 CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp.obj: ../ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
 CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp.obj: ../ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp
 
-CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.cpp.obj: ../ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
-CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.cpp.obj: ../ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure_Destruct.cpp
+CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.obj: ../ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
+CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.obj: ../ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp
 
 CMakeFiles/test.dir/ComputingLibrary/test/test/test.cpp.obj: ../ComputingLibrary/ComputingLibrary/ComputingLibrary/CACLInteger.h
 CMakeFiles/test.dir/ComputingLibrary/test/test/test.cpp.obj: ../ComputingLibrary/test/test/test.cpp

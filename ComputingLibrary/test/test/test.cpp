@@ -7,13 +7,15 @@ int main() {
     CACLInteger test, test1, test2;
     int testNum;
 
-    cin >> test1;
+    cin >> test1 >> test2;
+    //cin >> test1;
+    //cin >> testNum;
     //CACLInteger tmp = test1 + test2;
     bool judge;
     judge = test1 > test2;
     //test = testNum;
-    test = test1.absoluteValue();
-    cout << test1 << "***" << test;
+    //test = test1.absoluteValue();
+    cout << judge;
 
     return 0;
 }

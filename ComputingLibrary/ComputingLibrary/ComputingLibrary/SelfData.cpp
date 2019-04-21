@@ -9,7 +9,7 @@
 
 #include "CACLInteger.h"
 
- //初始化对象
+//初始化对象
 void CACLInteger::initialize() {
     for (int i = 0; i < MAX_OF_BIT; ++i) {
         num[i] = 0;
@@ -33,8 +33,6 @@ void CACLInteger::copy(const CACLInteger number) {
 
 //转换long long为CACLInteger
 CACLInteger CACLInteger::translate(long long number) {
-    long long pow(long long x, int n);
-
     CACLInteger ans;
     int tmpBit = 0;
     short tmpNum[MAX_OF_BIT]{};
@@ -42,40 +40,22 @@ CACLInteger CACLInteger::translate(long long number) {
     ans.initialize();
     if (number > 0) {
         ans.symbol = false;
-    }
-    else {
+    } else {
         ans.symbol = true;
         number = -number;
     }
 
     //用tmpBit记录位数,先用tmpNum逆序存储number的各个位的数字
     for (int i = 1; number > 0; ++i, tmpBit++) {
-        tmpNum[i - 1] = (short)(number % pow(10, i));
-        number -= tmpNum[i - 1];
+        tmpNum[i - 1] = (short) (number % 10);
+        number /= 10;
     }
     ans.bit = tmpBit;
 
     //将tmpNum逆序存储进ans的num成员
-    for (int j = ans.bit - 1, i = 0; j >= 0; --j, i++) {
-        ans.num[j] = tmpNum[i];
+    for (int i = 0; i < ans.bit; i++) {
+        ans.num[i] = tmpNum[i];
     }
 
     return ans;
-}
-
-
-long long pow(long long x, int n) {
-    if (n == 0) {
-        return 1;
-    }
-    if (n == 1) {
-        return x;
-    }
-
-    if (n % 2 == 0) {
-        return pow(x * x, n / 2);
-    }
-    else {
-        return pow(x * x, n / 2) * x;
-    }
 }

@@ -10,7 +10,7 @@ CACLInteger::CACLInteger() {
 }
 
 
-CACLInteger::CACLInteger(const CACLInteger& obj) {
+CACLInteger::CACLInteger(long long int obj) {
 }
 
 

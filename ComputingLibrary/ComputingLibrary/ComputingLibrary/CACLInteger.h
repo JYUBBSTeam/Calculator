@@ -16,15 +16,17 @@
 
 using namespace std;
 
- //定义的CACLInteger的最大位数
+//定义的CACLInteger的最大位数
 constexpr int MAX_OF_BIT = 200;
 
 class CACLInteger {
 public:
     //构造方法
     CACLInteger();
+
     //拷贝构造方法
-    CACLInteger(const CACLInteger& obj);
+    CACLInteger(long long int obj);
+
     //析构方法
     ~CACLInteger();
 
@@ -39,37 +41,43 @@ public:
 
     //重载加法
     CACLInteger operator+(CACLInteger number);
+
     CACLInteger operator+(const long long number);
+
     //无符号两个CACLInteger相加
     CACLInteger unsignedAdd(CACLInteger number1, CACLInteger number2);
 
     //重载减法
     CACLInteger operator-(CACLInteger number);
+
     CACLInteger operator-(const long long number);
+
     //无符号两个CACLInteger相减
     CACLInteger unsignedSubtract(CACLInteger number1, CACLInteger number2);
 
     //重载大于号
-    bool operator>(const CACLInteger& number);
+    bool operator>(CACLInteger &number);
+
     bool operator>(const long long number);
 
     //重载小于号
     bool operator<(CACLInteger number);
+
     bool operator<(const long long number);
 
     //重载赋值
-    void operator=(const CACLInteger& number);
+    void operator=(const CACLInteger &number);
+
     void operator=(const long long number);
 
     //重载右移作为输入
-    friend istream& operator>>(istream& _cin, CACLInteger& integer);
+    friend istream &operator>>(istream &_cin, CACLInteger &integer);
 
     //重载左移作为输出
-    friend ostream& operator<<(ostream& _cout, const CACLInteger& integer);
+    friend ostream &operator<<(ostream &_cout, const CACLInteger &integer);
 
     //求CACLInteger的绝对值
     CACLInteger absoluteValue();
-
 
 
 private:

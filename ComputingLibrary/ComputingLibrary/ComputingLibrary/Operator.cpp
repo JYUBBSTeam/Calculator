@@ -125,7 +125,7 @@ CACLInteger CACLInteger::unsignedSubtract(CACLInteger number1, CACLInteger numbe
     ans.initialize();
 
     //比较number1和number2的大小
-    if (number1.absoluteValue ()> number2.absoluteValue()) {
+    if (number1.absoluteValue() > number2.absoluteValue()) {
         longer = number1;
         shorter = number2;
     } else {
@@ -164,39 +164,43 @@ CACLInteger CACLInteger::unsignedSubtract(CACLInteger number1, CACLInteger numbe
 
 
 //重载大于号
-bool CACLInteger::operator>(const CACLInteger& number) {
-    int max(int a, int b);
-
+bool CACLInteger::operator>(CACLInteger &number) {
     if ((symbol ^ number.symbol) == false) {
         return symbol == false ? true : false;
     }
 
     //从找到this和number中位数最高的，然后最高位开始比较
     if (symbol == false) {
-        int maxBit = max(bit, number.bit);
-        for (int i = maxBit - 1; i >= 0; --i) {
-            if (num[i] < number.num[i]) {
-                return false;
+        if (bit > number.bit) {
+            return true;
+        } else if (bit < number.bit) {
+            return false;
+        } else {
+            for (int i = bit - 1; i >= 0; --i) {
+                if (num[i] < number.num[i]) {
+                    return false;
+                }
             }
         }
     }
 
-    //类似上一个代码块
+
+//类似上一个代码块
     if (symbol == true) {
-        int maxBit = max(symbol, number.symbol);
-        for (int i = maxBit - 1; i >= 0; --i) {
-            if (num[i] > number.num[i]) {
-                return false;
+        if (bit < number.bit) {
+            return true;
+        } else if (bit > number.bit) {
+            return false;
+        } else {
+            for (int i = bit - 1; i >= 0; --i) {
+                if (num[i] > number.num[i]) {
+                    return false;
+                }
             }
         }
     }
 
     return true;
-}
-
-
-int max(int a, int b) {
-    return a > b ? a : b;
 }
 
 
@@ -245,7 +249,7 @@ bool CACLInteger::operator<(const long long number) {
 
 
 //重载赋值
-void CACLInteger::operator=(const CACLInteger& number) {
+void CACLInteger::operator=(const CACLInteger &number) {
     for (int i = 0; i < number.bit; ++i) {
         num[i] = number.num[i];
     }

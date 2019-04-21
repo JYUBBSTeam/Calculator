@@ -8,7 +8,7 @@
 
 #include "CACLInteger.h"
 
-//求number的绝对值
+// 求number的绝对值
 CACLInteger CACLInteger::absoluteValue() {
     if (symbol) {
         CACLInteger tmp;

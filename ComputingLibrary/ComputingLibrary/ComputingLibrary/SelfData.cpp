@@ -9,7 +9,7 @@
 
 #include "CACLInteger.h"
 
-//初始化对象
+// 初始化对象
 void CACLInteger::initialize() {
     for (int i = 0; i < MAX_OF_BIT; ++i) {
         num[i] = 0;
@@ -20,7 +20,7 @@ void CACLInteger::initialize() {
 }
 
 
-//拷贝对象
+// 拷贝对象
 void CACLInteger::copy(const CACLInteger number) {
     for (int i = 0; i < number.bit; ++i) {
         num[i] = number.num[i];
@@ -31,7 +31,7 @@ void CACLInteger::copy(const CACLInteger number) {
 }
 
 
-//转换long long为CACLInteger
+// 转换long long为CACLInteger
 CACLInteger CACLInteger::translate(long long number) {
     CACLInteger ans;
     int tmpBit = 0;

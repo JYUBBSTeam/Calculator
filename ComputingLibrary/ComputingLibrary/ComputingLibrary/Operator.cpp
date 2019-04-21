@@ -12,9 +12,8 @@
 //重载加法
 CACLInteger CACLInteger::operator+(CACLInteger number) {
     CACLInteger ans;
-    ans.initialize();
 
-    if ((this->symbol ^ number.symbol) == false) {
+    if (this->symbol == number.symbol) {
         ans = unsignedAdd(*this, number);
         ans.symbol = this->symbol;
     }
@@ -32,7 +31,6 @@ CACLInteger CACLInteger::operator+(const long long number) {
     CACLInteger translatedNumber = translate(number);
     CACLInteger ans;
 
-    ans.initialize();
     ans = translatedNumber + *this;
 
     return ans;
@@ -106,11 +104,10 @@ CACLInteger CACLInteger::operator-(CACLInteger number) {
 }
 
 
-CACLInteger CACLInteger::operator-(const long long number) {
+CACLInteger CACLInteger::operator-(const long long number)  {
     CACLInteger translatedNumber = translate(number);
     CACLInteger ans;
 
-    ans.initialize();
     ans = *this - translatedNumber;
 
     return ans;
@@ -164,8 +161,8 @@ CACLInteger CACLInteger::unsignedSubtract(CACLInteger number1, CACLInteger numbe
 
 
 //重载大于号
-bool CACLInteger::operator>(CACLInteger &number) {
-    if ((symbol ^ number.symbol) == false) {
+bool CACLInteger::operator>(const CACLInteger &number) {
+    if (symbol != number.symbol) {
         return symbol == false ? true : false;
     }
 
@@ -213,26 +210,36 @@ bool CACLInteger::operator>(const long long number) {
 
 //重载小于号
 bool CACLInteger::operator<(CACLInteger number) {
-    if ((symbol ^ number.symbol) == false) {
+    if (symbol != number.symbol) {
         return symbol == false ? false : true;
     }
 
     //从找到this和number中位数最高的，然后最高位开始比较
     if (symbol == false) {
-        int maxBit = max(symbol, number.symbol);
-        for (int i = maxBit - 1; i >= 0; --i) {
-            if (num[i] > number.num[i]) {
-                return false;
+        if (bit > number.bit) {
+            return false;
+        } else if (bit < number.bit) {
+            return true;
+        } else {
+            for (int i = bit - 1; i >= 0; --i) {
+                if (num[i] > number.num[i]) {
+                    return false;
+                }
             }
         }
     }
 
     //类似上一个代码块
     if (this->symbol == true) {
-        int maxBit = max(this->symbol, number.symbol);
-        for (int i = maxBit - 1; i >= 0; --i) {
-            if (this->num[i] < number.num[i]) {
-                return false;
+        if (bit > number.bit) {
+            return true;
+        } else if (bit < number.bit) {
+            return false;
+        } else {
+            for (int i = bit - 1; i >= 0; --i) {
+                if (this->num[i] < number.num[i]) {
+                    return false;
+                }
             }
         }
     }
@@ -244,7 +251,7 @@ bool CACLInteger::operator<(CACLInteger number) {
 bool CACLInteger::operator<(const long long number) {
     CACLInteger translatedNumber = translate(number);
 
-    return *this > translatedNumber;
+    return *this < translatedNumber;
 }
 
 

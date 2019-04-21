@@ -104,7 +104,7 @@ CACLInteger CACLInteger::operator-(CACLInteger number) {
 }
 
 
-CACLInteger CACLInteger::operator-(const long long number)  {
+CACLInteger CACLInteger::operator-(const long long number) {
     CACLInteger translatedNumber = translate(number);
     CACLInteger ans;
 
@@ -255,6 +255,77 @@ bool CACLInteger::operator<(const long long number) {
 }
 
 
+//重载等于
+bool CACLInteger::operator==(CACLInteger number) {
+    if (symbol != number.symbol) {
+        return false;
+    }
+
+    if (bit != number.bit) {
+        return false;
+    }
+
+    for (int i = bit - 1; i >= 0; --i) {
+        if (num[i] != number.num[i])
+            return false;
+    }
+
+    return true;
+}
+
+bool CACLInteger::operator==(const long long number) {
+    CACLInteger translatedNumber = translate(number);
+
+    return *this == translatedNumber;
+}
+
+
+//重载不等于
+bool CACLInteger::operator!=(CACLInteger number) {
+    return !(*this == number);
+}
+
+bool CACLInteger::operator!=(const long long number){
+    CACLInteger translatedNumber = translate(number);
+
+    return !(*this == translatedNumber);
+}
+
+
+//重载大于或等于
+bool CACLInteger::operator>=(CACLInteger number) {
+    if (*this > number || *this == number) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+
+bool CACLInteger::operator>=(const long long number) {
+    CACLInteger translatedNumber = translate(number);
+
+    return *this >= translatedNumber;
+}
+
+
+//重载小于或等于
+bool CACLInteger::operator<=(CACLInteger number) {
+    if (*this < number || *this == number) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+
+bool CACLInteger::operator<=(const long long number) {
+    CACLInteger translatedNumber = translate(number);
+
+    return *this <= translatedNumber;
+}
+
+
 //重载赋值
 void CACLInteger::operator=(const CACLInteger &number) {
     for (int i = 0; i < number.bit; ++i) {
@@ -270,4 +341,28 @@ void CACLInteger::operator=(const long long number) {
     const CACLInteger translatedNumber = translate(number);
 
     *this = translatedNumber;
+}
+
+
+//重载加赋值
+void CACLInteger::operator+=(const CACLInteger &number) {
+    *this = *this + number;
+}
+
+void CACLInteger::operator+=(const long long number){
+    const CACLInteger translatedNumber = translate(number);
+
+    *this += translatedNumber;
+}
+
+
+//重载减赋值
+void CACLInteger::operator-=(const CACLInteger &number) {
+    *this = *this - number;
+}
+
+void CACLInteger::operator-=(const long long number){
+    const CACLInteger translatedNumber = translate(number);
+
+    *this -= translatedNumber;
 }

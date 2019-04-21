@@ -65,10 +65,44 @@ public:
 
     bool operator<(const long long number);
 
+    //重载等于
+    bool operator==(CACLInteger number);
+
+    bool operator==(const long long number);
+
+
+    //重载不等于
+    bool operator!=(CACLInteger number);
+
+    bool operator!=(const long long number);
+
+    //重载大于或等于
+    bool operator>=(CACLInteger number);
+
+    bool operator>=(const long long number);
+
+
+    //重载小于或等于
+    bool operator<=(CACLInteger number);
+
+    bool operator<=(const long long number);
+
     // 重载赋值
     void operator=(const CACLInteger &number);
 
     void operator=(const long long number);
+
+
+    //重载加赋值
+    void operator+=(const CACLInteger &number);
+
+    void operator+=(const long long number);
+
+
+    //重载减赋值
+    void operator-=(const CACLInteger &number);
+
+    void operator-=(const long long number);
 
     // 重载右移作为输入
     friend istream &operator>>(istream &_cin, CACLInteger &integer);

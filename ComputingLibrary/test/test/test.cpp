@@ -7,18 +7,19 @@ int main() {
     CACLInteger test, test1, test2;
     int testNum;
 
-    cin >> test1 >> testNum;
+    cin >> test1 >> test2;
     //cin >> test1;
     //cin >> testNum;
-    CACLInteger tmp;
+    //CACLInteger tmp;
     //tmp = test1 + test2;
-    tmp = test1 - test;
+    //tmp = test1 - test2;
     //bool judge;
-    //judge = test1 < testNum;
+    //judge = test1 >= testNum;
     //test1.initialize();
     //test = testNum;
+    test1 += test2;
     //test = test1.absoluteValue();
-    cout << tmp;
+    cout << test1;
 
     return 0;
 }

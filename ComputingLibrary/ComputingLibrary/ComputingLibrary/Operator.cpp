@@ -8,6 +8,7 @@
 
 
 #include "CACLInteger.h"
+#include <stack>
 
 //重载加法
 CACLInteger CACLInteger::operator+(CACLInteger number) {
@@ -163,10 +164,12 @@ CACLInteger CACLInteger::unsignedSubtract(CACLInteger number1, CACLInteger numbe
 //重载乘法
 CACLInteger CACLInteger::operator*(CACLInteger number) {
     CACLInteger ans;
+    //tmpThis和tmpNumber用来临时存储
+    stack<short> tmpThis, tmpNumber;
 
     ans.symbol = symbol != number.symbol;
 
-    
+
 
     return ans;
 }

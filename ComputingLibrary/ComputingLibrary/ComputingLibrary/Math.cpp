@@ -1,14 +1,14 @@
 /*
- *´´½¨ÈË£ºHuang
- *´´½¨ÈÕÆÚ£º2019.4.19
- *ĞŞ¸ÄÈÕÆÚ£º2019.4.19
- *Àà£ºCACLInteger
- *¹¦ÄÜ£º¾ø¶ÔÖµº¯ÊıabsoluteValue()
+ *åˆ›å»ºäººï¼šHuang
+ *åˆ›å»ºæ—¥æœŸï¼š2019.4.19
+ *ä¿®æ”¹æ—¥æœŸï¼š2019.4.19
+ *ç±»ï¼šCACLInteger
+ *åŠŸèƒ½ï¼šç»å¯¹å€¼å‡½æ•°absoluteValue()
  */
 
 #include "CACLInteger.h"
 
-// ÇónumberµÄ¾ø¶ÔÖµ
+// æ±‚numberçš„ç»å¯¹å€¼
 CACLInteger CACLInteger::absoluteValue() {
     if (symbol) {
         CACLInteger tmp;

@@ -1,6 +1,6 @@
 /*
- *类：CACLInteger
- *功能：构造方法CACLInteger()；析构方法~CALInteger()；拷贝构造方法CACLInteger(const CACLInteger *obj)
+ *绫伙細CACLInteger
+ *鍔熻兘锛氭瀯閫犳柟娉旵ACLInteger()锛涙瀽鏋勬柟娉晘CALInteger()锛涙嫹璐濇瀯閫犳柟娉旵ACLInteger(const CACLInteger *obj)
  */
 
 

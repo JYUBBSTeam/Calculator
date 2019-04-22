@@ -1,15 +1,15 @@
 /*
- *´´½¨ÈË£ºHuang
- *´´½¨ÈÕÆÚ£º2019.4.19
- *ĞŞ¸ÄÈÕÆÚ£º2019.4.20
- *Àà£ºCACLInteger
- *¹¦ÄÜ£ºÖØÔØÔËËã·û£º+£»-;>;<;=
+ *åˆ›å»ºäººï¼šHuang
+ *åˆ›å»ºæ—¥æœŸï¼š2019.4.19
+ *ä¿®æ”¹æ—¥æœŸï¼š2019.4.20
+ *ç±»ï¼šCACLInteger
+ *åŠŸèƒ½ï¼šé‡è½½è¿ç®—ç¬¦ï¼š+ï¼›-;>;<;=
  */
 
 
 #include "CACLInteger.h"
 
-//ÖØÔØ¼Ó·¨
+//é‡è½½åŠ æ³•
 CACLInteger CACLInteger::operator+(CACLInteger number) {
     CACLInteger ans;
 
@@ -37,14 +37,14 @@ CACLInteger CACLInteger::operator+(const long long number) {
 }
 
 
-//ÎŞ·ûºÅÁ½¸öCACLIntegerÏà¼Ó
+//æ— ç¬¦å·ä¸¤ä¸ªCACLIntegerç›¸åŠ 
 CACLInteger CACLInteger::unsignedAdd(CACLInteger number1, CACLInteger number2) {
     CACLInteger ans;
     CACLInteger longer, shorter;
 
     ans.initialize();
 
-    //±È½Ïnumber1ºÍnumber2µÄ´óĞ¡
+    //æ¯”è¾ƒnumber1å’Œnumber2çš„å¤§å°
     if (number1.absoluteValue() > number2.absoluteValue()) {
         longer = number1;
         shorter = number2;
@@ -61,16 +61,16 @@ CACLInteger CACLInteger::unsignedAdd(CACLInteger number1, CACLInteger number2) {
         ans.num[j] = longer.num[j];
     }
 
-    //¼Ó·¨ÔËËã½á¹û×î¶àÎ»max(number1.bit,number2.bit) + 1Î»£¬½«×î¸ßÎ»ÏÈ³õÊ¼»¯Î»Áã
+    //åŠ æ³•è¿ç®—ç»“æœæœ€å¤šä½max(number1.bit,number2.bit) + 1ä½ï¼Œå°†æœ€é«˜ä½å…ˆåˆå§‹åŒ–ä½é›¶
     ans.num[longer.bit] = 0;
 
-    //Í³Ò»½øÎ»
+    //ç»Ÿä¸€è¿›ä½
     for (int i = 0; i < longer.bit; ++i) {
         ans.num[i + 1] += ans.num[i] / 10;
         ans.num[i] %= 10;
     }
 
-    //ÅĞ¶ÏansÎ»Êı
+    //åˆ¤æ–­ansä½æ•°
     if (ans.num[longer.bit] == 0) {
         ans.bit = longer.bit;
     } else {
@@ -81,7 +81,7 @@ CACLInteger CACLInteger::unsignedAdd(CACLInteger number1, CACLInteger number2) {
 }
 
 
-//ÖØÔØ¼õ·¨
+//é‡è½½å‡æ³•
 CACLInteger CACLInteger::operator-(CACLInteger number) {
     CACLInteger ans;
     ans.initialize();
@@ -114,14 +114,14 @@ CACLInteger CACLInteger::operator-(const long long number) {
 }
 
 
-//ÎŞ·ûºÅÁ½¸öCACLIntegerÏà¼õ
+//æ— ç¬¦å·ä¸¤ä¸ªCACLIntegerç›¸å‡
 CACLInteger CACLInteger::unsignedSubtract(CACLInteger number1, CACLInteger number2) {
     CACLInteger ans;
     CACLInteger longer, shorter;
 
     ans.initialize();
 
-    //±È½Ïnumber1ºÍnumber2µÄ´óĞ¡
+    //æ¯”è¾ƒnumber1å’Œnumber2çš„å¤§å°
     if (number1.absoluteValue() > number2.absoluteValue()) {
         longer = number1;
         shorter = number2;
@@ -137,7 +137,7 @@ CACLInteger CACLInteger::unsignedSubtract(CACLInteger number1, CACLInteger numbe
         ans.num[i] = longer.num[i];
     }
 
-    //Í³Ò»½èÎ»
+    //ç»Ÿä¸€å€Ÿä½
     for (int i = 0; i < longer.bit; ++i) {
         if (ans.num[i] < 0) {
             ans.num[i + 1]--;
@@ -145,7 +145,7 @@ CACLInteger CACLInteger::unsignedSubtract(CACLInteger number1, CACLInteger numbe
         }
     }
 
-    //ÅĞ¶ÏansÎ»Êı
+    //åˆ¤æ–­ansä½æ•°
     int i;
     for (i = longer.bit; i > 0; --i) {
         if (ans.num[i] != 0) {
@@ -160,13 +160,29 @@ CACLInteger CACLInteger::unsignedSubtract(CACLInteger number1, CACLInteger numbe
 }
 
 
-//ÖØÔØ´óÓÚºÅ
+//é‡è½½ä¹˜æ³•
+CACLInteger CACLInteger::operator*(CACLInteger number) {
+    CACLInteger ans;
+
+    ans.symbol = symbol != number.symbol;
+
+    
+
+    return ans;
+}
+
+CACLInteger CACLInteger::operator*(const long long number) {
+
+}
+
+
+//é‡è½½å¤§äºå·
 bool CACLInteger::operator>(const CACLInteger &number) {
     if (symbol != number.symbol) {
         return symbol == false ? true : false;
     }
 
-    //´ÓÕÒµ½thisºÍnumberÖĞÎ»Êı×î¸ßµÄ£¬È»ºó×î¸ßÎ»¿ªÊ¼±È½Ï
+    //ä»æ‰¾åˆ°thiså’Œnumberä¸­ä½æ•°æœ€é«˜çš„ï¼Œç„¶åæœ€é«˜ä½å¼€å§‹æ¯”è¾ƒ
     if (symbol == false) {
         if (bit > number.bit) {
             return true;
@@ -182,7 +198,7 @@ bool CACLInteger::operator>(const CACLInteger &number) {
     }
 
 
-//ÀàËÆÉÏÒ»¸ö´úÂë¿é
+//ç±»ä¼¼ä¸Šä¸€ä¸ªä»£ç å—
     if (symbol == true) {
         if (bit < number.bit) {
             return true;
@@ -208,13 +224,13 @@ bool CACLInteger::operator>(const long long number) {
 }
 
 
-//ÖØÔØĞ¡ÓÚºÅ
+//é‡è½½å°äºå·
 bool CACLInteger::operator<(CACLInteger number) {
     if (symbol != number.symbol) {
         return symbol == false ? false : true;
     }
 
-    //´ÓÕÒµ½thisºÍnumberÖĞÎ»Êı×î¸ßµÄ£¬È»ºó×î¸ßÎ»¿ªÊ¼±È½Ï
+    //ä»æ‰¾åˆ°thiså’Œnumberä¸­ä½æ•°æœ€é«˜çš„ï¼Œç„¶åæœ€é«˜ä½å¼€å§‹æ¯”è¾ƒ
     if (symbol == false) {
         if (bit > number.bit) {
             return false;
@@ -229,7 +245,7 @@ bool CACLInteger::operator<(CACLInteger number) {
         }
     }
 
-    //ÀàËÆÉÏÒ»¸ö´úÂë¿é
+    //ç±»ä¼¼ä¸Šä¸€ä¸ªä»£ç å—
     if (this->symbol == true) {
         if (bit > number.bit) {
             return true;
@@ -255,7 +271,7 @@ bool CACLInteger::operator<(const long long number) {
 }
 
 
-//ÖØÔØµÈÓÚ
+//é‡è½½ç­‰äº
 bool CACLInteger::operator==(CACLInteger number) {
     if (symbol != number.symbol) {
         return false;
@@ -280,25 +296,21 @@ bool CACLInteger::operator==(const long long number) {
 }
 
 
-//ÖØÔØ²»µÈÓÚ
+//é‡è½½ä¸ç­‰äº
 bool CACLInteger::operator!=(CACLInteger number) {
     return !(*this == number);
 }
 
-bool CACLInteger::operator!=(const long long number){
+bool CACLInteger::operator!=(const long long number) {
     CACLInteger translatedNumber = translate(number);
 
     return !(*this == translatedNumber);
 }
 
 
-//ÖØÔØ´óÓÚ»òµÈÓÚ
+//é‡è½½å¤§äºæˆ–ç­‰äº
 bool CACLInteger::operator>=(CACLInteger number) {
-    if (*this > number || *this == number) {
-        return true;
-    } else {
-        return false;
-    }
+    return *this > number || *this == number;
 }
 
 
@@ -309,13 +321,9 @@ bool CACLInteger::operator>=(const long long number) {
 }
 
 
-//ÖØÔØĞ¡ÓÚ»òµÈÓÚ
+//é‡è½½å°äºæˆ–ç­‰äº
 bool CACLInteger::operator<=(CACLInteger number) {
-    if (*this < number || *this == number) {
-        return true;
-    } else {
-        return false;
-    }
+    return *this < number || *this == number;
 }
 
 
@@ -326,7 +334,7 @@ bool CACLInteger::operator<=(const long long number) {
 }
 
 
-//ÖØÔØ¸³Öµ
+//é‡è½½èµ‹å€¼
 void CACLInteger::operator=(const CACLInteger &number) {
     for (int i = 0; i < number.bit; ++i) {
         num[i] = number.num[i];
@@ -344,24 +352,24 @@ void CACLInteger::operator=(const long long number) {
 }
 
 
-//ÖØÔØ¼Ó¸³Öµ
+//é‡è½½åŠ èµ‹å€¼
 void CACLInteger::operator+=(const CACLInteger &number) {
     *this = *this + number;
 }
 
-void CACLInteger::operator+=(const long long number){
+void CACLInteger::operator+=(const long long number) {
     const CACLInteger translatedNumber = translate(number);
 
     *this += translatedNumber;
 }
 
 
-//ÖØÔØ¼õ¸³Öµ
+//é‡è½½å‡èµ‹å€¼
 void CACLInteger::operator-=(const CACLInteger &number) {
     *this = *this - number;
 }
 
-void CACLInteger::operator-=(const long long number){
+void CACLInteger::operator-=(const long long number) {
     const CACLInteger translatedNumber = translate(number);
 
     *this -= translatedNumber;

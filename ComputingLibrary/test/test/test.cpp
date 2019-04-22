@@ -17,7 +17,8 @@ int main() {
     //judge = test1 >= testNum;
     //test1.initialize();
     //test = testNum;
-    test1 += test2;
+    //test1 += test2;
+    test = test1 * test2;
     //test = test1.absoluteValue();
     cout << test1;
 

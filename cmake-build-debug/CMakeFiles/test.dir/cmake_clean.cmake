@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test.dir/ComputingLibrary/test/test/test.cpp.obj"
-  "CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.obj"
-  "CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.obj"
   "CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.cpp.obj"
+  "CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.obj"
   "CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp.obj"
+  "CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.obj"
   "CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.obj"
   "test.pdb"
   "test.exe"

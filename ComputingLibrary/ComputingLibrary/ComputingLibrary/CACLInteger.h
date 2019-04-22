@@ -1,11 +1,11 @@
 /*
- *´´½¨ÈË:Huang
- *´´½¨ÈÕÆÚ:2019.4.19
- *ĞŞ¸ÄÈÕÆÚ£º2019.4.20
- *Àà:CACLInteger
- *ÖØÔØµÄÔËËã·û£º+¼Ó·¨£»-¼õ·¨£»*³Ë·¨£»/³ı·¨£»%ÇóÓà£» =¸³Öµ£»>´óÓÚ£»<Ğ¡ÓÚ
- *·½·¨£º¹¹Ôì·½·¨CACLInteger()£»Îö¹¹·½·¨~CALInteger()£»¿½±´¹¹Ôì·½·¨CACLInteger(const CACLInteger *obj)£»
- *      ³õÊ¼»¯·½·¨initialize()£»¿½±´·½·¨copy()£»Êı×Ö×ª»»³ÉCACLInteger¶ÔÏó·½·¨translate()£»Çó¾ø¶ÔÖµ·½·¨Ab
+ *åˆ›å»ºäºº:Huang
+ *åˆ›å»ºæ—¥æœŸ:2019.4.19
+ *ä¿®æ”¹æ—¥æœŸï¼š2019.4.20
+ *ç±»:CACLInteger
+ *é‡è½½çš„è¿ç®—ç¬¦ï¼š+åŠ æ³•ï¼›-å‡æ³•ï¼›*ä¹˜æ³•ï¼›/é™¤æ³•ï¼›%æ±‚ä½™ï¼› =èµ‹å€¼ï¼›>å¤§äºï¼›<å°äº
+ *æ–¹æ³•ï¼šæ„é€ æ–¹æ³•CACLInteger()ï¼›ææ„æ–¹æ³•~CALInteger()ï¼›æ‹·è´æ„é€ æ–¹æ³•CACLInteger(const CACLInteger *obj)ï¼›
+ *      åˆå§‹åŒ–æ–¹æ³•initialize()ï¼›æ‹·è´æ–¹æ³•copy()ï¼›æ•°å­—è½¬æ¢æˆCACLIntegerå¯¹è±¡æ–¹æ³•translate()ï¼›æ±‚ç»å¯¹å€¼æ–¹æ³•Ab
  */
 
 
@@ -16,110 +16,116 @@
 
 using namespace std;
 
-//¶¨ÒåµÄCACLIntegerµÄ×î´óÎ»Êı
+//å®šä¹‰çš„CACLIntegerçš„æœ€å¤§ä½æ•°
 constexpr int MAX_OF_BIT = 200;
 
 class CACLInteger {
 public:
-    // ¹¹Ôì·½·¨
+    // æ„é€ æ–¹æ³•
     CACLInteger();
 
-    // ¿½±´¹¹Ôì·½·¨
+    // æ‹·è´æ„é€ æ–¹æ³•
     CACLInteger(long long int obj);
 
-    // Îö¹¹·½·¨
+    // ææ„æ–¹æ³•
     ~CACLInteger();
 
-    // ³õÊ¼»¯¶ÔÏó
+    // åˆå§‹åŒ–å¯¹è±¡
     void initialize();
 
-    // ¿½±´¶ÔÏó
+    // æ‹·è´å¯¹è±¡
     void copy(const CACLInteger number);
 
-    // ×ª»»long longÎªCACLInteger
+    // è½¬æ¢long longä¸ºCACLInteger
     CACLInteger translate(long long number);
 
-    // ÖØÔØ¼Ó·¨
+    // é‡è½½åŠ æ³•
     CACLInteger operator+(CACLInteger number);
 
     CACLInteger operator+(const long long number);
 
-    // ÎŞ·ûºÅÁ½¸öCACLIntegerÏà¼Ó
+    // æ— ç¬¦å·ä¸¤ä¸ªCACLIntegerç›¸åŠ 
     CACLInteger unsignedAdd(CACLInteger number1, CACLInteger number2);
 
-    // ÖØÔØ¼õ·¨
+    // é‡è½½å‡æ³•
     CACLInteger operator-(CACLInteger number);
 
     CACLInteger operator-(const long long number);
 
-    // ÎŞ·ûºÅÁ½¸öCACLIntegerÏà¼õ
+    // æ— ç¬¦å·ä¸¤ä¸ªCACLIntegerç›¸å‡
     CACLInteger unsignedSubtract(CACLInteger number1, CACLInteger number2);
 
-    // ÖØÔØ´óÓÚºÅ
+
+    //é‡è½½ä¹˜æ³•
+    CACLInteger operator*(CACLInteger number);
+
+    CACLInteger operator*(const long long number);
+
+    // é‡è½½å¤§äºå·
     bool operator>(const CACLInteger &number);
 
     bool operator>(const long long number);
 
-    // ÖØÔØĞ¡ÓÚºÅ
+    // é‡è½½å°äºå·
     bool operator<(CACLInteger number);
 
     bool operator<(const long long number);
 
-    //ÖØÔØµÈÓÚ
+    //é‡è½½ç­‰äº
     bool operator==(CACLInteger number);
 
     bool operator==(const long long number);
 
 
-    //ÖØÔØ²»µÈÓÚ
+    //é‡è½½ä¸ç­‰äº
     bool operator!=(CACLInteger number);
 
     bool operator!=(const long long number);
 
-    //ÖØÔØ´óÓÚ»òµÈÓÚ
+    //é‡è½½å¤§äºæˆ–ç­‰äº
     bool operator>=(CACLInteger number);
 
     bool operator>=(const long long number);
 
 
-    //ÖØÔØĞ¡ÓÚ»òµÈÓÚ
+    //é‡è½½å°äºæˆ–ç­‰äº
     bool operator<=(CACLInteger number);
 
     bool operator<=(const long long number);
 
-    // ÖØÔØ¸³Öµ
+    // é‡è½½èµ‹å€¼
     void operator=(const CACLInteger &number);
 
     void operator=(const long long number);
 
 
-    //ÖØÔØ¼Ó¸³Öµ
+    //é‡è½½åŠ èµ‹å€¼
     void operator+=(const CACLInteger &number);
 
     void operator+=(const long long number);
 
 
-    //ÖØÔØ¼õ¸³Öµ
+    //é‡è½½å‡èµ‹å€¼
     void operator-=(const CACLInteger &number);
 
     void operator-=(const long long number);
 
-    // ÖØÔØÓÒÒÆ×÷ÎªÊäÈë
+    // é‡è½½å³ç§»ä½œä¸ºè¾“å…¥
     friend istream &operator>>(istream &_cin, CACLInteger &integer);
 
-    // ÖØÔØ×óÒÆ×÷ÎªÊä³ö
+    // é‡è½½å·¦ç§»ä½œä¸ºè¾“å‡º
     friend ostream &operator<<(ostream &_cout, const CACLInteger &integer);
 
-    // ÇóCACLIntegerµÄ¾ø¶ÔÖµ
+    // æ±‚CACLIntegerçš„ç»å¯¹å€¼
     CACLInteger absoluteValue();
 
 
 private:
-    // Êı×ÖµÄ·ûºÅ,trueÊ±ÊÇ¸ºÊı£¬falseÊ±ÊÇÕıÊı
+    // æ•°å­—çš„ç¬¦å·,trueæ—¶æ˜¯è´Ÿæ•°ï¼Œfalseæ—¶æ˜¯æ­£æ•°
     bool symbol;
-    // Êı×ÖµÄÎ»Êı
+    // æ•°å­—çš„ä½æ•°
     int bit;
-    // ¸÷¸öÎ»µÄÊı×Ö
+    // å„ä¸ªä½çš„æ•°å­—
     short num[MAX_OF_BIT];
 
 };

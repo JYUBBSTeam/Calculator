@@ -1,15 +1,15 @@
 /*
- *´´½¨ÈË£ºHuang
- *´´½¨ÈÕÆÚ£º2019.4.19
- *ĞŞ¸ÄÈÕÆÚ£º2019.4.20
- *Àà£ºCACLInteger
- *¹¦ÄÜ£º³õÊ¼»¯º¯Êıinitialize()£»¿½±´º¯Êıcopy()£»×ª»»Êı×ÖÎªCACLInteger¶ÔÏóº¯Êıtranslate()
+ *åˆ›å»ºäººï¼šHuang
+ *åˆ›å»ºæ—¥æœŸï¼š2019.4.19
+ *ä¿®æ”¹æ—¥æœŸï¼š2019.4.20
+ *ç±»ï¼šCACLInteger
+ *åŠŸèƒ½ï¼šåˆå§‹åŒ–å‡½æ•°initialize()ï¼›æ‹·è´å‡½æ•°copy()ï¼›è½¬æ¢æ•°å­—ä¸ºCACLIntegerå¯¹è±¡å‡½æ•°translate()
  */
 
 
 #include "CACLInteger.h"
 
-// ³õÊ¼»¯¶ÔÏó
+// åˆå§‹åŒ–å¯¹è±¡
 void CACLInteger::initialize() {
     for (int i = 0; i < MAX_OF_BIT; ++i) {
         num[i] = 0;
@@ -20,7 +20,7 @@ void CACLInteger::initialize() {
 }
 
 
-// ¿½±´¶ÔÏó
+// æ‹·è´å¯¹è±¡
 void CACLInteger::copy(const CACLInteger number) {
     for (int i = 0; i < number.bit; ++i) {
         num[i] = number.num[i];
@@ -31,7 +31,7 @@ void CACLInteger::copy(const CACLInteger number) {
 }
 
 
-// ×ª»»long longÎªCACLInteger
+// è½¬æ¢long longä¸ºCACLInteger
 CACLInteger CACLInteger::translate(long long number) {
     CACLInteger ans;
     int tmpBit = 0;
@@ -45,14 +45,14 @@ CACLInteger CACLInteger::translate(long long number) {
         number = -number;
     }
 
-    //ÓÃtmpBit¼ÇÂ¼Î»Êı,ÏÈÓÃtmpNumÄæĞò´æ´¢numberµÄ¸÷¸öÎ»µÄÊı×Ö
+    //ç”¨tmpBitè®°å½•ä½æ•°,å…ˆç”¨tmpNumé€†åºå­˜å‚¨numberçš„å„ä¸ªä½çš„æ•°å­—
     for (int i = 1; number > 0; ++i, tmpBit++) {
         tmpNum[i - 1] = (short) (number % 10);
         number /= 10;
     }
     ans.bit = tmpBit;
 
-    //½«tmpNumÄæĞò´æ´¢½øansµÄnum³ÉÔ±
+    //å°†tmpNumé€†åºå­˜å‚¨è¿›ansçš„numæˆå‘˜
     for (int i = 0; i < ans.bit; i++) {
         ans.num[i] = tmpNum[i];
     }

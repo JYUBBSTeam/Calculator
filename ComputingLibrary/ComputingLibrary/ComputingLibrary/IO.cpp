@@ -1,9 +1,9 @@
 /*
- *´´½¨ÈË£ºHuang
- *´´½¨ÈÕÆÚ£º2019.4.20
- *ĞŞ¸ÄÈÕÆÚ£º2019.4.20
- *Àà£ºCACLInteger
- *¹¦ÄÜ£º¿ØÖÆÊäÈëºÍÊä³ö
+ *åˆ›å»ºäººï¼šHuang
+ *åˆ›å»ºæ—¥æœŸï¼š2019.4.20
+ *ä¿®æ”¹æ—¥æœŸï¼š2019.4.20
+ *ç±»ï¼šCACLInteger
+ *åŠŸèƒ½ï¼šæ§åˆ¶è¾“å…¥å’Œè¾“å‡º
  */
 
 #include "CACLInteger.h"
@@ -11,13 +11,13 @@
 
 using namespace std;
 
-//ÖØÔØÓÒÒÆ×÷ÎªÊäÈë
+//é‡è½½å³ç§»ä½œä¸ºè¾“å…¥
 istream &operator>>(istream &_cin, CACLInteger &integer) {
     string tmpNumber;
 
     cin >> tmpNumber;
 
-    //¼ì²étmpNumberµÄ·ûºÅ
+    //æ£€æŸ¥tmpNumberçš„ç¬¦å·
     if (tmpNumber[0] == '+') {
         integer.symbol = false;
         tmpNumber.erase(0, 1);
@@ -38,7 +38,7 @@ istream &operator>>(istream &_cin, CACLInteger &integer) {
 }
 
 
-//ÖØÔØ×óÒÆ×÷ÎªÊä³ö
+//é‡è½½å·¦ç§»ä½œä¸ºè¾“å‡º
 ostream &operator<<(ostream &_cout, const CACLInteger &integer) {
     if (integer.symbol == true) {
         _cout << '-';

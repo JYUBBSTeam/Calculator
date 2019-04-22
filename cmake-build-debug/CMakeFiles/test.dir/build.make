@@ -69,35 +69,9 @@ CMakeFiles/test.dir/ComputingLibrary/test/test/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/ComputingLibrary/test/test/test.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Project\ComputingLibrary\test\test\test.cpp -o CMakeFiles\test.dir\ComputingLibrary\test\test\test.cpp.s
 
-CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.obj: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.obj: ../ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\ComputingLibrary\ComputingLibrary\ComputingLibrary\IO.cpp.obj -c C:\Project\ComputingLibrary\ComputingLibrary\ComputingLibrary\IO.cpp
-
-CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Project\ComputingLibrary\ComputingLibrary\ComputingLibrary\IO.cpp > CMakeFiles\test.dir\ComputingLibrary\ComputingLibrary\ComputingLibrary\IO.cpp.i
-
-CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Project\ComputingLibrary\ComputingLibrary\ComputingLibrary\IO.cpp -o CMakeFiles\test.dir\ComputingLibrary\ComputingLibrary\ComputingLibrary\IO.cpp.s
-
-CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.obj: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.obj: ../ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\ComputingLibrary\ComputingLibrary\ComputingLibrary\Math.cpp.obj -c C:\Project\ComputingLibrary\ComputingLibrary\ComputingLibrary\Math.cpp
-
-CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Project\ComputingLibrary\ComputingLibrary\ComputingLibrary\Math.cpp > CMakeFiles\test.dir\ComputingLibrary\ComputingLibrary\ComputingLibrary\Math.cpp.i
-
-CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Project\ComputingLibrary\ComputingLibrary\ComputingLibrary\Math.cpp -o CMakeFiles\test.dir\ComputingLibrary\ComputingLibrary\ComputingLibrary\Math.cpp.s
-
 CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.cpp.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.cpp.obj: ../ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\ComputingLibrary\ComputingLibrary\ComputingLibrary\Operator.cpp.obj -c C:\Project\ComputingLibrary\ComputingLibrary\ComputingLibrary\Operator.cpp
 
 CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.cpp.i: cmake_force
@@ -108,9 +82,22 @@ CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Project\ComputingLibrary\ComputingLibrary\ComputingLibrary\Operator.cpp -o CMakeFiles\test.dir\ComputingLibrary\ComputingLibrary\ComputingLibrary\Operator.cpp.s
 
+CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.obj: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.obj: ../ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\ComputingLibrary\ComputingLibrary\ComputingLibrary\IO.cpp.obj -c C:\Project\ComputingLibrary\ComputingLibrary\ComputingLibrary\IO.cpp
+
+CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Project\ComputingLibrary\ComputingLibrary\ComputingLibrary\IO.cpp > CMakeFiles\test.dir\ComputingLibrary\ComputingLibrary\ComputingLibrary\IO.cpp.i
+
+CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Project\ComputingLibrary\ComputingLibrary\ComputingLibrary\IO.cpp -o CMakeFiles\test.dir\ComputingLibrary\ComputingLibrary\ComputingLibrary\IO.cpp.s
+
 CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp.obj: ../ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\ComputingLibrary\ComputingLibrary\ComputingLibrary\SelfData.cpp.obj -c C:\Project\ComputingLibrary\ComputingLibrary\ComputingLibrary\SelfData.cpp
 
 CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp.i: cmake_force
@@ -120,6 +107,19 @@ CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.
 CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Project\ComputingLibrary\ComputingLibrary\ComputingLibrary\SelfData.cpp -o CMakeFiles\test.dir\ComputingLibrary\ComputingLibrary\ComputingLibrary\SelfData.cpp.s
+
+CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.obj: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.obj: ../ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\test.dir\ComputingLibrary\ComputingLibrary\ComputingLibrary\Math.cpp.obj -c C:\Project\ComputingLibrary\ComputingLibrary\ComputingLibrary\Math.cpp
+
+CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Project\ComputingLibrary\ComputingLibrary\ComputingLibrary\Math.cpp > CMakeFiles\test.dir\ComputingLibrary\ComputingLibrary\ComputingLibrary\Math.cpp.i
+
+CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Project\ComputingLibrary\ComputingLibrary\ComputingLibrary\Math.cpp -o CMakeFiles\test.dir\ComputingLibrary\ComputingLibrary\ComputingLibrary\Math.cpp.s
 
 CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.obj: ../ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp
@@ -137,20 +137,20 @@ CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Structure
 # Object files for target test
 test_OBJECTS = \
 "CMakeFiles/test.dir/ComputingLibrary/test/test/test.cpp.obj" \
-"CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.obj" \
-"CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.obj" \
 "CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.cpp.obj" \
+"CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.obj" \
 "CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp.obj" \
+"CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.obj" \
 "CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.obj"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
 test.exe: CMakeFiles/test.dir/ComputingLibrary/test/test/test.cpp.obj
-test.exe: CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.obj
-test.exe: CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.obj
 test.exe: CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Operator.cpp.obj
+test.exe: CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/IO.cpp.obj
 test.exe: CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/SelfData.cpp.obj
+test.exe: CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/Math.cpp.obj
 test.exe: CMakeFiles/test.dir/ComputingLibrary/ComputingLibrary/ComputingLibrary/StructureDestruct.cpp.obj
 test.exe: CMakeFiles/test.dir/build.make
 test.exe: CMakeFiles/test.dir/linklibs.rsp

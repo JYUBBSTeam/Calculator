@@ -177,32 +177,140 @@ home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s
 .PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s
 
-home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.o: home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.cpp.o
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.o: home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o
 
-.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.o
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.o
 
 # target to build an object file
-home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.cpp.o
-.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.cpp.o
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o
 
-home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.i: home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.cpp.i
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.i: home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i
 
-.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.i
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.i
 
 # target to preprocess a source file
-home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.cpp.i
-.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.cpp.i
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i
 
-home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.s: home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.cpp.s
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.s: home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s
 
-.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.s
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.s
 
 # target to generate assembly for a file
-home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.cpp.s
-.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.cpp.s
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s
+
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.o: home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o
+
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.o
+
+# target to build an object file
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o
+
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.i: home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i
+
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.i
+
+# target to preprocess a source file
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i
+
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.s: home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s
+
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.s
+
+# target to generate assembly for a file
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s
+
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.o: home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o
+
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.o
+
+# target to build an object file
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o
+
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.i: home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i
+
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.i
+
+# target to preprocess a source file
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i
+
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.s: home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s
+
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.s
+
+# target to generate assembly for a file
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s
+
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.o: home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o
+
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.o
+
+# target to build an object file
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o
+
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.i: home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i
+
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.i
+
+# target to preprocess a source file
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i
+
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.s: home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s
+
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.s
+
+# target to generate assembly for a file
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s
+
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.o: home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o
+
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.o
+
+# target to build an object file
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o
+
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.i: home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i
+
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.i
+
+# target to preprocess a source file
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i
+
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.s: home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s
+
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.s
+
+# target to generate assembly for a file
+home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s
 
 home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.o: home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o
 
@@ -300,9 +408,21 @@ help:
 	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.o"
 	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.i"
 	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.s"
-	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.o"
-	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.i"
-	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.s"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.o"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.i"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.s"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.o"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.i"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.s"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.o"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.i"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.s"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.o"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.i"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.s"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.o"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.i"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.s"
 	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.o"
 	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.i"
 	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.s"

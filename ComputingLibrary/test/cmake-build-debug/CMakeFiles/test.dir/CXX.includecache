@@ -10,31 +10,13 @@
 iostream
 -
 
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp
-CACLInteger.h
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
-string
--
-
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp
-CACLInteger.h
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
-
 /home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.cpp
 CACLInteger.h
 /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
 stack
 -
-
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
-CACLInteger.h
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
-
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/StructureDestruct.cpp
-CACLInteger.h
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
-
-/home/h/Project/Calculator/ComputingLibrary/test/test.cpp
-../CACLInteger/CACLInteger.h
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+vector
+-
+cmath
+-
 

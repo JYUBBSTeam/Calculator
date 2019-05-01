@@ -9,33 +9,6 @@
 
 #include "CACLInteger.h"
 
-//重载加法
-CACLInteger CACLInteger::operator+(CACLInteger number) {
-    CACLInteger ans;
-
-    if (this->symbol == number.symbol) {
-        ans = unsignedAdd(*this, number);
-        ans.symbol = this->symbol;
-    }
-
-    if ((this->symbol ^ number.symbol) == true) {
-        ans = unsignedSubtract(*this, number);
-        ans.symbol = (this->absoluteValue() > number.absoluteValue()) ? this->symbol : number.symbol;
-    }
-
-    return ans;
-}
-
-
-CACLInteger CACLInteger::operator+(const long long number) {
-    CACLInteger translatedNumber = translate(number);
-    CACLInteger ans;
-
-    ans = translatedNumber + *this;
-
-    return ans;
-}
-
 
 //无符号两个CACLInteger相加
 CACLInteger CACLInteger::unsignedAdd(CACLInteger number1, CACLInteger number2) {
@@ -173,9 +146,11 @@ CACLInteger CACLInteger::operator*(CACLInteger number) {
     stack<CACLInteger> tmpThis, tmpNumber, numberController, ansStack;
     // 创建q、r两个数据表
     vector<int> q, r;
-    // 数据表节点控制代码:k
+    // 数据表节点位置代码:k
     int k;
     int Q, R;
+
+    void T3(int *k, CACLInteger *ans, );
 
     // 初始化控制代码code_1, code_2, code_3
     CACLInteger code_1, code_2, code_3;
@@ -186,7 +161,7 @@ CACLInteger CACLInteger::operator*(CACLInteger number) {
     ans.symbol = symbol != number.symbol;
     int maxBit = max(this->bit, number.bit);
 
-    // 初始化线性表q， r，使k为1， Q为4， R为2
+    // T1 初始化线性表q， r，使k为1， Q为4， R为2
     k = 1;
     q.push_back(16), q.push_back(16);
     r.push_back(4), r.push_back(4);
@@ -204,10 +179,21 @@ CACLInteger CACLInteger::operator*(CACLInteger number) {
         r.push_back((int) pow(2, R));
     }
 
-    // 在栈C中放入code_1, 然后将u和v都作为qk-1 + qk位数放入栈C
-    
+    // T2 在栈C中放入code_1, 然后将u和v都作为qk-1 + qk位数放入栈C
+    numberController.push(code_1);
+    numberController.push(*this);
+    numberController.push(number);
+
+    T3();
 
     return ans;
+}
+
+// T3 检查递归进度  将k减1， 如果k=0， 则栈C顶部应包含两个32位数u和v。
+// 将它们从栈中释放，然后调用内建的32位数乘法程序，完成赋值ans<-uv，再转向T10
+// 如果k>0， 则令r<-rk, q<-qk, p<- qk-1 + qk, 然后转向T4
+void T3(){
+
 }
 
 CACLInteger CACLInteger::operator*(const long long number) {

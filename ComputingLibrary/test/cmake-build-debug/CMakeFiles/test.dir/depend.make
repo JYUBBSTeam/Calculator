@@ -7,8 +7,20 @@ CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cp
 CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
 CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp
 
-CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
-CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/Operator.cpp
+CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp
+
+CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp
+
+CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp
+
+CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
+
+CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp
 
 CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
 CMakeFiles/test.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp

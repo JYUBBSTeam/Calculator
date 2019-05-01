@@ -8,7 +8,6 @@
 
 
 #include "CACLInteger.h"
-#include <stack>
 
 //重载加法
 CACLInteger CACLInteger::operator+(CACLInteger number) {
@@ -161,21 +160,63 @@ CACLInteger CACLInteger::unsignedSubtract(CACLInteger number1, CACLInteger numbe
 }
 
 
-//重载乘法
+//重载乘法，参照《计算机程序设计艺术，卷二》4.3.3算法T
+#include <stack>
+#include <vector>
+#include <cmath>
+
 CACLInteger CACLInteger::operator*(CACLInteger number) {
+    // *this 记为u， number记为v
     CACLInteger ans;
-    //tmpThis和tmpNumber用来临时存储
-    stack<short> tmpThis, tmpNumber;
+    // tmpThis->U, tmpNumber->V, numberController->C, ansStack->W
+    // U和V作为临时存储，C存储用来做乘法的数和控制代码
+    stack<CACLInteger> tmpThis, tmpNumber, numberController, ansStack;
+    // 创建q、r两个数据表
+    vector<int> q, r;
+    // 数据表节点控制代码:k
+    int k;
+    int Q, R;
+
+    // 初始化控制代码code_1, code_2, code_3
+    CACLInteger code_1, code_2, code_3;
+    code_1.num[0] = 1;
+    code_2.num[0] = 2;
+    code_3.num[0] = 3;
 
     ans.symbol = symbol != number.symbol;
+    int maxBit = max(this->bit, number.bit);
 
+    // 初始化线性表q， r，使k为1， Q为4， R为2
+    k = 1;
+    q.push_back(16), q.push_back(16);
+    r.push_back(4), r.push_back(4);
+    Q = 4;
+    R = 2;
 
+    // 循环建立q，r
+    while (q.at(k - 1) + q.at(k) < maxBit) {
+        k++;
+        Q += R;
+        if ((R + 1) * (R + 1) <= Q) {
+            R++;
+        }
+        q.push_back((int) pow(2, Q));
+        r.push_back((int) pow(2, R));
+    }
+
+    // 在栈C中放入code_1, 然后将u和v都作为qk-1 + qk位数放入栈C
+    
 
     return ans;
 }
 
 CACLInteger CACLInteger::operator*(const long long number) {
+    CACLInteger translatedNumber = translate(number);
+    CACLInteger ans;
 
+    ans = *this * translatedNumber;
+
+    return ans;
 }
 
 

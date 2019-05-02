@@ -22,6 +22,9 @@ CMakeFiles/testCACLInterger.dir/home/h/Project/Calculator/ComputingLibrary/CACLI
 CMakeFiles/testCACLInterger.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
 CMakeFiles/testCACLInterger.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
 
+CMakeFiles/testCACLInterger.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+CMakeFiles/testCACLInterger.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp
+
 CMakeFiles/testCACLInterger.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
 CMakeFiles/testCACLInterger.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp
 

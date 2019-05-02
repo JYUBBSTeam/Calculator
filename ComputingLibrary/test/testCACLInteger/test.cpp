@@ -15,7 +15,7 @@ int main() {
     //test1.initialize();
     //test = testNum;
     //test1 += test2;
-    test = test1 * test2;
+    test = test1 / test2;
     //test = test1.absoluteValue();
     cout << test;
 

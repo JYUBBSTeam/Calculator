@@ -14,4 +14,4 @@ add_executable(testCACLInterger test.cpp
         ../../CACLInteger/OperatorSubtraction.cpp
         ../../CACLInteger/OperatorComparison.cpp
         ../../CACLInteger/OperatorAssignment.cpp
-        ../../CACLInteger/OperatorDivision.cpp)
+        ../../CACLInteger/OperatorDivision.cpp ../../CACLInteger/OperatorRemainder.cpp)

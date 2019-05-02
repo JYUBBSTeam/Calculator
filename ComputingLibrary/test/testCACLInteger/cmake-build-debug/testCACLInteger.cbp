@@ -108,6 +108,9 @@
 		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp">
 			<Option target="testCACLInterger"/>
 		</Unit>
+		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp">
+			<Option target="testCACLInterger"/>
+		</Unit>
 		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp">
 			<Option target="testCACLInterger"/>
 		</Unit>

@@ -4,8 +4,9 @@
  *修改日期：2019.4.20
  *类:CACLInteger
  *重载的运算符：+加法；-减法；*乘法；/除法；%求余； =赋值；>大于；<小于
- *方法：构造方法CACLInteger()；析构方法~CALInteger()；拷贝构造方法CACLInteger(const CACLInteger *obj)；
- *      初始化方法initialize()；拷贝方法copy()；数字转换成CACLInteger对象方法translate()；求绝对值方法Ab
+ *方法：构造方法CACLInteger()；析构方法~CALInteger()；
+ *      初始化方法initialize()；拷贝方法copy()；
+ *      数字转换成CACLInteger对象方法translate()；求绝对值方法Ab
  */
 
 
@@ -68,6 +69,11 @@ public:
     CACLInteger operator/(CACLInteger number);
 
     CACLInteger operator/(const long long number);
+
+    // 重载求余
+    CACLInteger operator%(CACLInteger number);
+
+    CACLInteger operator%(const long long number);
 
     // 重载大于号
     bool operator>(const CACLInteger &number);

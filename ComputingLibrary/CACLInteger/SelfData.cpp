@@ -59,3 +59,27 @@ CACLInteger CACLInteger::translate(long long number) {
 
     return ans;
 }
+
+
+// 判断是不是零
+bool CACLInteger::isZero() {
+    return this->bit == 1 && this->num[0] == 0;
+}
+
+
+// 判断是不是负数
+bool CACLInteger::isNegative() {
+    return symbol;
+}
+
+
+// 判断是不是正数
+bool CACLInteger::isPositive() {
+    return !symbol;
+}
+
+
+// 获取位数
+int CACLInteger::getBit() {
+    return bit;
+}

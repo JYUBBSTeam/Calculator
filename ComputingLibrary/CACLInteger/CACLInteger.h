@@ -36,6 +36,18 @@ public:
     // 转换long long为CACLInteger
     CACLInteger translate(long long number);
 
+    // 判断是不是零
+    bool isZero();
+
+    //判断是不是负数
+    bool isNegative();
+
+    // 判断是不是正数
+    bool isPositive();
+
+    // 获取位数
+    int getBit();
+
     // 重载加法
     CACLInteger operator+(CACLInteger number);
 
@@ -57,6 +69,9 @@ public:
     CACLInteger operator*(CACLInteger number);
 
     CACLInteger operator*(const long long number);
+
+    // 小数据乘法
+    void normalMultiplication(CACLInteger number1, CACLInteger number2);
 
     // 重载大于号
     bool operator>(const CACLInteger &number);

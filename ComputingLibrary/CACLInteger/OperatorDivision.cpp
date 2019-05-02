@@ -22,5 +22,10 @@ CACLInteger CACLInteger::operator/(const long long number) {
 
 // 小数据除法
 CACLInteger CACLInteger::normalDivision(CACLInteger number1, CACLInteger number2) {
-    
+    if(number2.isZero()){
+        cout << "The denominator cannot be zero!\n";
+        
+    }
+
+
 }

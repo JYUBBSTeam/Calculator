@@ -9,6 +9,7 @@
 
 #include "CACLInteger.h"
 
+/* 暂时实现不了算法T
 //重载乘法，参照《计算机程序设计艺术，卷二》4.3.3算法T
 #include <stack>
 #include <vector>
@@ -137,6 +138,7 @@ void T10() {
         T7();
     }
 }
+ */
 
 void CACLInteger::normalMultiplication(CACLInteger number1, CACLInteger number2) {
     // 判断两个乘数是不是零，直接return this是因为任何CACLInteger的初始值为0
@@ -176,6 +178,14 @@ void CACLInteger::normalMultiplication(CACLInteger number1, CACLInteger number2)
     } else {
         this->bit = maxBit - 1;
     }
+}
+
+CACLInteger CACLInteger::operator*(CACLInteger number) {
+    CACLInteger ans;
+
+    ans.normalMultiplication(*this, number);
+
+    return ans;
 }
 
 CACLInteger CACLInteger::operator*(const long long number) {

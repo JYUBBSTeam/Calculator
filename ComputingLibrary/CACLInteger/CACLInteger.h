@@ -17,7 +17,7 @@
 using namespace std;
 
 //定义的CACLInteger的最大位数
-constexpr int MAX_OF_BIT = 200;
+constexpr int MAX_OF_BIT = 400;
 
 class CACLInteger {
 public:
@@ -53,25 +53,21 @@ public:
 
     CACLInteger operator+(const long long number);
 
-    // 无符号两个CACLInteger相加
-    CACLInteger unsignedAdd(CACLInteger number1, CACLInteger number2);
-
     // 重载减法
     CACLInteger operator-(CACLInteger number);
 
     CACLInteger operator-(const long long number);
-
-    // 无符号两个CACLInteger相减
-    CACLInteger unsignedSubtract(CACLInteger number1, CACLInteger number2);
-
 
     //重载乘法
     CACLInteger operator*(CACLInteger number);
 
     CACLInteger operator*(const long long number);
 
-    // 小数据乘法
-    void normalMultiplication(CACLInteger number1, CACLInteger number2);
+
+    // 重载除法
+    CACLInteger operator/(CACLInteger number);
+
+    CACLInteger operator/(const long long number);
 
     // 重载大于号
     bool operator>(const CACLInteger &number);
@@ -87,7 +83,6 @@ public:
     bool operator==(CACLInteger number);
 
     bool operator==(const long long number);
-
 
     //重载不等于
     bool operator!=(CACLInteger number);
@@ -116,11 +111,11 @@ public:
 
     void operator+=(const long long number);
 
-
     //重载减赋值
     void operator-=(const CACLInteger &number);
 
     void operator-=(const long long number);
+
 
     // 重载右移作为输入
     friend istream &operator>>(istream &_cin, CACLInteger &integer);
@@ -128,15 +123,29 @@ public:
     // 重载左移作为输出
     friend ostream &operator<<(ostream &_cout, const CACLInteger &integer);
 
+
     // 求CACLInteger的绝对值
     CACLInteger absoluteValue();
 
-
 private:
+    // 小数据除法
+    CACLInteger normalDivision(CACLInteger number1, CACLInteger number2);
+
+    // 小数据乘法
+    void normalMultiplication(CACLInteger number1, CACLInteger number2);
+
+    // 无符号两个CACLInteger相加
+    CACLInteger unsignedAdd(CACLInteger number1, CACLInteger number2);
+
+    // 无符号两个CACLInteger相减
+    CACLInteger unsignedSubtract(CACLInteger number1, CACLInteger number2);
+
     // 数字的符号,true时是负数，false时是正数
     bool symbol;
+
     // 数字的位数
     int bit;
+
     // 各个位的数字
     short num[MAX_OF_BIT];
 

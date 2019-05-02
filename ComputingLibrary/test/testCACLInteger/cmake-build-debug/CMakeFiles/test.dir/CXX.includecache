@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+iostream
+-
+
+/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
+CACLInteger.h
+/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+stack
+-
+vector
+-
+cmath
+-
+
+/home/h/Project/Calculator/ComputingLibrary/test/testCACLInteger/test.cpp
+../../CACLInteger/CACLInteger.h
+/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+

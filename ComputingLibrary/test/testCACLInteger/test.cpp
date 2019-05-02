@@ -1,8 +1,8 @@
-﻿#include "../CACLInteger/CACLInteger.h"
+﻿#include "../../CACLInteger/CACLInteger.h"
 
 int main() {
     CACLInteger test, test1, test2;
-    int testNum;
+    //int testNum;
 
     cin >> test1 >> test2;
     //cin >> test1;

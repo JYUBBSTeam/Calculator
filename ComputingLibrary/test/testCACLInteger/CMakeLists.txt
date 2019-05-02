@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.14)
-project(test)
+project(testCACLInteger)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(test test.cpp
+add_executable(testCACLInterger test.cpp
         ../../CACLInteger/CACLInteger.h
         ../../CACLInteger/OperatorMultiplication.cpp
         ../../CACLInteger/IO.cpp
@@ -13,4 +13,5 @@ add_executable(test test.cpp
         ../../CACLInteger/OperatorAddition.cpp
         ../../CACLInteger/OperatorSubtraction.cpp
         ../../CACLInteger/OperatorComparison.cpp
-        ../../CACLInteger/OperatorAssignment.cpp)
+        ../../CACLInteger/OperatorAssignment.cpp
+        ../../CACLInteger/OperatorDivision.cpp)

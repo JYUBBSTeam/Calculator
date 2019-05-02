@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/h/Project/Calculator/ComputingLibrary">
+		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.h">
 			<Option target="testCACLFloat"/>
 		</Unit>
 		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/test.cpp">

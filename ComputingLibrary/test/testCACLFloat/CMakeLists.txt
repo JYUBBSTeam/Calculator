@@ -4,4 +4,4 @@ project(testCACLFloat)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(testCACLFloat test.cpp
-        ../../CACLFloat/)
+        ../../CACLFloat/CACLFloat.h)

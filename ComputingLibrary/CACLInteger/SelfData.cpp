@@ -11,9 +11,7 @@
 
 // 初始化对象
 void CACLInteger::initialize() {
-    for (int i = 0; i < MAX_OF_BIT; ++i) {
-        num[i] = 0;
-    }
+    num[0] = 0;
 
     bit = 1;
     symbol = false;

@@ -42,10 +42,12 @@ CACLInteger CACLInteger::normalDivision(CACLInteger number1, CACLInteger number2
 
         bool noteFirstInput = false;
         int tmpBit;
+        CACLInteger tmpNumber;
 
         while (number1 >= number2) {
-            CACLInteger tmpNumber;
-            for (int i = number1.bit - number2.bit, j = 0; i < number1.bit; ++i, ++j) {
+            tmpNumber.initialize();
+            tmpNumber.bit = number1.bit - number2.bit;
+            for (int i = number1.bit - 1, j = i; i > tmpNumber.bit; --i, --j) {
                 tmpNumber.num[j] = number1.num[i];
             }
 
@@ -57,8 +59,8 @@ CACLInteger CACLInteger::normalDivision(CACLInteger number1, CACLInteger number2
             if (tryNumber != 0 && !noteFirstInput) {
                 noteFirstInput = true;
                 tmpBit = bit = number1.bit - number2.bit + 1;
-                num[tmpBit] = tryNumber;
                 tmpBit--;
+                num[tmpBit] = tryNumber;
             }
             if (noteFirstInput) {
                 num[tmpBit] = tryNumber;

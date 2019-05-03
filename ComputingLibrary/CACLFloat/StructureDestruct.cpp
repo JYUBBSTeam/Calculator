@@ -1,12 +1,7 @@
-
 #include "CACLFloat.h"
-#include "../CACLInteger/CACLInteger.h"
 
-using namespace caclFloat;
-using namespace caclInt;
-
-CACLFloat::CACLFloat() {
+caclFloat::CACLFloat::CACLFloat() {
     decimalBit = 0;
 }
 
-CACLFloat::~CACLFloat() = default;
+caclFloat::CACLFloat::~CACLFloat() = default;

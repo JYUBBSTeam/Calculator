@@ -5,11 +5,9 @@
 #include <string>
 #include <sstream>
 
-using namespace caclInt;
-
 namespace caclFloat {
-
-    ostream &operator<<(ostream &_cout, const CACLFloat &myFloat) {
+    // 重载左移作为输出
+    std::ostream &operator<<(std::ostream &_cout, const CACLFloat &myFloat) {
         _cout << myFloat.integer;
 
         if (myFloat.decimalBit != 0) {
@@ -23,7 +21,7 @@ namespace caclFloat {
     }
 
     // 重载右移作为输入
-    istream &operator>>(istream &_cin, CACLFloat &myFloat) {
+    std::istream &operator>>(std::istream &_cin, CACLFloat &myFloat) {
         string tmpFloat;
 
         _cin >> tmpFloat;

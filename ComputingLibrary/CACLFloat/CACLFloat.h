@@ -27,9 +27,6 @@
 #include <iostream>
 #include "../CACLInteger/CACLInteger.h"
 
-using namespace std;
-using namespace caclInt;
-
 // 小数最小位数
 constexpr int MAX_OF_DECIMAL_BIT = 201;
 
@@ -44,10 +41,10 @@ namespace caclFloat {
         ~CACLFloat();
 
         // 重载右移动作为输入
-        friend istream &operator>>(istream &_cin, CACLFloat &myFloat);
+        friend std::istream &operator>>(std::istream &_cin, CACLFloat &myFloat);
 
         // 重载左移作为输出
-        friend ostream &operator<<(ostream &_cout, const CACLFloat &myFloat);
+        friend std::ostream &operator<<(std::ostream &_cout, const CACLFloat &myFloat);
 
     private:
 
@@ -58,7 +55,7 @@ namespace caclFloat {
         short decimalNum[MAX_OF_DECIMAL_BIT]{};
 
         // 整数部分
-        CACLInteger integer;
+        caclInt::CACLInteger integer;
     };
 }
 

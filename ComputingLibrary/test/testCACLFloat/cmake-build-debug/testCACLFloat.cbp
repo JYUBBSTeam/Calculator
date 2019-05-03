@@ -90,6 +90,9 @@
 		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
+		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.cpp">
+			<Option target="testCACLFloat"/>
+		</Unit>
 		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/test.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>

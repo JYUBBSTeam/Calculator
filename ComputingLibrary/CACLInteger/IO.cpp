@@ -16,7 +16,7 @@ namespace caclInt {
     istream &operator>>(istream &_cin, CACLInteger &integer) {
         string tmpNumber;
 
-        cin >> tmpNumber;
+        _cin >> tmpNumber;
 
         //检查tmpNumber的符号
         if (tmpNumber[0] == '+') {

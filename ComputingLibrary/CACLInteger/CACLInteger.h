@@ -31,6 +31,7 @@ constexpr int MAX_OF_BIT = 400;
 namespace caclInt {
 
     class CACLInteger {
+      
     public:
         // 构造方法
         CACLInteger();
@@ -157,6 +158,8 @@ namespace caclInt {
 
         // 求CACLInteger的绝对值
         CACLInteger absoluteValue();
+
+        void exchangeSymbol();
 
     private:
         // 小数据除法

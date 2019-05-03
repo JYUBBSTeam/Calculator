@@ -25,11 +25,11 @@
 #define CACLFLOAT_CACLFLOAT_H
 
 #include <iostream>
+#include "../CACLInteger/CACLInteger.h"
 
 using namespace std;
+using namespace caclInt;
 
-// 整数最大位数
-constexpr int MAX_OF_INTEGER_BIT = 400;
 // 小数最小位数
 constexpr int MAX_OF_DECIMAL_BIT = 201;
 
@@ -43,21 +43,22 @@ namespace caclFloat {
         // 析构CACLFloat
         ~CACLFloat();
 
-    private:
-        // 符号，如果false是正数，true是负数
-        bool symbol;
+        // 重载右移动作为输入
+        friend istream &operator>>(istream &_cin, CACLFloat &myFloat);
 
-        // 整数位数
-        int integerBit;
+        // 重载左移作为输出
+        friend ostream &operator<<(ostream &_cout, const CACLFloat &myFloat);
+
+    private:
 
         // 小数位数
         int decimalBit;
 
-        // 整数部分的数字
-        short integerNum[MAX_OF_INTEGER_BIT];
-
         // 小数部分的数字
-        short decimalNum[MAX_OF_DECIMAL_BIT];
+        short decimalNum[MAX_OF_DECIMAL_BIT]{};
+
+        // 整数部分
+        CACLInteger integer;
     };
 }
 

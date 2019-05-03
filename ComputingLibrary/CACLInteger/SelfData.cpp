@@ -84,3 +84,7 @@ bool CACLInteger::isPositive() {
 int CACLInteger::getBit() {
     return bit;
 }
+
+void CACLInteger::exchangeSymbol() {
+    symbol = !symbol;
+}

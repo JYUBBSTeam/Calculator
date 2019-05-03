@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/h/Project/Calculator/ComputingLibrary/test/testCACLFloa
 CMakeFiles/testCACLFloat.dir/all:
 	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/depend
 	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target testCACLFloat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target testCACLFloat"
 .PHONY : CMakeFiles/testCACLFloat.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/testCACLFloat.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testCACLFloat.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testCACLFloat.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/testCACLFloat.dir/rule

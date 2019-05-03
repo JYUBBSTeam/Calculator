@@ -150,6 +150,33 @@ home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s:
 	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s
 .PHONY : home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s
 
+home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.o: home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.cpp.o
+
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.o
+
+# target to build an object file
+home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.cpp.o:
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.cpp.o
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.cpp.o
+
+home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.i: home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.cpp.i
+
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.i
+
+# target to preprocess a source file
+home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.cpp.i:
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.cpp.i
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.cpp.i
+
+home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.s: home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.cpp.s
+
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.s
+
+# target to generate assembly for a file
+home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.cpp.s:
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.cpp.s
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.cpp.s
+
 test.o: test.cpp.o
 
 .PHONY : test.o
@@ -189,6 +216,9 @@ help:
 	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.o"
 	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.i"
 	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.s"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.o"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.i"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

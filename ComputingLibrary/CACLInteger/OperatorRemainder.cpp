@@ -1,10 +1,12 @@
 #include "CACLInteger.h"
 
+using namespace caclInt;
+
 // 重载求余数
 CACLInteger CACLInteger::operator%(CACLInteger number) {
     CACLInteger ans;
 
-    ans = ans.normalDivision(*this, number);
+    ans = *this - (*this / number) * number;
 
     return ans;
 }

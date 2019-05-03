@@ -9,6 +9,8 @@
 
 #include "CACLInteger.h"
 
+using namespace caclInt;
+
 /* 暂时实现不了算法T
 //重载乘法，参照《计算机程序设计艺术，卷二》4.3.3算法T
 #include <stack>

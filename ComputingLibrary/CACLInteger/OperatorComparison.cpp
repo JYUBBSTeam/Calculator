@@ -3,6 +3,8 @@
 
 #include "CACLInteger.h"
 
+using namespace caclInt;
+
 //重载大于号
 bool CACLInteger::operator>(const CACLInteger &number) {
     if (symbol != number.symbol) {

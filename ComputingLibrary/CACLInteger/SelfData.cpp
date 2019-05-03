@@ -9,10 +9,13 @@
 
 #include "CACLInteger.h"
 
+using namespace caclInt;
+
 // 初始化对象
 void CACLInteger::initialize() {
-    num[0] = 0;
-
+    for (int i = 0; i < MAX_OF_BIT; ++i) {
+        this->num[i] = 0;
+    }
     bit = 1;
     symbol = false;
 }

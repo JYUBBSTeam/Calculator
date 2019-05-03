@@ -2,10 +2,11 @@
 
 #include "CACLInteger.h"
 
+using namespace caclInt;
+
 //重载减法
 CACLInteger CACLInteger::operator-(CACLInteger number) {
     CACLInteger ans;
-    ans.initialize();
 
     if (this->symbol == false && number.symbol == false) {
         ans = unsignedSubtract(*this, number);
@@ -39,7 +40,6 @@ CACLInteger CACLInteger::operator-(const long long number) {
 CACLInteger CACLInteger::unsignedSubtract(CACLInteger number1, CACLInteger number2) {
     CACLInteger ans;
     CACLInteger longer, shorter;
-
     ans.initialize();
 
     //比较number1和number2的大小

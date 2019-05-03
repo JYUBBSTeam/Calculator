@@ -8,6 +8,8 @@
 
 #include "CACLInteger.h"
 
+using namespace caclInt;
+
 // 求number的绝对值
 CACLInteger CACLInteger::absoluteValue() {
     if (symbol) {

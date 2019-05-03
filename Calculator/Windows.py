@@ -12,9 +12,9 @@ class BasicCACLWindow(QMainWindow):
 
         self.basicCACLWindowTitle = "Deep Learning CACL"
         self.basicCACLWindowTop = 100
-        self.basicCACLWindowLeft = 100
-        self.basicCACLWindowWidth = 400
-        self.basicCACLWindowHeight = 300
+        self.basicCACLWindowLeft = 900
+        self.basicCACLWindowWidth = 1000
+        self.basicCACLWindowHeight = 900
 
         self.InitWindow()
 

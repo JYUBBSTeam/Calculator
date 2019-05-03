@@ -217,6 +217,18 @@ ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 
+//The directory containing a CMake configuration file for Qt5W.
+Qt5W_DIR:PATH=Qt5W_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for Qt5Wi.
+Qt5Wi_DIR:PATH=Qt5Wi_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for Qt5Widgets.
+Qt5Widgets_DIR:PATH=Qt5Widgets_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for QtW.
+QtW_DIR:PATH=QtW_DIR-NOTFOUND
+
 //Value Computed by CMake
 testCACLFloat_BINARY_DIR:STATIC=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug
 

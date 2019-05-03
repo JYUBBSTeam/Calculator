@@ -123,6 +123,33 @@ testCACLFloat/fast:
 	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/build
 .PHONY : testCACLFloat/fast
 
+home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.o: home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o
+
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.o
+
+# target to build an object file
+home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o:
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o
+
+home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.i: home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i
+
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.i
+
+# target to preprocess a source file
+home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i:
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i
+
+home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.s: home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s
+
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.s
+
+# target to generate assembly for a file
+home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s:
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s
+.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s
+
 test.o: test.cpp.o
 
 .PHONY : test.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... testCACLFloat"
 	@echo "... edit_cache"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.o"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.i"
+	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

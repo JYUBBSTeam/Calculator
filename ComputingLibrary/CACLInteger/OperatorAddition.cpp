@@ -2,6 +2,8 @@
 
 #include "CACLInteger.h"
 
+using namespace caclInt;
+
 //重载加法
 CACLInteger CACLInteger::operator+(CACLInteger number) {
     CACLInteger ans;

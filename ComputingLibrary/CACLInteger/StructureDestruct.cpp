@@ -6,6 +6,8 @@
 
 #include "CACLInteger.h"
 
+using namespace caclInt;
+
 CACLInteger::CACLInteger() {
     symbol = false;
     bit = 1;

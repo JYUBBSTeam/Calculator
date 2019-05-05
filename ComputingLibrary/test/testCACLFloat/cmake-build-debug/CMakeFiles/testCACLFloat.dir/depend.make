@@ -5,6 +5,40 @@ CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloa
 CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp
 CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
 
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.h
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp
+
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp
+
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp
+
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp
+
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp
+
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp
+
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
+
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp
+
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp
+
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
+
 CMakeFiles/testCACLFloat.dir/test.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.h
 CMakeFiles/testCACLFloat.dir/test.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
 CMakeFiles/testCACLFloat.dir/test.cpp.o: ../test.cpp

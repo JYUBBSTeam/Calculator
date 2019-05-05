@@ -28,7 +28,8 @@
 #include "../CACLInteger/CACLInteger.h"
 
 // 小数最小位数
-constexpr int MAX_OF_DECIMAL_BIT = 201;
+constexpr int MAX_OF_DECIMAL_BIT = 320;
+constexpr double MIN_OF_TRANSLATE_DECIMAL_BIT = 10e-18;
 
 namespace cacl {
 
@@ -41,6 +42,27 @@ namespace cacl {
 
         // 析构CACLFloat
         ~CACLFloat() = default;
+
+        // 初始化对象
+        void initialize();
+
+        // 拷贝对象
+        void copy(const CACLFloat number);
+
+        // 将double转换为CACLFloat对象
+        CACLFloat translate(double number);
+
+        // 判断是不是零
+        bool isZero();
+
+        // 判断是不是负数
+        bool isNegative();
+
+        // 判断是不是正数
+        bool isPositive();
+
+        // 转换符号
+        void exchangeSymbol();
 
         // 重载右移动作为输入
         friend std::istream &operator>>(std::istream &_cin, CACLFloat &myFloat);

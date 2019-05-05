@@ -83,6 +83,7 @@ int cacl::CACLInteger::getBit() {
     return bit;
 }
 
+// 转换符号
 void cacl::CACLInteger::exchangeSymbol() {
     symbol = !symbol;
 }

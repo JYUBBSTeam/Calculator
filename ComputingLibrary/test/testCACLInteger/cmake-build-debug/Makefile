@@ -123,33 +123,6 @@ testCACLInterger/fast:
 	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/build
 .PHONY : testCACLInterger/fast
 
-home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.o: home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.cpp.o
-
-.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.o
-
-# target to build an object file
-home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.cpp.o:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.cpp.o
-.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.cpp.o
-
-home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.i: home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.cpp.i
-
-.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.i
-
-# target to preprocess a source file
-home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.cpp.i:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.cpp.i
-.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.cpp.i
-
-home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.s: home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.cpp.s
-
-.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.s
-
-# target to generate assembly for a file
-home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.cpp.s:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.cpp.s
-.PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.cpp.s
-
 home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.o: home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o
 
 .PHONY : home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.o
@@ -456,9 +429,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... testCACLInterger"
 	@echo "... edit_cache"
-	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.o"
-	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.i"
-	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.s"
 	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.o"
 	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.i"
 	@echo "... home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.s"

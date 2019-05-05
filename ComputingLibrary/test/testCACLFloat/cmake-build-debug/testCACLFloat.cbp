@@ -90,6 +90,42 @@
 		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
+		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp">
+			<Option target="testCACLFloat"/>
+		</Unit>
+		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h">
+			<Option target="testCACLFloat"/>
+		</Unit>
+		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp">
+			<Option target="testCACLFloat"/>
+		</Unit>
+		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp">
+			<Option target="testCACLFloat"/>
+		</Unit>
+		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp">
+			<Option target="testCACLFloat"/>
+		</Unit>
+		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp">
+			<Option target="testCACLFloat"/>
+		</Unit>
+		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp">
+			<Option target="testCACLFloat"/>
+		</Unit>
+		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp">
+			<Option target="testCACLFloat"/>
+		</Unit>
+		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp">
+			<Option target="testCACLFloat"/>
+		</Unit>
+		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp">
+			<Option target="testCACLFloat"/>
+		</Unit>
+		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp">
+			<Option target="testCACLFloat"/>
+		</Unit>
+		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp">
+			<Option target="testCACLFloat"/>
+		</Unit>
 		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/test.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>

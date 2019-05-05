@@ -162,15 +162,6 @@ namespace cacl {
         // 转换符号
         void exchangeSymbol();
 
-        // 获取symbol的指针
-        bool *symbolPointer();
-
-        // 获取bit的指针
-        int *bitPointer();
-
-        // 获取num的指针
-        short *numPointer();
-
     private:
         // 小数据除法
         void normalDivision(CACLInteger number1, CACLInteger number2);

@@ -9,12 +9,10 @@
 #include "CACLInteger.h"
 #include <string>
 
-using namespace std;
-
-namespace caclInt {
+namespace cacl {
     //重载右移作为输入
-    istream &operator>>(istream &_cin, CACLInteger &integer) {
-        string tmpNumber;
+    std::istream &operator>>(std::istream &_cin, CACLInteger &integer) {
+        std::string tmpNumber;
 
         _cin >> tmpNumber;
 
@@ -40,7 +38,7 @@ namespace caclInt {
 
 
     //重载左移作为输出
-    ostream &operator<<(ostream &_cout, const CACLInteger &integer) {
+    std::ostream &operator<<(std::ostream &_cout, const CACLInteger &integer) {
         if (integer.symbol == true) {
             _cout << '-';
         }

@@ -1,10 +1,10 @@
 ﻿#include "../../CACLInteger/CACLInteger.h"
 
 int main() {
-    caclInt::CACLInteger test, test1, test2;
+    cacl::CACLInteger test, test1, test2;
     //int testNum;
 
-    cin >> test1 >> test2;
+    std::cin >> test1 >> test2;
     //cin >> test1;
     //cin >> testNum;
     //CACLInteger tmp;
@@ -18,8 +18,7 @@ int main() {
     //test = test1 / test2;
     test = test1 % test2;
     //test = test1.absoluteValue();
-    cout << test;
+    std::cout << test;
 
     return 0;
 }
-

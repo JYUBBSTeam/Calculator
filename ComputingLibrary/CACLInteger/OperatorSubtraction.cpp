@@ -2,10 +2,8 @@
 
 #include "CACLInteger.h"
 
-using namespace caclInt;
-
 //重载减法
-CACLInteger CACLInteger::operator-(CACLInteger number) {
+cacl::CACLInteger cacl::CACLInteger::operator-(CACLInteger number) {
     CACLInteger ans;
 
     if (this->symbol == false && number.symbol == false) {
@@ -26,7 +24,7 @@ CACLInteger CACLInteger::operator-(CACLInteger number) {
 }
 
 
-CACLInteger CACLInteger::operator-(const long long number) {
+cacl::CACLInteger cacl::CACLInteger::operator-(const long long number) {
     CACLInteger translatedNumber = translate(number);
     CACLInteger ans;
 
@@ -37,7 +35,7 @@ CACLInteger CACLInteger::operator-(const long long number) {
 
 
 //无符号两个CACLInteger相减
-CACLInteger CACLInteger::unsignedSubtract(CACLInteger number1, CACLInteger number2) {
+cacl::CACLInteger cacl::CACLInteger::unsignedSubtract(CACLInteger number1, CACLInteger number2) {
     CACLInteger ans;
     CACLInteger longer, shorter;
     ans.initialize();

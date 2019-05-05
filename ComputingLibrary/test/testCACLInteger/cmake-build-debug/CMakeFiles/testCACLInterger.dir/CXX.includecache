@@ -10,6 +10,10 @@
 iostream
 -
 
+/home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.cpp
+CACLInteger.h
+/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+
 /home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp
 CACLInteger.h
 /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
@@ -55,10 +59,6 @@ CACLInteger.h
 /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
 
 /home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
-CACLInteger.h
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
-
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/StructureDestruct.cpp
 CACLInteger.h
 /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
 

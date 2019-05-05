@@ -2,11 +2,13 @@
     创建基本窗口
 """
 
-from PyQt5.QtWidgets import QMainWindow, QApplication
+from PyQt5.QtWidgets import QApplication, QWidget, QSizeGrip, QVBoxLayout
+from PyQt5 import QtGui
+from PyQt5 import QtCore
 import sys
 
 
-class BasicCACLWindow(QMainWindow):
+class BasicCACLWindow(QWidget):
     def __init__(self):
         super().__init__()
 
@@ -23,7 +25,19 @@ class BasicCACLWindow(QMainWindow):
         self.setGeometry(self.basicCACLWindowLeft, self.basicCACLWindowTop, self.basicCACLWindowWidth,
                          self.basicCACLWindowHeight)
 
+        flags = QtCore.Qt.WindowFlags(QtCore.Qt.FramelessWindowHint|QtCore.Qt.WindowStaysOnTopHint)
+        self.setWindowFlags(flags)
+
+        vBox = QVBoxLayout()
+        sizeGrip = QSizeGrip(self)
+        vBox.addWidget(sizeGrip)
+
+        self.setLayout(vBox)
+
         self.show()
+
+
+# class CACLWindowsButton(QWidget):
 
 basicApplication = QApplication(sys.argv)
 basicWindow = BasicCACLWindow()

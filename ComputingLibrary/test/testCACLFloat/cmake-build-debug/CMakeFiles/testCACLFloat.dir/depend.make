@@ -5,10 +5,6 @@ CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloa
 CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp
 CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
 
-CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.h
-CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.cpp
-CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
-
 CMakeFiles/testCACLFloat.dir/test.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.h
 CMakeFiles/testCACLFloat.dir/test.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
 CMakeFiles/testCACLFloat.dir/test.cpp.o: ../test.cpp

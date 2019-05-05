@@ -23,21 +23,22 @@
 
 #include <iostream>
 
-using namespace std;
-
 //定义的CACLInteger的最大位数
 constexpr int MAX_OF_BIT = 400;
 
-namespace caclInt {
+namespace cacl {
 
     class CACLInteger {
-      
+
     public:
         // 构造方法
-        CACLInteger();
+        CACLInteger() {
+            symbol = false;
+            bit = 1;
+        };
 
         // 析构方法
-        ~CACLInteger();
+        ~CACLInteger() = default;
 
         // 初始化对象
         void initialize();
@@ -150,16 +151,25 @@ namespace caclInt {
 
 
         // 重载右移作为输入
-        friend istream &operator>>(istream &_cin, CACLInteger &integer);
+        friend std::istream &operator>>(std::istream &_cin, CACLInteger &integer);
 
         // 重载左移作为输出
-        friend ostream &operator<<(ostream &_cout, const CACLInteger &integer);
-
+        friend std::ostream &operator<<(std::ostream &_cout, const CACLInteger &integer);
 
         // 求CACLInteger的绝对值
         CACLInteger absoluteValue();
 
+        // 转换符号
         void exchangeSymbol();
+
+        // 获取symbol的指针
+        bool *symbolPointer();
+
+        // 获取bit的指针
+        int *bitPointer();
+
+        // 获取num的指针
+        short *numPointer();
 
     private:
         // 小数据除法
@@ -181,7 +191,7 @@ namespace caclInt {
         int bit;
 
         // 各个位的数字
-        short num[MAX_OF_BIT];
+        short num[MAX_OF_BIT]{};
 
     };
 

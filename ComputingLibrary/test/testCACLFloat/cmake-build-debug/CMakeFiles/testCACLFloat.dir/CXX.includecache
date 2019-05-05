@@ -12,11 +12,23 @@ iostream
 ../CACLInteger/CACLInteger.h
 /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
 
-/home/h/Project/Calculator/ComputingLibrary/CACLFloat/StructureDestruct.cpp
+/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp
 CACLFloat.h
 /home/h/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.h
+../CACLInteger/CACLInteger.h
+/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
+string
+-
+sstream
+-
 
 /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h
 iostream
 -
+
+/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/test.cpp
+iostream
+-
+../../CACLFloat/CACLFloat.h
+/home/h/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.h
 

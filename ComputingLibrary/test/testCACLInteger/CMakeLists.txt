@@ -9,9 +9,8 @@ add_executable(testCACLInterger test.cpp
         ../../CACLInteger/IO.cpp
         ../../CACLInteger/SelfData.cpp
         ../../CACLInteger/Math.cpp
-        ../../CACLInteger/StructureDestruct.cpp
         ../../CACLInteger/OperatorAddition.cpp
         ../../CACLInteger/OperatorSubtraction.cpp
         ../../CACLInteger/OperatorComparison.cpp
         ../../CACLInteger/OperatorAssignment.cpp
-        ../../CACLInteger/OperatorDivision.cpp ../../CACLInteger/OperatorRemainder.cpp)
+        ../../CACLInteger/OperatorDivision.cpp ../../CACLInteger/OperatorRemainder.cpp ../../CACLInteger/FunctionForCACLFloat.cpp)

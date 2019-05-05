@@ -9,8 +9,6 @@
 
 #include "CACLInteger.h"
 
-using namespace caclInt;
-
 /* 暂时实现不了算法T
 //重载乘法，参照《计算机程序设计艺术，卷二》4.3.3算法T
 #include <stack>
@@ -34,7 +32,7 @@ int k;
 int Q, R;
 int r, q, p;
 
-CACLInteger CACLInteger::operator*(CACLInteger number) {
+CACLInteger cacl::CACLInteger::operator*(CACLInteger number) {
     void T3();
 
     // 初始化控制代码code_1, code_2, code_3
@@ -142,7 +140,7 @@ void T10() {
 }
  */
 
-void CACLInteger::normalMultiplication(CACLInteger number1, CACLInteger number2) {
+void cacl::CACLInteger::normalMultiplication(CACLInteger number1, CACLInteger number2) {
     // 判断两个乘数是不是零，直接return this是因为任何CACLInteger的初始值为0
     if (number1.isZero() || number2.isZero()) {
         this->bit = 1;
@@ -182,7 +180,7 @@ void CACLInteger::normalMultiplication(CACLInteger number1, CACLInteger number2)
     }
 }
 
-CACLInteger CACLInteger::operator*(CACLInteger number) {
+cacl::CACLInteger cacl::CACLInteger::operator*(CACLInteger number) {
     CACLInteger ans;
 
     ans.normalMultiplication(*this, number);
@@ -190,7 +188,7 @@ CACLInteger CACLInteger::operator*(CACLInteger number) {
     return ans;
 }
 
-CACLInteger CACLInteger::operator*(const long long number) {
+cacl::CACLInteger cacl::CACLInteger::operator*(const long long number) {
     CACLInteger translatedNumber = translate(number);
     CACLInteger ans;
 

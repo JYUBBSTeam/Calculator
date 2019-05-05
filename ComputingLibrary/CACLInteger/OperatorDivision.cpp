@@ -1,9 +1,7 @@
 #include "CACLInteger.h"
 
-using namespace caclInt;
-
 // 重载除法
-CACLInteger CACLInteger::operator/(CACLInteger number) {
+cacl::CACLInteger cacl::CACLInteger::operator/(CACLInteger number) {
     CACLInteger ans;
 
     ans.normalDivision(*this, number);
@@ -12,7 +10,7 @@ CACLInteger CACLInteger::operator/(CACLInteger number) {
 }
 
 
-CACLInteger CACLInteger::operator/(const long long number) {
+cacl::CACLInteger cacl::CACLInteger::operator/(const long long number) {
     CACLInteger translatedNumber = translate(number);
     CACLInteger ans;
 
@@ -23,12 +21,12 @@ CACLInteger CACLInteger::operator/(const long long number) {
 
 
 // 小数据除法
-void CACLInteger::normalDivision(CACLInteger number1, CACLInteger number2) {
+void cacl::CACLInteger::normalDivision(CACLInteger number1, CACLInteger number2) {
     CACLInteger tmpNumber1, tmpNumber2;
     CACLInteger tryNumber;
 
     if (number2.isZero()) {
-        cout << "The denominator cannot be zero!\n";
+        std::cout << "The denominator cannot be zero!\n";
         exit(1);
     }
 
@@ -86,7 +84,7 @@ void CACLInteger::normalDivision(CACLInteger number1, CACLInteger number2) {
 
 
 /* 原本是小数据除法，但是bug太多，故而换重新写了函数
-CACLInteger CACLInteger::normalDivision(CACLInteger number1, CACLInteger number2) {
+CACLInteger cacl::CACLInteger::normalDivision(CACLInteger number1, CACLInteger number2) {
     if (number2.isZero()) {
         cout << "The denominator cannot be zero!\n";
         exit(1);

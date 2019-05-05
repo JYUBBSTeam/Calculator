@@ -87,6 +87,9 @@
 		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h">
 			<Option target="testCACLInterger"/>
 		</Unit>
+		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/FunctionForCACLFloat.cpp">
+			<Option target="testCACLInterger"/>
+		</Unit>
 		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp">
 			<Option target="testCACLInterger"/>
 		</Unit>
@@ -115,9 +118,6 @@
 			<Option target="testCACLInterger"/>
 		</Unit>
 		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp">
-			<Option target="testCACLInterger"/>
-		</Unit>
-		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/StructureDestruct.cpp">
 			<Option target="testCACLInterger"/>
 		</Unit>
 		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/test/testCACLInteger/test.cpp">

@@ -5,11 +5,22 @@
 #include <string>
 #include <sstream>
 
-namespace caclFloat {
+namespace cacl {
     // 重载左移作为输出
-    std::ostream &operator<<(std::ostream &_cout, const CACLFloat &myFloat) {
-        _cout << myFloat.integer;
+    std::ostream &operator<<(std::ostream &_cout,  CACLFloat &myFloat) {
+        bool *integerSymbol = myFloat.integer.symbolPointer();
+        int *integerBit = myFloat.integer.bitPointer();
+        short *integerNum = myFloat.integer.numPointer();
 
+        // 输出整数部分
+        if(*integerSymbol == true){
+            _cout <<'-';
+        }
+        for (int i = *integerBit - 1; i >= 0; --i) {
+            _cout << integerNum[i];
+        }
+
+        // 输出小数部分
         if (myFloat.decimalBit != 0) {
             _cout << '.';
             for (int i = 0; i < myFloat.decimalBit; ++i) {
@@ -22,7 +33,10 @@ namespace caclFloat {
 
     // 重载右移作为输入
     std::istream &operator>>(std::istream &_cin, CACLFloat &myFloat) {
-        string tmpFloat;
+        bool *integerSymbol = myFloat.integer.symbolPointer();
+        int *integerBit = myFloat.integer.bitPointer();
+        short *integerNum = myFloat.integer.numPointer();
+        std::string tmpFloat;
 
         _cin >> tmpFloat;
 
@@ -30,16 +44,15 @@ namespace caclFloat {
         auto decimalPointLocation = tmpFloat.find('.');
 
         // 没有小数点的情况
-        if (decimalPointLocation == string::npos) {
-            stringstream inputIntegerPart(tmpFloat);
-            inputIntegerPart >> myFloat.integer;
+        if (decimalPointLocation == std::string::npos) {
+
         } else {    // 有小数点的情况
-            string integerPart;
+            std::string integerPart;
             // 分离整数部分, 这里依赖CACLInteger的符号控制
             for (int i = 0; i < decimalPointLocation; ++i) {
                 integerPart.append(1, tmpFloat.at(i));
             }
-            stringstream inputIntegerPart(integerPart);
+            std::stringstream inputIntegerPart(integerPart);
             inputIntegerPart >> myFloat.integer;
 
             // 删除整数部分和小数点

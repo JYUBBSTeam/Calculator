@@ -30,21 +30,23 @@
 // 小数最小位数
 constexpr int MAX_OF_DECIMAL_BIT = 201;
 
-namespace caclFloat {
+namespace cacl {
 
     class CACLFloat {
     public:
         // 构造CACLFloat
-        CACLFloat();
+        CACLFloat() {
+            decimalBit = 0;
+        };
 
         // 析构CACLFloat
-        ~CACLFloat();
+        ~CACLFloat() = default;
 
         // 重载右移动作为输入
         friend std::istream &operator>>(std::istream &_cin, CACLFloat &myFloat);
 
         // 重载左移作为输出
-        friend std::ostream &operator<<(std::ostream &_cout, const CACLFloat &myFloat);
+        friend std::ostream &operator<<(std::ostream &_cout, CACLFloat &myFloat);
 
     private:
 
@@ -55,7 +57,7 @@ namespace caclFloat {
         short decimalNum[MAX_OF_DECIMAL_BIT]{};
 
         // 整数部分
-        caclInt::CACLInteger integer;
+        cacl::CACLInteger integer;
     };
 }
 

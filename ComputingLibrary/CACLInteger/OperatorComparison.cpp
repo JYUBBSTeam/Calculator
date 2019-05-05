@@ -3,10 +3,8 @@
 
 #include "CACLInteger.h"
 
-using namespace caclInt;
-
 //重载大于号
-bool CACLInteger::operator>(const CACLInteger &number) {
+bool cacl::CACLInteger::operator>(const CACLInteger &number) {
     if (symbol != number.symbol) {
         return symbol == false ? true : false;
     }
@@ -46,7 +44,7 @@ bool CACLInteger::operator>(const CACLInteger &number) {
 }
 
 
-bool CACLInteger::operator>(const long long number) {
+bool cacl::CACLInteger::operator>(const long long number) {
     CACLInteger translatedNumber = translate(number);
 
     return *this > translatedNumber;
@@ -54,7 +52,7 @@ bool CACLInteger::operator>(const long long number) {
 
 
 //重载小于号
-bool CACLInteger::operator<(CACLInteger number) {
+bool cacl::CACLInteger::operator<(CACLInteger number) {
     if (symbol != number.symbol) {
         return symbol == false ? false : true;
     }
@@ -93,7 +91,7 @@ bool CACLInteger::operator<(CACLInteger number) {
 }
 
 
-bool CACLInteger::operator<(const long long number) {
+bool cacl::CACLInteger::operator<(const long long number) {
     CACLInteger translatedNumber = translate(number);
 
     return *this < translatedNumber;
@@ -101,7 +99,7 @@ bool CACLInteger::operator<(const long long number) {
 
 
 //重载等于
-bool CACLInteger::operator==(CACLInteger number) {
+bool cacl::CACLInteger::operator==(CACLInteger number) {
     if (symbol != number.symbol) {
         return false;
     }
@@ -118,7 +116,7 @@ bool CACLInteger::operator==(CACLInteger number) {
     return true;
 }
 
-bool CACLInteger::operator==(const long long number) {
+bool cacl::CACLInteger::operator==(const long long number) {
     CACLInteger translatedNumber = translate(number);
 
     return *this == translatedNumber;
@@ -126,11 +124,11 @@ bool CACLInteger::operator==(const long long number) {
 
 
 //重载不等于
-bool CACLInteger::operator!=(CACLInteger number) {
+bool cacl::CACLInteger::operator!=(CACLInteger number) {
     return !(*this == number);
 }
 
-bool CACLInteger::operator!=(const long long number) {
+bool cacl::CACLInteger::operator!=(const long long number) {
     CACLInteger translatedNumber = translate(number);
 
     return !(*this == translatedNumber);
@@ -138,12 +136,12 @@ bool CACLInteger::operator!=(const long long number) {
 
 
 //重载大于或等于
-bool CACLInteger::operator>=(CACLInteger number) {
+bool cacl::CACLInteger::operator>=(CACLInteger number) {
     return *this > number || *this == number;
 }
 
 
-bool CACLInteger::operator>=(const long long number) {
+bool cacl::CACLInteger::operator>=(const long long number) {
     CACLInteger translatedNumber = translate(number);
 
     return *this >= translatedNumber;
@@ -151,12 +149,12 @@ bool CACLInteger::operator>=(const long long number) {
 
 
 //重载小于或等于
-bool CACLInteger::operator<=(CACLInteger number) {
+bool cacl::CACLInteger::operator<=(CACLInteger number) {
     return *this < number || *this == number;
 }
 
 
-bool CACLInteger::operator<=(const long long number) {
+bool cacl::CACLInteger::operator<=(const long long number) {
     CACLInteger translatedNumber = translate(number);
 
     return *this <= translatedNumber;

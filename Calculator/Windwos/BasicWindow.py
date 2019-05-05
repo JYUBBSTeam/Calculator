@@ -2,8 +2,7 @@
     创建基本窗口
 """
 
-from PyQt5.QtWidgets import QApplication, QWidget, QSizeGrip, QVBoxLayout
-from PyQt5 import QtGui
+from PyQt5.QtWidgets import QApplication, QWidget
 from PyQt5 import QtCore
 import sys
 
@@ -27,12 +26,6 @@ class BasicCACLWindow(QWidget):
 
         flags = QtCore.Qt.WindowFlags(QtCore.Qt.FramelessWindowHint|QtCore.Qt.WindowStaysOnTopHint)
         self.setWindowFlags(flags)
-
-        vBox = QVBoxLayout()
-        sizeGrip = QSizeGrip(self)
-        vBox.addWidget(sizeGrip)
-
-        self.setLayout(vBox)
 
         self.show()
 

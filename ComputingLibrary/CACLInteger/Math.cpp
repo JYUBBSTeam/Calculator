@@ -6,7 +6,7 @@
  *功能：绝对值函数absoluteValue()
  */
 
-#include "CACLInteger.h"
+#include "CACLInteger.hpp"
 
 // 求number的绝对值
 cacl::CACLInteger cacl::CACLInteger::absoluteValue() {

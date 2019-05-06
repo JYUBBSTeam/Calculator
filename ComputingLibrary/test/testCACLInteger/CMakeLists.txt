@@ -3,16 +3,9 @@ project(testCACLInteger)
 
 set(CMAKE_CXX_STANDARD 11)
 
+link_directories("/usr/local/lib") #库文件目录
+link_libraries(libgmp.a libgmpxx.a libmpfr.a) # 库名
+
 add_executable(testCACLInterger test.cpp
-        ../../CACLInteger/CACLInteger.h
-        ../../CACLInteger/OperatorMultiplication.cpp
-        ../../CACLInteger/IO.cpp
-        ../../CACLInteger/SelfData.cpp
-        ../../CACLInteger/Math.cpp
-        ../../CACLInteger/OperatorAddition.cpp
-        ../../CACLInteger/OperatorSubtraction.cpp
-        ../../CACLInteger/OperatorComparison.cpp
-        ../../CACLInteger/OperatorAssignment.cpp
-        ../../CACLInteger/OperatorDivision.cpp
-        ../../CACLInteger/OperatorRemainder.cpp
-        )
+
+        ../../CACLInteger/CACLInteger.hpp ../../CACLInteger/IO.cpp)

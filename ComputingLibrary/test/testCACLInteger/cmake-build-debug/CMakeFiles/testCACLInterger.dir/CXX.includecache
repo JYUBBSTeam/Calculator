@@ -6,3 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+gmp.h
+-
+iostream
+-
+
+/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp
+CACLInteger.hpp
+/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+string
+-
+
+/home/h/Project/Calculator/ComputingLibrary/test/testCACLInteger/test.cpp
+../../CACLInteger/CACLInteger.hpp
+/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+

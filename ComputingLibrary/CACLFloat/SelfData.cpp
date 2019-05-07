@@ -1,12 +1,15 @@
 
 
-#include "CACLFloat.h"
+#include "CACLFloat.hpp"
 
 // 初始化对象
 void cacl::CACLFloat::initialize() {
     integer.initialize();
 
     decimalBit = 0;
+    for (auto &i : decimalNum) {
+        i = 0;
+    }
 }
 
 

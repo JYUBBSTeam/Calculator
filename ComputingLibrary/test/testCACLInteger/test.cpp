@@ -23,6 +23,5 @@ int main() {
     //test = test1.absoluteValue();
     std::cout << test;
 
-
     return 0;
 }

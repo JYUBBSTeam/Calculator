@@ -1,11 +1,11 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.6.2)
 project(testCACLFloat)
 
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(testCACLFloat test.cpp
         # CACLInteger类
-        ../../CACLInteger/CACLInteger.h
+        ../../CACLInteger/CACLInteger.hpp
         ../../CACLInteger/OperatorMultiplication.cpp
         ../../CACLInteger/IO.cpp
         ../../CACLInteger/SelfData.cpp
@@ -19,6 +19,6 @@ add_executable(testCACLFloat test.cpp
 
 
         # CACLFloat类
-        ../../CACLFloat/CACLFloat.h
+        ../../CACLFloat/CACLFloat.hpp
         ../../CACLFloat/IO.cpp
-        ../../CACLFloat/SelfData.cpp)
+        ../../CACLFloat/SelfData.cpp ../../CACLFloat/OperatorAddition.cpp ../../CACLFloat/OperatorAssignment.cpp ../../CACLFloat/Others.cpp ../../CACLFloat/Math.cpp)

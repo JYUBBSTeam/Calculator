@@ -8,128 +8,136 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="testCACLFloat">
-				<Option output="/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/testCACLFloat" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 testCACLFloat"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="testCACLFloat/fast">
-				<Option output="/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/testCACLFloat" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 testCACLFloat/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testCACLFloat">
+				<Option output="/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/testCACLFloat.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 testCACLFloat"/>
+					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testCACLFloat/fast">
+				<Option output="/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/testCACLFloat.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 testCACLFloat/fast"/>
+					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.h">
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
-		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp">
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
-		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp">
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
-		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.h">
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
-		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp">
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
-		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp">
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
-		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp">
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
-		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp">
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
-		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp">
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
-		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp">
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
-		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp">
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
-		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp">
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
-		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp">
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
-		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp">
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
-		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/test.cpp">
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
-		<Unit filename="/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/CMakeLists.txt">
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp">
+			<Option target="testCACLFloat"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp">
+			<Option target="testCACLFloat"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp">
+			<Option target="testCACLFloat"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/test.cpp">
+			<Option target="testCACLFloat"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

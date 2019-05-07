@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,41 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
-gmp.h
--
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 iostream
 -
 
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp
 CACLInteger.hpp
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 string
 -
 
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp
 CACLInteger.hpp
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp
 CACLInteger.hpp
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp
 CACLInteger.hpp
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp
 CACLInteger.hpp
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp
 CACLInteger.hpp
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
 CACLInteger.hpp
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 stack
 -
 vector
@@ -48,15 +46,19 @@ vector
 cmath
 -
 
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp
 CACLInteger.hpp
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp
 CACLInteger.hpp
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
 CACLInteger.hpp
-/home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+
+/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/test.cpp
+../../CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 

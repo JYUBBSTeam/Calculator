@@ -5,6 +5,10 @@ CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACL
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
@@ -16,6 +20,10 @@ CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACL
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp

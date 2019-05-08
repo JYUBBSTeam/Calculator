@@ -87,3 +87,8 @@ int cacl::CACLInteger::getBit() {
 void cacl::CACLInteger::exchangeSymbol() {
     symbol = !symbol;
 }
+
+// 获取正负值
+bool cacl::CACLInteger::getSymbol() {
+    return this->symbol;
+}

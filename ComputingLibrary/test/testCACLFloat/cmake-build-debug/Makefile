@@ -231,6 +231,33 @@ cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.
 	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s
 .PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s
 
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.o
+
+# target to build an object file
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o:
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o
+
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.i
+
+# target to preprocess a source file
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i:
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i
+
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.s
+
+# target to generate assembly for a file
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s:
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s
+
 cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o
 
 .PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.o
@@ -257,6 +284,33 @@ cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.s: cygdrive/c/Pr
 cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.s:
 	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.s
 .PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.s
+
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.o
+
+# target to build an object file
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o:
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o
+
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.i
+
+# target to preprocess a source file
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i:
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i
+
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.s
+
+# target to generate assembly for a file
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s:
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s
 
 cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o
 
@@ -603,9 +657,15 @@ help:
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.o"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.i"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.s"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.o"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.i"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.s"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.o"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.i"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.s"

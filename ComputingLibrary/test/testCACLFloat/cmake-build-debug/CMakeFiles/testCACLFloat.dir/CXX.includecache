@@ -22,6 +22,10 @@ string
 sstream
 -
 
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp
+CACLFloat.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+
 /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp
 CACLFloat.hpp
 /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
@@ -31,6 +35,10 @@ CACLFloat.hpp
 /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 
 /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp
+CACLFloat.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp
 CACLFloat.hpp
 /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 

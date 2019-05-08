@@ -30,6 +30,11 @@
 // 小数最小位数
 constexpr int MAX_OF_DECIMAL_BIT = 320;
 constexpr double MIN_OF_TRANSLATE_DECIMAL_BIT = 10e-18;
+static int precision = 5;
+
+void setPrecision();
+
+void initPrecision();
 
 namespace cacl {
 
@@ -69,6 +74,11 @@ namespace cacl {
 
         CACLFloat operator+(double number);
 
+        // 重载减法
+        CACLFloat operator-(CACLFloat number);
+
+        CACLFloat operator-(double number);
+
         // 重载赋值
         void operator=(CACLFloat number);
 
@@ -84,6 +94,12 @@ namespace cacl {
         CACLFloat absoluteValue();
 
     private:
+
+        // 无符号小数相加
+        void unsignedAddition(CACLFloat *ans, CACLFloat number1,CACLFloat number2);
+
+        // 无符号小数相减
+        void unsignedSubtraction(CACLFloat *ans, CACLFloat number1, CACLFloat number2);
 
         // 小数位数
         int decimalBit;

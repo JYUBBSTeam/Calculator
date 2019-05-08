@@ -24,13 +24,11 @@ class BasicCACLWindow(QWidget):
         self.setGeometry(self.basicCACLWindowLeft, self.basicCACLWindowTop, self.basicCACLWindowWidth,
                          self.basicCACLWindowHeight)
 
-        flags = QtCore.Qt.WindowFlags(QtCore.Qt.FramelessWindowHint|QtCore.Qt.WindowStaysOnTopHint)
+        flags = QtCore.Qt.WindowFlags(QtCore.Qt.FramelessWindowHint | QtCore.Qt.WindowStaysOnTopHint)
         self.setWindowFlags(flags)
 
         self.show()
 
-
-# class CACLWindowsButton(QWidget):
 
 basicApplication = QApplication(sys.argv)
 basicWindow = BasicCACLWindow()

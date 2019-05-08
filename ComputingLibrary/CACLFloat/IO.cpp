@@ -11,14 +11,20 @@
 
 namespace cacl {
     // 重载左移作为输出
-    std::ostream &operator<<(std::ostream &_cout,  CACLFloat &myFloat) {
+    std::ostream &operator<<(std::ostream &_cout, CACLFloat &myFloat) {
         _cout << myFloat.integer;
 
         // 输出小数部分
         if (myFloat.decimalBit != 0) {
             _cout << '.';
-            for (int i = 0; i < myFloat.decimalBit; ++i) {
-                _cout << myFloat.decimalNum[i];
+            if (myFloat.decimalBit < precision) {
+                for (int i = 0; i < myFloat.decimalBit; ++i) {
+                    _cout << myFloat.decimalNum[i];
+                }
+            } else {
+                for (int i = 0; i < precision; ++i) {
+                    _cout << myFloat.decimalNum[i];
+                }
             }
         }
 

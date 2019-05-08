@@ -8,7 +8,7 @@ cacl::CACLInteger cacl::CACLInteger::operator-(CACLInteger number) {
 
     if (this->symbol == false && number.symbol == false) {
         ans = unsignedSubtract(*this, number);
-        ans.symbol = (this->absoluteValue() > number.absoluteValue()) ? false : true;
+        ans.symbol = !(this->absoluteValue() > number.absoluteValue());
     } else if (this->symbol == false && number.symbol == true) {
         ans = unsignedAdd(*this, number);
         ans.symbol = false;
@@ -17,7 +17,7 @@ cacl::CACLInteger cacl::CACLInteger::operator-(CACLInteger number) {
         ans.symbol = true;
     } else if (this->symbol == true && number.symbol == true) {
         ans = unsignedSubtract(*this, number);
-        ans.symbol = (this->absoluteValue() > number.absoluteValue()) ? true : false;
+        ans.symbol = this->absoluteValue() > number.absoluteValue();
     }
 
     return ans;

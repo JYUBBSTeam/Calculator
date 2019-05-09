@@ -79,6 +79,31 @@ namespace cacl {
 
         CACLFloat operator-(double number);
 
+        // 重载大于号
+        bool operator>(CACLFloat number);
+
+        bool operator>(double number);
+
+        // 重载小于号
+        bool operator<(CACLFloat number);
+
+        bool operator<(double number);
+
+        // 重载大于或等于号
+        bool operator>=(CACLFloat number);
+
+        bool operator>=(double number);
+
+        // 重载小于或等于号
+        bool operator<=(CACLFloat number);
+
+        bool operator<=(double number);
+
+        // 重载等于号
+        bool operator==(CACLFloat number);
+
+        bool operator==(double number);
+
         // 重载赋值
         void operator=(CACLFloat number);
 
@@ -96,7 +121,7 @@ namespace cacl {
     private:
 
         // 无符号小数相加
-        void unsignedAddition(CACLFloat *ans, CACLFloat number1,CACLFloat number2);
+        void unsignedAddition(CACLFloat *ans, CACLFloat number1, CACLFloat number2);
 
         // 无符号小数相减
         void unsignedSubtraction(CACLFloat *ans, CACLFloat number1, CACLFloat number2);
@@ -114,10 +139,14 @@ namespace cacl {
 
 // 找出两个参数的最大值
 template<class T>
-T max(T value1, T value2);
+T max(T value1, T value2) {
+    return value1 > value2 ? value1 : value2;
+}
 
 // 找出两个参数的最小值
 template<class T>
-T min(T value1, T value2);
+T min(T value1, T value2) {
+    return value1 < value2 ? value1 : value2;
+}
 
 #endif //CACLFLOAT_CACLFLOAT_H

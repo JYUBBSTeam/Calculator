@@ -6,6 +6,7 @@ cacl::CACLFloat cacl::CACLFloat::operator-(cacl::CACLFloat number) {
 
     if (this->integer.getSymbol() == false && number.integer.getSymbol() == false) {
         unsignedSubtraction(&ans, *this, number);
+        ans.integer.setSymbol(!(this->absoluteValue()> number.absoluteValue());
     } else if (this->integer.getSymbol() == false && number.integer.getSymbol() == true) {
         unsignedAddition(&ans, *this, number);
     } else if (this->integer.getSymbol() == true && number.integer.getSymbol() == false) {

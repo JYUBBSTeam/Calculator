@@ -95,10 +95,10 @@
 		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp">
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp">
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp">
 			<Option target="testCACLFloat"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp">

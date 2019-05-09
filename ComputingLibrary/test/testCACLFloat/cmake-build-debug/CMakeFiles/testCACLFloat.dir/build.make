@@ -417,33 +417,9 @@ CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACL
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o.provides.build: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o
 
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o"
-	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp
-
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.i"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.i
-
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.s"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.s
-
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o.requires:
-
-.PHONY : CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o.requires
-
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o.provides: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o.requires
-	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o.provides.build
-.PHONY : CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o.provides
-
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o.provides.build: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o
-
-
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o"
 	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp
 
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i: cmake_force
@@ -467,7 +443,7 @@ CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACL
 
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o"
 	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp
 
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i: cmake_force
@@ -491,7 +467,7 @@ CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACL
 
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o"
 	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp
 
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i: cmake_force
@@ -513,6 +489,30 @@ CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACL
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o.provides.build: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o
 
 
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o"
+	/usr/bin/c++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp
+
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.i"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.i
+
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.s"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.s
+
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o.requires:
+
+.PHONY : CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o.requires
+
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o.provides: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o.requires
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o.provides.build
+.PHONY : CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o.provides
+
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o.provides.build: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o
+
+
 # Object files for target testCACLFloat
 testCACLFloat_OBJECTS = \
 "CMakeFiles/testCACLFloat.dir/test.cpp.o" \
@@ -530,10 +530,10 @@ testCACLFloat_OBJECTS = \
 "CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o" \
 "CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o" \
 "CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o" \
 "CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o" \
 "CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o"
+"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o"
 
 # External object files for target testCACLFloat
 testCACLFloat_EXTERNAL_OBJECTS =
@@ -553,10 +553,10 @@ testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/Co
 testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o
 testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o
 testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o
 testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o
 testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o
 testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o
+testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o
 testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/build.make
 testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable testCACLFloat.exe"
@@ -582,10 +582,10 @@ CMakeFiles/testCACLFloat.dir/requires: CMakeFiles/testCACLFloat.dir/cygdrive/c/P
 CMakeFiles/testCACLFloat.dir/requires: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o.requires
 CMakeFiles/testCACLFloat.dir/requires: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o.requires
 CMakeFiles/testCACLFloat.dir/requires: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o.requires
-CMakeFiles/testCACLFloat.dir/requires: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp.o.requires
 CMakeFiles/testCACLFloat.dir/requires: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o.requires
 CMakeFiles/testCACLFloat.dir/requires: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o.requires
 CMakeFiles/testCACLFloat.dir/requires: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o.requires
+CMakeFiles/testCACLFloat.dir/requires: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o.requires
 
 .PHONY : CMakeFiles/testCACLFloat.dir/requires
 

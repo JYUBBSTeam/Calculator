@@ -165,6 +165,9 @@ namespace cacl {
         // 获取正负值
         bool getSymbol();
 
+        // 设置符号
+        void setSymbol(bool target);
+
     private:
         // 小数据除法
         void normalDivision(CACLInteger number1, CACLInteger number2);

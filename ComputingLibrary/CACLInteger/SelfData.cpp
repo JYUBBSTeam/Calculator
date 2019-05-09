@@ -92,3 +92,8 @@ void cacl::CACLInteger::exchangeSymbol() {
 bool cacl::CACLInteger::getSymbol() {
     return this->symbol;
 }
+
+// 设置符号
+void cacl::CACLInteger::setSymbol(bool target){
+    symbol = target;
+}

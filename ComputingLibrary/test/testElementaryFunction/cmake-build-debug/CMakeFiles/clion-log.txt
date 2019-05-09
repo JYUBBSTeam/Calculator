@@ -1,0 +1,4 @@
+C:\cygwin64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/cygwin64/bin/make.exe -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug

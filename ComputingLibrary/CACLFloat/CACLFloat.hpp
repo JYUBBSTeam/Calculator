@@ -32,8 +32,10 @@ constexpr int MAX_OF_DECIMAL_BIT = 320;
 constexpr double MIN_OF_TRANSLATE_DECIMAL_BIT = 10e-18;
 static int precision = 5;
 
+// 设置精度
 void setPrecision();
 
+// 初始化进度为0.00001
 void initPrecision();
 
 namespace cacl {

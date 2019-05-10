@@ -31,7 +31,7 @@ void cacl::CACLFloat::unsignedSubtraction(cacl::CACLFloat *ans, cacl::CACLFloat 
     CACLFloat longer, shorter;
     ans->initialize();
 
-    ans->integer = number1.integer - number2.integer;
+    ans->integer = number1.integer + number2.integer;
 
     // 比较number1和number2的绝对值大小
     // 并且将大的赋值给longer，小的赋值给shorter

@@ -7,7 +7,7 @@ int main(int argc, char **argv) {
 
     std::cin >> test1 >> test2;
     // test = num;
-    test = test1 - test2;
+    test = test1 * test2;
     std::cout << test;
 
     return 0;

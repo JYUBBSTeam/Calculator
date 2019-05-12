@@ -26,4 +26,4 @@ add_executable(testCACLFloat test.cpp
         ../../CACLFloat/OperatorAssignment.cpp
         ../../CACLFloat/Math.cpp
         ../../CACLFloat/Precision.cpp
-        ../../CACLFloat/OperatorSubtraction.cpp ../../CACLFloat/OperatorComparison.cpp)
+        ../../CACLFloat/OperatorSubtraction.cpp ../../CACLFloat/OperatorComparison.cpp ../../CACLFloat/OperatorDivision.cpp ../../CACLFloat/OperatorMultiplication.cpp)

@@ -3,7 +3,9 @@
 
 cacl::CACLFloat cacl::CACLFloat::operator-(cacl::CACLFloat number) {
     CACLFloat ans;
+    ans.initialize();
 
+    ans.integer = this->integer - number.integer;
     if (this->integer.getSymbol() == false && number.integer.getSymbol() == false) {
         unsignedSubtraction(&ans, *this, number);
     } else if (this->integer.getSymbol() == false && number.integer.getSymbol() == true) {
@@ -29,9 +31,6 @@ cacl::CACLFloat cacl::CACLFloat::operator-(double number) {
 
 void cacl::CACLFloat::unsignedSubtraction(cacl::CACLFloat *ans, cacl::CACLFloat number1, cacl::CACLFloat number2) {
     CACLFloat longer, shorter;
-    ans->initialize();
-
-    ans->integer = number1.integer + number2.integer;
 
     // 比较number1和number2的绝对值大小
     // 并且将大的赋值给longer，小的赋值给shorter

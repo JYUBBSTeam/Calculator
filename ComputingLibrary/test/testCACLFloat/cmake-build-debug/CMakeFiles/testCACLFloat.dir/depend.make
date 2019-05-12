@@ -21,6 +21,14 @@ CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACL
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp
+CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp
 CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp

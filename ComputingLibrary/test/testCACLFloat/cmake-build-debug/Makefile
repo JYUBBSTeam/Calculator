@@ -258,6 +258,60 @@ cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.
 	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.s
 .PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.s
 
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.o
+
+# target to build an object file
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o:
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o
+
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.i
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.i
+
+# target to preprocess a source file
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.i:
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.i
+
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.s
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.s
+
+# target to generate assembly for a file
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.s:
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.s
+
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.o
+
+# target to build an object file
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o:
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o
+
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.i
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.i
+
+# target to preprocess a source file
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.i:
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.i
+
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.s
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.s
+
+# target to generate assembly for a file
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.s:
+	$(MAKE) -f CMakeFiles/testCACLFloat.dir/build.make CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.s
+
 cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o
 
 .PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.o
@@ -660,6 +714,12 @@ help:
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.o"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.i"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.s"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.o"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.i"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.s"

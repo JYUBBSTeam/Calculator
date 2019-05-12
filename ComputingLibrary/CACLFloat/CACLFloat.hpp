@@ -117,9 +117,9 @@ namespace cacl {
         bool operator==(double number);
 
         // 重载赋值
-        void operator=(CACLFloat number);
+        CACLFloat &operator=(CACLFloat number);
 
-        void operator=(double number);
+        CACLFloat &operator=(double number);
 
         // 重载右移动作为输入
         friend std::istream &operator>>(std::istream &_cin, CACLFloat &myFloat);
@@ -137,6 +137,9 @@ namespace cacl {
 
         // 无符号小数相减
         void unsignedSubtraction(CACLFloat *ans, CACLFloat number1, CACLFloat number2);
+
+        // 无符号小数乘法
+        void unsignedMultiplication(CACLFloat *ans, CACLFloat number1, CACLFloat number2);
 
         // 小数位数
         int decimalBit;

@@ -38,6 +38,14 @@ CACLFloat.hpp
 CACLFloat.hpp
 /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp
+CACLFloat.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp
+CACLFloat.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+
 /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp
 CACLFloat.hpp
 /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp

@@ -2,7 +2,7 @@
 
 #include "CACLFloat.hpp"
 
-void cacl::CACLFloat::operator=(cacl::CACLFloat number) {
+cacl::CACLFloat &cacl::CACLFloat::operator=(cacl::CACLFloat number) {
     this->integer = number.integer;
 
     for (int i = 0; i < number.decimalBit; ++i) {
@@ -10,10 +10,12 @@ void cacl::CACLFloat::operator=(cacl::CACLFloat number) {
     }
 
     this->decimalBit = number.decimalBit;
+    return *this;
 }
 
-void cacl::CACLFloat::operator=(double number) {
+cacl::CACLFloat &cacl::CACLFloat::operator=(double number) {
     CACLFloat translatedNumber = translate(number);
 
     *this = translatedNumber;
+    return *this;
 }

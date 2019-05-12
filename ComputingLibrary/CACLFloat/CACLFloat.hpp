@@ -81,6 +81,16 @@ namespace cacl {
 
         CACLFloat operator-(double number);
 
+        // 重载乘法
+        CACLFloat operator*(CACLFloat number);
+
+        CACLFloat operator*(double number);
+
+        // 重载除法
+        CACLFloat operator/(CACLFloat number);
+
+        CACLFloat operator/(double number);
+
         // 重载大于号
         bool operator>(CACLFloat number);
 

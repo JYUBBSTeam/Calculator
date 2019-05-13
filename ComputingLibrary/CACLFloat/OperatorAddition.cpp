@@ -50,8 +50,8 @@ void cacl::CACLFloat::unsignedAddition(cacl::CACLFloat *ans, cacl::CACLFloat num
     }
 
     // 处理零位
-    short tmpInteger = ans->decimalNum[0] / 10;
-    ans->integer += tmpInteger;
+    short tempInteger = ans->decimalNum[0] / 10;
+    ans->integer += tempInteger;
     ans->decimalNum[0] %= 10;
     ans->decimalBit = maxDecimalBit;
 }

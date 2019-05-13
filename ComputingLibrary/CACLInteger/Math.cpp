@@ -11,10 +11,10 @@
 // 求number的绝对值
 cacl::CACLInteger cacl::CACLInteger::absoluteValue() {
     if (symbol) {
-        CACLInteger tmp;
-        tmp = *this;
-        tmp.symbol = false;
-        return tmp;
+        CACLInteger temp;
+        temp = *this;
+        temp.symbol = false;
+        return temp;
     } else {
         return *this;
     }

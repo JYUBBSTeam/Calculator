@@ -10,8 +10,8 @@ int main() {
     //std::cin >> test1 >> test2;
     //cin >> test1;
     //cin >> testNum;
-    //CACLInteger tmp;
-    //tmp = test1 + test2;
+    //CACLInteger temp;
+    //temp = test1 + test2;
     //test = test1 - test2;
     //bool judge;
     //judge = test1 >= testNum;

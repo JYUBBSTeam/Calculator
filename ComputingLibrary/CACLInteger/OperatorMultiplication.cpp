@@ -20,10 +20,10 @@ CACLInteger code_1, code_2, code_3;
 // *this 记为u， number记为v
 // ans 记为w
 CACLInteger ans;
-// tmpThis->U, tmpNumber->V, numberController->C, ansStack->W
+// tempThis->U, tempNumber->V, numberController->C, ansStack->W
 // U和V作为临时存储，C存储用来做乘法的数和控制代码
 stack<CACLInteger> numberController, ansStack;
-stack<short> tmpThis, tmpNumber;
+stack<short> tempThis, tempNumber;
 
 // 创建qVector、rVector两个数据表
 vector<int> qVector, rVector;
@@ -129,11 +129,11 @@ void T10() {
     void T7();
 
     k++;
-    CACLInteger tmpTop = numberController.top();
+    CACLInteger tempTop = numberController.top();
     numberController.pop();
-    if (tmpTop == code_3) {
+    if (tempTop == code_3) {
         T6();
-    } else if (tmpTop == code_2) {
+    } else if (tempTop == code_2) {
         ansStack.push(ans);
         T7();
     }

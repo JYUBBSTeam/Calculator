@@ -141,6 +141,9 @@ namespace cacl {
         // 无符号小数乘法
         void unsignedMultiplication(CACLFloat *ans, CACLFloat number1, CACLFloat number2);
 
+        // 无符号整数和小数相乘
+        CACLFloat unsignedIntegerFloatMultiplication(CACLInteger number1, CACLFloat number2);
+
         // 小数位数
         int decimalBit;
 
@@ -162,6 +165,22 @@ T max(T value1, T value2) {
 template<class T>
 T min(T value1, T value2) {
     return value1 < value2 ? value1 : value2;
+}
+
+// 整数pow
+template<class T>
+T pow(T x, T n) {
+    if (n == 0) {
+        return 1;
+    } else if (n == 1) {
+        return x;
+    }
+
+    if (n % 2 == 0) {
+        return pow(x * x, n / 2);
+    } else {
+        return pow(x * x, n / 2) * x;
+    }
 }
 
 #endif //CACLFLOAT_CACLFLOAT_H

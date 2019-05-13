@@ -33,32 +33,32 @@ namespace cacl {
 
     // 重载右移作为输入
     std::istream &operator>>(std::istream &_cin, CACLFloat &myFloat) {
-        std::string tmpFloat;
+        std::string tempFloat;
 
-        _cin >> tmpFloat;
+        _cin >> tempFloat;
 
         // 查找小数点
-        auto decimalPointLocation = tmpFloat.find('.');
+        auto decimalPointLocation = tempFloat.find('.');
 
         // 没有小数点的情况
         if (decimalPointLocation == std::string::npos) {
-            std::istringstream integerPart(tmpFloat);
+            std::istringstream integerPart(tempFloat);
             integerPart >> myFloat.integer;
         } else {    // 有小数点的情况
             std::string integerPart;
             // 分离整数部分, 这里依赖CACLInteger的符号控制
             for (int i = 0; i < decimalPointLocation; ++i) {
-                integerPart.append(1, tmpFloat.at(i));
+                integerPart.append(1, tempFloat.at(i));
             }
             std::stringstream inputIntegerPart(integerPart);
             inputIntegerPart >> myFloat.integer;
 
             // 删除整数部分和小数点
-            tmpFloat.erase(0, decimalPointLocation + 1);
+            tempFloat.erase(0, decimalPointLocation + 1);
 
             // 将剩余部分读入CACLFloat的小数部分
-            for (int j = 0; j < tmpFloat.size(); ++j) {
-                myFloat.decimalNum[j] = tmpFloat.at(j) - '0';
+            for (int j = 0; j < tempFloat.size(); ++j) {
+                myFloat.decimalNum[j] = tempFloat.at(j) - '0';
                 myFloat.decimalBit++;
             }
         }

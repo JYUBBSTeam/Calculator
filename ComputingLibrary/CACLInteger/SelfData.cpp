@@ -33,8 +33,8 @@ void cacl::CACLInteger::copy(const CACLInteger number) {
 // 转换long long为CACLInteger
 cacl::CACLInteger cacl::CACLInteger::translate(long long number) {
     CACLInteger ans;
-    int tmpBit = 0;
-    short tmpNum[MAX_OF_BIT]{};
+    int tempBit = 0;
+    short tempNum[MAX_OF_BIT]{};
 
     ans.initialize();
     if (number > 0) {
@@ -44,16 +44,16 @@ cacl::CACLInteger cacl::CACLInteger::translate(long long number) {
         number = -number;
     }
 
-    //用tmpBit记录位数,先用tmpNum逆序存储number的各个位的数字
-    for (int i = 1; number > 0; ++i, tmpBit++) {
-        tmpNum[i - 1] = (short) (number % 10);
+    //用tempBit记录位数,先用tempNum逆序存储number的各个位的数字
+    for (int i = 1; number > 0; ++i, tempBit++) {
+        tempNum[i - 1] = (short) (number % 10);
         number /= 10;
     }
-    ans.bit = tmpBit;
+    ans.bit = tempBit;
 
-    //将tmpNum逆序存储进ans的num成员
+    //将tempNum逆序存储进ans的num成员
     for (int i = 0; i < ans.bit; i++) {
-        ans.num[i] = tmpNum[i];
+        ans.num[i] = tempNum[i];
     }
 
     return ans;

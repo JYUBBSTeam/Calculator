@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,91 +6,91 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 iostream
 -
 ../CACLInteger/CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp
 CACLFloat.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 ../CACLInteger/CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 string
 -
 sstream
 -
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp
 CACLFloat.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp
 CACLFloat.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp
 CACLFloat.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp
 CACLFloat.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp
 CACLFloat.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp
 CACLFloat.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp
 CACLFloat.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp
 CACLFloat.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp
 CACLFloat.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 iostream
 -
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 string
 -
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 stack
 -
 vector
@@ -98,21 +98,21 @@ vector
 cmath
 -
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/test.cpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testCACLFloat/test.cpp
 iostream
 -
 ../../CACLFloat/CACLFloat.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 

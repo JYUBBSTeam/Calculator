@@ -121,6 +121,26 @@ namespace cacl {
 
         CACLFloat &operator=(double number);
 
+        //重载加赋值
+        CACLFloat &operator+=(CACLFloat number);
+
+        CACLFloat &operator+=(double number);
+
+        //重载减赋值
+        CACLFloat &operator-=(CACLFloat number);
+
+        CACLFloat &operator-=(double number);
+
+        //重载乘赋值
+        CACLFloat &operator*=(CACLFloat number);
+
+        CACLFloat &operator*=(double number);
+
+        //重载除赋值
+        CACLFloat &operator/=(CACLFloat number);
+
+        CACLFloat &operator/=(double number);
+
         // 重载右移动作为输入
         friend std::istream &operator>>(std::istream &_cin, CACLFloat &myFloat);
 

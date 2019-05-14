@@ -180,7 +180,7 @@ namespace cacl {
 
         // 无符号两个CACLInteger相减
         CACLInteger unsignedSubtract(CACLInteger number1, CACLInteger number2);
-
+        
         // 数字的符号,true时是负数，false时是正数
         bool symbol;
 

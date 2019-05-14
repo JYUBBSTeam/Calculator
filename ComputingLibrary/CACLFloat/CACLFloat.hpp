@@ -171,7 +171,7 @@ namespace cacl {
         short decimalNum[MAX_OF_DECIMAL_BIT]{};
 
         // 整数部分
-        cacl::CACLInteger integer;
+        CACLInteger integer;
     };
 }
 

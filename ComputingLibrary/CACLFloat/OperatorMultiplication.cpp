@@ -61,7 +61,7 @@ void cacl::CACLFloat::unsignedMultiplication(cacl::CACLFloat *ans, cacl::CACLFlo
     ans->decimalBit = number1.decimalBit + number2.decimalBit;
 }
 
-
+// 将number2转换成乘以10的number2.decimalBit次方的CACLInteger类型对象，以两个CACLInteger的方式相乘
 cacl::CACLFloat cacl::CACLFloat::unsignedIntegerFloatMultiplication(cacl::CACLInteger number1, cacl::CACLFloat number2) {
 
 }

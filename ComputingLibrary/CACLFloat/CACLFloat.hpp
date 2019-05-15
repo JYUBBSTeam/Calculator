@@ -29,7 +29,9 @@
 
 // 小数最小位数
 constexpr int MAX_OF_DECIMAL_BIT = 320;
+// double转换为CACLFloat精度
 constexpr double MIN_OF_TRANSLATE_DECIMAL_BIT = 10e-18;
+// 输出精度
 static int precision = 5;
 
 // 设置精度

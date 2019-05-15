@@ -2,7 +2,7 @@
 
 #include "CACLInteger.hpp"
 
-//重载加法
+// 重载加法
 cacl::CACLInteger cacl::CACLInteger::operator+(CACLInteger number) {
     CACLInteger ans;
 
@@ -30,7 +30,7 @@ cacl::CACLInteger cacl::CACLInteger::operator+(const long long number) {
 }
 
 
-//无符号两个CACLInteger相加
+// 无符号两个CACLInteger相加
 cacl::CACLInteger cacl::CACLInteger::unsignedAdd(CACLInteger number1, CACLInteger number2) {
     CACLInteger ans;
     CACLInteger longer, shorter;
@@ -54,16 +54,16 @@ cacl::CACLInteger cacl::CACLInteger::unsignedAdd(CACLInteger number1, CACLIntege
         ans.num[j] = longer.num[j];
     }
 
-    //加法运算结果最多位max(number1.bit,number2.bit) + 1位，将最高位先初始化位零
+    // 加法运算结果最多位max(number1.bit,number2.bit) + 1位，将最高位先初始化位零
     ans.num[longer.bit] = 0;
 
-    //统一进位
+    // 统一进位
     for (int i = 0; i < longer.bit; ++i) {
         ans.num[i + 1] += ans.num[i] / 10;
         ans.num[i] %= 10;
     }
 
-    //判断ans位数
+    // 判断ans位数
     if (ans.num[longer.bit] == 0) {
         ans.bit = longer.bit;
     } else {

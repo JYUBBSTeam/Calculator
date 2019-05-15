@@ -1,7 +1,14 @@
-
+/*
+ * 创建人：Huang
+ * 创建日期：2019.5.3
+ * 修改日期:2019.5.3
+ * 类：CACLFloat
+ * 功能：类函数实现
+ */
 
 #include "CACLFloat.hpp"
 
+// 重载加法
 cacl::CACLFloat cacl::CACLFloat::operator+(cacl::CACLFloat number) {
     CACLFloat ans;
     ans.initialize();
@@ -27,6 +34,8 @@ cacl::CACLFloat cacl::CACLFloat::operator+(double number) {
     return ans;
 }
 
+
+// 无符号小数相加
 void cacl::CACLFloat::unsignedAddition(cacl::CACLFloat *ans, cacl::CACLFloat number1, cacl::CACLFloat number2) {
 
     // 将number1、2的小数位中多余的数设置为零

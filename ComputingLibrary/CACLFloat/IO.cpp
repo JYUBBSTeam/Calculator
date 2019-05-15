@@ -1,7 +1,9 @@
 /*
  * 创建人：huang
  * 创建日期：2019.5.3
- * 修改
+ * 修改日期：2019.5.3
+ * 类：CACLFloat
+ * 功能：控制输入和输出
  */
 
 #include "CACLFloat.hpp"

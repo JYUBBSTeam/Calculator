@@ -10,13 +10,13 @@
 #include <string>
 
 namespace cacl {
-    //重载右移作为输入
+    // 重载右移作为输入
     std::istream &operator>>(std::istream &_cin, CACLInteger &integer) {
         std::string tempNumber;
 
         _cin >> tempNumber;
 
-        //检查tempNumber的符号
+        // 检查tempNumber的符号
         if (tempNumber[0] == '+') {
             integer.symbol = false;
             tempNumber.erase(0, 1);
@@ -37,7 +37,7 @@ namespace cacl {
     }
 
 
-    //重载左移作为输出
+    // 重载左移作为输出
     std::ostream &operator<<(std::ostream &_cout, const CACLInteger &integer) {
         if (integer.symbol == true) {
             _cout << '-';

@@ -2,7 +2,7 @@
 
 #include "CACLInteger.hpp"
 
-//重载减法
+// 重载减法
 cacl::CACLInteger cacl::CACLInteger::operator-(CACLInteger number) {
     CACLInteger ans;
 
@@ -34,13 +34,13 @@ cacl::CACLInteger cacl::CACLInteger::operator-(const long long number) {
 }
 
 
-//无符号两个CACLInteger相减
+// 无符号两个CACLInteger相减
 cacl::CACLInteger cacl::CACLInteger::unsignedSubtract(CACLInteger number1, CACLInteger number2) {
     CACLInteger ans;
     CACLInteger longer, shorter;
     ans.initialize();
 
-    //比较number1和number2的大小
+    // 比较number1和number2的大小
     if (number1.absoluteValue() > number2.absoluteValue()) {
         longer = number1;
         shorter = number2;
@@ -56,7 +56,7 @@ cacl::CACLInteger cacl::CACLInteger::unsignedSubtract(CACLInteger number1, CACLI
         ans.num[i] = longer.num[i];
     }
 
-    //统一借位
+    // 统一借位
     for (int i = 0; i < longer.bit; ++i) {
         if (ans.num[i] < 0) {
             ans.num[i + 1]--;
@@ -64,7 +64,7 @@ cacl::CACLInteger cacl::CACLInteger::unsignedSubtract(CACLInteger number1, CACLI
         }
     }
 
-    //判断ans位数
+    // 判断ans位数
     int i;
     for (i = longer.bit; i > 0; --i) {
         if (ans.num[i] != 0) {

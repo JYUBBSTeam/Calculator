@@ -168,6 +168,12 @@ namespace cacl {
         // 设置符号
         void setSymbol(bool target);
 
+        // 设置位数
+        void setBit(int newBit);
+
+        // 内部方法，获取num的指针
+        short *at(int location);
+
     private:
         // 小数据除法
         void normalDivision(CACLInteger number1, CACLInteger number2);
@@ -180,7 +186,7 @@ namespace cacl {
 
         // 无符号两个CACLInteger相减
         CACLInteger unsignedSubtract(CACLInteger number1, CACLInteger number2);
-        
+
         // 数字的符号,true时是负数，false时是正数
         bool symbol;
 

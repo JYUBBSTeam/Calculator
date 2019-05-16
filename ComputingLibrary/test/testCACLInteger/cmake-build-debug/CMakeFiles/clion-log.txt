@@ -1,4 +1,4 @@
-C:\cygwin64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/cygwin64/bin/make.exe -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger
+C:\Users\H\.CLion2019.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/cygwin64/bin/make.exe -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger
 -- The C compiler identification is GNU 7.4.0
 -- The CXX compiler identification is GNU 7.4.0
 -- Check for working C compiler: /usr/bin/cc

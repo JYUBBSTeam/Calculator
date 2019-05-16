@@ -42,9 +42,6 @@ void cacl::CACLFloat::unsignedMultiplication(cacl::CACLFloat *ans, cacl::CACLFlo
             }
         }
     }
-    *ans += unsignedIntegerFloatMultiplication(longer.integer, shorter);
-    *ans += unsignedIntegerFloatMultiplication(shorter.integer, longer);
-
 
     // 统一进位
     for (int k = longer.decimalBit + shorter.decimalBit - 1; k > 0; --k) {
@@ -59,9 +56,52 @@ void cacl::CACLFloat::unsignedMultiplication(cacl::CACLFloat *ans, cacl::CACLFlo
 
     // 求小数位数
     ans->decimalBit = number1.decimalBit + number2.decimalBit;
+
+    CACLFloat temp = unsignedIntegerFloatMultiplication(longer.integer, shorter);
+    temp.integer.setSymbol(ans->integer.getSymbol());
+    *ans += temp;
+    temp = unsignedIntegerFloatMultiplication(shorter.integer, longer);
+    temp.integer.setSymbol(ans->integer.getSymbol());
+    *ans += temp;
 }
 
 // 将number2转换成乘以10的number2.decimalBit次方的CACLInteger类型对象，以两个CACLInteger的方式相乘
-cacl::CACLFloat cacl::CACLFloat::unsignedIntegerFloatMultiplication(cacl::CACLInteger number1, cacl::CACLFloat number2) {
+cacl::CACLFloat
+cacl::CACLFloat::unsignedIntegerFloatMultiplication(cacl::CACLInteger number1, cacl::CACLFloat number2) {
+    CACLInteger tempNumber;
 
+    // 把number2的小数转换成整数
+    for (int i = 0; i < number2.decimalBit; ++i) {
+        tempNumber += number2.decimalNum[i] * pow(10, number2.decimalBit - 1 - i);
+    }
+
+    CACLFloat ans;
+    ans = tempNumber * number1;
+    // 将ans向后移动ans.decimalBit位
+    for (int j = 0, i = number2.decimalBit - 1; i >= 0; ++j, --i) {
+        ans.decimalNum[i] = *ans.integer.at(j);
+    }
+
+    // 设置小数部分位数
+    ans.decimalBit = number2.decimalBit;
+    for (int k = 0; k < ans.integer.getBit() - ans.decimalBit; ++k) {
+        *ans.integer.at(k) = *ans.integer.at(k + ans.decimalBit);
+    }
+    for (int l = ans.integer.getBit() - 1; l >= ans.integer.getBit() - number2.decimalBit; --l) {
+        *ans.integer.at(l) = 0;
+    }
+
+    // 设置整数的位数
+    if (number1.getBit() - ans.decimalBit < 0) {
+        ans.integer.setBit(1);
+        *ans.integer.at(0) = 0;
+    } else {
+        if (*ans.integer.at(number1.getBit() - ans.decimalBit) > 0) {
+            ans.integer.setBit(number1.getBit() - ans.decimalBit + 1);
+        } else {
+            ans.integer.setBit(number1.getBit() - ans.decimalBit);
+        }
+    }
+
+    return ans;
 }

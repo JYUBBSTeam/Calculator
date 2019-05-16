@@ -94,6 +94,14 @@ bool cacl::CACLInteger::getSymbol() {
 }
 
 // 设置符号
-void cacl::CACLInteger::setSymbol(bool target){
+void cacl::CACLInteger::setSymbol(bool target) {
     symbol = target;
+}
+
+short *cacl::CACLInteger::at(int location) {
+    return (short *) (num + location);
+}
+
+void cacl::CACLInteger::setBit(int newBit) {
+    this->bit = newBit;
 }

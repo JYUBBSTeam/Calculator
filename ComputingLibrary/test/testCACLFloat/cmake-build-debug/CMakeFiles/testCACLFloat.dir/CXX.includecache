@@ -12,7 +12,7 @@ iostream
 ../CACLInteger/CACLInteger.hpp
 /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp
 CACLFloat.hpp
 /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 

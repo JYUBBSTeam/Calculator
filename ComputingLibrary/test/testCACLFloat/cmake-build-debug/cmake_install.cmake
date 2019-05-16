@@ -1,4 +1,4 @@
-# Install script for directory: /cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat
+# Install script for directory: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testCACLFloat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

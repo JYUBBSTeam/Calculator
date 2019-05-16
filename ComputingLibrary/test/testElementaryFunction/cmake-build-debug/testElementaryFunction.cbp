@@ -8,148 +8,145 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="testElementaryFunction">
-				<Option output="/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/testElementaryFunction.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 testElementaryFunction"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="testElementaryFunction/fast">
-				<Option output="/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/testElementaryFunction.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 testElementaryFunction/fast"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug"/>
+				<Option working_dir="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testElementaryFunction">
+				<Option output="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/testElementaryFunction.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 testElementaryFunction"/>
+					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testElementaryFunction/fast">
+				<Option output="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/testElementaryFunction.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 testElementaryFunction/fast"/>
+					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/cygwin64/bin/make.exe -j8 -f &quot;/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Others.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Interval.hpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Interval/Interval.hpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Interval/Modify.cpp">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/test.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/test.cpp">
-			<Option target="testElementaryFunction"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/CMakeLists.txt">
+		<Unit filename="/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

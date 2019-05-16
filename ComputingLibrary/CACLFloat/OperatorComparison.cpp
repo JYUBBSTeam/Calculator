@@ -51,18 +51,9 @@ bool cacl::CACLFloat::operator>=(cacl::CACLFloat number) {
     return *this > number or *this == number;
 }
 
-bool cacl::CACLFloat::operator>=(double number) {
-    CACLFloat translatedNumber;
-
-    translatedNumber = translate(number);
-
-    return *this >= translatedNumber;
-}
-
 bool cacl::CACLFloat::operator<=(cacl::CACLFloat number) {
     return *this < number or *this == number;
 }
-
 
 bool cacl::CACLFloat::operator<=(double number) {
     CACLFloat translatedNumber;
@@ -70,6 +61,15 @@ bool cacl::CACLFloat::operator<=(double number) {
     translatedNumber = translate(number);
 
     return *this <= translatedNumber;
+}
+
+
+bool cacl::CACLFloat::operator>=(double number) {
+    CACLFloat translatedNumber;
+
+    translatedNumber = translate(number);
+
+    return *this >= translatedNumber;
 }
 
 bool cacl::CACLFloat::operator==(cacl::CACLFloat number) {

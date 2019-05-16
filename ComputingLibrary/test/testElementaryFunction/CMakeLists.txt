@@ -24,12 +24,10 @@ add_executable(testElementaryFunction test.cpp
         ../../CACLFloat/SelfData.cpp
         ../../CACLFloat/OperatorAddition.cpp
         ../../CACLFloat/OperatorAssignment.cpp
-        ../../CACLFloat/Others.cpp
         ../../CACLFloat/Math.cpp
         ../../CACLFloat/Precision.cpp
         ../../CACLFloat/OperatorSubtraction.cpp
 
-
         # Interval类
-        ../../ElementaryFunction/Interval/Interval.hpp
-        ../../ElementaryFunction/Interval/Modify.cpp)
+        ../../ElementaryFunction/Domain/Interval.hpp
+        ../../ElementaryFunction/Domain/Modify.cpp)

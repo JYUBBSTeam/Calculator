@@ -2,11 +2,13 @@
 
 #include "CACLFloat.hpp"
 
+// 重载大于号
 bool cacl::CACLFloat::operator>(cacl::CACLFloat number) {
     if (*this == number) {
         return false;
     }
 
+    // 比较整数部分，如果整数部分相等，从找到this和number中位数最低的，然后从最低位开始比较
     if (this->integer > number.integer) {
         return true;
     } else if (this->integer == number.integer) {
@@ -35,6 +37,7 @@ bool cacl::CACLFloat::operator>(double number) {
 }
 
 
+// 重载小于号
 bool cacl::CACLFloat::operator<(cacl::CACLFloat number) {
     return !(*this > number);
 }
@@ -47,6 +50,8 @@ bool cacl::CACLFloat::operator<(double number) {
     return *this < translatedNumber;
 }
 
+
+//重载大于或等于
 bool cacl::CACLFloat::operator>=(cacl::CACLFloat number) {
     return *this > number or *this == number;
 }
@@ -60,7 +65,17 @@ bool cacl::CACLFloat::operator<=(double number) {
 
     translatedNumber = translate(number);
 
+<<<<<<< HEAD
+    return *this >= translatedNumber;
+}
+
+
+//重载小于或等于
+bool cacl::CACLFloat::operator<=(cacl::CACLFloat number) {
+    return *this < number or *this == number;
+=======
     return *this <= translatedNumber;
+>>>>>>> bfbed2d33976afe9fac19a1492c3416a56b1e008
 }
 
 
@@ -72,11 +87,13 @@ bool cacl::CACLFloat::operator>=(double number) {
     return *this >= translatedNumber;
 }
 
+
+//重载等于
 bool cacl::CACLFloat::operator==(cacl::CACLFloat number) {
     if (this->integer == number.integer) {
         return true;
     }
-
+    //从找到this和number中位数最低的，然后从最低位开始比较
     if (this->decimalBit == number.decimalBit) {
         int i;
         for (i = 0; i < this->decimalBit; ++i) {

@@ -1,16 +1,27 @@
-import sys
-from PyQt5.QtCore import *
-from PyQt5.QtGui import *
-from PyQt5.QtWidgets import *
+from PyQt5 import QtCore,QtGui,QtWidgets
+from PyQt5.QtGui import QIcon
+class Ui_mainWindow(object):
+    def setupUi(self,mainWindow):
+        mainWindow.setObjectName("mainWindow")
+        mainWindow.setWindowModality(QtCore.Qt.WindowModal)
+        mainWindow.resize(500,400)
+
+        self.centralWidget=QtWidgets.QWidget(mainWindow)
+        self.centralWidget.setObjectName("centralWidget")
+
+        mainWindow.setCentralWidget(self.centralWidget)
+        self.retranslateUi(mainWindow)
+        QtCore.QMetaObject.connectSlotsByName(mainWindow)
+
+    def retranslateUi(self,mainWindow):
+        _translate=QtCore.QCoreApplication.translate
+        mainWindow.setWindowTitle('四则运算')
+
 if __name__=='__main__':
-    app=QApplication(sys.argv)
-    w=QWidget()
-    w.resize(500,400)
-    w.move(200,200)
-    w.setWindowTitle('四则运算')
-btn=QtWidgets.QPushButton('+',w)
-btn.setGeometry(100,100,100,100)
-btn.setToolTip('这是加法运算')
-btn.clicked.connect(QtCore.QCoreApplication.instance().quit)
-w.show()
-sys.exit(app.exec_())
+   import sys
+   app=QtWidgets.QApplication(sys.argv)
+   mainWindow=QtWidgets.QMainWindow()
+   ui=Ui_mainWindow()
+   ui.setupUi(mainWindow)
+   mainWindow.show()
+   sys.exit(app.exec_())

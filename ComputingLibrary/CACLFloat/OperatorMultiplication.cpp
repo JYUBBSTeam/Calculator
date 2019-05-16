@@ -1,6 +1,7 @@
 
 #include "CACLFloat.hpp"
 
+//重载乘法
 cacl::CACLFloat cacl::CACLFloat::operator*(cacl::CACLFloat number) {
     CACLFloat ans;
     ans.initialize();

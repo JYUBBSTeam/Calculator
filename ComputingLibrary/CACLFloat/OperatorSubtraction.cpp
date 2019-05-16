@@ -1,6 +1,7 @@
 
 #include "CACLFloat.hpp"
 
+//重载减法
 cacl::CACLFloat cacl::CACLFloat::operator-(cacl::CACLFloat number) {
     CACLFloat ans;
     ans.initialize();
@@ -29,6 +30,7 @@ cacl::CACLFloat cacl::CACLFloat::operator-(double number) {
     return ans;
 }
 
+//无符号两个CACLFloat相减
 void cacl::CACLFloat::unsignedSubtraction(cacl::CACLFloat *ans, cacl::CACLFloat number1, cacl::CACLFloat number2) {
     CACLFloat longer, shorter;
 

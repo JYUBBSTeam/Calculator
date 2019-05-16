@@ -1,36 +1,16 @@
-"""
-    创建基本窗口
-"""
-
-from PyQt5.QtWidgets import QApplication, QWidget
-from PyQt5 import QtCore
 import sys
-
-
-class BasicCACLWindow(QWidget):
-    def __init__(self):
-        super().__init__()
-
-        self.basicCACLWindowTitle = "Deep Learning CACL"
-        self.basicCACLWindowTop = 100
-        self.basicCACLWindowLeft = 900
-        self.basicCACLWindowWidth = 1000
-        self.basicCACLWindowHeight = 900
-
-        self.InitWindow()
-
-    def InitWindow(self):
-        self.setWindowTitle(self.basicCACLWindowTitle)
-        self.setGeometry(self.basicCACLWindowLeft, self.basicCACLWindowTop, self.basicCACLWindowWidth,
-                         self.basicCACLWindowHeight)
-
-        flags = QtCore.Qt.WindowFlags(QtCore.Qt.FramelessWindowHint | QtCore.Qt.WindowStaysOnTopHint)
-        self.setWindowFlags(flags)
-
-        self.show()
-
-
-basicApplication = QApplication(sys.argv)
-basicWindow = BasicCACLWindow()
-
-sys.exit(basicApplication.exec())
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
+if __name__=='__main__':
+    app=QApplication(sys.argv)
+    w=QWidget()
+    w.resize(500,400)
+    w.move(200,200)
+    w.setWindowTitle('四则运算')
+btn=QtWidgets.QPushButton('+',w)
+btn.setGeometry(100,100,100,100)
+btn.setToolTip('这是加法运算')
+btn.clicked.connect(QtCore.QCoreApplication.instance().quit)
+w.show()
+sys.exit(app.exec_())

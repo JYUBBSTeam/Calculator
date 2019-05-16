@@ -1,36 +1,27 @@
-"""
-    创建基本窗口
-"""
+from PyQt5 import QtCore,QtGui,QtWidgets
+from PyQt5.QtGui import QIcon
+class Ui_mainWindow(object):
+    def setupUi(self,mainWindow):
+        mainWindow.setObjectName("mainWindow")
+        mainWindow.setWindowModality(QtCore.Qt.WindowModal)
+        mainWindow.resize(500,400)
 
-from PyQt5.QtWidgets import QApplication, QWidget
-from PyQt5 import QtCore
-import sys
+        self.centralWidget=QtWidgets.QWidget(mainWindow)
+        self.centralWidget.setObjectName("centralWidget")
 
+        mainWindow.setCentralWidget(self.centralWidget)
+        self.retranslateUi(mainWindow)
+        QtCore.QMetaObject.connectSlotsByName(mainWindow)
 
-class BasicCACLWindow(QWidget):
-    def __init__(self):
-        super().__init__()
+    def retranslateUi(self,mainWindow):
+        _translate=QtCore.QCoreApplication.translate
+        mainWindow.setWindowTitle('四则运算')
 
-        self.basicCACLWindowTitle = "Deep Learning CACL"
-        self.basicCACLWindowTop = 100
-        self.basicCACLWindowLeft = 900
-        self.basicCACLWindowWidth = 1000
-        self.basicCACLWindowHeight = 900
-
-        self.InitWindow()
-
-    def InitWindow(self):
-        self.setWindowTitle(self.basicCACLWindowTitle)
-        self.setGeometry(self.basicCACLWindowLeft, self.basicCACLWindowTop, self.basicCACLWindowWidth,
-                         self.basicCACLWindowHeight)
-
-        flags = QtCore.Qt.WindowFlags(QtCore.Qt.FramelessWindowHint | QtCore.Qt.WindowStaysOnTopHint)
-        self.setWindowFlags(flags)
-
-        self.show()
-
-
-basicApplication = QApplication(sys.argv)
-basicWindow = BasicCACLWindow()
-
-sys.exit(basicApplication.exec())
+if __name__=='__main__':
+   import sys
+   app=QtWidgets.QApplication(sys.argv)
+   mainWindow=QtWidgets.QMainWindow()
+   ui=Ui_mainWindow()
+   ui.setupUi(mainWindow)
+   mainWindow.show()
+   sys.exit(app.exec_())

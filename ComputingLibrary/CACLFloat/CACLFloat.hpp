@@ -168,6 +168,10 @@ namespace cacl {
         // 无符号整数和小数相乘
         CACLFloat unsignedIntegerFloatMultiplication(CACLInteger number1, CACLFloat number2);
 
+        // 无符号CACLFloat相除
+        void unsignedDivision(CACLFloat *ans, CACLFloat number1, CACLFloat number2);
+
+    private:
         // 小数位数
         int decimalBit;
 
@@ -205,6 +209,14 @@ T pow(T x, T n) {
     } else {
         return pow(x * x, n / 2) * x;
     }
+}
+
+// 交换两个数
+template<class T>
+void swap(T *a, T *b) {
+    T *temp = a;
+    a = b;
+    b = temp;
 }
 
 #endif //CACLFLOAT_CACLFLOAT_H

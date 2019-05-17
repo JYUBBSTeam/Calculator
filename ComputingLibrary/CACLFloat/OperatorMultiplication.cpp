@@ -6,9 +6,16 @@ cacl::CACLFloat cacl::CACLFloat::operator*(cacl::CACLFloat number) {
     CACLFloat ans;
     ans.initialize();
 
-    ans.integer = this->integer * number.integer;
-    // 利用无符号小数乘法
-    unsignedMultiplication(&ans, *this, number);
+    if (this->isZero() || number.isZero()) {
+        return ans;
+    } else {
+        ans.integer = this->integer * number.integer;
+        // 利用无符号小数乘法
+        unsignedMultiplication(&ans, *this, number);
+
+        // 设置ans符号
+        ans.integer.setSymbol(this->integer.getSymbol() != number.integer.getSymbol());
+    }
 
     return ans;
 }

@@ -46,6 +46,9 @@ namespace cacl {
     public:
         // 构造CACLFloat
         CACLFloat() {
+            for (auto &i : decimalNum) {
+                i = 0;
+            }
             decimalBit = 0;
         };
 
@@ -199,7 +202,9 @@ T min(T value1, T value2) {
 template<class T>
 T pow(T x, T n) {
     if (n == 0) {
-        return 1;
+        T one;
+        one = 1;
+        return one;
     } else if (n == 1) {
         return x;
     }

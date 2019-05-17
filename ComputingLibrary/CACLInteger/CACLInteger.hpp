@@ -33,6 +33,9 @@ namespace cacl {
     public:
         // 构造方法
         CACLInteger() {
+            for(auto & i : num){
+                i = 0;
+            }
             symbol = false;
             bit = 1;
         };

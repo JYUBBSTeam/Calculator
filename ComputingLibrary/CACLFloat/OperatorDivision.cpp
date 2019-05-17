@@ -28,26 +28,30 @@ cacl::CACLFloat::unsignedDivision(cacl::CACLFloat *ans, cacl::CACLFloat number1,
     CACLInteger tempNumber1, tempNumber2;
 
     // (lambda) 转换CACLFloat到CACLInteger（根据precision）
-    auto tempTranslate = [](CACLFloat number) {
+    auto tempTranslate = [](CACLFloat number, int tempPrecision) {
         CACLInteger translatedNumber;
+        CACLInteger ten;
+        CACLInteger bigPrecision;
+        bigPrecision = tempPrecision;
+        ten = 10;
 
         // 腾出位置
-        translatedNumber = number.integer * pow(10, precision);
+        translatedNumber = number.integer * pow(ten, bigPrecision);
 
         // 进行位移
-        for (int i = 0; i < precision; ++i) {
-            translatedNumber += number.decimalNum[i] * pow(10, precision - 1 - i);
+        for (int i = 0; i <= tempPrecision; ++i) {
+            translatedNumber += pow(ten, bigPrecision - 1 - i) * number.decimalNum[i];
         }
 
         return translatedNumber;
     };
 
     // 将number1和number2根据precision转换成CACLInteger
-    tempNumber1 = tempTranslate(number1);
-    tempNumber2 = tempTranslate(number2);
+    tempNumber1 = tempTranslate(number1, 2 * precision);
+    tempNumber2 = tempTranslate(number2, precision);
 
     // 计算值
-    ans->integer = tempNumber1 / tempNumber2;
+    ans->integer += tempNumber1 / tempNumber2;
 
     // 将ans向后移动precision位
     for (int j = 0, i = precision - 1; i >= 0; ++j, --i) {

@@ -201,11 +201,11 @@ T min(T value1, T value2) {
 // 整数pow
 template<class T>
 T pow(T x, T n) {
-    if (n == 0) {
-        T one;
-        one = 1;
+    T one, zero;
+    one = 1;
+    if (n == zero) {
         return one;
-    } else if (n == 1) {
+    } else if (n == one) {
         return x;
     }
 

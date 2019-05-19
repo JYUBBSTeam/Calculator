@@ -51,10 +51,10 @@ cacl::CACLFloat::unsignedDivision(cacl::CACLFloat *ans, cacl::CACLFloat number1,
     tempNumber2 = tempTranslate(number2, precision);
 
     // 计算值
-    ans->integer += tempNumber1 / tempNumber2;
+    ans->integer = tempNumber1 / tempNumber2;
 
     // 将ans向后移动precision位
-    for (int j = 0, i = precision - 1; i >= 0; ++j, --i) {
+    for (int j = 0, i = precision - 2; i >= 0; ++j, --i) {
         ans->decimalNum[i] = *ans->integer.at(j);
     }
     ans->decimalBit = precision;

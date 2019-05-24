@@ -8,7 +8,7 @@
 #include "CACLFloat.hpp"
 
 // 求绝对值
-cacl::CACLFloat cacl::CACLFloat::absoluteValue() {
+CACLFloat CACLFloat::absoluteValue() {
     CACLFloat ans;
     ans = *this;
     ans.integer.absoluteValue();

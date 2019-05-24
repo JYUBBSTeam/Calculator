@@ -32,7 +32,7 @@ int k;
 int Q, R;
 int r, q, p;
 
-CACLInteger cacl::CACLInteger::operator*(CACLInteger number) {
+CACLInteger CACLInteger::operator*(CACLInteger number) {
     void T3();
 
     // 初始化控制代码code_1, code_2, code_3
@@ -140,7 +140,7 @@ void T10() {
 }
  */
 
-void cacl::CACLInteger::normalMultiplication(CACLInteger number1, CACLInteger number2) {
+void CACLInteger::normalMultiplication(CACLInteger number1, CACLInteger number2) {
     // 判断两个乘数是不是零，直接return this是因为任何CACLInteger的初始值为0
     if (number1.isZero() || number2.isZero()) {
         this->bit = 1;
@@ -180,7 +180,7 @@ void cacl::CACLInteger::normalMultiplication(CACLInteger number1, CACLInteger nu
     }
 }
 
-cacl::CACLInteger cacl::CACLInteger::operator*(CACLInteger number) {
+CACLInteger CACLInteger::operator*(CACLInteger number) {
     CACLInteger ans;
 
     ans.normalMultiplication(*this, number);
@@ -188,7 +188,7 @@ cacl::CACLInteger cacl::CACLInteger::operator*(CACLInteger number) {
     return ans;
 }
 
-cacl::CACLInteger cacl::CACLInteger::operator*(const long long number) {
+CACLInteger CACLInteger::operator*(const long long number) {
     CACLInteger translatedNumber = translate(number);
     CACLInteger ans;
 

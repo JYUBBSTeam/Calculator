@@ -26,6 +26,7 @@ cacl::CACLFloat cacl::CACLFloat::operator/(double number) {
 void
 cacl::CACLFloat::unsignedDivision(cacl::CACLFloat *ans, cacl::CACLFloat number1, cacl::CACLFloat number2) {
     CACLInteger tempNumber1, tempNumber2;
+    int tempPrecision = precision + 1;
 
     // (lambda) 转换CACLFloat到CACLInteger（根据precision）
     auto tempTranslate = [](CACLFloat number, int tempPrecision) {
@@ -47,30 +48,27 @@ cacl::CACLFloat::unsignedDivision(cacl::CACLFloat *ans, cacl::CACLFloat number1,
     };
 
     // 将number1和number2根据precision转换成CACLInteger
-    tempNumber1 = tempTranslate(number1, 2 * precision);
-    tempNumber2 = tempTranslate(number2, precision);
+    tempNumber1 = tempTranslate(number1, 2 * tempPrecision);
+    tempNumber2 = tempTranslate(number2, tempPrecision);
 
     // 计算值
     ans->integer = tempNumber1 / tempNumber2;
 
+    // 临时记录ans->integer的bit
+    int tempAnsIntBit = (number1.integer / number2.integer).getBit();
+
     // 将ans向后移动precision位
-    for (int j = 0, i = precision - 2; i >= 0; ++j, --i) {
+    for (int j = 0, i = ans->integer.getBit() - tempAnsIntBit - 1; i >= 0; ++j, --i) {
         ans->decimalNum[i] = *ans->integer.at(j);
     }
     ans->decimalBit = precision;
-    for (int l = ans->integer.getBit() - 1; l >= ans->integer.getBit() - precision; --l) {
+    for (int k = ans->integer.getBit() - 1, j = tempAnsIntBit - 1; j >= 0; --k, --j) {
+        *ans->integer.at(j) = *ans->integer.at(k);
+    }
+    for (int l = ans->integer.getBit() - 1; l > tempAnsIntBit - 1; --l) {
         *ans->integer.at(l) = 0;
     }
 
-    // 设置整数的位数
-    if (ans->integer.getBit() - ans->decimalBit < 0) {
-        ans->integer.setBit(1);
-        *ans->integer.at(0) = 0;
-    } else {
-        if (*ans->integer.at(ans->integer.getBit() - ans->decimalBit) > 0) {
-            ans->integer.setBit(ans->integer.getBit() - ans->decimalBit + 1);
-        } else {
-            ans->integer.setBit(ans->integer.getBit() - ans->decimalBit);
-        }
-    }
+    // 设置整数部分的位数
+    ans->integer.setBit(tempAnsIntBit);
 }

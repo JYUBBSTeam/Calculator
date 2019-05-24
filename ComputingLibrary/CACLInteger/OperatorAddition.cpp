@@ -3,7 +3,7 @@
 #include "CACLInteger.hpp"
 
 // 重载加法
-cacl::CACLInteger cacl::CACLInteger::operator+(CACLInteger number) {
+CACLInteger CACLInteger::operator+(CACLInteger number) {
     CACLInteger ans;
 
     if (this->symbol == number.symbol) {
@@ -20,7 +20,7 @@ cacl::CACLInteger cacl::CACLInteger::operator+(CACLInteger number) {
 }
 
 
-cacl::CACLInteger cacl::CACLInteger::operator+(const long long number) {
+CACLInteger CACLInteger::operator+(const long long number) {
     CACLInteger translatedNumber = translate(number);
     CACLInteger ans;
 
@@ -31,7 +31,7 @@ cacl::CACLInteger cacl::CACLInteger::operator+(const long long number) {
 
 
 // 无符号两个CACLInteger相加
-cacl::CACLInteger cacl::CACLInteger::unsignedAdd(CACLInteger number1, CACLInteger number2) {
+CACLInteger CACLInteger::unsignedAdd(CACLInteger number1, CACLInteger number2) {
     CACLInteger ans;
     CACLInteger longer, shorter;
 

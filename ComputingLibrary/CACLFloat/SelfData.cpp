@@ -3,7 +3,7 @@
 #include "CACLFloat.hpp"
 
 // 初始化对象
-void cacl::CACLFloat::initialize() {
+void CACLFloat::initialize() {
     integer.initialize();
 
     decimalBit = 0;
@@ -14,7 +14,7 @@ void cacl::CACLFloat::initialize() {
 
 
 // 拷贝对象
-void cacl::CACLFloat::copy(const cacl::CACLFloat number) {
+void CACLFloat::copy(const CACLFloat number) {
     integer.copy(number.integer);
 
     for (int i = 0; i < number.decimalBit; ++i) {
@@ -25,8 +25,8 @@ void cacl::CACLFloat::copy(const cacl::CACLFloat number) {
 }
 
 // 将double转换为CACLFloat对象
-cacl::CACLFloat cacl::CACLFloat::translate(double number) {
-    cacl::CACLFloat ans;
+CACLFloat CACLFloat::translate(double number) {
+    CACLFloat ans;
 
     ans.integer = integer.translate((long long) number);
 
@@ -42,21 +42,21 @@ cacl::CACLFloat cacl::CACLFloat::translate(double number) {
 }
 
 // 判断是不是零
-bool cacl::CACLFloat::isZero() {
+bool CACLFloat::isZero() {
     return integer.isZero() && decimalBit == 0;
 }
 
 // 判断是不是负数
-bool cacl::CACLFloat::isNegative() {
+bool CACLFloat::isNegative() {
     return integer.isNegative();
 }
 
 // 判断是不是正数
-bool cacl::CACLFloat::isPositive() {
+bool CACLFloat::isPositive() {
     return integer.isPositive();
 }
 
 // 转换符号
-void cacl::CACLFloat::exchangeSymbol() {
+void CACLFloat::exchangeSymbol() {
     integer.exchangeSymbol();
 }

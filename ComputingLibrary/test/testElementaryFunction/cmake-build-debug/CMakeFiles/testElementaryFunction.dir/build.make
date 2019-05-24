@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/dell/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/H/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/dell/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /cygdrive/c/Users/H/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction
+CMAKE_SOURCE_DIR = /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/testElementaryFunction.dir/depend.make
@@ -57,300 +57,300 @@ include CMakeFiles/testElementaryFunction.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/testElementaryFunction.dir/flags.make
 
-CMakeFiles/testElementaryFunction.dir/test.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/test.cpp.o: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testElementaryFunction.dir/test.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/test.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/test.cpp
+CMakeFiles/testElementaryFunction.dir/testForRegion.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/testForRegion.cpp.o: ../testForRegion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testElementaryFunction.dir/testForRegion.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/testForRegion.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/testForRegion.cpp
 
-CMakeFiles/testElementaryFunction.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/test.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/test.cpp > CMakeFiles/testElementaryFunction.dir/test.cpp.i
+CMakeFiles/testElementaryFunction.dir/testForRegion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/testForRegion.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/testForRegion.cpp > CMakeFiles/testElementaryFunction.dir/testForRegion.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/test.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/test.cpp -o CMakeFiles/testElementaryFunction.dir/test.cpp.s
+CMakeFiles/testElementaryFunction.dir/testForRegion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/testForRegion.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/testForRegion.cpp -o CMakeFiles/testElementaryFunction.dir/testForRegion.cpp.s
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o -c /cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.i
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.i
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.s
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.s
 
 # Object files for target testElementaryFunction
 testElementaryFunction_OBJECTS = \
-"CMakeFiles/testElementaryFunction.dir/test.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o"
+"CMakeFiles/testElementaryFunction.dir/testForRegion.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o"
 
 # External object files for target testElementaryFunction
 testElementaryFunction_EXTERNAL_OBJECTS =
 
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/test.cpp.o
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o
-testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/testForRegion.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o
 testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/build.make
 testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable testElementaryFunction.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable testElementaryFunction.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testElementaryFunction.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -363,6 +363,6 @@ CMakeFiles/testElementaryFunction.dir/clean:
 .PHONY : CMakeFiles/testElementaryFunction.dir/clean
 
 CMakeFiles/testElementaryFunction.dir/depend:
-	cd /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles/testElementaryFunction.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles/testElementaryFunction.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/testElementaryFunction.dir/depend
 

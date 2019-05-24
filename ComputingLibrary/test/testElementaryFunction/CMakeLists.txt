@@ -3,7 +3,7 @@ project(testElementaryFunction)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(testElementaryFunction test.cpp
+add_executable(testElementaryFunction testForRegion.cpp
         # CACLInteger类
         ../../CACLInteger/CACLInteger.hpp
         ../../CACLInteger/OperatorMultiplication.cpp
@@ -28,6 +28,9 @@ add_executable(testElementaryFunction test.cpp
         ../../CACLFloat/Precision.cpp
         ../../CACLFloat/OperatorSubtraction.cpp
 
+
         # Interval类
         ../../ElementaryFunction/Domain/Interval.hpp
-        ../../ElementaryFunction/Domain/Modify.cpp)
+        ../../ElementaryFunction/Domain/Modify.cpp
+        ../../ElementaryFunction/Region.hpp
+        ../../ElementaryFunction/Range/Interval.hpp)

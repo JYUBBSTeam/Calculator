@@ -16,61 +16,52 @@
 #include "../../CACLFloat/CACLFloat.hpp"
 #include <vector>
 
-namespace cacl {
 
-    // 记录区间的左右端点的数据
-    class CACLEndPoint {
-        friend class CACLDefineInterval;
+// 记录区间的左右端点的数据
+class CACLDomainEndPoint {
+    friend class CACLDefineInterval;
 
-    public:
-        CACLEndPoint() {
-            left = right = false;
-        }
+public:
+    CACLDomainEndPoint() {
+        left = right = false;
+    }
 
-        CACLEndPoint(bool l,CACLFloat lP, bool r, CACLFloat rP){
-            left = l;
-            right = r;
+    CACLDomainEndPoint(bool l, CACLFloat lP, bool r, CACLFloat rP) {
+        left = l;
+        right = r;
 
-            leftPoint= lP;
-            rightPoint = rP;
-        }
+        leftPoint = lP;
+        rightPoint = rP;
+    }
 
-        ~CACLEndPoint() = default;
+    ~CACLDomainEndPoint() = default;
 
-    private:
-        // false为开，true为闭
-        bool left;
-        bool right;
-
-
-        CACLFloat leftPoint;
-        CACLFloat rightPoint;
-    };
-
-    // 区间类
-    class CACLDefineInterval {
-    public:
-        CACLDefineInterval() {
-            intervalPrecision = 0.01;
-        }
-
-        ~CACLDefineInterval() = default;
-
-        // 设置取值精度
-        void setIntervalPrecision(CACLFloat number);
-
-        // 放入区间
-        void push(bool l , CACLFloat lP, bool r, CACLFloat rP);
+private:
+    // false为开，true为闭
+    bool left;
+    bool right;
 
 
+    CACLFloat leftPoint;
+    CACLFloat rightPoint;
 
-    private:
-        // 区间取值精度
-        CACLFloat intervalPrecision;
 
-        // 存放各个区间
-        std::vector<CACLEndPoint>  segment;
-    };
-}
+};
+
+// 区间类
+class CACLDefineInterval {
+public:
+    CACLDefineInterval() = default;
+
+    ~CACLDefineInterval() = default;
+
+    // 放入区间
+    void push(bool l, CACLFloat lP, bool r, CACLFloat rP);
+
+private:
+    // 存放各个区间
+    std::vector<CACLDomainEndPoint> segment;
+};
+
 
 #endif //ELEMENTARYFUNCTION_INTERVAL_HPP

@@ -2,7 +2,7 @@
 #include "CACLFloat.hpp"
 
 //重载减法
-cacl::CACLFloat cacl::CACLFloat::operator-(cacl::CACLFloat number) {
+CACLFloat CACLFloat::operator-(CACLFloat number) {
     CACLFloat ans;
     ans.initialize();
 
@@ -21,7 +21,7 @@ cacl::CACLFloat cacl::CACLFloat::operator-(cacl::CACLFloat number) {
 }
 
 
-cacl::CACLFloat cacl::CACLFloat::operator-(double number) {
+CACLFloat CACLFloat::operator-(double number) {
     CACLFloat translatedNumber = translate(number);
     CACLFloat ans;
 
@@ -31,7 +31,7 @@ cacl::CACLFloat cacl::CACLFloat::operator-(double number) {
 }
 
 //无符号两个CACLFloat相减
-void cacl::CACLFloat::unsignedSubtraction(cacl::CACLFloat *ans, cacl::CACLFloat number1, cacl::CACLFloat number2) {
+void CACLFloat::unsignedSubtraction(CACLFloat *ans, CACLFloat number1, CACLFloat number2) {
     CACLFloat longer, shorter;
 
     // 比较number1和number2的绝对值大小

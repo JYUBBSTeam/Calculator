@@ -10,7 +10,7 @@
 #include "CACLInteger.hpp"
 
 // 初始化对象
-void cacl::CACLInteger::initialize() {
+void CACLInteger::initialize() {
     for (int i = 0; i < MAX_OF_BIT; ++i) {
         this->num[i] = 0;
     }
@@ -20,7 +20,7 @@ void cacl::CACLInteger::initialize() {
 
 
 // 拷贝对象
-void cacl::CACLInteger::copy(const CACLInteger number) {
+void CACLInteger::copy(const CACLInteger number) {
     for (int i = 0; i < number.bit; ++i) {
         num[i] = number.num[i];
     }
@@ -31,7 +31,7 @@ void cacl::CACLInteger::copy(const CACLInteger number) {
 
 
 // 转换long long为CACLInteger
-cacl::CACLInteger cacl::CACLInteger::translate(long long number) {
+CACLInteger CACLInteger::translate(long long number) {
     CACLInteger ans;
     int tempBit = 0;
     short tempNum[MAX_OF_BIT]{};
@@ -61,47 +61,47 @@ cacl::CACLInteger cacl::CACLInteger::translate(long long number) {
 
 
 // 判断是不是零
-bool cacl::CACLInteger::isZero() {
+bool CACLInteger::isZero() {
     return this->bit == 1 && this->num[0] == 0;
 }
 
 
 // 判断是不是负数
-bool cacl::CACLInteger::isNegative() {
+bool CACLInteger::isNegative() {
     return symbol;
 }
 
 
 // 判断是不是正数
-bool cacl::CACLInteger::isPositive() {
+bool CACLInteger::isPositive() {
     return !symbol;
 }
 
 
 // 获取位数
-int cacl::CACLInteger::getBit() {
+int CACLInteger::getBit() {
     return bit;
 }
 
 // 转换符号
-void cacl::CACLInteger::exchangeSymbol() {
+void CACLInteger::exchangeSymbol() {
     symbol = !symbol;
 }
 
 // 获取正负值
-bool cacl::CACLInteger::getSymbol() {
+bool CACLInteger::getSymbol() {
     return this->symbol;
 }
 
 // 设置符号
-void cacl::CACLInteger::setSymbol(bool target) {
+void CACLInteger::setSymbol(bool target) {
     symbol = target;
 }
 
-short *cacl::CACLInteger::at(int location) {
+short *CACLInteger::at(int location) {
     return (short *) (num + location);
 }
 
-void cacl::CACLInteger::setBit(int newBit) {
+void CACLInteger::setBit(int newBit) {
     this->bit = newBit;
 }

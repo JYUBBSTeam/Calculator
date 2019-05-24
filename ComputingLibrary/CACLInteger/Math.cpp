@@ -9,7 +9,7 @@
 #include "CACLInteger.hpp"
 
 // 求number的绝对值
-cacl::CACLInteger cacl::CACLInteger::absoluteValue() {
+CACLInteger CACLInteger::absoluteValue() {
     if (symbol) {
         CACLInteger temp;
         temp = *this;

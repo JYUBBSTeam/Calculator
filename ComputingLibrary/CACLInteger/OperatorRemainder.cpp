@@ -1,7 +1,7 @@
 #include "CACLInteger.hpp"
 
 // 重载求余数
-cacl::CACLInteger cacl::CACLInteger::operator%(CACLInteger number) {
+CACLInteger CACLInteger::operator%(CACLInteger number) {
     CACLInteger ans;
 
     ans = *this - (*this / number) * number;
@@ -10,7 +10,7 @@ cacl::CACLInteger cacl::CACLInteger::operator%(CACLInteger number) {
 }
 
 
-cacl::CACLInteger cacl::CACLInteger::operator%(const long long number) {
+CACLInteger CACLInteger::operator%(const long long number) {
     CACLInteger translatedNumber = translate(number);
     CACLInteger ans;
 

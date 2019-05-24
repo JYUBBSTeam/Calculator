@@ -1,4 +1,4 @@
-C:\Users\dell\.CLion2019.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/cygwin64/bin/make.exe -DCMAKE_C_COMPILER=C:/cygwin64/bin/gcc.exe -DCMAKE_CXX_COMPILER=C:/cygwin64/bin/g++.exe -G "CodeBlocks - Unix Makefiles" /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction
+C:\Users\H\.CLion2019.1\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/cygwin64/bin/make.exe -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug
+-- Build files have been written to: /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug

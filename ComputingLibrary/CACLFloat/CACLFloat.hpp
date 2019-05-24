@@ -40,151 +40,149 @@ void setPrecision();
 // 初始化进度为0.00001
 void initPrecision();
 
-namespace cacl {
-
-    class CACLFloat {
-    public:
-        // 构造CACLFloat
-        CACLFloat() {
-            for (auto &i : decimalNum) {
-                i = 0;
-            }
-            decimalBit = 0;
-        };
-
-        // 析构CACLFloat
-        ~CACLFloat() = default;
-
-        // 初始化对象
-        void initialize();
-
-        // 拷贝对象
-        void copy(const CACLFloat number);
-
-        // 将double转换为CACLFloat对象
-        CACLFloat translate(double number);
-
-        // 判断是不是零
-        bool isZero();
-
-        // 判断是不是负数
-        bool isNegative();
-
-        // 判断是不是正数
-        bool isPositive();
-
-        // 转换符号
-        void exchangeSymbol();
-
-        // 重载加法
-        CACLFloat operator+(CACLFloat number);
-
-        CACLFloat operator+(double number);
-
-        // 重载减法
-        CACLFloat operator-(CACLFloat number);
-
-        CACLFloat operator-(double number);
-
-        // 重载乘法
-        CACLFloat operator*(CACLFloat number);
-
-        CACLFloat operator*(double number);
-
-        // 重载除法
-        CACLFloat operator/(CACLFloat number);
-
-        CACLFloat operator/(double number);
-
-        // 重载大于号
-        bool operator>(CACLFloat number);
-
-        bool operator>(double number);
-
-        // 重载小于号
-        bool operator<(CACLFloat number);
-
-        bool operator<(double number);
-
-        // 重载大于或等于号
-        bool operator>=(CACLFloat number);
-
-        bool operator>=(double number);
-
-        // 重载小于或等于号
-        bool operator<=(CACLFloat number);
-
-        bool operator<=(double number);
-
-        // 重载等于号
-        bool operator==(CACLFloat number);
-
-        bool operator==(double number);
-
-        // 重载赋值
-        CACLFloat operator=(CACLFloat number);
-
-        CACLFloat operator=(CACLInteger number);
-
-        CACLFloat operator=(double number);
-
-        //重载加赋值
-        CACLFloat operator+=(CACLFloat number);
-
-        CACLFloat operator+=(double number);
-
-        //重载减赋值
-        CACLFloat operator-=(CACLFloat number);
-
-        CACLFloat operator-=(double number);
-
-        //重载乘赋值
-        CACLFloat operator*=(CACLFloat number);
-
-        CACLFloat operator*=(double number);
-
-        //重载除赋值
-        CACLFloat operator/=(CACLFloat number);
-
-        CACLFloat operator/=(double number);
-
-        // 重载右移动作为输入
-        friend std::istream &operator>>(std::istream &_cin, CACLFloat &myFloat);
-
-        // 重载左移作为输出
-        friend std::ostream &operator<<(std::ostream &_cout, CACLFloat &myFloat);
-
-        // 求绝对值
-        CACLFloat absoluteValue();
-
-    private:
-
-        // 无符号小数相加
-        void unsignedAddition(CACLFloat *ans, CACLFloat number1, CACLFloat number2);
-
-        // 无符号小数相减
-        void unsignedSubtraction(CACLFloat *ans, CACLFloat number1, CACLFloat number2);
-
-        // 无符号小数乘法
-        void unsignedMultiplication(CACLFloat *ans, CACLFloat number1, CACLFloat number2);
-
-        // 无符号整数和小数相乘
-        CACLFloat unsignedIntegerFloatMultiplication(CACLInteger number1, CACLFloat number2);
-
-        // 无符号CACLFloat相除
-        void unsignedDivision(CACLFloat *ans, CACLFloat number1, CACLFloat number2);
-
-    private:
-        // 小数位数
-        int decimalBit;
-
-        // 小数部分的数字
-        short decimalNum[MAX_OF_DECIMAL_BIT]{};
-
-        // 整数部分
-        CACLInteger integer;
+class CACLFloat {
+public:
+    // 构造CACLFloat
+    CACLFloat() {
+        for (auto &i : decimalNum) {
+            i = 0;
+        }
+        decimalBit = 0;
     };
-}
+
+    // 析构CACLFloat
+    ~CACLFloat() = default;
+
+    // 初始化对象
+    void initialize();
+
+    // 拷贝对象
+    void copy(const CACLFloat number);
+
+    // 将double转换为CACLFloat对象
+    CACLFloat translate(double number);
+
+    // 判断是不是零
+    bool isZero();
+
+    // 判断是不是负数
+    bool isNegative();
+
+    // 判断是不是正数
+    bool isPositive();
+
+    // 转换符号
+    void exchangeSymbol();
+
+    // 重载加法
+    CACLFloat operator+(CACLFloat number);
+
+    CACLFloat operator+(double number);
+
+    // 重载减法
+    CACLFloat operator-(CACLFloat number);
+
+    CACLFloat operator-(double number);
+
+    // 重载乘法
+    CACLFloat operator*(CACLFloat number);
+
+    CACLFloat operator*(double number);
+
+    // 重载除法
+    CACLFloat operator/(CACLFloat number);
+
+    CACLFloat operator/(double number);
+
+    // 重载大于号
+    bool operator>(CACLFloat number);
+
+    bool operator>(double number);
+
+    // 重载小于号
+    bool operator<(CACLFloat number);
+
+    bool operator<(double number);
+
+    // 重载大于或等于号
+    bool operator>=(CACLFloat number);
+
+    bool operator>=(double number);
+
+    // 重载小于或等于号
+    bool operator<=(CACLFloat number);
+
+    bool operator<=(double number);
+
+    // 重载等于号
+    bool operator==(CACLFloat number);
+
+    bool operator==(double number);
+
+    // 重载赋值
+    CACLFloat operator=(CACLFloat number);
+
+    CACLFloat operator=(CACLInteger number);
+
+    CACLFloat operator=(double number);
+
+    //重载加赋值
+    CACLFloat operator+=(CACLFloat number);
+
+    CACLFloat operator+=(double number);
+
+    //重载减赋值
+    CACLFloat operator-=(CACLFloat number);
+
+    CACLFloat operator-=(double number);
+
+    //重载乘赋值
+    CACLFloat operator*=(CACLFloat number);
+
+    CACLFloat operator*=(double number);
+
+    //重载除赋值
+    CACLFloat operator/=(CACLFloat number);
+
+    CACLFloat operator/=(double number);
+
+    // 重载右移动作为输入
+    friend std::istream &operator>>(std::istream &_cin, CACLFloat &myFloat);
+
+    // 重载左移作为输出
+    friend std::ostream &operator<<(std::ostream &_cout, CACLFloat &myFloat);
+
+    // 求绝对值
+    CACLFloat absoluteValue();
+
+private:
+
+    // 无符号小数相加
+    void unsignedAddition(CACLFloat *ans, CACLFloat number1, CACLFloat number2);
+
+    // 无符号小数相减
+    void unsignedSubtraction(CACLFloat *ans, CACLFloat number1, CACLFloat number2);
+
+    // 无符号小数乘法
+    void unsignedMultiplication(CACLFloat *ans, CACLFloat number1, CACLFloat number2);
+
+    // 无符号整数和小数相乘
+    CACLFloat unsignedIntegerFloatMultiplication(CACLInteger number1, CACLFloat number2);
+
+    // 无符号CACLFloat相除
+    void unsignedDivision(CACLFloat *ans, CACLFloat number1, CACLFloat number2);
+
+private:
+    // 小数位数
+    int decimalBit;
+
+    // 小数部分的数字
+    short decimalNum[MAX_OF_DECIMAL_BIT]{};
+
+    // 整数部分
+    CACLInteger integer;
+};
+
 
 // 找出两个参数的最大值
 template<class T>

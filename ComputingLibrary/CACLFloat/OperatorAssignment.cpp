@@ -7,7 +7,7 @@
 #include "CACLFloat.hpp"
 
 //重载赋值
-cacl::CACLFloat cacl::CACLFloat::operator=(cacl::CACLFloat number) {
+CACLFloat CACLFloat::operator=(CACLFloat number) {
     this->integer = number.integer;
 
     for (int i = 0; i < number.decimalBit; ++i) {
@@ -18,13 +18,13 @@ cacl::CACLFloat cacl::CACLFloat::operator=(cacl::CACLFloat number) {
     return *this;
 }
 
-cacl::CACLFloat cacl::CACLFloat::operator=(cacl::CACLInteger number) {
+CACLFloat CACLFloat::operator=(CACLInteger number) {
     integer = number;
 
     return *this;
 }
 
-cacl::CACLFloat cacl::CACLFloat::operator=(double number) {
+CACLFloat CACLFloat::operator=(double number) {
     CACLFloat translatedNumber = translate(number);
 
     *this = translatedNumber;
@@ -33,11 +33,11 @@ cacl::CACLFloat cacl::CACLFloat::operator=(double number) {
 
 
 // 重载加赋值
-cacl::CACLFloat cacl::CACLFloat::operator+=(CACLFloat number) {
+CACLFloat CACLFloat::operator+=(CACLFloat number) {
     *this = *this + number;
 }
 
-cacl::CACLFloat cacl::CACLFloat::operator+=(double number) {
+CACLFloat CACLFloat::operator+=(double number) {
     CACLFloat translatedNumber = translate(number);
 
     *this += translatedNumber;
@@ -45,11 +45,11 @@ cacl::CACLFloat cacl::CACLFloat::operator+=(double number) {
 
 
 // 重载减赋值
-cacl::CACLFloat cacl::CACLFloat::operator-=(CACLFloat number) {
+CACLFloat CACLFloat::operator-=(CACLFloat number) {
     *this = *this - number;
 }
 
-cacl::CACLFloat cacl::CACLFloat::operator-=(double number) {
+CACLFloat CACLFloat::operator-=(double number) {
     CACLFloat translatedNumber = translate(number);
 
     *this -= translatedNumber;
@@ -57,11 +57,11 @@ cacl::CACLFloat cacl::CACLFloat::operator-=(double number) {
 
 
 //重载乘赋值
-cacl::CACLFloat cacl::CACLFloat::operator*=(CACLFloat number) {
+CACLFloat CACLFloat::operator*=(CACLFloat number) {
     *this = *this * number;
 }
 
-cacl::CACLFloat cacl::CACLFloat::operator*=(double number) {
+CACLFloat CACLFloat::operator*=(double number) {
     CACLFloat translatedNumber = translate(number);
 
     *this *= translatedNumber;
@@ -69,11 +69,11 @@ cacl::CACLFloat cacl::CACLFloat::operator*=(double number) {
 
 
 //重载除赋值
-cacl::CACLFloat cacl::CACLFloat::operator/=(CACLFloat number) {
+CACLFloat CACLFloat::operator/=(CACLFloat number) {
     *this = *this / number;
 }
 
-cacl::CACLFloat cacl::CACLFloat::operator/=(double number) {
+CACLFloat CACLFloat::operator/=(double number) {
     CACLFloat translatedNumber = translate(number);
 
     *this /= translatedNumber;

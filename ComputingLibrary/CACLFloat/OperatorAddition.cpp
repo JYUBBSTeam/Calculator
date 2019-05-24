@@ -9,7 +9,7 @@
 #include "CACLFloat.hpp"
 
 // 重载加法
-cacl::CACLFloat cacl::CACLFloat::operator+(cacl::CACLFloat number) {
+CACLFloat CACLFloat::operator+(CACLFloat number) {
     CACLFloat ans;
     ans.initialize();
 
@@ -25,7 +25,7 @@ cacl::CACLFloat cacl::CACLFloat::operator+(cacl::CACLFloat number) {
 }
 
 
-cacl::CACLFloat cacl::CACLFloat::operator+(double number) {
+CACLFloat CACLFloat::operator+(double number) {
     CACLFloat translatedNumber = translate(number);
     CACLFloat ans;
 
@@ -36,7 +36,7 @@ cacl::CACLFloat cacl::CACLFloat::operator+(double number) {
 
 
 // 无符号小数相加
-void cacl::CACLFloat::unsignedAddition(cacl::CACLFloat *ans, cacl::CACLFloat number1, cacl::CACLFloat number2) {
+void CACLFloat::unsignedAddition(CACLFloat *ans, CACLFloat number1, CACLFloat number2) {
 
     // 将number1、2的小数位中多余的数设置为零
     for (auto i = number1.decimalBit; i < MAX_OF_DECIMAL_BIT; ++i) {

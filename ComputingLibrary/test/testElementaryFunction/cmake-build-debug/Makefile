@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/dell/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /cygdrive/c/Users/H/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/dell/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /cygdrive/c/Users/H/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction
+CMAKE_SOURCE_DIR = /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/test
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/dell/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/cygdrive/c/Users/H/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/dell/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	/cygdrive/c/Users/H/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/e/project/GIT/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,518 +123,518 @@ testElementaryFunction/fast:
 	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/build
 .PHONY : testElementaryFunction/fast
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.o: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.o
-
-# target to build an object file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o
-
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.i: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i
-
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.i
-
-# target to preprocess a source file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i
-
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.s: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s
-
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.s
-
-# target to generate assembly for a file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s
-
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.o: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o
-
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.o
 
 # target to build an object file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.i: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.i
 
 # target to preprocess a source file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.s: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.s
 
 # target to generate assembly for a file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.o: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.o
 
 # target to build an object file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.i: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.i
 
 # target to preprocess a source file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.s: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.s
 
 # target to generate assembly for a file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.o: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.o
 
 # target to build an object file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.i: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.i
 
 # target to preprocess a source file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.s: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.s
 
 # target to generate assembly for a file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.o: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.o
 
 # target to build an object file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.i: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.i
 
 # target to preprocess a source file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.s: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.s
 
 # target to generate assembly for a file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.o: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.o
 
 # target to build an object file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.i: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.i
 
 # target to preprocess a source file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.s: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.s
 
 # target to generate assembly for a file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.o: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.o
 
 # target to build an object file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.i: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.i
 
 # target to preprocess a source file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.s: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.s
 
 # target to generate assembly for a file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.o: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.o
 
 # target to build an object file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.i: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.i
 
 # target to preprocess a source file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.s: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.s
 
 # target to generate assembly for a file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.o: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.o
 
 # target to build an object file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.i: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.i
 
 # target to preprocess a source file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.s: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.s
 
 # target to generate assembly for a file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.o: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.o
 
 # target to build an object file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.i: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.i
 
 # target to preprocess a source file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.s: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.s
 
 # target to generate assembly for a file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.o: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.o
 
 # target to build an object file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.i: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.i
 
 # target to preprocess a source file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.s: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.s
 
 # target to generate assembly for a file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.o: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.o
 
 # target to build an object file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.i: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.i
 
 # target to preprocess a source file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.s: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.s
 
 # target to generate assembly for a file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.o: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.o
 
 # target to build an object file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.i: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.i
 
 # target to preprocess a source file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.s: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.s
 
 # target to generate assembly for a file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.o: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.o
 
 # target to build an object file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.i: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.i
 
 # target to preprocess a source file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.s: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.s
 
 # target to generate assembly for a file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.o: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.o
 
 # target to build an object file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.i: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.i
 
 # target to preprocess a source file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.s: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.s
 
 # target to generate assembly for a file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.o: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.o
 
 # target to build an object file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.i: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.i
 
 # target to preprocess a source file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.s: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.s
 
 # target to generate assembly for a file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.o: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.o
 
 # target to build an object file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.i: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.i
 
 # target to preprocess a source file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.s: cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.s
 
 # target to generate assembly for a file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.o: cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.o
 
 # target to build an object file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.i: cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.i
 
 # target to preprocess a source file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.i
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i
 
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.s: cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s
 
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.s
 
 # target to generate assembly for a file
-cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.s
-.PHONY : cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s
 
-test.o: test.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.o: cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o
 
-.PHONY : test.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.o
 
 # target to build an object file
-test.cpp.o:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/test.cpp.o
-.PHONY : test.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o
 
-test.i: test.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.i: cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.i
 
-.PHONY : test.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/test.cpp.i
-.PHONY : test.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.i
 
-test.s: test.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.s: cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.s
 
-.PHONY : test.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/test.cpp.s
-.PHONY : test.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.s
+
+testForRegion.o: testForRegion.cpp.o
+
+.PHONY : testForRegion.o
+
+# target to build an object file
+testForRegion.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/testForRegion.cpp.o
+.PHONY : testForRegion.cpp.o
+
+testForRegion.i: testForRegion.cpp.i
+
+.PHONY : testForRegion.i
+
+# target to preprocess a source file
+testForRegion.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/testForRegion.cpp.i
+.PHONY : testForRegion.cpp.i
+
+testForRegion.s: testForRegion.cpp.s
+
+.PHONY : testForRegion.s
+
+# target to generate assembly for a file
+testForRegion.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/testForRegion.cpp.s
+.PHONY : testForRegion.cpp.s
 
 # Help Target
 help:
@@ -645,63 +645,63 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... testElementaryFunction"
 	@echo "... edit_cache"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.o"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.i"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/IO.s"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.o"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.i"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Math.s"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.o"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.i"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.s"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.o"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.i"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.s"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.o"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.i"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.s"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.o"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.i"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/Precision.s"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.o"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.i"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLFloat/SelfData.s"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.o"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.i"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/IO.s"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.o"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.i"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/Math.s"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.o"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.i"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.s"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.o"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.i"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.s"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.o"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.i"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.s"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.o"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.i"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.s"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.o"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.i"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.s"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.o"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.i"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.s"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.o"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.i"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.s"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.o"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.i"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/CACLInteger/SelfData.s"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.o"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.i"
-	@echo "... cygdrive/e/project/GIT/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.s"
+	@echo "... testForRegion.o"
+	@echo "... testForRegion.i"
+	@echo "... testForRegion.s"
 .PHONY : help
 
 

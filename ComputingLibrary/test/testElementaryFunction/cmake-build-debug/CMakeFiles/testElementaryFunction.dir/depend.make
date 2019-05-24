@@ -17,6 +17,10 @@ CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLib
 CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp
 CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+
 CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp
 CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
@@ -59,10 +63,11 @@ CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLib
 CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
 
-CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
-CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
-CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Interval.hpp
-CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Modify.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/BasicallyModify.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/BasicallyModify.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/BasicallyModify.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/BasicallyModify.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/BasicallyModify.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Interval.hpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/BasicallyModify.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Range/Interval.hpp
 
 CMakeFiles/testElementaryFunction.dir/testForRegion.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 CMakeFiles/testElementaryFunction.dir/testForRegion.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp

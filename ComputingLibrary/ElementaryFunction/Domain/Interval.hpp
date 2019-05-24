@@ -14,6 +14,7 @@
 #define ELEMENTARYFUNCTION_INTERVAL_HPP
 
 #include "../../CACLFloat/CACLFloat.hpp"
+#include "../Range/Interval.hpp"
 #include <vector>
 
 
@@ -24,6 +25,13 @@ class CACLDomainEndPoint {
 public:
     CACLDomainEndPoint() {
         left = right = false;
+        linkToRange = nullptr;
+        dotMode = false;
+    }
+
+    CACLDomainEndPoint(CACLFloat d) {
+        dot = d;
+        dotMode = true;
     }
 
     CACLDomainEndPoint(bool l, CACLFloat lP, bool r, CACLFloat rP) {
@@ -32,35 +40,58 @@ public:
 
         leftPoint = lP;
         rightPoint = rP;
+
+        linkToRange = nullptr;
+
+        dotMode = false;
     }
 
     ~CACLDomainEndPoint() = default;
+
+public:
+    // 链接对应值域
+    CACLRangeEndPoint *linkToRange;
 
 private:
     // false为开，true为闭
     bool left;
     bool right;
 
-
+    // 左右端点
     CACLFloat leftPoint;
     CACLFloat rightPoint;
 
-
+    // 使用点模式, false是不用，true是用
+    bool dotMode;
+    // 点
+    CACLFloat dot;
 };
 
 // 区间类
 class CACLDefineInterval {
 public:
-    CACLDefineInterval() = default;
+    CACLDefineInterval() {
+        unit = precision;
+    }
 
     ~CACLDefineInterval() = default;
 
     // 放入区间
     void push(bool l, CACLFloat lP, bool r, CACLFloat rP);
 
+    // 连接值域
+    void link(CACLDomainEndPoint &domain, CACLRangeEndPoint *range);
+
+    // 设置单位
+    void setUnit(CACLFloat number);
+
+
 private:
     // 存放各个区间
     std::vector<CACLDomainEndPoint> segment;
+
+    // 区间中的间隔单位
+    CACLFloat unit;
 };
 
 

@@ -2,7 +2,7 @@
 #include "CACLFloat.hpp"
 
 //重载除法
-cacl::CACLFloat cacl::CACLFloat::operator/(cacl::CACLFloat number) {
+CACLFloat CACLFloat::operator/(CACLFloat number) {
     CACLFloat ans;
     ans.initialize();
 
@@ -15,7 +15,7 @@ cacl::CACLFloat cacl::CACLFloat::operator/(cacl::CACLFloat number) {
     return ans;
 }
 
-cacl::CACLFloat cacl::CACLFloat::operator/(double number) {
+CACLFloat CACLFloat::operator/(double number) {
     CACLFloat translatedNumber = translate(number);
     CACLFloat ans;
 
@@ -24,7 +24,7 @@ cacl::CACLFloat cacl::CACLFloat::operator/(double number) {
 }
 
 void
-cacl::CACLFloat::unsignedDivision(cacl::CACLFloat *ans, cacl::CACLFloat number1, cacl::CACLFloat number2) {
+CACLFloat::unsignedDivision(CACLFloat *ans, CACLFloat number1, CACLFloat number2) {
     CACLInteger tempNumber1, tempNumber2;
     int tempPrecision = precision + 1;
 

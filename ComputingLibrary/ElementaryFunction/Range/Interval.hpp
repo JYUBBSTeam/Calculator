@@ -5,9 +5,10 @@
 #ifndef TESTELEMENTARYFUNCTION_INTERVAL_HPP
 #define TESTELEMENTARYFUNCTION_INTERVAL_HPP
 
+#include <vector>
 
 class CACLRangeEndPoint{
-    
+
 };
 
 class CACLValueInterval {

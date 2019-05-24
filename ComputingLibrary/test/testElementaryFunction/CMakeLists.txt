@@ -26,11 +26,12 @@ add_executable(testElementaryFunction testForRegion.cpp
         ../../CACLFloat/OperatorAssignment.cpp
         ../../CACLFloat/Math.cpp
         ../../CACLFloat/Precision.cpp
+        ../../CACLFloat/OperatorDivision.cpp
         ../../CACLFloat/OperatorSubtraction.cpp
 
 
         # Interval类
         ../../ElementaryFunction/Domain/Interval.hpp
-        ../../ElementaryFunction/Domain/Modify.cpp
+        ../../ElementaryFunction/Domain/BasicallyModify.cpp
         ../../ElementaryFunction/Region.hpp
         ../../ElementaryFunction/Range/Interval.hpp)

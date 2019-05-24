@@ -12,6 +12,7 @@ iostream
 ../CACLInteger/CACLInteger.hpp
 /home/h/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
+<<<<<<< HEAD
 /home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp
 CACLFloat.hpp
 /home/h/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
@@ -39,9 +40,13 @@ CACLFloat.hpp
 /home/h/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 
 /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp
+=======
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp
+>>>>>>> 3a0d8c3ade62a7f1d1669d53d128c56bcab871c5
 CACLFloat.hpp
 /home/h/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 
+<<<<<<< HEAD
 /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp
 CACLFloat.hpp
 /home/h/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
@@ -116,3 +121,9 @@ iostream
 ../../CACLFloat/CACLFloat.hpp
 /home/h/Project/Calculator/ComputingLibrary/CACLFloat/CACLFloat.hpp
 
+=======
+/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+iostream
+-
+
+>>>>>>> 3a0d8c3ade62a7f1d1669d53d128c56bcab871c5

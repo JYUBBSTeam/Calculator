@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/H/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /home/h/JetBrains/clion-2019.1.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/H/.CLion2019.1/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /home/h/JetBrains/clion-2019.1.3/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat
+CMAKE_SOURCE_DIR = /home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug
+CMAKE_BINARY_DIR = /home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/testCACLFloat.dir/depend.make
@@ -59,332 +59,332 @@ include CMakeFiles/testCACLFloat.dir/flags.make
 
 CMakeFiles/testCACLFloat.dir/test.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
 CMakeFiles/testCACLFloat.dir/test.cpp.o: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testCACLFloat.dir/test.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/test.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testCACLFloat.dir/test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/test.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/test.cpp
 
 CMakeFiles/testCACLFloat.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/test.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/test.cpp > CMakeFiles/testCACLFloat.dir/test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/test.cpp > CMakeFiles/testCACLFloat.dir/test.cpp.i
 
 CMakeFiles/testCACLFloat.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/test.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/test.cpp -o CMakeFiles/testCACLFloat.dir/test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/test.cpp -o CMakeFiles/testCACLFloat.dir/test.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.s
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o: CMakeFiles/testCACLFloat.dir/flags.make
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o: /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o -c /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp > CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.i
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp > CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.i
 
-CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp -o CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.s
+CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp -o CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.s
 
 # Object files for target testCACLFloat
 testCACLFloat_OBJECTS = \
 "CMakeFiles/testCACLFloat.dir/test.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o" \
-"CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o"
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o" \
+"CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o"
 
 # External object files for target testCACLFloat
 testCACLFloat_EXTERNAL_OBJECTS =
 
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/test.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/build.make
-testCACLFloat.exe: CMakeFiles/testCACLFloat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable testCACLFloat.exe"
+testCACLFloat: CMakeFiles/testCACLFloat.dir/test.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/IO.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/SelfData.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAddition.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorAssignment.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Math.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorComparison.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/home/h/Project/Calculator/ComputingLibrary/CACLFloat/OperatorMultiplication.cpp.o
+testCACLFloat: CMakeFiles/testCACLFloat.dir/build.make
+testCACLFloat: CMakeFiles/testCACLFloat.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable testCACLFloat"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testCACLFloat.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/testCACLFloat.dir/build: testCACLFloat.exe
+CMakeFiles/testCACLFloat.dir/build: testCACLFloat
 
 .PHONY : CMakeFiles/testCACLFloat.dir/build
 
@@ -393,6 +393,6 @@ CMakeFiles/testCACLFloat.dir/clean:
 .PHONY : CMakeFiles/testCACLFloat.dir/clean
 
 CMakeFiles/testCACLFloat.dir/depend:
-	cd /cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat /cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat /cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug /cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug /cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles/testCACLFloat.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat /home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat /home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug /home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug /home/h/Project/Calculator/ComputingLibrary/test/testCACLFloat/cmake-build-debug/CMakeFiles/testCACLFloat.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/testCACLFloat.dir/depend
 

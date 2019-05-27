@@ -1,0 +1,43 @@
+import sys
+from PyQt5.QtWidgets import QApplication,QWidget,QPushButton
+from PyQt5 import QtGui,QtCore
+from PyQt5.QtGui import QIcon
+
+class Example(QWidget):
+
+    def __init__(self):
+        super().__init__()
+
+        self.initUI()
+
+    def initUI(self):
+        self.but1=QPushButton('+',self)
+        self.but1.setCheckable(True)
+        self.but1.move(50,20)
+        self.but1.setStyleSheet("QPushButton{color:black}""QPushButton:hover{color:red}""QPushButton{background-color:rgb(78,255,255)}""QPushButton{border:2px}""QPushButton{border-radius:10px}""QPushButton{padding:2px 4px}")
+
+        self.but2=QPushButton('-',self)
+        self.but2.setCheckable(True)
+        self.but2.move(150,20)
+        self.but2.setStyleSheet("QPushButton{color:black}""QPushButton:hover{color:red}""QPushButton{background-color:rgb(78,255,255)}""QPushButton{border:2px}""QPushButton{border-radius:10px}""QPushButton{padding:2px 4px}")
+
+        self.but3=QPushButton('*',self)
+        self.but3.setCheckable(True)
+        self.but3.move(50,50)
+        self.but3.setStyleSheet("QPushButton{color:black}""QPushButton:hover{color:red}""QPushButton{background-color:rgb(78,255,255)}""QPushButton{border:2px}""QPushButton{border-radius:10px}""QPushButton{padding:2px 4px}")
+
+        self.but4=QPushButton('/',self)
+        self.but4.setCheckable(True)
+        self.but4.move(150,50)
+        self.but4.setStyleSheet("QPushButton{color:black}""QPushButton:hover{color:red}""QPushButton{background-color:rgb(78,255,255)}""QPushButton{border:2px}""QPushButton{border-radius:10px}""QPushButton{padding:2px 4px}")
+
+
+        self.setGeometry(300,300,300,300)
+        self.setWindowTitle('四则运算')
+        self.show()
+
+if __name__=='__main__':
+
+    app=QApplication(sys.argv)
+    ex=Example()
+    sys.exit(app.exec_())

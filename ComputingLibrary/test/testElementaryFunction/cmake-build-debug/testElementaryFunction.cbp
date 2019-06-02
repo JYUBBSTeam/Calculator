@@ -146,6 +146,9 @@
 		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Interval.hpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp">
+			<Option target="testElementaryFunction"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Range/Interval.hpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>

@@ -34,4 +34,4 @@ add_executable(testElementaryFunction testForRegion.cpp
         ../../ElementaryFunction/Domain/Interval.hpp
         ../../ElementaryFunction/Domain/BasicallyModify.cpp
         ../../ElementaryFunction/Region.hpp
-        ../../ElementaryFunction/Range/Interval.hpp)
+        ../../ElementaryFunction/Range/Interval.hpp ../../ElementaryFunction/Domain/Others.cpp)

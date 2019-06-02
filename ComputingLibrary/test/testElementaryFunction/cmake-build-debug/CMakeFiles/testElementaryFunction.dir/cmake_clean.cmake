@@ -19,6 +19,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o"
   "CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o"
   "CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/BasicallyModify.cpp.o"
+  "CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.o"
   "testElementaryFunction.pdb"
   "testElementaryFunction.exe"
   "libtestElementaryFunction.dll.a"

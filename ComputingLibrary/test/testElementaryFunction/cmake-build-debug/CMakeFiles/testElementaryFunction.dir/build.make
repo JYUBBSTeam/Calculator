@@ -317,6 +317,19 @@ CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLib
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/BasicallyModify.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/BasicallyModify.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/BasicallyModify.cpp.s
 
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.o: CMakeFiles/testElementaryFunction.dir/flags.make
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp
+
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp > CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.i
+
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp -o CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.s
+
 # Object files for target testElementaryFunction
 testElementaryFunction_OBJECTS = \
 "CMakeFiles/testElementaryFunction.dir/testForRegion.cpp.o" \
@@ -338,7 +351,8 @@ testElementaryFunction_OBJECTS = \
 "CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/Precision.cpp.o" \
 "CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o" \
 "CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o" \
-"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/BasicallyModify.cpp.o"
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/BasicallyModify.cpp.o" \
+"CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.o"
 
 # External object files for target testElementaryFunction
 testElementaryFunction_EXTERNAL_OBJECTS =
@@ -363,9 +377,10 @@ testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Pro
 testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorDivision.cpp.o
 testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLFloat/OperatorSubtraction.cpp.o
 testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/BasicallyModify.cpp.o
+testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.o
 testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/build.make
 testElementaryFunction.exe: CMakeFiles/testElementaryFunction.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable testElementaryFunction.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable testElementaryFunction.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testElementaryFunction.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

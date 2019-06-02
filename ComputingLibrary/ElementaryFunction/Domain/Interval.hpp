@@ -71,7 +71,6 @@ private:
 class CACLDefineInterval {
 public:
     CACLDefineInterval() {
-        unit = precision;
         controlCode = 0;
     }
 
@@ -90,16 +89,12 @@ public:
     // 连接值域
     void link(CACLDomainEndPoint &domain, CACLRangeEndPoint *range);
 
-    // 设置单位
-    void setUnit(CACLFloat number);
-
+private:
+    void sortSegment();
 
 private:
     // 存放各个区间
     std::vector<CACLDomainEndPoint *> segment;
-
-    // 区间中的间隔单位
-    CACLFloat unit;
 
     // 链接操作代码，0初始，1可直接插入，2需要重建值域
     int controlCode;

@@ -636,6 +636,33 @@ cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Basical
 	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/BasicallyModify.cpp.s
 .PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/BasicallyModify.cpp.s
 
+cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.o: cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.o
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.o
+
+# target to build an object file
+cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.o
+
+cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.i: cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.i
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.i
+
+# target to preprocess a source file
+cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.i
+
+cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.s: cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.s
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.s
+
+# target to generate assembly for a file
+cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.cpp.s
+
 testForRegion.o: testForRegion.cpp.o
 
 .PHONY : testForRegion.o
@@ -729,6 +756,9 @@ help:
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/BasicallyModify.o"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/BasicallyModify.i"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/BasicallyModify.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/ElementaryFunction/Domain/Others.s"
 	@echo "... testForRegion.o"
 	@echo "... testForRegion.i"
 	@echo "... testForRegion.s"

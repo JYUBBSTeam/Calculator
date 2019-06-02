@@ -1,27 +1,31 @@
-from PyQt5 import QtCore,QtGui,QtWidgets
-from PyQt5.QtGui import QIcon
-class Ui_mainWindow(object):
-    def setupUi(self,mainWindow):
-        mainWindow.setObjectName("mainWindow")
-        mainWindow.setWindowModality(QtCore.Qt.WindowModal)
-        mainWindow.resize(500,400)
+from PyQt5 import QtCore, QtWidgets
+from PyQt5.QtCore import QFile
+import sys
 
-        self.centralWidget=QtWidgets.QWidget(mainWindow)
-        self.centralWidget.setObjectName("centralWidget")
 
-        mainWindow.setCentralWidget(self.centralWidget)
-        self.retranslateUi(mainWindow)
-        QtCore.QMetaObject.connectSlotsByName(mainWindow)
+class windows_static_data:
+    width = 500
+    height = 400
+    top = 100
+    left = 100
 
-    def retranslateUi(self,mainWindow):
-        _translate=QtCore.QCoreApplication.translate
-        mainWindow.setWindowTitle('四则运算')
 
-if __name__=='__main__':
-   import sys
-   app=QtWidgets.QApplication(sys.argv)
-   mainWindow=QtWidgets.QMainWindow()
-   ui=Ui_mainWindow()
-   ui.setupUi(mainWindow)
-   mainWindow.show()
-   sys.exit(app.exec_())
+class UI_basic_window(QtWidgets):
+
+    def __init__(self):
+        # 读取qss文件
+        qss_file = QFile("QSS/BasicStyle.qss")
+        qss_file.open(QFile.ReadOnly)
+        # 读取qss文件
+        if qss_file.isOpen():
+            qss_stream = QtCore.QTextStream(qss_file).readAll()
+            self.setStylesheet(qss_stream)
+        else:
+            # 退出值为1说明打开qss失败
+            sys.exit(1)
+
+        self.setGeometry(windows_static_data.left, windows_static_data.top, windows_static_data.width,
+                         windows_static_data.height)
+
+    def set_button_location(self, button, x_ratio, y_ratio):
+        

@@ -8,14 +8,14 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(testCACLInterger test.cpp
 
-        ../../CACLInteger/CACLInteger.hpp
-        ../../CACLInteger/IO.cpp
-        ../../CACLInteger/Math.cpp
-        ../../CACLInteger/OperatorAddition.cpp
-        ../../CACLInteger/OperatorAssignment.cpp
-        ../../CACLInteger/OperatorComparison.cpp
-        ../../CACLInteger/OperatorDivision.cpp
-        ../../CACLInteger/OperatorMultiplication.cpp
-        ../../CACLInteger/OperatorRemainder.cpp
-        ../../CACLInteger/OperatorSubtraction.cpp
-        ../../CACLInteger/SelfData.cpp)
+        ../../NumberDefine/CACLInteger/CACLInteger.hpp
+        ../../NumberDefine/CACLInteger/IO.cpp
+        ../../NumberDefine/CACLInteger/Math.cpp
+        ../../NumberDefine/CACLInteger/OperatorAddition.cpp
+        ../../NumberDefine/CACLInteger/OperatorAssignment.cpp
+        ../../NumberDefine/CACLInteger/OperatorComparison.cpp
+        ../../NumberDefine/CACLInteger/OperatorDivision.cpp
+        ../../NumberDefine/CACLInteger/OperatorMultiplication.cpp
+        ../../NumberDefine/CACLInteger/OperatorRemainder.cpp
+        ../../NumberDefine/CACLInteger/OperatorSubtraction.cpp
+        ../../NumberDefine/CACLInteger/SelfData.cpp)

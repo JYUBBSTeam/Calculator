@@ -13,7 +13,7 @@
 #ifndef ELEMENTARYFUNCTION_INTERVAL_HPP
 #define ELEMENTARYFUNCTION_INTERVAL_HPP
 
-#include "../../CACLFloat/CACLFloat.hpp"
+#include "../../NumberDefine/Number.hpp"
 #include "../Range/Interval.hpp"
 #include <vector>
 
@@ -85,9 +85,6 @@ public:
 
     // 放入点
     void push(CACLFloat number);
-
-    // 连接值域
-    void link(CACLDomainEndPoint &domain, CACLRangeEndPoint *range);
 
 private:
     void sortSegment();

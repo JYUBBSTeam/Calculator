@@ -59,6 +59,6 @@ CACLInteger.hpp
 /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 
 /cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/test.cpp
-../../CACLInteger/CACLInteger.hpp
+../CACLInteger/CACLInteger.hpp
 /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 

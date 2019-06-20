@@ -70,164 +70,164 @@ CMakeFiles/testCACLInterger.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/test.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/test.cpp -o CMakeFiles/testCACLInterger.dir/test.cpp.s
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.i
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.s
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.i
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.s
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.i
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.s
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.i
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.s
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.i
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.s
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.i
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.s
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.i
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.s
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.i
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.s
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.i
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.s
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.o: CMakeFiles/testCACLInterger.dir/flags.make
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.o -c /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp > CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.i
 
-CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s
+CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp -o CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.s
 
 # Object files for target testCACLInterger
 testCACLInterger_OBJECTS = \
 "CMakeFiles/testCACLInterger.dir/test.cpp.o" \
-"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o" \
-"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o" \
-"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o" \
-"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o" \
-"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o" \
-"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o" \
-"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o" \
-"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o" \
-"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o" \
-"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o"
+"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.o" \
+"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.o" \
+"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.o" \
+"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.o" \
+"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.o" \
+"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.o" \
+"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.o" \
+"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.o" \
+"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.o" \
+"CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.o"
 
 # External object files for target testCACLInterger
 testCACLInterger_EXTERNAL_OBJECTS =
 
 testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/test.cpp.o
-testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o
-testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o
-testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o
-testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o
-testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o
-testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o
-testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o
-testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o
-testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o
-testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o
+testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.o
+testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.o
+testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.o
+testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.o
+testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.o
+testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.o
+testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.o
+testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.o
+testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.o
+testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.o
 testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/build.make
 testCACLInterger.exe: CMakeFiles/testCACLInterger.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable testCACLInterger.exe"

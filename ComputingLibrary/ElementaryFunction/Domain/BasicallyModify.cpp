@@ -23,6 +23,7 @@ void CACLDefineInterval::push(bool l, CACLFloat lP, bool r, CACLFloat rP) {
                 }
                 this->segment.erase(this->segment.begin() + nowDomainLocation);
                 delete (theInterval);
+                this->controlCode = 2;
             }
             return;
         }
@@ -37,6 +38,7 @@ void CACLDefineInterval::push(bool l, CACLFloat lP, bool r, CACLFloat rP) {
             theInterval->right = true;
             lP = theInterval->rightPoint;
             l = false;
+            this->controlCode = 2;
         }
         // 新右端点在区间中，而新左端点不在
         if ((theInterval->leftPoint <= rP && rP <= theInterval->rightPoint)
@@ -46,7 +48,8 @@ void CACLDefineInterval::push(bool l, CACLFloat lP, bool r, CACLFloat rP) {
             }
             theInterval->left = true;
             rP = theInterval->leftPoint;
-            r=false;
+            r = false;
+            this->controlCode = 2;
         }
 
         // 都不在区间中
@@ -58,7 +61,7 @@ void CACLDefineInterval::push(bool l, CACLFloat lP, bool r, CACLFloat rP) {
     // 遍历segment， 查找出已经存在的范围，并插入不存在的范围
     for (auto i : this->segment) {
         rules(i);
-        if(judge){
+        if (judge) {
             break;
         }
     }
@@ -67,7 +70,9 @@ void CACLDefineInterval::push(bool l, CACLFloat lP, bool r, CACLFloat rP) {
     if (judge) {
         auto *newDomain = new CACLDomainEndPoint(l, lP, r, rP);
         sortSegment();
-        this->controlCode = 1;
+        if (this->controlCode != 2) {
+            this->controlCode = 1;
+        }
     }
 }
 
@@ -99,12 +104,7 @@ void CACLDefineInterval::push(CACLFloat number) {
     if (!judge) {
         auto *newDot = new CACLDomainEndPoint(number);
         this->segment.push_back(newDot);
+        this->sortSegment();
+        this->controlCode = 1;
     }
-
-    this->controlCode = 1;
-}
-
-
-void CACLDefineInterval::link(CACLDomainEndPoint &domain, CACLRangeEndPoint *range) {
-    domain.linkToRange = range;
 }

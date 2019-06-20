@@ -5,25 +5,25 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(testCACLFloat test.cpp
         # CACLInteger类
-        ../../CACLInteger/CACLInteger.hpp
-        ../../CACLInteger/OperatorMultiplication.cpp
-        ../../CACLInteger/IO.cpp
-        ../../CACLInteger/SelfData.cpp
-        ../../CACLInteger/Math.cpp
-        ../../CACLInteger/OperatorAddition.cpp
-        ../../CACLInteger/OperatorSubtraction.cpp
-        ../../CACLInteger/OperatorComparison.cpp
-        ../../CACLInteger/OperatorAssignment.cpp
-        ../../CACLInteger/OperatorDivision.cpp
-        ../../CACLInteger/OperatorRemainder.cpp
+        ../../NumberDefine/CACLInteger/CACLInteger.hpp
+        ../../NumberDefine/CACLInteger/OperatorMultiplication.cpp
+        ../../NumberDefine/CACLInteger/IO.cpp
+        ../../NumberDefine/CACLInteger/SelfData.cpp
+        ../../NumberDefine/CACLInteger/Math.cpp
+        ../../NumberDefine/CACLInteger/OperatorAddition.cpp
+        ../../NumberDefine/CACLInteger/OperatorSubtraction.cpp
+        ../../NumberDefine/CACLInteger/OperatorComparison.cpp
+        ../../NumberDefine/CACLInteger/OperatorAssignment.cpp
+        ../../NumberDefine/CACLInteger/OperatorDivision.cpp
+        ../../NumberDefine/CACLInteger/OperatorRemainder.cpp
 
 
         # CACLFloat类
-        ../../CACLFloat/CACLFloat.hpp
-        ../../CACLFloat/IO.cpp
-        ../../CACLFloat/SelfData.cpp
-        ../../CACLFloat/OperatorAddition.cpp
-        ../../CACLFloat/OperatorAssignment.cpp
-        ../../CACLFloat/Math.cpp
-        ../../CACLFloat/Precision.cpp
-        ../../CACLFloat/OperatorSubtraction.cpp ../../CACLFloat/OperatorComparison.cpp ../../CACLFloat/OperatorDivision.cpp ../../CACLFloat/OperatorMultiplication.cpp)
+        ../../NumberDefine/CACLFloat/CACLFloat.hpp
+        ../../NumberDefine/CACLFloat/IO.cpp
+        ../../NumberDefine/CACLFloat/SelfData.cpp
+        ../../NumberDefine/CACLFloat/OperatorAddition.cpp
+        ../../NumberDefine/CACLFloat/OperatorAssignment.cpp
+        ../../NumberDefine/CACLFloat/Math.cpp
+        ../../NumberDefine/CACLFloat/Precision.cpp
+        ../../NumberDefine/CACLFloat/OperatorSubtraction.cpp ../../NumberDefine/CACLFloat/OperatorComparison.cpp ../../NumberDefine/CACLFloat/OperatorDivision.cpp ../../NumberDefine/CACLFloat/OperatorMultiplication.cpp)

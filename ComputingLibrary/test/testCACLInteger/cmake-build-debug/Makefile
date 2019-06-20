@@ -123,275 +123,275 @@ testCACLInterger/fast:
 	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/build
 .PHONY : testCACLInterger/fast
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.o: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.o
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.o
-
-# target to build an object file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.o
-
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i
-
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.i
-
-# target to preprocess a source file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.i
-
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s
-
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.s
-
-# target to generate assembly for a file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp.s
-
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o
-
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.o
 
 # target to build an object file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.o:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.o
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.i: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.i
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.i
 
 # target to preprocess a source file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.i:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.i
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.s: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.s
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.s
 
 # target to generate assembly for a file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.s:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp.s
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.o: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.o
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.o
 
 # target to build an object file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.o:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.o
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.i: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.i
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.i
 
 # target to preprocess a source file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.i:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.i
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.s: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.s
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.s
 
 # target to generate assembly for a file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.s:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp.s
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.o: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.o
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.o
 
 # target to build an object file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.o:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.o
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.i: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.i
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.i
 
 # target to preprocess a source file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.i:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.i
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.s: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.s
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.s
 
 # target to generate assembly for a file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.s:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp.s
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.o: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.o
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.o
 
 # target to build an object file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.o:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.o
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.i: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.i
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.i
 
 # target to preprocess a source file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.i:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.i
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.s: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.s
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.s
 
 # target to generate assembly for a file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.s:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp.s
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.o: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.o
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.o
 
 # target to build an object file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.o:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.o
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.i: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.i
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.i
 
 # target to preprocess a source file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.i:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.i
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.s: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.s
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.s
 
 # target to generate assembly for a file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.s:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp.s
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.o: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.o
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.o
 
 # target to build an object file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.o:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.o
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.i: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.i
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.i
 
 # target to preprocess a source file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.i:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.i
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.s: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.s
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.s
 
 # target to generate assembly for a file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.s:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp.s
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.o: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.o
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.o
 
 # target to build an object file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.o:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.o
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.i: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.i
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.i
 
 # target to preprocess a source file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.i:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.i
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.s: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.s
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.s
 
 # target to generate assembly for a file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.s:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp.s
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.o: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.o
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.o
 
 # target to build an object file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.o:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.o
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.i: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.i
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.i
 
 # target to preprocess a source file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.i:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.i
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.s: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.s
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.s
 
 # target to generate assembly for a file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.s:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp.s
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.o: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.o: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.o
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.o
 
 # target to build an object file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.o
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.o:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.o
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.i: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.i: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.i
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.i
 
 # target to preprocess a source file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.i
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.i:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.i
 
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.s: cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.s: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.s
 
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.s
 
 # target to generate assembly for a file
-cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s:
-	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s
-.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp.s
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.s:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp.s
+
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.o: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.o
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.o
+
+# target to build an object file
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.o:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.o
+
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.i: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.i
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.i
+
+# target to preprocess a source file
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.i:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.i
+
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.s: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.s
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.s
+
+# target to generate assembly for a file
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.s:
+	$(MAKE) -f CMakeFiles/testCACLInterger.dir/build.make CMakeFiles/testCACLInterger.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp.s
 
 test.o: test.cpp.o
 
@@ -429,36 +429,36 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... testCACLInterger"
 	@echo "... edit_cache"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.o"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.i"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.s"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.o"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.i"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.s"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.o"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.i"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.s"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.o"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.i"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.s"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.o"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.i"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.s"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.o"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.i"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.s"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.o"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.i"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.s"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.o"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.i"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.s"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.o"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.i"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.s"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.o"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.i"
-	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

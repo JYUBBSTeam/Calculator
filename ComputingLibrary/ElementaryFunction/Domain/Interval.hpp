@@ -17,6 +17,8 @@
 #include "../Range/Interval.hpp"
 #include <vector>
 
+class CACLRangeEndPoint;
+
 
 // 记录区间的左右端点的数据
 class CACLDomainEndPoint {

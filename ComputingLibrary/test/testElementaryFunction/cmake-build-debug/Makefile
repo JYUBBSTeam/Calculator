@@ -285,6 +285,33 @@ cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorAs
 	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorAssignment.cpp.s
 .PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorAssignment.cpp.s
 
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.o: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.cpp.o
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.o
+
+# target to build an object file
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.cpp.o
+
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.i: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.cpp.i
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.i
+
+# target to preprocess a source file
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.cpp.i
+
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.s: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.cpp.s
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.s
+
+# target to generate assembly for a file
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.cpp.s
+
 cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorDivision.o: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorDivision.cpp.o
 
 .PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorDivision.o
@@ -311,6 +338,33 @@ cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorDi
 cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorDivision.cpp.s:
 	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorDivision.cpp.s
 .PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorDivision.cpp.s
+
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.o: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.cpp.o
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.o
+
+# target to build an object file
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.cpp.o:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.cpp.o
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.cpp.o
+
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.i: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.cpp.i
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.i
+
+# target to preprocess a source file
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.cpp.i:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.cpp.i
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.cpp.i
+
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.s: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.cpp.s
+
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.s
+
+# target to generate assembly for a file
+cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.cpp.s:
+	$(MAKE) -f CMakeFiles/testElementaryFunction.dir/build.make CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.cpp.s
+.PHONY : cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.cpp.s
 
 cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorSubtraction.o: cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorSubtraction.cpp.o
 
@@ -717,9 +771,15 @@ help:
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorAssignment.o"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorAssignment.i"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorAssignment.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.s"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorDivision.o"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorDivision.i"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorDivision.s"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.o"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.i"
+	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.s"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorSubtraction.o"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorSubtraction.i"
 	@echo "... cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorSubtraction.s"

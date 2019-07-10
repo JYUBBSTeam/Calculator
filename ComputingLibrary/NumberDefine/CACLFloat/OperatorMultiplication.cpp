@@ -2,7 +2,7 @@
 #include "CACLFloat.hpp"
 
 //重载乘法
-cacl::CACLFloat cacl::CACLFloat::operator*(cacl::CACLFloat number) {
+CACLFloat CACLFloat::operator*(CACLFloat number) {
     CACLFloat ans;
     ans.initialize();
 
@@ -20,7 +20,7 @@ cacl::CACLFloat cacl::CACLFloat::operator*(cacl::CACLFloat number) {
     return ans;
 }
 
-cacl::CACLFloat cacl::CACLFloat::operator*(double number) {
+CACLFloat CACLFloat::operator*(double number) {
     CACLFloat translatedNumber = translate(number);
     CACLFloat ans;
 
@@ -29,7 +29,7 @@ cacl::CACLFloat cacl::CACLFloat::operator*(double number) {
     return ans;
 }
 
-void cacl::CACLFloat::unsignedMultiplication(cacl::CACLFloat *ans, cacl::CACLFloat number1, cacl::CACLFloat number2) {
+void CACLFloat::unsignedMultiplication(CACLFloat *ans, CACLFloat number1, CACLFloat number2) {
     CACLFloat longer, shorter;
     // 用于记录整数部分
     CACLInteger tempNumber;
@@ -74,8 +74,8 @@ void cacl::CACLFloat::unsignedMultiplication(cacl::CACLFloat *ans, cacl::CACLFlo
 }
 
 // 将number2转换成乘以10的number2.decimalBit次方的CACLInteger类型对象，以两个CACLInteger的方式相乘
-cacl::CACLFloat
-cacl::CACLFloat::unsignedIntegerFloatMultiplication(cacl::CACLInteger number1, cacl::CACLFloat number2) {
+CACLFloat
+CACLFloat::unsignedIntegerFloatMultiplication(CACLInteger number1, CACLFloat number2) {
     CACLInteger tempNumber;
 
     // 把number2的小数转换成整数

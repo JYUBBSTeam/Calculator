@@ -31,9 +31,17 @@ CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLib
 CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorAssignment.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorAssignment.cpp
 CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorAssignment.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/CACLInteger.hpp
 
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/CACLFloat.hpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/CACLInteger.hpp
+
 CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorDivision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/CACLFloat.hpp
 CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorDivision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorDivision.cpp
 CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorDivision.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/CACLInteger.hpp
+
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/CACLFloat.hpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.cpp
+CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/CACLInteger.hpp
 
 CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorSubtraction.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/CACLFloat.hpp
 CMakeFiles/testElementaryFunction.dir/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorSubtraction.cpp.o: /cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorSubtraction.cpp

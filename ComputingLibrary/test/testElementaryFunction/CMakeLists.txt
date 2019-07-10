@@ -8,7 +8,7 @@ add_executable(testElementaryFunction testForRegion.cpp
         ../../NumberDefine/Number.hpp
 
         # CACLInteger类
-        ../../NumberDefine/CACLInteger/CACLInteger.hpp
+        ../../NumberDefine/Number.hpp
         ../../NumberDefine/CACLInteger/OperatorMultiplication.cpp
         ../../NumberDefine/CACLInteger/IO.cpp
         ../../NumberDefine/CACLInteger/SelfData.cpp
@@ -31,14 +31,16 @@ add_executable(testElementaryFunction testForRegion.cpp
         ../../NumberDefine/CACLFloat/Precision.cpp
         ../../NumberDefine/CACLFloat/OperatorDivision.cpp
         ../../NumberDefine/CACLFloat/OperatorSubtraction.cpp
+        ../../NumberDefine/CACLFloat/OperatorComparison.cpp
+        ../../NumberDefine/CACLFloat/OperatorMultiplication.cpp
 
 
         # Interval类
+        ../../ElementaryFunction/Region.hpp
         # Domain
         ../../ElementaryFunction/Domain/Interval.hpp
         ../../ElementaryFunction/Domain/BasicallyModify.cpp
         ../../ElementaryFunction/Domain/Others.cpp
         # Region
-        ../../ElementaryFunction/Region.hpp
         ../../ElementaryFunction/Range/Interval.hpp
         )

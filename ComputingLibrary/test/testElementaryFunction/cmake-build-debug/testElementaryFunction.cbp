@@ -110,7 +110,13 @@
 		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorAssignment.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorComparison.cpp">
+			<Option target="testElementaryFunction"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorDivision.cpp">
+			<Option target="testElementaryFunction"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorMultiplication.cpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/OperatorSubtraction.cpp">
@@ -120,9 +126,6 @@
 			<Option target="testElementaryFunction"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLFloat/SelfData.cpp">
-			<Option target="testElementaryFunction"/>
-		</Unit>
-		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/CACLInteger.hpp">
 			<Option target="testElementaryFunction"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp">

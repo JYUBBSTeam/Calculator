@@ -3,7 +3,7 @@
 #include "CACLFloat.hpp"
 
 // 重载大于号
-bool cacl::CACLFloat::operator>(cacl::CACLFloat number) {
+bool CACLFloat::operator>(CACLFloat number) {
     if (*this == number) {
         return false;
     }
@@ -28,7 +28,7 @@ bool cacl::CACLFloat::operator>(cacl::CACLFloat number) {
 }
 
 
-bool cacl::CACLFloat::operator>(double number) {
+bool CACLFloat::operator>(double number) {
     CACLFloat translatedNumber;
 
     translatedNumber = translate(number);
@@ -38,11 +38,11 @@ bool cacl::CACLFloat::operator>(double number) {
 
 
 // 重载小于号
-bool cacl::CACLFloat::operator<(cacl::CACLFloat number) {
+bool CACLFloat::operator<(CACLFloat number) {
     return !(*this > number);
 }
 
-bool cacl::CACLFloat::operator<(double number) {
+bool CACLFloat::operator<(double number) {
     CACLFloat translatedNumber;
 
     translatedNumber = translate(number);
@@ -52,11 +52,11 @@ bool cacl::CACLFloat::operator<(double number) {
 
 
 //重载大于或等于
-bool cacl::CACLFloat::operator>=(cacl::CACLFloat number) {
+bool CACLFloat::operator>=(CACLFloat number) {
     return *this > number or *this == number;
 }
 
-bool cacl::CACLFloat::operator>=(double number) {
+bool CACLFloat::operator>=(double number) {
     CACLFloat translatedNumber;
 
     translatedNumber = translate(number);
@@ -65,11 +65,11 @@ bool cacl::CACLFloat::operator>=(double number) {
 }
 
 //重载小于或等于
-bool cacl::CACLFloat::operator<=(cacl::CACLFloat number) {
+bool CACLFloat::operator<=(CACLFloat number) {
     return *this < number or *this == number;
 }
 
-bool cacl::CACLFloat::operator<=(double number) {
+bool CACLFloat::operator<=(double number) {
     CACLFloat translatedNumber;
 
     translatedNumber = translate(number);
@@ -78,7 +78,7 @@ bool cacl::CACLFloat::operator<=(double number) {
 }
 
 //重载等于
-bool cacl::CACLFloat::operator==(cacl::CACLFloat number) {
+bool CACLFloat::operator==(CACLFloat number) {
     if (this->integer == number.integer) {
         return true;
     }
@@ -98,7 +98,7 @@ bool cacl::CACLFloat::operator==(cacl::CACLFloat number) {
     return false;
 }
 
-bool cacl::CACLFloat::operator==(double number) {
+bool CACLFloat::operator==(double number) {
     CACLFloat translatedNumber;
 
     translatedNumber = translate(number);

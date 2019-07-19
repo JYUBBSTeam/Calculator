@@ -2,6 +2,13 @@
  * 创建人：黄子涵
  * 创建时间：2019.5.9
  * 修改时间：2019.5.9
+ * 类：CACLDomainEndPoint
+ * 创建目的：定义区间
+ * 私有数据：
+ * 公有数据：
+ * 私有方法：
+ * 公有方法：
+ *
  * 类：CACLDefineInterval
  * 创建目的：实现定义域的表示
  * 私有数据：
@@ -18,7 +25,6 @@
 #include <vector>
 
 class CACLRangeEndPoint;
-
 
 // 记录区间的左右端点的数据
 class CACLDomainEndPoint {
@@ -69,7 +75,7 @@ private:
     CACLFloat dot;
 };
 
-// 区间类
+// 定义域类
 class CACLDefineInterval {
 public:
     CACLDefineInterval() {
@@ -77,8 +83,8 @@ public:
     }
 
     ~CACLDefineInterval() {
-        for(auto &i : segment){
-            delete(i);
+        for (auto &i : segment) {
+            delete (i);
         }
     };
 
@@ -87,6 +93,12 @@ public:
 
     // 放入点
     void push(CACLFloat number);
+
+    // 删除区间
+    void pop(bool l, CACLFloat lP, bool r, CACLFloat rP);
+
+    // 删除点
+    void pop(CACLFloat number);
 
 private:
     void sortSegment();

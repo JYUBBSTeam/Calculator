@@ -26,4 +26,7 @@ add_executable(testCACLFloat test.cpp
         ../../NumberDefine/CACLFloat/OperatorAssignment.cpp
         ../../NumberDefine/CACLFloat/Math.cpp
         ../../NumberDefine/CACLFloat/Precision.cpp
-        ../../NumberDefine/CACLFloat/OperatorSubtraction.cpp ../../NumberDefine/CACLFloat/OperatorComparison.cpp ../../NumberDefine/CACLFloat/OperatorDivision.cpp ../../NumberDefine/CACLFloat/OperatorMultiplication.cpp)
+        ../../NumberDefine/CACLFloat/OperatorSubtraction.cpp
+        ../../NumberDefine/CACLFloat/OperatorComparison.cpp
+        ../../NumberDefine/CACLFloat/OperatorDivision.cpp
+        ../../NumberDefine/CACLFloat/OperatorMultiplication.cpp)

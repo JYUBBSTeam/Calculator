@@ -1,7 +1,7 @@
-﻿#include "../CACLInteger/CACLInteger.hpp"
+﻿#include "../../NumberDefine/CACLInteger/CACLInteger.hpp"
 
 int main() {
-    cacl::CACLInteger test, test1, test2;
+    CACLInteger test, test1, test2;
 
 
     //int testNum;

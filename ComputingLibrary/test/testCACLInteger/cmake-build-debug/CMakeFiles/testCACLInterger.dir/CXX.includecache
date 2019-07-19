@@ -6,39 +6,41 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/CACLInteger.hpp
 iostream
 -
-
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/IO.cpp
-CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
 string
 -
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/Math.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/IO.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/CACLInteger.hpp
+string
+-
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAddition.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/Math.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/CACLInteger.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorAssignment.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAddition.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/CACLInteger.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorComparison.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorAssignment.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/CACLInteger.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorDivision.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorComparison.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/CACLInteger.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorMultiplication.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorDivision.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/CACLInteger.hpp
+
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorMultiplication.cpp
+CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/CACLInteger.hpp
 stack
 -
 vector
@@ -46,19 +48,19 @@ vector
 cmath
 -
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorRemainder.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorRemainder.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/CACLInteger.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/OperatorSubtraction.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/OperatorSubtraction.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/CACLInteger.hpp
 
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/SelfData.cpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/SelfData.cpp
 CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/CACLInteger.hpp
 
 /cygdrive/c/Project/Calculator/ComputingLibrary/test/testCACLInteger/test.cpp
-../CACLInteger/CACLInteger.hpp
-/cygdrive/c/Project/Calculator/ComputingLibrary/CACLInteger/CACLInteger.hpp
+../../NumberDefine/CACLInteger/CACLInteger.hpp
+/cygdrive/c/Project/Calculator/ComputingLibrary/NumberDefine/CACLInteger/CACLInteger.hpp
 

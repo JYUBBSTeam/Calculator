@@ -1,7 +1,7 @@
 /*
  *创建人：Huang
  *创建日期：2019.4.19
- *修改日期：2019.4.20
+ *修改日期：2019.7.19
  *类：CACLInteger
  *功能：重载运算符：+；-;>;<;=
  */
@@ -188,7 +188,7 @@ CACLInteger CACLInteger::operator*(CACLInteger number) {
     return ans;
 }
 
-CACLInteger CACLInteger::operator*(const long long number) {
+CACLInteger CACLInteger::operator*(std::string number) {
     CACLInteger translatedNumber = translate(number);
     CACLInteger ans;
 

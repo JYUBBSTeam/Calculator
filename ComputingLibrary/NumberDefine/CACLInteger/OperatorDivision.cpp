@@ -1,3 +1,8 @@
+/*
+ * 创建人：黄子涵
+ * 修改时间：2019.7.19
+ */
+
 #include "CACLInteger.hpp"
 
 // 重载除法
@@ -10,7 +15,7 @@ CACLInteger CACLInteger::operator/(CACLInteger number) {
 }
 
 
-CACLInteger CACLInteger::operator/(const long long number) {
+CACLInteger CACLInteger::operator/(std::string number) {
     CACLInteger translatedNumber = translate(number);
     CACLInteger ans;
 
@@ -52,11 +57,11 @@ void CACLInteger::normalDivision(CACLInteger number1, CACLInteger number2) {
                 this->num[j] = 0;
             } else {
                 // 试商
-                for (int k = 9; k >= 0; --k) {
+                for (CACLInteger k = (const CACLInteger &) "9"; k >= "0"; k -= "1") { // 这里的const CACLInteger &是测试型写法
                     tryNumber = tempNumber2 * k;
                     if (tempNumber1 >= tryNumber) {
                         tempNumber1 -= tryNumber;
-                        this->num[j] = k;
+                        this->num[j] = k.num[0];
 
                         // 右移一位， 最后一次不用右移
                         for (int l = 0; l < tempNumber2.bit - 1 && i > 0; ++l) {

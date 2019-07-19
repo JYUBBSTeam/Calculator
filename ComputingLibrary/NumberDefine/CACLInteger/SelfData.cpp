@@ -1,13 +1,14 @@
 /*
  *创建人：Huang
  *创建日期：2019.4.19
- *修改日期：2019.4.20
+ *修改日期：2019.7.19
  *类：CACLInteger
  *功能：初始化函数initialize()；拷贝函数copy()；转换数字为CACLInteger对象函数translate()
  */
 
 
 #include "CACLInteger.hpp"
+
 
 // 初始化对象
 void CACLInteger::initialize() {
@@ -21,7 +22,7 @@ void CACLInteger::initialize() {
 
 // 拷贝对象
 void CACLInteger::copy(const CACLInteger number) {
-    for (int i = 0; i < number.bit; ++i) {
+    for (int i = 0; i < MAX_OF_BIT; ++i) {
         num[i] = number.num[i];
     }
 
@@ -30,30 +31,27 @@ void CACLInteger::copy(const CACLInteger number) {
 }
 
 
-// 转换long long为CACLInteger
-CACLInteger CACLInteger::translate(long long number) {
+// 转换string为CACLInteger
+CACLInteger CACLInteger::translate(std::string number) {
     CACLInteger ans;
-    int tempBit = 0;
-    short tempNum[MAX_OF_BIT]{};
-
     ans.initialize();
-    if (number > 0) {
-        ans.symbol = false;
-    } else {
+
+    int symbolLocation = 0;
+    if (number.at(0) == '-') {
         ans.symbol = true;
-        number = -number;
+        symbolLocation = 1;
+    } else if (number.at(0) == '+') {
+        ans.symbol = false;
+        symbolLocation = 1;
+    } else {
+        ans.symbol = false;
     }
 
-    //用tempBit记录位数,先用tempNum逆序存储number的各个位的数字
-    for (int i = 1; number > 0; ++i, tempBit++) {
-        tempNum[i - 1] = (short) (number % 10);
-        number /= 10;
-    }
-    ans.bit = tempBit;
+    ans.bit = number.length() - symbolLocation;
 
-    //将tempNum逆序存储进ans的num成员
-    for (int i = 0; i < ans.bit; i++) {
-        ans.num[i] = tempNum[i];
+    // number对ans进行逐位对应赋值
+    for (int i = 0 + symbolLocation; i < number.length(); ++i) {
+        ans.num[i] = (u_int8_t) (number.at(i) - '0');
     }
 
     return ans;
@@ -79,7 +77,7 @@ bool CACLInteger::isPositive() {
 
 
 // 获取位数
-int CACLInteger::getBit() {
+const int CACLInteger::getBit() {
     return bit;
 }
 
@@ -96,12 +94,4 @@ bool CACLInteger::getSymbol() {
 // 设置符号
 void CACLInteger::setSymbol(bool target) {
     symbol = target;
-}
-
-short *CACLInteger::at(int location) {
-    return (short *) (num + location);
-}
-
-void CACLInteger::setBit(int newBit) {
-    this->bit = newBit;
 }

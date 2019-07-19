@@ -1,3 +1,0 @@
-/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles/testElementaryFunction.dir
-/cygdrive/c/Project/Calculator/ComputingLibrary/test/testElementaryFunction/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -3,7 +3,7 @@
  * 创建日期：2019.5.3
  * 修改日期:2019.5.3
  * 类：CACLFloat
- * 功能：类函数实现
+ * 功能：类方法实现， 加法
  */
 
 #include "CACLFloat.hpp"
@@ -13,9 +13,8 @@ CACLFloat CACLFloat::operator+(CACLFloat number) {
     CACLFloat ans;
     ans.initialize();
 
-    ans.integer = this->integer + number.integer;
     // 通过两数的不同正负值来区分不同的算法
-    if (this->integer.getSymbol() == number.integer.getSymbol()) {
+    if (this->getSymbol() == number.getSymbol()) {
         unsignedAddition(&ans, *this, number);
     } else {
         unsignedSubtraction(&ans, *this, number);

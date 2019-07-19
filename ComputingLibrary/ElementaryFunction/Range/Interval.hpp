@@ -38,6 +38,10 @@ public:
         }
     }
 
+    // 插入段区间 (此处使用了函数指针作为参数
+    typedef CACLFloat (*FunctionName)(CACLFloat number);
+    void push(const CACLDomainEndPoint *domain, FunctionName function);
+
 private:
     // 存放定义域
     std::vector<CACLRangeEndPoint *> segment;

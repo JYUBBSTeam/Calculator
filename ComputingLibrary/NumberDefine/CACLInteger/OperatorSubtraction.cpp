@@ -1,4 +1,7 @@
-
+/*
+ * 创建人：黄子涵
+ * 修改时间：2019.7.19
+ */
 
 #include "CACLInteger.hpp"
 
@@ -6,16 +9,16 @@
 CACLInteger CACLInteger::operator-(CACLInteger number) {
     CACLInteger ans;
 
-    if (this->symbol == false && number.symbol == false) {
+    if (!this->symbol && !number.symbol) {
         ans = unsignedSubtract(*this, number);
         ans.symbol = !(this->absoluteValue() > number.absoluteValue());
-    } else if (this->symbol == false && number.symbol == true) {
+    } else if (!this->symbol && number.symbol) {
         ans = unsignedAdd(*this, number);
         ans.symbol = false;
-    } else if (this->symbol == true && number.symbol == false) {
+    } else if (this->symbol && !number.symbol) {
         ans = unsignedAdd(*this, number);
         ans.symbol = true;
-    } else if (this->symbol == true && number.symbol == true) {
+    } else if (this->symbol && number.symbol) {
         ans = unsignedSubtract(*this, number);
         ans.symbol = this->absoluteValue() > number.absoluteValue();
     }
@@ -24,7 +27,7 @@ CACLInteger CACLInteger::operator-(CACLInteger number) {
 }
 
 
-CACLInteger CACLInteger::operator-(const long long number) {
+CACLInteger CACLInteger::operator-(std::string number) {
     CACLInteger translatedNumber = translate(number);
     CACLInteger ans;
 

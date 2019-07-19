@@ -1,3 +1,9 @@
+/*
+ * 创建人：黄子涵
+ * 修改时间：2019.7.19
+ */
+
+
 #include "CACLInteger.hpp"
 
 // 重载求余数
@@ -10,7 +16,7 @@ CACLInteger CACLInteger::operator%(CACLInteger number) {
 }
 
 
-CACLInteger CACLInteger::operator%(const long long number) {
+CACLInteger CACLInteger::operator%(std::string number) {
     CACLInteger translatedNumber = translate(number);
     CACLInteger ans;
 

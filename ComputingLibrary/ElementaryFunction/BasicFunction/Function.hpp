@@ -15,8 +15,6 @@ private:
 
     // 值域
     CACLValueInterval value;
-
-
 };
 
 #endif //TESTELEMENTARYFUNCTION_FUNCTION_HPP

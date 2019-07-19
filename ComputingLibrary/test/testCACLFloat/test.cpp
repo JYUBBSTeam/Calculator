@@ -1,8 +1,8 @@
 #include <iostream>
-#include "../../CACLFloat/CACLFloat.hpp"
+#include "../../NumberDefine/Number.hpp"
 
 int main(int argc, char **argv) {
-    cacl::CACLFloat test, test1, test2;
+    CACLFloat test, test1, test2;
 
     std::cin >> test1 >> test2;
     test = test1 / test2;

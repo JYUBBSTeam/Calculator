@@ -12,10 +12,10 @@ from idlelib import window
 
 from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog, qApp
 
-from Window.childWindow.calculatorWindow.calculatorWindow import calculator_Window
-from Window.mainWindow.mainWindow_init_UI import init_UI
-from Window.loadQss.commomHelper_Qss import CommonHelper_qss
-from Window.mainWindow.init_Splash import initSplash
+from Calculator.Window.childWindow.calculatorWindow.calculatorWindow import calculator_Window
+from Calculator.Window.mainWindow.mainWindow_init_UI import init_UI
+from Calculator.Window.loadQss.commomHelper_Qss import CommonHelper_qss
+from Calculator.Window.mainWindow.init_Splash import initSplash
 
 import time
 

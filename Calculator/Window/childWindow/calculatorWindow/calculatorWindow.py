@@ -9,9 +9,9 @@ import sys
 
 from PyQt5.QtWidgets import QApplication, QWidget
 
-from Window.childWindow.calculatorWindow.calculator_setup_UI import setupUI
-from Window.childWindow.calculatorWindow.calculator_init_UI import init_UI
-from Window.loadQss.commomHelper_Qss import CommonHelper_qss
+from Calculator.Window.childWindow.calculatorWindow.calculator_setup_UI import setupUI
+from Calculator.Window.childWindow.calculatorWindow.calculator_init_UI import init_UI
+from Calculator.Window.loadQss.commomHelper_Qss import CommonHelper_qss
 
 sys.setrecursionlimit(10000)
 

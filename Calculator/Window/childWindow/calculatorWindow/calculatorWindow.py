@@ -9,9 +9,9 @@ import sys
 
 from PyQt5.QtWidgets import QApplication, QWidget
 
-from Calculator.Window.childWindow.calculatorWindow.calculator_setup_UI import setupUI
+import Calculator.Window.childWindow.calculatorWindow.calculator_setup_UI
 from Calculator.Window.childWindow.calculatorWindow.calculator_init_UI import init_UI
-from Calculator.Window.loadQss.commomHelper_Qss import CommonHelper_qss
+from Calculator.Window.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
 
 sys.setrecursionlimit(10000)
 
@@ -29,7 +29,7 @@ class calculator_Window(QWidget):
         self.show()
 
     def setup_Ui(self):
-        self.setup_Win = setupUI.setup_Window(self)
+        self.setup_Win = Calculator.Window.childWindow.calculatorWindow.calculator_setup_UI.setupUI.setup_Window(self)
 
     def init_Ui(self):
         self.init_Ui = init_UI.init_Ui(self)

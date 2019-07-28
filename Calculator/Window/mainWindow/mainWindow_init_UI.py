@@ -3,30 +3,18 @@
     创建时间：2019/7/18
     最后一次编辑时间：
     描述：主窗口UI设计
-    类： mainWindow_static_data:主窗口参数设置
-        init_UI:主窗口UI设计
+    类：init_UI:主窗口UI设计
 '''
 
 
 from PyQt5.QtWidgets import QAction, QMenu
 from PyQt5.QtGui import QIcon
 
-class mainWindow_static_data:
-    '''
-        设置主窗口位置和大小
-    '''
-    x = 250
-    y = 150
-    width = 1400
-    height = 750
-
 
 class init_UI():
     '''
        主窗口UI设计
     '''
-    def __init__(self):
-        super(init_UI, self).__init__()
     def initUI(self):
         '''
             创建状态栏、菜单栏、工具栏
@@ -39,10 +27,10 @@ class init_UI():
         self.statusBar().showMessage('准备就绪', 5000)
 
         ####################菜单栏####################开始
-        menubbar = self.menuBar()
+        self.menubar = self.menuBar()
 
         # 文件
-        fileMenu = menubbar.addMenu('&文件(F)')
+        fileMenu = self.menubar.addMenu('&文件(F)')
 
         openFile = QAction(QIcon('../QIcon/openFile.jpg'), '&打开文件', self)
         openFile.setShortcut('O')
@@ -81,7 +69,7 @@ class init_UI():
         fileMenu.addAction(exitAction)
 
         # 编辑
-        exitMenu = menubbar.addMenu('&编辑(E)')
+        exitMenu = self.menubar.addMenu('&编辑(E)')
 
         ####################查找与替换####################开始
         # 二级菜单下命令属性设置
@@ -135,7 +123,7 @@ class init_UI():
         # selectAll.triggered.connect(self.)
 
         # 视图
-        viewMenu = menubbar.addMenu('&视图(V)')
+        viewMenu = self.menubar.addMenu('&视图(V)')
 
         notice = QAction('&通知', self)
         notice.setShortcut('Ctrl+Alt+X')
@@ -177,19 +165,19 @@ class init_UI():
         # propertyWindow.triggered.connect(self.)
 
         # 分析
-        navigateMenu = menubbar.addMenu('&分析(N)')
+        navigateMenu = self.menubar.addMenu('&分析(N)')
 
         # 工具
-        toolMenu = menubbar.addMenu('&工具(T)')
+        toolMenu = self.menubar.addMenu('&工具(T)')
 
         # 扩展
-        extendMenu = menubbar.addMenu('&扩展(X)')
+        extendMenu = self.menubar.addMenu('&扩展(X)')
         # extendMenu.addAction()
         # 窗口
-        windowMenu = menubbar.addMenu('&窗口(W)')
+        windowMenu = self.menubar.addMenu('&窗口(W)')
         # windowMenu.addAction()
         # 帮助
-        helpMenu = menubbar.addMenu('&帮助(H)')
+        helpMenu = self.menubar.addMenu('&帮助(H)')
 
         help = QAction('&查看帮助', self)
         help.setShortcut('Ctrl+F1')
@@ -211,10 +199,4 @@ class init_UI():
         self.calculatorTooolbar = self.addToolBar('计算器')
         self.calculatorTooolbar.addAction(calculator)
         ####################工具栏####################结束
-
-        # 窗口参数设置
-        self.setGeometry(mainWindow_static_data.x, mainWindow_static_data.y, mainWindow_static_data.width,
-                         mainWindow_static_data.height)
-        self.setWindowTitle('智能公式识别器')
-        self.setObjectName('mainWindow')
 

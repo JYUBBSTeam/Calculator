@@ -6,24 +6,31 @@
     类：init_UI:计算器UI设计
 '''
 
-from PyQt5.QtWidgets import QPushButton, QRadioButton, QGridLayout,QLineEdit, QLabel, QButtonGroup
-from PyQt5.QtGui import QFont
-from PyQt5.QtCore import QSize, Qt
+from PyQt5.QtWidgets import QPushButton, QRadioButton, QGridLayout,QLineEdit, QButtonGroup
+from PyQt5.QtGui import QFont, QRegExpValidator
+from PyQt5.QtCore import QSize, Qt, QRegExp
 
 
 class init_UI():
     '''
        计算器UI设计
     '''
-
     def init_Ui(self):
+
         self.setWindowTitle('计算器')
+
+        self
+
+        reg = QRegExp("^$")     #把键盘禁用了，仅可以按钮的输入
+        validator = QRegExpValidator(reg, self)
 
         #网格布局
         grid = QGridLayout()
-        self.display = QLineEdit()
-        self.display.setFont(QFont('Times'))
+
+        self.display = QLineEdit('0', self)     #这个display就是显示屏
         self.display.setAlignment(Qt.AlignRight)
+        self.display.setValidator(validator)
+        self.display.setReadOnly(True)
         self.display.setMaxLength(15)
         grid.addWidget(self.display, 0, 0, 1, 4)
         names = ['7', '8', '9', 'PI', '+', 'AC', 'Del',

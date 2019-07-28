@@ -3,21 +3,23 @@
     创建时间：2019/7/18
     最后一次编辑时间：
     描述：主窗口(创建菜单栏、状态栏、工具栏）
-    类：mainWindow_static_data：主窗口参数设置
-        mainWindow:主窗口
+    类: mainWindow:主窗口
 '''
 
 import sys
-from idlelib import window
 
 from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog, qApp
 
 from Calculator.Window.childWindow.calculatorWindow.calculatorWindow import calculator_Window
+from Calculator.Window.mainWindow.mainWindow_setup_UI import setupUI
 from Calculator.Window.mainWindow.mainWindow_init_UI import init_UI
-from Calculator.Window.loadQss.commomHelper_Qss import CommonHelper_qss
+from Calculator.Window.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
 from Calculator.Window.mainWindow.init_Splash import initSplash
 
 import time
+
+
+
 
 
 class mainWindow(QMainWindow):
@@ -25,18 +27,17 @@ class mainWindow(QMainWindow):
         主窗口
     '''
     def __init__(self):
-        super().__init__()
+        super(mainWindow, self).__init__()
 
+        self.setup_Ui()
         self.init_Ui()
-        #self.setup_Ui()
 
     def init_Ui(self):
-        self.init_Ui  = init_UI.initUI(self)
+        self.setup_Ui = init_UI.initUI(self)
 
     def setup_Ui(self):
-        #未完成
-        pass
-    
+        self.setupUi = setupUI.setup_Window(self)
+
     def getFile(self):
         '''
             getOpenFileName():返回用户所选择文件的名称，并打开该文件
@@ -57,7 +58,7 @@ class mainWindow(QMainWindow):
 #启动界面显示时间的设置
 def load_Message(splash):
     for i in range (1, 5):  #显示时间4秒
-        time.sleep(2)   #睡眠
+        time.sleep(0.5)   #睡眠
         splash.setText("初始化程序...{0}%".format(25*i))
         splash.update()
         qApp.processEvents()

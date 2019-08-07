@@ -3,9 +3,9 @@
     创建时间：2019/7/18
     最后一次编辑时间：
     描述：创建一个自定义标题栏的公共类
-          创建一个自定义窗口拖放和缩放功能的公共类
+          创建一个自定义窗口移动和缩放功能的公共类
     类：CommonHelper_titleBar:自定义标题栏的公共类
-        commomHelper_Window:
+        CommomHelper_Window:自定义窗口移动和缩放功能的公共类
 '''
 
 from PyQt5.QtWidgets import QWidget, QLabel, QPushButton, QHBoxLayout
@@ -128,13 +128,13 @@ class CommonHelper_titleBar(QWidget):
             # 计算窗口应该移动的距离
             movePos = event.globalPos()
             self.starPos = event.globalPos()
-            self.move(self.win.pos() + movePos)
+            self.move(self.pos() + movePos)
 
         return QWidget().mouseMoveEvent(event)
 
 
 
-class commomHelper_Window:
+class CommomHelper_Window():
     def init_Win(self):
 
         '''
@@ -144,14 +144,10 @@ class commomHelper_Window:
         #
         #   重写Qt窗口事件
         #
-        # self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowSystemMenuHint)  # 设置无边框
-        self.setWindowOpacity(0.9)  # 设置窗口透明度
-        # self.setAttribute(Qt.WA_TranslucentBackground, True)  # 透明
-
         self.SHADOW_WIDTH = 0  # 边框距离
         self.isLeftPressDown = False  # 鼠标左键是否按下
         self.dragPosition = 0  # 拖动时坐标
-        self.Numbers = commomHelper_Window.enum(self, UP=0, DOWN=1, LEFT=2, RIGHT=3, LEFTTOP=4, LEFTBOTTOM=5, RIGHTBOTTOM=6, RIGHTTOP=7,
+        self.Numbers = CommomHelper_Window.enum(self, UP=0, DOWN=1, LEFT=2, RIGHT=3, LEFTTOP=4, LEFTBOTTOM=5, RIGHTBOTTOM=6, RIGHTTOP=7,
                                     NONE=8)  # 枚举参数
         self.setMinimumHeight(700)  # 窗体最小高度
         self.setMinimumWidth(600)  # 窗体最小宽度

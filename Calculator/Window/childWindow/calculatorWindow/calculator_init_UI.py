@@ -19,8 +19,6 @@ class init_UI():
 
         self.setWindowTitle('计算器')
 
-        self
-
         reg = QRegExp("^$")     #把键盘禁用了，仅可以按钮的输入
         validator = QRegExpValidator(reg, self)
 
@@ -81,10 +79,11 @@ class init_UI():
             else:
                 button = QPushButton(name)
                 button.setFixedSize(QSize(100, 50))
-                # button.clicked.connect(self.buttonClicked)
+                # button.clicked.connect(self.未完成)
 
                 #往网格布局里添加按钮
                 grid.addWidget(button, pos[c][0] + 1, pos[c][1])
 
             c = c + 1
             self.setLayout(grid)
+

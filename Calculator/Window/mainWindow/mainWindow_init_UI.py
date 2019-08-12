@@ -32,7 +32,7 @@ class init_UI():
         # 文件
         fileMenu = self.menubar.addMenu('&文件(F)')
 
-        openFile = QAction(QIcon('../QIcon/openFile.jpg'), '&打开文件', self)
+        openFile = QAction(QIcon('./QIcon/openFile.jpg'), '&打开文件', self)
         openFile.setShortcut('O')
         openFile.setStatusTip('打开文件')
         fileMenu.addAction(openFile)
@@ -62,7 +62,7 @@ class init_UI():
         fileMenu.addAction(printf)
         # printf.triggered.connect(self.)
 
-        exitAction = QAction(QIcon('../QIcon/Exit.jpg'), '&退出', self)
+        exitAction = QAction(QIcon('./QIcon/Exit.jpg'), '&退出', self)
         exitAction.setShortcut('Ctrl+Q')
         exitAction.setStatusTip('退出应用程序')
         exitAction.triggered.connect(self.close)
@@ -144,7 +144,7 @@ class init_UI():
         tool.setStatusTip('基本工具')
         viewMenu.addMenu(tool)
 
-        calculator = QAction(QIcon('../QIcon/calculator.jpg'), '&计算器', self)
+        calculator = QAction(QIcon('./QIcon/calculator.jpg'), '&计算器', self)
         calculator.setShortcut('C')
         calculator.setStatusTip('计算器')
         tool.addAction(calculator)

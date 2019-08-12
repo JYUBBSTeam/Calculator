@@ -19,13 +19,13 @@ class init_UI():
 
         self.setWindowTitle('计算器')
 
-        reg = QRegExp("^$")     #把键盘禁用了，仅可以按钮的输入
+        reg = QRegExp("^$")     # 把键盘禁用了，仅可以按钮的输入
         validator = QRegExpValidator(reg, self)
 
-        #网格布局
+        # 网格布局
         grid = QGridLayout()
 
-        self.display = QLineEdit('0', self)     #这个display就是显示屏
+        self.display = QLineEdit('0', self)     # 这个display就是显示屏
         self.display.setAlignment(Qt.AlignRight)
         self.display.setValidator(validator)
         self.display.setReadOnly(True)
@@ -53,16 +53,16 @@ class init_UI():
                (10, 0), (10, 1), (10, 2), (10, 3), (10, 4), (10, 5), (10, 6),]
 
         ####################设置单选按钮####################开始
-        #将单选按钮添加到分组 bg1 中,同时分配ID号
+        # 将单选按钮添加到分组 bg1 中,同时分配ID号
         self.bg1 = QButtonGroup(self)
         self.qRadioButton_1 = QRadioButton('弧度')
         self.qRadioButton_2 = QRadioButton('角度')
         self.bg1.addButton(self.qRadioButton_1, 1)
         self.bg1.addButton(self.qRadioButton_2, 2)
 
-        #配置信号与槽函数
-        #self.bg1.buttonClicked.connect(self.)
-        #未完成
+        # 配置信号与槽函数
+        # self.bg1.buttonClicked.connect(self.)
+        # 未完成
         #
 
         ####################设置单选按钮####################结束
@@ -81,7 +81,7 @@ class init_UI():
                 button.setFixedSize(QSize(100, 50))
                 # button.clicked.connect(self.未完成)
 
-                #往网格布局里添加按钮
+                # 往网格布局里添加按钮
                 grid.addWidget(button, pos[c][0] + 1, pos[c][1])
 
             c = c + 1

@@ -6,17 +6,11 @@
     类: mainWindow:主窗口
 '''
 
-import sys
-
-from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog, qApp
+from PyQt5.QtWidgets import QMainWindow, QFileDialog
 
 from Calculator.Window.childWindow.calculatorWindow.calculatorWindow import calculator_Window
 from Calculator.Window.mainWindow.mainWindow_setup_UI import setupUI
 from Calculator.Window.mainWindow.mainWindow_init_UI import init_UI
-from Calculator.Window.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
-from Calculator.Window.mainWindow.init_Splash import initSplash
-
-import time
 
 
 
@@ -49,36 +43,10 @@ class mainWindow(QMainWindow):
 
         fname = QFileDialog.getOpenFileName(self, '选择文件', 'C:\\', "*.jpg *.gif *.png")
 
+    # 加载计算器窗口
     def calculator_Win(self):
         self.calculator_Win = calculator_Window()
 
         self.calculator_Win.show()
 
 
-#启动界面显示时间的设置
-def load_Message(splash):
-    for i in range (1, 5):  #显示时间4秒
-        time.sleep(0.5)   #睡眠
-        splash.setText("初始化程序...{0}%".format(25*i))
-        splash.update()
-        qApp.processEvents()
-
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-
-    splash = initSplash()
-    splash.show()
-    qApp.processEvents()
-    load_Message(splash)
-    splash.close()  #隐藏启动界面
-
-    main_Window = mainWindow()
-
-    #加载Qss样式表-
-    styleFile = 'Qss/mainWindow.qss'
-    qssStyle = CommonHelper_qss.readQss(styleFile)
-    main_Window.setStyleSheet(qssStyle)
-
-    main_Window.show()
-
-    sys.exit(app.exec_())

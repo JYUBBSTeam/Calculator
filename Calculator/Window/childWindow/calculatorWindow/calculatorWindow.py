@@ -8,9 +8,9 @@
 import sys
 import math
 
-from PyQt5.QtWidgets import QWidget, QVBoxLayout, QGraphicsDropShadowEffect
+from PyQt5.QtWidgets import QWidget, QVBoxLayout
 from PyQt5.QtCore import Qt, QRect
-from PyQt5.QtGui import QCursor, QPainterPath, QPainter, QColor, QBrush
+from PyQt5.QtGui import QCursor, QPainterPath, QPainter, QColor, QBrush, QPixmap, QIcon, QFont
 
 from Calculator.Window.childWindow.calculatorWindow.calculator_setup_UI import setupUI
 from Calculator.Window.childWindow.calculatorWindow.calculator_init_UI import init_UI
@@ -18,6 +18,7 @@ from Calculator.Window.commomHelper_init_Win.commomHelper_init_Win import Common
 from Calculator.Window.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
 
 PADDING = 4     # 设置边界宽度为4
+TITLE_ICON_MAG = 40
 sys.setrecursionlimit(10000)
 
 
@@ -34,19 +35,38 @@ class calculator_Window(QWidget):
 
         # 布局
         AllLayout = QVBoxLayout()
+        AllLayout.setObjectName('AllLayout')
         AllLayout.setSpacing(0)
         AllLayout.setContentsMargins(0, 0, 0, 0)
         self.setLayout(AllLayout)
 
+        # 调整布局与边界距离
+        AllLayout.setContentsMargins(11, 11, 11, 11)
+
         self.title = CommonHelper_titleBar()
 
+        # 自定义最小化、最大化、关闭按钮槽函数连接
+        self.title.minButton.clicked.connect(self.ShowMininizedWindow)
+        self.title.restoreButton.clicked.connect(self.ShowRestoreWindow)
+        self.title.closeButton.clicked.connect(self.CloseWindow)
+
+        # 自定义标题Icon和内容
+        titleIcon = QPixmap("./QIcon/calculator.jpg")
+        self.title.iconLabel.setPixmap(titleIcon.scaled(40, 40))
+        self.title.titleLabel.setText('计算器')
+        self.title.titleLabel.setFont(QFont("STSong", 15))  # 华文宋体
+        self.title.titleLabel.resize(40, 40)
+
         self.centerWidget = QWidget()
+        self.centerWidget.setObjectName('centerWidget')
         AllLayout.addWidget(self.title)
         AllLayout.addWidget(self.centerWidget)
 
         self.initUi = calculator_Window.init_Ui(self.centerWidget)
         self.setupUi = calculator_Window.setup_Ui(self.centerWidget)
 
+        self.setWindowTitle('计算器')
+        self.setWindowIcon(QIcon("./QIcon/calculator.jpg"))
         ####################窗体无边框初始化####################开始
         self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowSystemMenuHint)  # 设置无边框
         self.setAttribute(Qt.WA_TranslucentBackground, True)  # 将form设置为透明
@@ -83,7 +103,7 @@ class calculator_Window(QWidget):
             # 右下角
             self.dir = self.Numbers.RIGHTBOTTOM
             self.setCursor(QCursor(Qt.SizeFDiagCursor))
-        elif (x <= tl.x() + PADDING and x >= tl.x()):
+        elif (x <= tl.x() + PADDING and x >= tl.x() and y >= rb.y() - PADDING and y <= rb.y()):
             # 左下角
             self.dir = self.Numbers.LEFTBOTTOM
             self.setCursor(QCursor(Qt.SizeBDiagCursor))
@@ -182,6 +202,9 @@ class calculator_Window(QWidget):
             else:
                 self.move(event.globalPos() - self.dragPosition)
                 event.accept()
+
+
+    # 重写paintEvent，实现边框阴影
     def paintEvent(self, event):
         path = QPainterPath()
         path.setFillRule(Qt.WindingFill)
@@ -206,6 +229,38 @@ class calculator_Window(QWidget):
 
     def init_Ui(self):
         self.init_Ui = init_UI.init_Ui(self)
+
+
+
+    ############################################################
+    #
+    # 最小化窗口
+    def ShowMininizedWindow(self):
+        self.showMinimized()
+
+    # 最大化窗口
+    def ShowMaximizedWindow(self):
+        self.showMaximized()
+
+    # 复原窗口
+    def ShowRestoreWindow(self):
+        if self.isMaximized():
+            self.showNormal()
+        else:
+            self.showMaximized()
+
+    # 关闭窗口
+    def CloseWindow(self):
+        self.close()
+
+    def SetTitle(self, str):
+        self.titleLabel.setText(str)
+
+    def SetIcon(self, pix):
+        self.iconLabel.setPixmap(pix.scaled(self.iconLabel.size() - QSize(TITLE_ICON_MAG, TITLE_ICON_MAG)))
+
+
+
 
 
 

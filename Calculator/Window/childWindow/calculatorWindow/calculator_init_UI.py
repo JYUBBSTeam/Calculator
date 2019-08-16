@@ -26,11 +26,13 @@ class init_UI():
         grid = QGridLayout()
 
         self.display = QLineEdit('0', self)     # 这个display就是显示屏
+        self.display.setObjectName('display')
+        self.display.setFont(QFont("Times", 20))
         self.display.setAlignment(Qt.AlignRight)
         self.display.setValidator(validator)
         self.display.setReadOnly(True)
         self.display.setMaxLength(15)
-        grid.addWidget(self.display, 0, 0, 1, 4)
+        grid.addWidget(self.display, 0, 0, 1, 7)
         names = ['7', '8', '9', 'PI', '+', 'AC', 'Del',
                  '4', '5', '6', '.', '-', 'e', '%',
                  '1', '2', '3', '0', '×', '÷', '=',

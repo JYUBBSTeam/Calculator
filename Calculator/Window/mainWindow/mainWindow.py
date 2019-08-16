@@ -7,6 +7,7 @@
 '''
 
 from PyQt5.QtWidgets import QMainWindow, QFileDialog
+from PyQt5.QtGui import QIcon
 
 from Calculator.Window.childWindow.calculatorWindow.calculatorWindow import calculator_Window
 from Calculator.Window.mainWindow.mainWindow_setup_UI import setupUI
@@ -23,6 +24,9 @@ class mainWindow(QMainWindow):
     def __init__(self):
         super(mainWindow, self).__init__()
 
+        self.setWindowIcon(QIcon("./QIcon/history.jpg"))
+        self.setWindowTitle('智能公式识别IFR')
+
         self.setup_Ui()
         self.init_Ui()
 
@@ -32,6 +36,7 @@ class mainWindow(QMainWindow):
     def setup_Ui(self):
         self.setupUi = setupUI.setup_Window(self)
 
+    # 打开文件
     def getFile(self):
         '''
             getOpenFileName():返回用户所选择文件的名称，并打开该文件

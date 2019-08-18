@@ -33,9 +33,9 @@ class init_UI():
         self.display.setReadOnly(True)
         self.display.setMaxLength(15)
         grid.addWidget(self.display, 0, 0, 1, 7)
-        names = ['7', '8', '9', 'PI', '+', 'AC', 'Del',
-                 '4', '5', '6', '.', '-', 'e', '%',
-                 '1', '2', '3', '0', '×', '÷', '=',
+        names = ['7', '8', '9', 'PI', 'e', 'AC', 'Del',
+                 '4', '5', '6', '.', '%', '+', '-',
+                 '1', '2', '3', '0', '=', '×', '÷',
                  '', '', '', '', '', '', '',
                  '(', ')', '√', '∑','lg', 'cot', 'acot',
                  'x!', '1/x', 'x²', 'x³', '∫', '∬', '∭',
@@ -72,6 +72,8 @@ class init_UI():
         c = 0
 
         for name in names:
+
+
             if c == 21:
                 grid.addWidget(self.qRadioButton_1, pos[c][0] + 1, pos[c][1])
             elif c == 22:
@@ -80,12 +82,14 @@ class init_UI():
                 pass
             else:
                 button = QPushButton(name)
-                button.setFixedSize(QSize(100, 50))
+                button.setFixedSize(QSize(85, 50))
                 # button.clicked.connect(self.未完成)
 
                 # 往网格布局里添加按钮
                 grid.addWidget(button, pos[c][0] + 1, pos[c][1])
 
+
             c = c + 1
             self.setLayout(grid)
+
 

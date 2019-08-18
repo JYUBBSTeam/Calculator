@@ -3,13 +3,13 @@
     创建时间：2019/7/18
     最后一次编辑时间：
     描述：计算器窗口界面
-    类：
+    类：calculator_Window
 '''
 import sys
 import math
 
 from PyQt5.QtWidgets import QWidget, QVBoxLayout
-from PyQt5.QtCore import Qt, QRect
+from PyQt5.QtCore import Qt, QRect, QSize
 from PyQt5.QtGui import QCursor, QPainterPath, QPainter, QColor, QBrush, QPixmap, QIcon, QFont
 
 from Calculator.Window.childWindow.calculatorWindow.calculator_setup_UI import setupUI
@@ -28,6 +28,7 @@ class calculator_Window(QWidget):
     '''
     def __init__(self,  parent = None):
         super(calculator_Window, self).__init__(parent)
+
         # 加载Qss样式表
         styleFile = './childWindow/calculatorWindow/Qss/calculatorWindow.qss'
         qssStyle = CommonHelper_qss.readQss(styleFile)
@@ -44,6 +45,7 @@ class calculator_Window(QWidget):
         AllLayout.setContentsMargins(11, 11, 11, 11)
 
         self.title = CommonHelper_titleBar()
+        self.title.setObjectName('title')
 
         # 自定义最小化、最大化、关闭按钮槽函数连接
         self.title.minButton.clicked.connect(self.ShowMininizedWindow)
@@ -67,6 +69,8 @@ class calculator_Window(QWidget):
 
         self.setWindowTitle('计算器')
         self.setWindowIcon(QIcon("./QIcon/calculator.jpg"))
+
+
         ####################窗体无边框初始化####################开始
         self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowSystemMenuHint)  # 设置无边框
         self.setAttribute(Qt.WA_TranslucentBackground, True)  # 将form设置为透明
@@ -79,6 +83,12 @@ class calculator_Window(QWidget):
         self.setMinimumWidth(700)  # 窗体最小宽度
         self.dir = self.Numbers.NONE  # 初始化鼠标状态 : 默认
         self.setMouseTracking(True)
+
+    def setup_Ui(self):
+        self.setup_Win = setupUI.setup_Window(self)
+
+    def init_Ui(self):
+        self.init_Ui = init_UI.init_Ui(self)
 
     # 枚举参数
     def enum(self, **enums):
@@ -132,7 +142,8 @@ class calculator_Window(QWidget):
             self.dir = self.Numbers.NONE
             self.setCursor(QCursor(Qt.PointingHandCursor))
 
-    #######################################
+
+    ########################################
     ###########重置鼠标点击事件#############
     #
     def mouseReleaseEvent(self, event):
@@ -223,17 +234,11 @@ class calculator_Window(QWidget):
 
 
     ####################窗体无边框初始化####################结束
-
-    def setup_Ui(self):
-        self.setup_Win = setupUI.setup_Window(self)
-
-    def init_Ui(self):
-        self.init_Ui = init_UI.init_Ui(self)
-
-
-
-    ############################################################
     #
+    #
+    #
+    #
+    ####################设置窗口大小槽函数####################开始
     # 最小化窗口
     def ShowMininizedWindow(self):
         self.showMinimized()
@@ -259,14 +264,6 @@ class calculator_Window(QWidget):
     def SetIcon(self, pix):
         self.iconLabel.setPixmap(pix.scaled(self.iconLabel.size() - QSize(TITLE_ICON_MAG, TITLE_ICON_MAG)))
 
-
-
-
-
-
-
-
-
-
+####################设置窗口大小槽函数####################结束
 
 

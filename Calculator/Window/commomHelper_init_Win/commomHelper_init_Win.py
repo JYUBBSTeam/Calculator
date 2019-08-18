@@ -8,8 +8,10 @@
 '''
 
 from PyQt5.QtWidgets import QWidget, QLabel, QPushButton, QHBoxLayout
-from PyQt5.QtCore import Qt, QSize, QRect
-from PyQt5.QtGui import QIcon, QPixmap, QCursor
+from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QIcon
+
+from Calculator.Window.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
 
 TITLE_BAR_HEIGHT = 40
 TITLE_BUTTON_SIZE = 40
@@ -27,6 +29,11 @@ class CommonHelper_titleBar(QWidget):
     '''
     def __init__(self):
         super(CommonHelper_titleBar, self).__init__()
+
+        # 加载qss样式表
+        styleFile = './childWindow/calculatorWindow/Qss/titleBar.qss'
+        qssStyle = CommonHelper_qss.readQss(styleFile)
+        self.setStyleSheet(qssStyle)
 
         self.InitializeWindow()
 

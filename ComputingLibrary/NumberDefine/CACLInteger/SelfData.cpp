@@ -32,7 +32,18 @@ void CACLInteger::copy(const CACLInteger number) {
 
 
 // 转换string为CACLInteger
-CACLInteger CACLInteger::translate(std::string number) {
+CACLInteger CACLInteger::translate(std::string &number) {
+    // 异常代码###检查是否越界
+    if (number.at(0) == '-' && number.at(0) == '+') {
+        if (number.size() > MAX_OF_BIT - 1) {
+            throw "输入了过长的数字";
+        }
+    }else {
+        if(number.size() > MAX_OF_BIT){
+            throw "输入了过长的数字";
+        }
+    }
+
     CACLInteger ans;
     ans.initialize();
 
@@ -50,8 +61,12 @@ CACLInteger CACLInteger::translate(std::string number) {
     ans.bit = number.length() - symbolLocation;
 
     // number对ans进行逐位对应赋值
-    for (int i = 0 + symbolLocation; i < number.length(); ++i) {
-        ans.num[i] = (u_int8_t) (number.at(i) - '0');
+    for (int i = symbolLocation, j = number.size() - symbolLocation - 1; i < number.length(); ++i, --j) {
+        if (number.at(j) >= '0' && number.at(j) <= '9') {
+            ans.num[j] = (short) (number.at(i) - '0');
+        } else {
+            throw "输入了非法数字";
+        }
     }
 
     return ans;
@@ -77,7 +92,7 @@ bool CACLInteger::isPositive() {
 
 
 // 获取位数
-const int CACLInteger::getBit() {
+int CACLInteger::getBit() {
     return bit;
 }
 
@@ -94,4 +109,8 @@ bool CACLInteger::getSymbol() {
 // 设置符号
 void CACLInteger::setSymbol(bool target) {
     symbol = target;
+}
+
+std::string CACLInteger::toString() {
+
 }

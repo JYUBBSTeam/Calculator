@@ -6,7 +6,8 @@ int main() {
 
     //int testNum;
 
-    std::cin >> test1>> test2;
+    //std::cin >> test1>> test2;
+    test = "-7123219";
     //std::cin >> test1 >> test2;
     //cin >> test1;
     //cin >> testNum;

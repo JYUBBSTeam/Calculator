@@ -25,7 +25,7 @@
 #include <string>
 
 //定义的CACLInteger的最大位数
-constexpr int MAX_OF_BIT = 400;
+constexpr int MAX_OF_BIT = 100;
 
 class CACLInteger {
 
@@ -39,6 +39,11 @@ public:
         bit = 1;
     };
 
+    // string构造方法
+    CACLInteger(std::string &stingNum) {
+        this->translate(stingNum);
+    }
+
     // 析构方法
     ~CACLInteger() = default;
 
@@ -50,7 +55,7 @@ private:
     void copy(const CACLInteger number);
 
     // 转换std::string为CACLInteger
-    CACLInteger translate(std::string number);
+    static CACLInteger translate(std::string &number);
 
 public:
     // 判断是不是零
@@ -63,7 +68,9 @@ public:
     bool isPositive();
 
     // 获取位数
-    const int getBit();
+    int getBit();
+
+    string toString();
 
     // 重载加法
     CACLInteger operator+(CACLInteger number);
@@ -190,7 +197,7 @@ protected:
     bool symbol;
 
     // 各个位的数字
-    u_int8_t num[MAX_OF_BIT];
+    short num[MAX_OF_BIT];
 
 private:
     // 数字的位数

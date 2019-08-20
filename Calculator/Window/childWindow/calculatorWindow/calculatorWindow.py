@@ -22,12 +22,12 @@ TITLE_ICON_MAG = 40
 sys.setrecursionlimit(10000)
 
 
-class calculator_Window(QWidget):
+class calculator_Window(init_UI):
     '''
         计算器界面窗口
     '''
-    def __init__(self,  parent = None):
-        super(calculator_Window, self).__init__(parent)
+    def __init__(self):
+        super(calculator_Window, self).__init__()
 
         # 加载Qss样式表
         styleFile = './childWindow/calculatorWindow/Qss/calculatorWindow.qss'
@@ -80,7 +80,7 @@ class calculator_Window(QWidget):
         self.Numbers = self.enum(UP=0, DOWN=1, LEFT=2, RIGHT=3, LEFTTOP=4, LEFTBOTTOM=5, RIGHTBOTTOM=6, RIGHTTOP=7,
                                  NONE=8)  # 枚举参数
         self.setMinimumHeight(750)  # 窗体最小高度
-        self.setMinimumWidth(700)  # 窗体最小宽度
+        self.setMinimumWidth(921)  # 窗体最小宽度
         self.dir = self.Numbers.NONE  # 初始化鼠标状态 : 默认
         self.setMouseTracking(True)
 

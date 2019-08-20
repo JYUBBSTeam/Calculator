@@ -6,36 +6,67 @@
     类：init_UI:计算器UI设计
 '''
 
-from PyQt5.QtWidgets import QPushButton, QRadioButton, QGridLayout,QLineEdit, QButtonGroup
+from PyQt5.QtWidgets import QWidget, QPushButton, QRadioButton, QVBoxLayout, QHBoxLayout, QGridLayout,QLineEdit, QTextEdit, QButtonGroup
 from PyQt5.QtGui import QFont, QRegExpValidator
 from PyQt5.QtCore import QSize, Qt, QRegExp
 
 
-class init_UI():
+class init_UI(QWidget):
     '''
        计算器UI设计
     '''
+    def __init__(self):
+        super(init_UI, self).__init__()
+        # 初始化栈
+        self.char_stack = []  # 操作符号的栈
+        self.num_stack = []  # 操作数的栈
+
+        self.nums = [chr(i) for i in range(48, 58)]  # 用于判断按钮 的值是否是数字   chr(i)用一个整数做参数，返回一个对应的字符
+        self.operators = ['+', '-', '×', '÷']  # 用于判断按钮的值是否是操作符
+
+        self.empty_flag = True  # flag是用来判断计算器是不是第一次启动，在显示屏中无数据
+        self.after_operator = False  # 比如1+2输入+后，1还显示在屏幕上，输入了2之后，1就被代替了，这个flag的作用就是这样
+
+        self.char_top = ''  # 保留栈顶的操作符号
+        self.num_top = 0  # 保留栈顶的数值
+        self.result = 0  # 保留计算结果， 看计算器计算一次后，再继续按等号，还会重复 最近一次计算
+
+        # 各种操作符输入情况（'>'取前面一个操作符，'<'取后面一个操作符
+        self.priority_map = {
+            '++': '>', '+-': '>', '-+': '>', '--': '>',
+            '+*': '<', '+/': '<', '-*': '<', '-/': '<',
+            '**': '>', '//': '>', '*+': '>', '/+': '>',
+            '*-': '>', '/-': '>', '*/': '>', '/*': '>',
+        }
+
+
     def init_Ui(self):
-
-        self.setWindowTitle('计算器')
-
-        reg = QRegExp("^$")     # 把键盘禁用了，仅可以按钮的输入
+        reg = QRegExp("^$")  # 把键盘禁用了，仅可以按钮的输入
         validator = QRegExpValidator(reg, self)
 
-        # 网格布局
-        grid = QGridLayout()
-
-        self.display = QLineEdit('0', self)     # 这个display就是显示屏
+        self.display = QLineEdit('0', self)  # 这个display就是显示屏，显示结果
+        self.display.resize(self.width(), 40)
         self.display.setObjectName('display')
         self.display.setFont(QFont("Times", 20))
         self.display.setAlignment(Qt.AlignRight)
         self.display.setValidator(validator)
         self.display.setReadOnly(True)
         self.display.setMaxLength(15)
-        grid.addWidget(self.display, 0, 0, 1, 7)
+
+        # 垂直布局
+        VBoxLayout = QVBoxLayout()
+
+        # 水平布局
+        HBoxLayout = QHBoxLayout()
+
+
+
+        # 网格布局
+        grid = QGridLayout()
+
         names = ['7', '8', '9', 'PI', 'e', 'AC', 'Del',
                  '4', '5', '6', '.', '%', '+', '-',
-                 '1', '2', '3', '0', '=', '×', '÷',
+                 '1', '2', '3', '0', '=', '*', '/',
                  '', '', '', '', '', '', '',
                  '(', ')', '√', '∑','lg', 'cot', 'acot',
                  'x!', '1/x', 'x²', 'x³', '∫', '∬', '∭',
@@ -83,13 +114,37 @@ class init_UI():
             else:
                 button = QPushButton(name)
                 button.setFixedSize(QSize(85, 50))
-                # button.clicked.connect(self.未完成)
+                # button.clicked.connect(init_UI.)
 
                 # 往网格布局里添加按钮
                 grid.addWidget(button, pos[c][0] + 1, pos[c][1])
 
 
             c = c + 1
-            self.setLayout(grid)
+
+
+
+        # 创建多行文本显示框，用于显示计算过程
+        more_display = QTextEdit()
+
+
+        ################################################################################################################
+        # 嵌套布局
+        #
+        HBoxLayout.addLayout(grid)
+        HBoxLayout.addWidget(more_display)
+        VBoxLayout.addWidget(self.display)
+        VBoxLayout.addLayout(HBoxLayout)
+
+        VBoxLayout.setContentsMargins(11, 11, 11, 11)
+
+        self.setLayout(VBoxLayout)
+
+
+    ####################################################################################################################
+    #  以下为计算器界面按钮点击事件函数
+    ####################################################################################################################
+    #
+    # 清空函数
 
 

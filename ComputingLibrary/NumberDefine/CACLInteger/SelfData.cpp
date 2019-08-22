@@ -33,13 +33,13 @@ void CACLInteger::copy(const CACLInteger number) {
 
 // 转换string为CACLInteger
 CACLInteger CACLInteger::translate(std::string &number) {
-    // 异常代码###检查是否越界
+    // 异常代码###检查是否超出CACLInteger指定长度
     if (number.at(0) == '-' && number.at(0) == '+') {
         if (number.size() > MAX_OF_BIT - 1) {
             throw "输入了过长的数字";
         }
-    }else {
-        if(number.size() > MAX_OF_BIT){
+    } else {
+        if (number.size() > MAX_OF_BIT) {
             throw "输入了过长的数字";
         }
     }
@@ -61,10 +61,12 @@ CACLInteger CACLInteger::translate(std::string &number) {
     ans.bit = number.length() - symbolLocation;
 
     // number对ans进行逐位对应赋值
-    for (int i = symbolLocation, j = number.size() - symbolLocation - 1; i < number.length(); ++i, --j) {
-        if (number.at(j) >= '0' && number.at(j) <= '9') {
+    for (int i = symbolLocation, j = number.length() - symbolLocation - 1; i < number.length(); ++i, --j) {
+        if (number.at(i) >= '0' && number.at(i) <= '9') {
             ans.num[j] = (short) (number.at(i) - '0');
         } else {
+            // 异常代码###检查非法字符
+            // 如果不是0到9的字符会抛出异常
             throw "输入了非法数字";
         }
     }
@@ -112,5 +114,15 @@ void CACLInteger::setSymbol(bool target) {
 }
 
 std::string CACLInteger::toString() {
+    std::string ans;
 
+    if (this->symbol) {
+        ans.push_back('-');
+    }
+
+    for (int i = this->bit - 1; i >= 0; --i) {
+        ans.push_back(this->num[i] + '0');
+    }
+
+    return ans;
 }

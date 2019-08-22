@@ -6,8 +6,8 @@ int main() {
 
     //int testNum;
 
-    //std::cin >> test1>> test2;
-    test = "-7123219";
+    std::cin >> test1>> test2;
+    //test = "-7123219";
     //std::cin >> test1 >> test2;
     //cin >> test1;
     //cin >> testNum;
@@ -19,10 +19,10 @@ int main() {
     //test1.initialize();
     //test = testNum;
     //test1 += test2;
-    test = test1 / test2;
+    //test = test1 / test2;
     //test = test1 % test2;
     //test = test1.absoluteValue();
-    std::cout << test;
+    std::cout << test1 / test2;
 
     return 0;
 }

@@ -70,7 +70,7 @@ public:
     // 获取位数
     int getBit();
 
-    string toString();
+    std::string toString();
 
     // 重载加法
     CACLInteger operator+(CACLInteger number);

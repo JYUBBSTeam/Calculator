@@ -31,8 +31,7 @@ void CACLInteger::normalDivision(CACLInteger number1, CACLInteger number2) {
     CACLInteger tryNumber;
 
     if (number2.isZero()) {
-        std::cout << "The denominator cannot be zero!\n";
-        exit(1);
+        throw "The denominator cannot be zero!";
     }
 
     if (number1.isZero() || number1.absoluteValue() < number2.absoluteValue()) {

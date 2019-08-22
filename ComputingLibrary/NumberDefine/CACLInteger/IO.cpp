@@ -39,7 +39,7 @@ std::istream &operator>>(std::istream &_cin, CACLInteger &integer) {
 
 // 重载左移作为输出
 std::ostream &operator<<(std::ostream &_cout, const CACLInteger &integer) {
-    if (integer.symbol == true) {
+    if (integer.symbol) {
         _cout << '-';
     }
 

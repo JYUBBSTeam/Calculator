@@ -22,7 +22,7 @@ TITLE_ICON_MAG = 40
 sys.setrecursionlimit(10000)
 
 
-class calculator_Window(init_UI):
+class calculator_Window(setupUI):
     '''
         计算器界面窗口
     '''

@@ -9,9 +9,9 @@
 from PyQt5.QtWidgets import QMainWindow, QFileDialog
 from PyQt5.QtGui import QIcon
 
-from Calculator.Window.childWindow.calculatorWindow.calculatorWindow import calculator_Window
-from Calculator.Window.mainWindow.mainWindow_setup_UI import setupUI
-from Calculator.Window.mainWindow.mainWindow_init_UI import init_UI
+from Calculator.Calculator.Window.childWindow.calculatorWindow.calculatorWindow import calculator_Window
+from Calculator.Calculator.Window.mainWindow.mainWindow_setup_UI import setupUI
+from Calculator.Calculator.Window.mainWindow.mainWindow_init_UI import init_UI
 
 
 

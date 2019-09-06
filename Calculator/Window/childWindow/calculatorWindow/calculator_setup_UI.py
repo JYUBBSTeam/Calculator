@@ -112,26 +112,27 @@ class setupUI(QWidget):
             elif c in range(23, 28):
                 pass
             else:
-                button = QPushButton(name)
-                button.setFixedSize(QSize(85, 50))
+                self.button = QPushButton(name)
+                self.button.setObjectName('button')
+                self.button.setFixedSize(QSize(85, 50))
                 # button.clicked.connect(init_UI.)
 
                 # 往网格布局里添加按钮
-                grid.addWidget(button, pos[c][0] + 1, pos[c][1])
+                grid.addWidget(self.button, pos[c][0] + 1, pos[c][1])
 
             c = c + 1
 
         # 创建多行文本显示框，用于显示计算过程
-        more_display = QTextEdit()
-        more_display.setObjectName('more_dispaly')
-        more_display.setReadOnly(True)  # 只读
-        more_display.setAlignment(Qt.AlignRight)
+        self.more_display = QTextEdit()
+        self.more_display.setObjectName('more_dispaly')
+        self.more_display.setReadOnly(True)  # 只读
+        self.more_display.setAlignment(Qt.AlignRight)
 
         ########################################################
         # 嵌套布局
         #
         HBoxLayout.addLayout(grid)
-        HBoxLayout.addWidget(more_display)
+        HBoxLayout.addWidget(self.more_display)
         VBoxLayout.addWidget(self.display)
         VBoxLayout.addLayout(HBoxLayout)
 

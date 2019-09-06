@@ -12,10 +12,10 @@ from PyQt5.QtWidgets import QWidget, QVBoxLayout
 from PyQt5.QtCore import Qt, QRect, QSize
 from PyQt5.QtGui import QCursor, QPainterPath, QPainter, QColor, QBrush, QPixmap, QIcon, QFont
 
-from Calculator.Window.childWindow.calculatorWindow.calculator_setup_UI import setupUI
-from Calculator.Window.childWindow.calculatorWindow.calculator_init_UI import init_UI
-from Calculator.Window.commomHelper_init_Win.commomHelper_init_Win import CommonHelper_titleBar   # 加载自定义标题栏的类
-from Calculator.Window.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
+from Calculator.Calculator.Window.childWindow.calculatorWindow.calculator_setup_UI import setupUI
+from Calculator.Calculator.Window.childWindow.calculatorWindow.calculator_init_UI import init_UI
+from Calculator.Calculator.Window.commomHelper_init_Win.commomHelper_init_Win import CommonHelper_titleBar   # 加载自定义标题栏的类
+from Calculator.Calculator.Window.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
 
 PADDING = 4     # 设置边界宽度为4
 TITLE_ICON_MAG = 40

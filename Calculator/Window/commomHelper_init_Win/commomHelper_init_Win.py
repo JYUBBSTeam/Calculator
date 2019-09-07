@@ -4,7 +4,7 @@
     最后一次编辑时间：
     描述：创建一个自定义标题栏的公共类
     类：CommonHelper_titleBar:自定义标题栏的公共类
-
+    函数：
 '''
 
 from PyQt5.QtWidgets import QWidget, QLabel, QPushButton, QHBoxLayout

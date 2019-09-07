@@ -4,6 +4,7 @@
     最后一次编辑时间：
     描述：程序启动界面UI设计
     类：MySplash:自定义Splash类
+    函数：
 '''
 
 from PyQt5.QtWidgets import QWidget

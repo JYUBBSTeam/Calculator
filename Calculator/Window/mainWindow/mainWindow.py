@@ -4,6 +4,7 @@
     最后一次编辑时间：
     描述：主窗口(创建菜单栏、状态栏、工具栏）
     类: mainWindow:主窗口
+    函数：
 '''
 
 from PyQt5.QtWidgets import QMainWindow, QFileDialog

@@ -12,6 +12,15 @@ from PyQt5.QtWidgets import QWidget, QPushButton, QRadioButton, QVBoxLayout, QHB
 from PyQt5.QtGui import QFont, QRegExpValidator
 from PyQt5.QtCore import QSize, Qt, QRegExp
 
+NUM_1 = 48
+NUM_2 = 58
+DISPLAY_HEIGHT = 40
+FONT_SIZE = 20
+MAXLENGTH = 200
+BUTTON_WIDTH = 85
+BUTTON_HEIGHT = 50
+CONTENTSMARGINS = 11
+
 class setupUI(QWidget):
     '''
 
@@ -22,7 +31,7 @@ class setupUI(QWidget):
         self.char_stack = []  # 操作符号的栈
         self.num_stack = []  # 操作数的栈
 
-        self.nums = [chr(i) for i in range(48, 58)]  # 用于判断按钮 的值是否是数字   chr(i)用一个整数做参数，返回一个对应的字符
+        self.nums = [chr(i) for i in range(NUM_1, NUM_2)]  # 用于判断按钮 的值是否是数字   chr(i)用一个整数做参数，返回一个对应的字符
         self.operators = ['+', '-', '×', '÷']  # 用于判断按钮的值是否是操作符
 
         self.empty_flag = True  # flag是用来判断计算器是不是第一次启动，在显示屏中无数据
@@ -49,13 +58,13 @@ class setupUI(QWidget):
         validator = QRegExpValidator(reg, self)
 
         self.display = QLineEdit('0', self)  # 这个display就是显示屏，显示结果
-        self.display.resize(self.width(), 40)
+        self.display.resize(self.width(), DISPLAY_HEIGHT)
         self.display.setObjectName('display')
-        self.display.setFont(QFont("Times", 20))
+        self.display.setFont(QFont("Times", FONT_SIZE))
         self.display.setAlignment(Qt.AlignRight)
         self.display.setValidator(validator)
         self.display.setReadOnly(True)
-        self.display.setMaxLength(200)
+        self.display.setMaxLength(MAXLENGTH)
 
         # 垂直布局
         VBoxLayout = QVBoxLayout()
@@ -102,26 +111,27 @@ class setupUI(QWidget):
 
         ####################设置单选按钮####################结束
 
-        c = 0
+        # 记录添加控件的序号
+        ORDER_NUMBER = 0
 
         for name in names:
 
-            if c == 21:
-                grid.addWidget(self.qRadioButton_1, pos[c][0] + 1, pos[c][1])
-            elif c == 22:
-                grid.addWidget(self.qRadioButton_2, pos[c][0] + 1, pos[c][1])
-            elif c in range(23, 28):
+            if ORDER_NUMBER == 21:
+                grid.addWidget(self.qRadioButton_1, pos[ORDER_NUMBER][0] + 1, pos[ORDER_NUMBER][1])
+            elif ORDER_NUMBER == 22:
+                grid.addWidget(self.qRadioButton_2, pos[ORDER_NUMBER][0] + 1, pos[ORDER_NUMBER][1])
+            elif ORDER_NUMBER in range(23, 28):
                 pass
             else:
                 self.button = QPushButton(name)
                 self.button.setObjectName('button')
-                self.button.setFixedSize(QSize(85, 50))
-                # button.clicked.connect(init_UI.)
+                self.button.setFixedSize(QSize(BUTTON_WIDTH, BUTTON_HEIGHT))
+                # button.clicked.connect()
 
                 # 往网格布局里添加按钮
-                grid.addWidget(self.button, pos[c][0] + 1, pos[c][1])
+                grid.addWidget(self.button, pos[ORDER_NUMBER][0] + 1, pos[ORDER_NUMBER][1])
 
-            c = c + 1
+            ORDER_NUMBER = ORDER_NUMBER + 1
 
         # 创建多行文本显示框，用于显示计算过程
         self.more_display = QTextEdit()
@@ -137,7 +147,7 @@ class setupUI(QWidget):
         VBoxLayout.addWidget(self.display)
         VBoxLayout.addLayout(HBoxLayout)
 
-        VBoxLayout.setContentsMargins(11, 11, 11, 11)  # 调整布局与边界距离
+        VBoxLayout.setContentsMargins(CONTENTSMARGINS, CONTENTSMARGINS, CONTENTSMARGINS, CONTENTSMARGINS)  # 调整布局与边界距离
 
         self.setLayout(VBoxLayout)
 

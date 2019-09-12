@@ -20,7 +20,10 @@ from Calculator.Calculator.Window.commomHelper_loadQss.commomHelper_Qss import C
 
 PADDING = 4     # 设置边界宽度为4
 TITLE_ICON_MAG = 40
-sys.setrecursionlimit(10000)
+SPACING = 0
+CONTENTSMARGINS = 11
+
+sys.setrecursionlimit(10000)    # 递归深度调整
 
 
 class calculator_Window(setupUI):
@@ -38,12 +41,11 @@ class calculator_Window(setupUI):
         # 布局
         AllLayout = QVBoxLayout()
         AllLayout.setObjectName('AllLayout')
-        AllLayout.setSpacing(0)
-        AllLayout.setContentsMargins(0, 0, 0, 0)
+        AllLayout.setSpacing(SPACING)
         self.setLayout(AllLayout)
 
         # 调整布局与边界距离
-        AllLayout.setContentsMargins(11, 11, 11, 11)
+        AllLayout.setContentsMargins(CONTENTSMARGINS, CONTENTSMARGINS, CONTENTSMARGINS, CONTENTSMARGINS)
 
         self.title = CommonHelper_titleBar()
         self.title.setObjectName('title')

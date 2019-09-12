@@ -18,6 +18,8 @@ TITLE_BUTTON_SIZE = 40
 TITLE_MIN_ICON = './QIcon/min.png'
 TITLE_RESTORE_ICON = './QIcon/restore.png'
 TITLE_CLOSE_ICON = './QIcon/exit.png'
+SPACING = 0
+MARGINS = 0
 
 
 class CommonHelper_titleBar(QWidget):
@@ -76,8 +78,8 @@ class CommonHelper_titleBar(QWidget):
         self.lay.setObjectName('lay')
         self.setLayout(self.lay)
 
-        self.lay.setSpacing(0)  # 去除控件之间的距离
-        self.lay.setContentsMargins(0, 0, 0, 0)
+        self.lay.setSpacing(SPACING)  # 去除控件之间的距离
+        self.lay.setContentsMargins(MARGINS, MARGINS, MARGINS, MARGINS)
 
         # 往布局里添加控件
         self.lay.addWidget(self.iconLabel)

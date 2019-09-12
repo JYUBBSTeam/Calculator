@@ -44,3 +44,8 @@ class Action:
         secondMenu.setStatusTip(statusTip)
         _Menu.addMenu(secondMenu)
         return secondMenu
+
+    def action_3_d(self, secondMenu, textTip, _Menu):
+        # 新增二级菜单
+        secondMenu = QMenu(textTip, self)
+        _Menu.addMenu(secondMenu)

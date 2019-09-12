@@ -14,6 +14,7 @@ from Calculator.Calculator.Window.mainWindow.mainWindow import mainWindow
 from Calculator.Calculator.Window.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
 from Calculator.Calculator.Window.mainWindow.init_Splash import initSplash
 
+
 # 启动界面显示时间的设置
 """
 def load_Message(splash):

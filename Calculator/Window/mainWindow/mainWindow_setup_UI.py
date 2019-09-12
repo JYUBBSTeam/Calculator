@@ -8,7 +8,7 @@
 '''
 
 
-from Calculator.Calculator.Window.mainWindow.QAction.QAction import Action
+from Calculator.Calculator.Window.mainWindow.QAction.qAction import Action
 
 class setupUI:
     '''
@@ -231,6 +231,8 @@ class setupUI:
         # replace.triggered.connect(self.)
 
         # ####################查找与替换####################结束
+
+
         cut = Action.action_2(self, 'cut', '&剪切', 'Ctrl+X', '剪切', exitMenu)
         # cut.triggered.connect(self.)
         copy = Action.action_2(self, 'copy', '&复制', 'Ctrl+C', '复制', exitMenu)
@@ -305,4 +307,4 @@ class setupUI:
 
         self.calculatorTooolbar = self.addToolBar('计算器')
         self.calculatorTooolbar.addAction(calculator)
-        ####################工具栏###############
+        ####################工具栏####################结束

@@ -7,7 +7,6 @@
     函数：
 '''
 
-INIT_COUNT = 0
 
 from PyQt5.QtWidgets import QMainWindow, QFileDialog, QMenu
 from PyQt5.QtCore import Qt
@@ -31,7 +30,6 @@ class mainWindow(QMainWindow):
         self.createContextMenu()
         self.setup_Ui()
         self.init_Ui()
-        self.count = INIT_COUNT
 
     def init_Ui(self):
         self.setup_Ui = init_UI.initUI(self)

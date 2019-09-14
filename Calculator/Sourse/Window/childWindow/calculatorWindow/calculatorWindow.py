@@ -6,8 +6,11 @@
     类：calculator_Window
     函数：
 '''
+
+
 import sys
 import math
+import const    # 导入常量模块
 
 from PyQt5.QtWidgets import QWidget, QVBoxLayout
 from PyQt5.QtCore import Qt, QRect, QSize
@@ -15,13 +18,13 @@ from PyQt5.QtGui import QCursor, QPainterPath, QPainter, QColor, QBrush, QPixmap
 
 from Calculator.Calculator.Sourse.Window.childWindow.calculatorWindow.calculator_setup_UI import setupUI
 from Calculator.Calculator.Sourse.Window.childWindow.calculatorWindow.calculator_init_UI import init_UI
-from Calculator.Calculator.Sourse.Window.commomHelper.commomHelper_setup_Win.commomHelper_init_Win import CommonHelper_titleBar   # 加载自定义标题栏的类
+from Calculator.Calculator.Sourse.Window.commomHelper.commomHelper_setup_Win.commomHelper_setup_Win import CommonHelper_titleBar   # 加载自定义标题栏的类
 from Calculator.Calculator.Sourse.Window.commomHelper.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
 
-PADDING = 4     # 设置边界宽度为4
-TITLE_ICON_MAG = 40
-SPACING = 0
-CONTENTSMARGINS = 11
+const.PADDING = 4     # 设置边界宽度为4
+const.TITLE_ICON_MAG = 40
+const.SET_SPACING = 0
+const.SET_CONTENTSMARGINS = 11
 
 sys.setrecursionlimit(10000)    # 递归深度调整
 
@@ -41,11 +44,11 @@ class calculator_Window(setupUI):
         # 布局
         AllLayout = QVBoxLayout()
         AllLayout.setObjectName('AllLayout')
-        AllLayout.setSpacing(SPACING)
+        AllLayout.setSpacing(const.SET_SPACING)
         self.setLayout(AllLayout)
 
         # 调整布局与边界距离
-        AllLayout.setContentsMargins(CONTENTSMARGINS, CONTENTSMARGINS, CONTENTSMARGINS, CONTENTSMARGINS)
+        AllLayout.setContentsMargins(const.SET_CONTENTSMARGINS, const.SET_CONTENTSMARGINS, const.SET_CONTENTSMARGINS, const.SET_CONTENTSMARGINS)
 
         self.title = CommonHelper_titleBar()
         self.title.setObjectName('title')
@@ -108,35 +111,35 @@ class calculator_Window(setupUI):
         x = cursorGlobalpoint.x()
         y = cursorGlobalpoint.y()
 
-        if (tl.x() + PADDING >= x and tl.x() <= x and tl.y() + PADDING >= y and tl.y() <= y):
+        if (tl.x() + const.PADDING >= x and tl.x() <= x and tl.y() + const.PADDING >= y and tl.y() <= y):
             # 左上角
             self.dir = self.Numbers.LEFTTOP
             self.setCursor(QCursor(Qt.SizeFDiagCursor))  # 设置鼠标形状
-        elif (x >= rb.x() - PADDING and x <= rb.x() and y >= rb.y() - PADDING and y <= rb.y()):
+        elif (x >= rb.x() - const.PADDING and x <= rb.x() and y >= rb.y() - const.PADDING and y <= rb.y()):
             # 右下角
             self.dir = self.Numbers.RIGHTBOTTOM
             self.setCursor(QCursor(Qt.SizeFDiagCursor))
-        elif (x <= tl.x() + PADDING and x >= tl.x() and y >= rb.y() - PADDING and y <= rb.y()):
+        elif (x <= tl.x() + const.PADDING and x >= tl.x() and y >= rb.y() - const.PADDING and y <= rb.y()):
             # 左下角
             self.dir = self.Numbers.LEFTBOTTOM
             self.setCursor(QCursor(Qt.SizeBDiagCursor))
-        elif (x <= rb.x() and x >= rb.x() - PADDING and y >= tl.y() and y <= tl.y() and y <= tl.y() + PADDING):
+        elif (x <= rb.x() and x >= rb.x() - const.PADDING and y >= tl.y() and y <= tl.y() and y <= tl.y() + const.PADDING):
             # 右上角
             self.dir = self.Numbers.RIGHTTOP
             self.setCursor(QCursor(Qt.SizeBDiagCursor))
-        elif (x <= tl.x() + PADDING and x >= tl.x()):
+        elif (x <= tl.x() + const.PADDING and x >= tl.x()):
             # 左边
             self.dir = self.Numbers.LEFT
             self.setCursor(QCursor(Qt.SizeHorCursor))
-        elif (x <= rb.x() and x >= rb.x() - PADDING):
+        elif (x <= rb.x() and x >= rb.x() - const.PADDING):
             # 右边
             self.dir = self.Numbers.RIGHT
             self.setCursor(QCursor(Qt.SizeHorCursor))
-        elif (y >= tl.y() and y <= tl.y() + PADDING):
+        elif (y >= tl.y() and y <= tl.y() + const.PADDING):
             # 上边
             self.dir = self.Numbers.UP
             self.setCursor(QCursor(Qt.SizeVerCursor))
-        elif (y <= rb.y() and y >= rb.y() - PADDING):
+        elif (y <= rb.y() and y >= rb.y() - const.PADDING):
             # 下边
             self.dir = self.Numbers.DOWN
             self.setCursor(QCursor(Qt.SizeVerCursor))
@@ -265,7 +268,7 @@ class calculator_Window(setupUI):
         self.titleLabel.setText(str)
 
     def SetIcon(self, pix):
-        self.iconLabel.setPixmap(pix.scaled(self.iconLabel.size() - QSize(TITLE_ICON_MAG, TITLE_ICON_MAG)))
+        self.iconLabel.setPixmap(pix.scaled(self.iconLabel.size() - QSize(const.TITLE_ICON_MAG, const.TITLE_ICON_MAG)))
 
 ####################设置窗口大小槽函数####################结束
 

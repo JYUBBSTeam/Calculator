@@ -7,19 +7,19 @@
     函数：
 '''
 
-
+import const    # 导入常量模块
 from PyQt5.QtWidgets import QWidget, QPushButton, QRadioButton, QVBoxLayout, QHBoxLayout, QGridLayout,QLineEdit, QTextEdit, QButtonGroup
 from PyQt5.QtGui import QFont, QRegExpValidator
 from PyQt5.QtCore import QSize, Qt, QRegExp
 
-NUM_1 = 48
-NUM_2 = 58
-DISPLAY_HEIGHT = 40
-FONT_SIZE = 20
-MAXLENGTH = 200
-BUTTON_WIDTH = 85
-BUTTON_HEIGHT = 50
-CONTENTSMARGINS = 11
+const.NUM_1 = 48
+const.NUM_2 = 58
+const.DISPLAY_HEIGHT = 40
+const.FONT_SIZE = 20
+const.MAXLENGTH = 200
+const.BUTTON_WIDTH = 85
+const.BUTTON_HEIGHT = 50
+const.CONTENTSMARGINS = 11
 
 class setupUI(QWidget):
     '''
@@ -31,7 +31,7 @@ class setupUI(QWidget):
         self.char_stack = []  # 操作符号的栈
         self.num_stack = []  # 操作数的栈
 
-        self.nums = [chr(i) for i in range(NUM_1, NUM_2)]  # 用于判断按钮 的值是否是数字   chr(i)用一个整数做参数，返回一个对应的字符
+        self.nums = [chr(i) for i in range(const.NUM_1, const.NUM_2)]  # 用于判断按钮 的值是否是数字   chr(i)用一个整数做参数，返回一个对应的字符
         self.operators = ['+', '-', '×', '÷']  # 用于判断按钮的值是否是操作符
 
         self.empty_flag = True  # flag是用来判断计算器是不是第一次启动，在显示屏中无数据
@@ -58,13 +58,13 @@ class setupUI(QWidget):
         validator = QRegExpValidator(reg, self)
 
         self.display = QLineEdit('0', self)  # 这个display就是显示屏，显示结果
-        self.display.resize(self.width(), DISPLAY_HEIGHT)
+        self.display.resize(self.width(), const.DISPLAY_HEIGHT)
         self.display.setObjectName('display')
-        self.display.setFont(QFont("Times", FONT_SIZE))
+        self.display.setFont(QFont("Times", const.FONT_SIZE))
         self.display.setAlignment(Qt.AlignRight)
         self.display.setValidator(validator)
         self.display.setReadOnly(True)
-        self.display.setMaxLength(MAXLENGTH)
+        self.display.setMaxLength(const.MAXLENGTH)
 
         # 垂直布局
         VBoxLayout = QVBoxLayout()
@@ -125,7 +125,7 @@ class setupUI(QWidget):
             else:
                 self.button = QPushButton(name)
                 self.button.setObjectName('button')
-                self.button.setFixedSize(QSize(BUTTON_WIDTH, BUTTON_HEIGHT))
+                self.button.setFixedSize(QSize(const.BUTTON_WIDTH, const.BUTTON_HEIGHT))
                 # button.clicked.connect()
 
                 # 往网格布局里添加按钮
@@ -147,7 +147,7 @@ class setupUI(QWidget):
         VBoxLayout.addWidget(self.display)
         VBoxLayout.addLayout(HBoxLayout)
 
-        VBoxLayout.setContentsMargins(CONTENTSMARGINS, CONTENTSMARGINS, CONTENTSMARGINS, CONTENTSMARGINS)  # 调整布局与边界距离
+        VBoxLayout.setContentsMargins(const.CONTENTSMARGINS, const.CONTENTSMARGINS, const.CONTENTSMARGINS, const.CONTENTSMARGINS)  # 调整布局与边界距离
 
         self.setLayout(VBoxLayout)
 

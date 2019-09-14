@@ -7,19 +7,20 @@
     函数：
 '''
 
+import const    # 导入常量模块
 from PyQt5.QtWidgets import QWidget, QLabel, QPushButton, QHBoxLayout
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon
 
 from Calculator.Calculator.Sourse.Window.commomHelper.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
 
-TITLE_BAR_HEIGHT = 40
-TITLE_BUTTON_SIZE = 40
-TITLE_MIN_ICON = './image/min.png'
-TITLE_RESTORE_ICON = './image/restore.png'
-TITLE_CLOSE_ICON = './image/exit.png'
-SPACING = 0
-MARGINS = 0
+const.TITLE_BAR_HEIGHT = 40
+const.TITLE_BUTTON_SIZE = 40
+const.TITLE_MIN_ICON = './image/min.png'
+const.TITLE_RESTORE_ICON = './image/restore.png'
+const.TITLE_CLOSE_ICON = './image/exit.png'
+const.SPACING = 0
+const.MARGINS = 0
 
 
 # 自定义标题栏公共类
@@ -42,7 +43,7 @@ class CommonHelper_titleBar(QWidget):
 
     def InitializeWindow(self):
         self.isPressed = False
-        self.setFixedHeight(TITLE_BAR_HEIGHT)
+        self.setFixedHeight(const.TITLE_BAR_HEIGHT)
         self.InitializeViews()
 
 
@@ -63,24 +64,24 @@ class CommonHelper_titleBar(QWidget):
         self.closeButton = QPushButton(self)
         self.closeButton.setObjectName('closeButton')
         # 设置大小
-        self.minButton.setFixedSize(TITLE_BUTTON_SIZE, TITLE_BUTTON_SIZE)
-        self.restoreButton.setFixedSize(TITLE_BUTTON_SIZE, TITLE_BUTTON_SIZE)
-        self.closeButton.setFixedSize(TITLE_BUTTON_SIZE, TITLE_BUTTON_SIZE)
+        self.minButton.setFixedSize(const.TITLE_BUTTON_SIZE, const.TITLE_BUTTON_SIZE)
+        self.restoreButton.setFixedSize(const.TITLE_BUTTON_SIZE, const.TITLE_BUTTON_SIZE)
+        self.closeButton.setFixedSize(const.TITLE_BUTTON_SIZE, const.TITLE_BUTTON_SIZE)
 
         self.iconLabel.setAlignment(Qt.AlignLeft)
         self.titleLabel.setAlignment(Qt.AlignLeft)
 
-        self.minButton.setIcon(QIcon(TITLE_MIN_ICON))
-        self.restoreButton.setIcon(QIcon(TITLE_RESTORE_ICON))
-        self.closeButton.setIcon(QIcon(TITLE_CLOSE_ICON))
+        self.minButton.setIcon(QIcon(const.TITLE_MIN_ICON))
+        self.restoreButton.setIcon(QIcon(const.TITLE_RESTORE_ICON))
+        self.closeButton.setIcon(QIcon(const.TITLE_CLOSE_ICON))
 
         # 水平布局
         self.lay = QHBoxLayout(self)
         self.lay.setObjectName('lay')
         self.setLayout(self.lay)
 
-        self.lay.setSpacing(SPACING)  # 去除控件之间的距离
-        self.lay.setContentsMargins(MARGINS, MARGINS, MARGINS, MARGINS)
+        self.lay.setSpacing(const.SPACING)  # 去除控件之间的距离
+        self.lay.setContentsMargins(const.MARGINS, const.MARGINS, const.MARGINS, const.MARGINS)
 
         # 往布局里添加控件
         self.lay.addWidget(self.iconLabel)

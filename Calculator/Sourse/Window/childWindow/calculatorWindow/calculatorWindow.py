@@ -13,10 +13,10 @@ from PyQt5.QtWidgets import QWidget, QVBoxLayout
 from PyQt5.QtCore import Qt, QRect, QSize
 from PyQt5.QtGui import QCursor, QPainterPath, QPainter, QColor, QBrush, QPixmap, QIcon, QFont
 
-from Calculator.Calculator.Window.childWindow.calculatorWindow.calculator_setup_UI import setupUI
-from Calculator.Calculator.Window.childWindow.calculatorWindow.calculator_init_UI import init_UI
-from Calculator.Calculator.Window.commomHelper_init_Win.commomHelper_init_Win import CommonHelper_titleBar   # 加载自定义标题栏的类
-from Calculator.Calculator.Window.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
+from Calculator.Calculator.Sourse.Window.childWindow.calculatorWindow.calculator_setup_UI import setupUI
+from Calculator.Calculator.Sourse.Window.childWindow.calculatorWindow.calculator_init_UI import init_UI
+from Calculator.Calculator.Sourse.Window.commomHelper.commomHelper_setup_Win.commomHelper_init_Win import CommonHelper_titleBar   # 加载自定义标题栏的类
+from Calculator.Calculator.Sourse.Window.commomHelper.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
 
 PADDING = 4     # 设置边界宽度为4
 TITLE_ICON_MAG = 40
@@ -34,7 +34,7 @@ class calculator_Window(setupUI):
         super(calculator_Window, self).__init__()
 
         # 加载Qss样式表
-        styleFile = './childWindow/calculatorWindow/Qss/calculatorWindow.qss'
+        styleFile = './Window/childWindow/calculatorWindow/Qss/calculatorWindow.qss'
         qssStyle = CommonHelper_qss.readQss(styleFile)
         self.setStyleSheet(qssStyle)
 
@@ -56,7 +56,7 @@ class calculator_Window(setupUI):
         self.title.closeButton.clicked.connect(self.CloseWindow)
 
         # 自定义标题Icon和内容
-        titleIcon = QPixmap("./QIcon/calculator.jpg")
+        titleIcon = QPixmap("./image/calculator.jpg")
         self.title.iconLabel.setPixmap(titleIcon.scaled(40, 40))
         self.title.titleLabel.setText('计算器')
         self.title.titleLabel.setFont(QFont("STSong", 15))  # 华文宋体
@@ -71,7 +71,7 @@ class calculator_Window(setupUI):
         self.setupUi = calculator_Window.setup_Ui(self.centerWidget)
 
         self.setWindowTitle('计算器')
-        self.setWindowIcon(QIcon("./QIcon/calculator.jpg"))
+        self.setWindowIcon(QIcon("./image/calculator.jpg"))
 
 
         ####################窗体无边框初始化####################开始

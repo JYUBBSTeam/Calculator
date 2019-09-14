@@ -9,11 +9,9 @@
 import sys
 #import time    load_Message依赖此module，考虑删除
 
-from PyQt5.QtWidgets import QApplication, qApp
-from Calculator.Calculator.Window.mainWindow.mainWindow import mainWindow
-from Calculator.Calculator.Window.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
-from Calculator.Calculator.Window.mainWindow.init_Splash import initSplash
-
+from PyQt5.QtWidgets import QApplication
+from Calculator.Calculator.Sourse.Window.mainWindow.mainWindow import mainWindow
+from Calculator.Calculator.Sourse.Window.commomHelper.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
 
 # 启动界面显示时间的设置
 """
@@ -39,7 +37,7 @@ if __name__ == "__main__":
     main_Window = mainWindow()
 
     # 加载Qss样式表-
-    styleFile = './mainWindow/Qss/mainWindow.qss'
+    styleFile = './Window/mainWindow/Qss/mainWindow.qss'
     qssStyle = CommonHelper_qss.readQss(styleFile)
     main_Window.setStyleSheet(qssStyle)
 

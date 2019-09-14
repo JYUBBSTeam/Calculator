@@ -8,7 +8,7 @@
 '''
 
 
-from Calculator.Calculator.Window.mainWindow.QAction.qAction import Action
+from Calculator.Calculator.Sourse.Window.mainWindow.QAction.qAction import Action
 
 class setupUI:
     '''
@@ -28,7 +28,7 @@ class setupUI:
         # # 文件
         # fileMenu = self.menubar.addMenu('&文件(F)')
         #
-        # openFile = QAction(QIcon('./QIcon/openFile.jpg'), '&打开文件', self)
+        # openFile = QAction(QIcon('./image/openFile.jpg'), '&打开文件', self)
         # openFile.setShortcut('O')
         # openFile.setStatusTip('打开文件')
         # fileMenu.addAction(openFile)
@@ -58,7 +58,7 @@ class setupUI:
         # fileMenu.addAction(printf)
         # # printf.triggered.connect(self.)
         #
-        # exitAction = QAction(QIcon('./QIcon/Exit.jpg'), '&退出', self)
+        # exitAction = QAction(QIcon('./image/Exit.jpg'), '&退出', self)
         # exitAction.setShortcut('Ctrl+Q')
         # exitAction.setStatusTip('退出应用程序')
         # exitAction.triggered.connect(self.close)
@@ -140,7 +140,7 @@ class setupUI:
         # tool.setStatusTip('基本工具')
         # viewMenu.addMenu(tool)
         #
-        # calculator = QAction(QIcon('./QIcon/calculator.jpg'), '&计算器', self)
+        # calculator = QAction(QIcon('./image/calculator.jpg'), '&计算器', self)
         # calculator.setShortcut('C')
         # calculator.setStatusTip('计算器')
         # tool.addAction(calculator)
@@ -196,13 +196,17 @@ class setupUI:
         # self.calculatorTooolbar.addAction(calculator)
         # ####################工具栏####################结束
 
+
+        ################################################################################################################
+
+
         self.menubar = self.menuBar()
 
         # 文件
         fileMenu = self.menubar.addMenu('&文件(F)')
 
         # 调用自定义action
-        openFile = Action.action_1(self, 'openFile', './QIcon/openFile.jpg', '&打开文件', 'O', '打开文件', fileMenu)
+        openFile = Action.action_1(self, 'openFile', './image/openFile.jpg', '&打开文件', 'O', '打开文件', fileMenu)
         # openFile.triggered.connect(mainWindow.getFile(self))
         openRecentFile = Action.action_2(self, 'openRecentFile', '&最近打开的文件', 'Ctrl+O', '最近打开的文件', fileMenu)
         # openRecentFile.triggered.connect(self.)
@@ -212,7 +216,7 @@ class setupUI:
         # saveAs.triggered.connect(self.)
         printf = Action.action_2(self, 'printf', '&打印分析结果', 'Ctrl+P', '打印数据分析结果', fileMenu)
         # printf.triggered.connect(self.)
-        exitAction = Action.action_1(self, 'exitAction', './QIcon/Exit.jpg', '&退出', 'Ctrl+Q', '退出应用程序', fileMenu)
+        exitAction = Action.action_1(self, 'exitAction', './image/Exit.jpg', '&退出', 'Ctrl+Q', '退出应用程序', fileMenu)
         # exitAction.triggered.connect(self.close)
 
         # 编辑
@@ -261,7 +265,7 @@ class setupUI:
         ####################工具栏####################开始
         tool = Action.action_3_c(self, 'tool', '&工具栏', '基本工具', viewMenu)
 
-        calculator = Action.action_1(self, 'calculator', './QIcon/calculator.jpg', '&计算器', 'C', '计算器', viewMenu)
+        calculator = Action.action_1(self, 'calculator', './image/calculator.jpg', '&计算器', 'C', '计算器', viewMenu)
         calculator.triggered.connect(self.calculator_Win)
 
         ####################工具栏####################结束

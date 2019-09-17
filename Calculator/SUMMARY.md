@@ -11,3 +11,4 @@
 * calculatorWindow.py : [计算器界面]
 * calculator_init_UI.py : [计算器界面初始化]
 * calculator_setup_UI.py ：[计算器界面UI设计]
+* calculatorWindow.qss : [计算器样式表]

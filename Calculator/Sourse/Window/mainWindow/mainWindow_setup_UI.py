@@ -7,13 +7,16 @@
     函数：
 '''
 
-
+from PyQt5.QtWidgets import QMainWindow
 from Calculator.Calculator.Sourse.Window.mainWindow.QAction.qAction import Action
+from Calculator.Calculator.Sourse.Window.mainWindow.Function.mainWindow_setup_UI_function import function
 
-class setupUI:
+class setupUI(QMainWindow):
     '''
         主窗口UI设置
     '''
+    def __init__(self):
+        super(setupUI, self).__init__()
 
     def setup_Window(self):
         '''
@@ -207,17 +210,17 @@ class setupUI:
 
         # 调用自定义action
         openFile = Action.action_1(self, 'openFile', './image/openFile.jpg', '&打开文件', 'O', '打开文件', fileMenu)
-        # openFile.triggered.connect(mainWindow.getFile(self))
+        # openFile.triggered.connect(function.getFile(self))
         openRecentFile = Action.action_2(self, 'openRecentFile', '&最近打开的文件', 'Ctrl+O', '最近打开的文件', fileMenu)
         # openRecentFile.triggered.connect(self.)
         save = Action.action_2(self, 'save', '&保存分析结果', 'Ctrl+S','保存数据分析结果', fileMenu)
         # save.triggered.connect(self.)
         saveAs = Action.action_2(self, 'saveAs', '&另保存分析结果', 'Ctrl+Shift+S', '另保存数据分析结果', fileMenu)
         # saveAs.triggered.connect(self.)
-        printf = Action.action_2(self, 'printf', '&打印分析结果', 'Ctrl+P', '打印数据分析结果', fileMenu)
+        printf = Action.action_2(self, 'printef', '&打印分析结果', 'Ctrl+P', '打印数据分析结果', fileMenu)
         # printf.triggered.connect(self.)
         exitAction = Action.action_1(self, 'exitAction', './image/Exit.jpg', '&退出', 'Ctrl+Q', '退出应用程序', fileMenu)
-        # exitAction.triggered.connect(self.close)
+        exitAction.triggered.connect(self.close)
 
         # 编辑
         exitMenu = self.menubar.addMenu('&编辑(E)')

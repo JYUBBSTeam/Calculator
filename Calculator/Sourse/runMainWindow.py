@@ -1,10 +1,12 @@
-"""
+'''
     创建人：Liang
     创建时间：2019/7/18
     最后一次编辑时间：
-    描述：主窗口(创建菜单栏、状态栏、工具栏）
-    类: mainWindow:主窗口
-"""
+    描述：
+    类:
+'''
+
+
 
 import sys
 #import time    load_Message依赖此module，考虑删除

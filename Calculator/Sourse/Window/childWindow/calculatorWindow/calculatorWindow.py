@@ -270,6 +270,6 @@ class calculator_Window(setupUI):
     def SetIcon(self, pix):
         self.iconLabel.setPixmap(pix.scaled(self.iconLabel.size() - QSize(const.TITLE_ICON_MAG, const.TITLE_ICON_MAG)))
 
-####################设置窗口大小槽函数####################结束
+    ####################设置窗口大小槽函数####################结束
 
 

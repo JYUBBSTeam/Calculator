@@ -7,21 +7,26 @@
     函数：
 '''
 
-from PyQt5.QtWidgets import QMainWindow
+from PyQt5.QtWidgets import QMainWindow, QTextEdit, QLabel
 from Calculator.Calculator.Sourse.Window.mainWindow.QAction.qAction import Action
 from Calculator.Calculator.Sourse.Window.mainWindow.Function.mainWindow_setup_UI_function import function
 
-class setupUI(QMainWindow):
+class setupUI(function):
     '''
         主窗口UI设置
     '''
     def __init__(self):
         super(setupUI, self).__init__()
+        self.textEdit = QTextEdit()
+        # self.pixmapLabel = QLabel(self.centralWidget())
+        # self.pixmapLabel.setObjectName('pixmapLabel')
+        # self.pixmapLabel.resize(self.width() - 50, self.height() - 50)
 
     def setup_Window(self):
         '''
             创建状态栏、菜单栏、工具栏
         '''
+
         # 设置状态栏
         self.statusBar().showMessage('准备就绪', 5000)
 
@@ -209,8 +214,15 @@ class setupUI(QMainWindow):
         fileMenu = self.menubar.addMenu('&文件(F)')
 
         # 调用自定义action
-        openFile = Action.action_1(self, 'openFile', './image/openFile.jpg', '&打开文件', 'O', '打开文件', fileMenu)
-        # openFile.triggered.connect(function.getFile(self))
+        openPimax = Action.action_3_b(self, 'openPimax', '&打开图片文件', 'Ctrl+P', '打开图片文件')
+        openText = Action.action_3_b(self, 'openText', '&打开文本文件', 'Ctrl+T', '打开文本文件')
+        # openFile = Action.action_1(self, 'openFile', './image/openFile.jpg', '&打开文件', 'O', '打开文件', fileMenu)
+        openFile = Action.action_3_c(self, 'openFile', '打开文件', '打开文件', fileMenu)
+        openFile.addAction(openPimax)
+        openFile.addAction(openText)
+
+        openPimax.triggered.connect(lambda : function.getFile(self))
+        openText.triggered.connect(lambda : function.getText(self))
         openRecentFile = Action.action_2(self, 'openRecentFile', '&最近打开的文件', 'Ctrl+O', '最近打开的文件', fileMenu)
         # openRecentFile.triggered.connect(self.)
         save = Action.action_2(self, 'save', '&保存分析结果', 'Ctrl+S','保存数据分析结果', fileMenu)
@@ -306,8 +318,10 @@ class setupUI(QMainWindow):
         ####################工具栏####################开始
         # 工具
 
-        self.fileToolbar = self.addToolBar('打开文件')
-        self.fileToolbar.addAction(openFile)
+        self.pixmapToolbar = self.addToolBar('打开图形文件')
+        self.textToolbar = self.addToolBar('打开文本文件')
+        self.pixmapToolbar.addAction(openPimax)
+        self.textToolbar.addAction(openText)
 
         self.exitToolbar = self.addToolBar('退出')
         self.exitToolbar.addAction(exitAction)

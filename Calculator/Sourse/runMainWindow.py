@@ -16,14 +16,14 @@ from Calculator.Calculator.Sourse.Window.mainWindow.mainWindow import mainWindow
 from Calculator.Calculator.Sourse.Window.commomHelper.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
 
 # 启动界面显示时间的设置
-"""
+'''
 def load_Message(splash):
     for i in range(1, 5):  # 显示时间4秒
         time.sleep(0.5)  # 睡眠
         splash.setText("初始化程序...{0}%".format(25 * i))
         splash.update()
         qApp.processEvents()
-"""
+'''
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

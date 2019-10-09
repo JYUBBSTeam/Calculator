@@ -7,6 +7,10 @@
     函数：
 '''
 
+
+from PyQt5.QtWidgets import QFileDialog
+
+
 from Calculator.Calculator.Sourse.Window.mainWindow.mainWindow_setup_UI import setupUI
 
 class function(setupUI):

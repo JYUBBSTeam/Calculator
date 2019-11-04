@@ -1,40 +1,56 @@
-'''
-    创建人：Liang
-    创建时间：2019/7/18
-    最后一次编辑时间：
-    描述：计算器窗口界面
-    类：calculator_Window
-    函数：
-'''
+# !/usr/bin/env python
+# _*_ coding: UTF-8 _*_
 
+'''
+    @Project -> File  : Calculator -> calculatorMainWindow
+    @创建人：Liang
+    @创建时间：2019/7/18
+    @最后一次编辑时间：
+    @描述：计算器窗口主界面
+    @类：calculatorMainWindow
+    @函数：
+'''
 
 import sys
 import math
 import const    # 导入常量模块
 
-from PyQt5.QtWidgets import QWidget, QVBoxLayout
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QPushButton, QMenu, QToolTip, QLabel
 from PyQt5.QtCore import Qt, QRect, QSize
 from PyQt5.QtGui import QCursor, QPainterPath, QPainter, QColor, QBrush, QPixmap, QIcon, QFont
 
-from Calculator.Calculator.Sourse.Window.childWindow.calculatorWindow.calculator_setup_UI import setupUI
-from Calculator.Calculator.Sourse.Window.childWindow.calculatorWindow.calculator_init_UI import init_UI
-from Calculator.Calculator.Sourse.Window.commomHelper.commomHelper_setup_Win.commomHelper_setup_Win import CommonHelper_titleBar   # 加载自定义标题栏的类
-from Calculator.Calculator.Sourse.Window.commomHelper.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
+from Calculator.Sourse.Window.childWindow.calculatorWindow.calculator import calculator
+from Calculator.Sourse.Window.childWindow.calculatorWindow.baseConversion import Ui_conversionOfNumberSystems
+from Calculator.Sourse.Window.commomHelper.commomHelper_setup_Win.commomHelper_titleBar_Win import CommonHelper_titleBar   # 加载自定义标题栏的类
+from Calculator.Sourse.Window.commomHelper.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
+from Calculator.Sourse.Window.childWindow.calculatorWindow.calculator import calculator
 
 const.PADDING = 4     # 设置边界宽度为4
 const.TITLE_ICON_MAG = 40
 const.SET_SPACING = 0
 const.SET_CONTENTSMARGINS = 11
+const.SPINNERBTN_ICON = "./image/spinner.png"
 
 sys.setrecursionlimit(10000)    # 递归深度调整
 
 
-class calculator_Window(setupUI):
+class calculatorMainWindow(QWidget):
     '''
-        计算器界面窗口
+        计算器主界面窗口
     '''
     def __init__(self):
-        super(calculator_Window, self).__init__()
+        super(calculatorMainWindow, self).__init__()
+        self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowSystemMenuHint)  # 设置无边框
+        self.setAttribute(Qt.WA_TranslucentBackground, True)  # 将form设置为透明
+        self.SHADOW_WIDTH = 0  # 边框距离
+        self.isLeftPressDown = False  # 鼠标左键是否按下
+        self.dragPosition = 0  # 拖动时坐标
+        self.Numbers = self.enum(UP=0, DOWN=1, LEFT=2, RIGHT=3, LEFTTOP=4, LEFTBOTTOM=5, RIGHTBOTTOM=6, RIGHTTOP=7,
+                                 NONE=8)  # 枚举参数
+        self.setMinimumHeight(806)  # 窗体最小高度
+        self.setMinimumWidth(1068)  # 窗体最小宽度
+        self.dir = self.Numbers.NONE  # 初始化鼠标状态 : 默认
+        self.setMouseTracking(True)
 
         # 加载Qss样式表
         styleFile = './Window/childWindow/calculatorWindow/Qss/calculatorWindow.qss'
@@ -50,8 +66,19 @@ class calculator_Window(setupUI):
         # 调整布局与边界距离
         AllLayout.setContentsMargins(const.SET_CONTENTSMARGINS, const.SET_CONTENTSMARGINS, const.SET_CONTENTSMARGINS, const.SET_CONTENTSMARGINS)
 
+        # 调用自定义标题栏
         self.title = CommonHelper_titleBar()
         self.title.setObjectName('title')
+
+        self.title.spinnerBtn = QPushButton(self.title)     # 创建下拉列表按钮
+        self.title.spinnerBtn.setObjectName("spinnerBtn")
+        self.title.spinnerBtn.resize(40, 40)
+        self.title.spinnerBtn.setIcon(QIcon(const.SPINNERBTN_ICON))
+        self.title.spinnerBtn.setStyleSheet("background-color:white;")
+        self.title.spinnerBtn.move(60,0)
+        QToolTip.setFont(QFont("sansSerif", 10))
+        self.title.spinnerBtn.setToolTip("功能列表")
+        self.title.spinnerBtn.clicked.connect(self.spinnerBtnPressed)
 
         # 自定义最小化、最大化、关闭按钮槽函数连接
         self.title.minButton.clicked.connect(self.ShowMininizedWindow)
@@ -62,39 +89,31 @@ class calculator_Window(setupUI):
         titleIcon = QPixmap("./image/calculator.jpg")
         self.title.iconLabel.setPixmap(titleIcon.scaled(40, 40))
         self.title.titleLabel.setText('计算器')
-        self.title.titleLabel.setFont(QFont("STSong", 15))  # 华文宋体
+        self.title.titleLabel.setFont(QFont("STSong", 16))  # 华文宋体
         self.title.titleLabel.resize(40, 40)
 
+        # 界面主窗口
         self.centerWidget = QWidget()
         self.centerWidget.setObjectName('centerWidget')
+
+        # 显示默认窗口你（高级计算器窗口）
+        self.calculatorWindow = calculator()
+        self.baseConversionWindow = Ui_conversionOfNumberSystems()
+        self.calculatorWindow.show()
+        self.baseConversionWindow.hide()
+        self.centerWidgetLayout = QVBoxLayout(self.centerWidget)
+        self.centerWidgetLayout.addWidget(self.calculatorWindow)
+        self.centerWidgetLayout.addWidget(self.baseConversionWindow)
+
         AllLayout.addWidget(self.title)
         AllLayout.addWidget(self.centerWidget)
-
-        self.initUi = calculator_Window.init_Ui(self.centerWidget)
-        self.setupUi = calculator_Window.setup_Ui(self.centerWidget)
 
         self.setWindowTitle('计算器')
         self.setWindowIcon(QIcon("./image/calculator.jpg"))
 
+        # 下拉列表
+        self.spinner()
 
-        ####################窗体无边框初始化####################开始
-        self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowSystemMenuHint)  # 设置无边框
-        self.setAttribute(Qt.WA_TranslucentBackground, True)  # 将form设置为透明
-        self.SHADOW_WIDTH = 0  # 边框距离
-        self.isLeftPressDown = False  # 鼠标左键是否按下
-        self.dragPosition = 0  # 拖动时坐标
-        self.Numbers = self.enum(UP=0, DOWN=1, LEFT=2, RIGHT=3, LEFTTOP=4, LEFTBOTTOM=5, RIGHTBOTTOM=6, RIGHTTOP=7,
-                                 NONE=8)  # 枚举参数
-        self.setMinimumHeight(750)  # 窗体最小高度
-        self.setMinimumWidth(921)  # 窗体最小宽度
-        self.dir = self.Numbers.NONE  # 初始化鼠标状态 : 默认
-        self.setMouseTracking(True)
-
-    def setup_Ui(self):
-        self.setup_Win = setupUI.setup_Window(self)
-
-    def init_Ui(self):
-        self.init_Ui = init_UI.init_Ui(self)
 
     # 枚举参数
     def enum(self, **enums):
@@ -146,7 +165,7 @@ class calculator_Window(setupUI):
         else:
             # 默认
             self.dir = self.Numbers.NONE
-            self.setCursor(QCursor(Qt.PointingHandCursor))
+            self.setCursor(QCursor(Qt.ArrowCursor))
 
 
     ########################################
@@ -237,13 +256,56 @@ class calculator_Window(setupUI):
             color.setAlpha(150 - math.sqrt(i) * 50)
             painter.setPen(color)
             painter.drawPath(path)
+    
+    #########################自定义下拉列表 #######################开始
+    # 自定义下拉列表，实现几种计算界面之间的切换
+    def spinner(self):
+        '''
+          表自定义下拉列表
+        :return: None
+        '''
+        self.spinnerQwidget = QWidget(self)
+        self.spinnerQwidget.setObjectName('spinnerQwidget')
+        self.spinnerQwidget.setGeometry(70, 50, 150, 200)
+        self.spinnerQwidget.setStyleSheet('background-color:white;')
+        self.spinnerQwidget.hide()
+
+        self.spinnerLayout = QVBoxLayout(self.spinnerQwidget)
+        self.spinnerLayout.setObjectName("spinnerLayout")
+        self.calculatorBtn = QPushButton("计算器")
+        self.calculatorBtn.setObjectName("calculatorBtn")
+        self.calculatorBtn.clicked.connect(self.setCalculatorWin)
+
+        self.baseConversionBtn = QPushButton("进制转换")
+        self.baseConversionBtn.setObjectName("baseConversionBtn")
+        self.baseConversionBtn.clicked.connect(self.setBaseConversionWin)
+        self.calculatorBtn.setStyleSheet("background-color:gray;")
+        self.baseConversionBtn.setStyleSheet("background-color:gray;")
+        self.spinnerQuitBtn = QPushButton(self.spinnerQwidget)
+        self.spinnerQuitBtn.setObjectName("spinnerQuitBtn")
+        self.spinnerQuitBtn.setIcon(QIcon("./image/spinnerQuit.png"))
+        self.spinnerQuitBtn.setStyleSheet("background-color:cyan;")
+        self.spinnerQuitBtn.clicked.connect(self.spinnerBtnPressed)
+
+        # 分隔控件的空白窗口
+        self.separator = QWidget(self.spinnerQwidget)
+        self.separator.setObjectName("separator")
+        self.separator.resize(150, 20)
+
+        self.spinnerLayout.addWidget(self.calculatorBtn)
+        self.spinnerLayout.addWidget(self.baseConversionBtn)
+        self.spinnerLayout.addWidget(self.separator)
+        self.spinnerLayout.addWidget(self.spinnerQuitBtn)
+
+    #########################自定义下拉列表 #######################结束
 
 
-    ####################窗体无边框初始化####################结束
+    ####################################################################################################################
     #
+    #   槽函数区域
     #
-    #
-    #
+    ####################################################################################################################
+
     ####################设置窗口大小槽函数####################开始
     # 最小化窗口
     def ShowMininizedWindow(self):
@@ -272,4 +334,26 @@ class calculator_Window(setupUI):
 
     ####################设置窗口大小槽函数####################结束
 
+    def setCalculatorWin(self):
+        if self.calculatorWindow.isHidden():
+            self.baseConversionWindow.hide()
+            self.calculatorWindow.show()
+            self.spinnerQwidget.hide()
+
+    def setBaseConversionWin(self):
+        if self.baseConversionWindow.isHidden():
+            self.calculatorWindow.hide()
+            self.baseConversionWindow.show()
+            self.spinnerQwidget.hide()
+
+    # 下拉列表槽函数
+    def spinnerBtnPressed(self):
+        if self.spinnerQwidget.isHidden():
+            self.spinnerQwidget.show()
+        else:
+            self.spinnerQwidget.hide()
+
+    # 隐藏下拉列表按钮槽函数
+    def spinnerQuitBtnPressed(self):
+        self.spinnerQwidget.hide()
 

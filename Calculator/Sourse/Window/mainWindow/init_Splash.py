@@ -1,3 +1,6 @@
+# !/usr/bin/env python
+# _*_ coding: UTF-8 _*_
+
 '''
     创建人：Liang
     创建时间：2019/7/18

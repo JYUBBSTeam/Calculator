@@ -1,18 +1,21 @@
+# !/usr/bin/env python
+# _*_ coding: UTF-8 _*_
+
 '''
-    创建人：Liang
-    创建时间：2019/7/18
-    最后一次编辑时间：
-    描述：创建一个自定义标题栏的功能帮助类
-    类：CommonHelper_titleBar:自定义标题栏的功能帮助类
-    函数：
+    @创建人：Liang
+    @创建时间：2019/7/18
+    @最后一次编辑时间：
+    @描述：创建一个自定义标题栏的功能帮助类
+    @类：CommonHelper_titleBar:自定义标题栏的功能帮助类
+    @函数：
 '''
 
 import const    # 导入常量模块
 from PyQt5.QtWidgets import QWidget, QLabel, QPushButton, QHBoxLayout
 from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QIcon
+from PyQt5.QtGui import QIcon, QCursor
 
-from Calculator.Calculator.Sourse.Window.commomHelper.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
+from Calculator.Sourse.Window.commomHelper.commomHelper_loadQss.commomHelper_Qss import CommonHelper_qss
 
 const.TITLE_BAR_HEIGHT = 40
 const.TITLE_BUTTON_SIZE = 40
@@ -71,9 +74,21 @@ class CommonHelper_titleBar(QWidget):
         self.iconLabel.setAlignment(Qt.AlignLeft)
         self.titleLabel.setAlignment(Qt.AlignLeft)
 
+        # 设置图标
         self.minButton.setIcon(QIcon(const.TITLE_MIN_ICON))
         self.restoreButton.setIcon(QIcon(const.TITLE_RESTORE_ICON))
         self.closeButton.setIcon(QIcon(const.TITLE_CLOSE_ICON))
+
+        # 设置提示信息
+        self.iconLabel.setToolTip('标题图标')
+        self.minButton.setToolTip('最小化')
+        self.restoreButton.setToolTip('复原')
+        self.closeButton.setToolTip('关闭')
+
+        # 设置鼠标手势
+        self.minButton.setCursor(QCursor(Qt.PointingHandCursor))
+        self.restoreButton.setCursor(QCursor(Qt.PointingHandCursor))
+        self.closeButton.setCursor(QCursor(Qt.PointingHandCursor))
 
         # 水平布局
         self.lay = QHBoxLayout(self)

@@ -1,10 +1,14 @@
+# !/usr/bin/env python
+# _*_ coding: UTF-8 _*_
+
 '''
-    创建人：Liang
-    创建时间：2019/7/21
-    最后一次编辑时间：
-    描述：窗口设置
-    类：setupUI:窗口设置
-    函数：
+    @Project -> File  : Calculator -> calculator
+    @创建人：Liang
+    @创建时间：2019/7/21
+    @最后一次编辑时间：
+    @描述：计算窗口设置
+    @类：calculator
+    @函数：
 '''
 
 import const    # 导入常量模块
@@ -21,12 +25,15 @@ const.BUTTON_WIDTH = 85
 const.BUTTON_HEIGHT = 50
 const.CONTENTSMARGINS = 11
 
-class setupUI(QWidget):
+class calculator(QWidget):
     '''
 
     '''
     def __init__(self):
-        super(setupUI, self).__init__()
+        super(calculator, self).__init__()
+        self.setObjectName('calculator')
+        # self.resize(1046, 704)
+
         # 初始化栈
         self.char_stack = []  # 操作符号的栈
         self.num_stack = []  # 操作数的栈
@@ -49,7 +56,9 @@ class setupUI(QWidget):
             '*-': '>', '/-': '>', '*/': '>', '/*': '>',
         }
 
-    def setup_Window(self):
+        self.setup_UI()
+
+    def setup_UI(self):
         '''
 
         :return:
@@ -80,10 +89,9 @@ class setupUI(QWidget):
                  '1', '2', '3', '0', '=', '*', '/',
                  '', '', '', '', '', '', '',
                  '(', ')', '√', '∑', 'lg', 'cot', 'acot',
-                 'x!', '1/x', 'x²', 'x³', '∫', '∬', '∭',
+                     'x!', '1/x', 'x²', 'x³', '∫', '∬', '∭',
                  'log', '㏑', 'tan', 'atan', '∮', '∯', '∰',
-                 'cosh', 'sinh', 'cos', 'acos', '∂', 'sin', 'asin',
-                 '进制转换']
+                 'cosh', 'sinh', 'cos', 'acos', '∂', 'sin', 'asin']
         pos = [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6),
                (1, 0), (1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6),
                (2, 0), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (2, 6),
@@ -93,8 +101,7 @@ class setupUI(QWidget):
                (6, 0), (6, 1), (6, 2), (6, 3), (6, 4), (6, 5), (6, 6),
                (7, 0), (7, 1), (7, 2), (7, 3), (7, 4), (7, 5), (7, 6),
                (8, 0), (8, 1), (8, 2), (8, 3), (8, 4), (8, 5), (8, 6),
-               (9, 0), (9, 1), (9, 2), (9, 3), (9, 4), (9, 5), (9, 6),
-               (10, 0), (10, 1), (10, 2), (10, 3), (10, 4), (10, 5), (10, 6), ]
+               (9, 0), (9, 1), (9, 2), (9, 3), (9, 4), (9, 5), (9, 6)]
 
         ####################设置单选按钮####################开始
         # 将单选按钮添加到分组 bg1 中,同时分配ID号
@@ -134,16 +141,16 @@ class setupUI(QWidget):
             ORDER_NUMBER = ORDER_NUMBER + 1
 
         # 创建多行文本显示框，用于显示计算过程
-        self.more_display = QTextEdit()
-        self.more_display.setObjectName('more_dispaly')
-        self.more_display.setReadOnly(True)  # 只读
-        self.more_display.setAlignment(Qt.AlignRight)
+        self.calculator_display = QTextEdit()
+        self.calculator_display.setObjectName('more_dispaly')
+        self.calculator_display.setReadOnly(True)  # 只读
+        self.calculator_display.setAlignment(Qt.AlignRight)
 
         ########################################################
         # 嵌套布局
         #
         HBoxLayout.addLayout(grid)
-        HBoxLayout.addWidget(self.more_display)
+        HBoxLayout.addWidget(self.calculator_display)
         VBoxLayout.addWidget(self.display)
         VBoxLayout.addLayout(HBoxLayout)
 
@@ -156,7 +163,66 @@ class setupUI(QWidget):
     ####################################################################################################################
     #
     # 清空函数
+    def resultClear(self):
+        self.display.clear()
+        self.display.setText('0')
+        self.result = 0
+        self.empty_flag = True
+    def calculatorDisplayClear(self):
+        self.calculator_display.clear()
 
 
+
+
+
+
+
+
+
+
+
+
+
+    #####################################################################################################################
+    #
+    #
+    #
+    #########################计算算法 #######################开始
+    import math
+    # 加法
+    def plus(self, num_1, num_2):
+       return num_1 + num_2
+
+    # 减法
+    def substraction(self, num_1, num_2):
+        return num_1 - num_2
+
+    # 乘法
+    def time(self, num_1, num_2):
+        return num_1 * num_2
+
+    # 除法
+    def devided(self, num_1, num_2):
+        return num_1 / num_2
+
+    # 阶乘
+    def factorial(self, num):
+        if num == 1:
+            return 1
+        else:
+            return self.factorial(self, num - 1)* num
+
+    # 倒数
+    def countDown(self, num):
+        return 1 / num
+
+    # n次方
+    def square(self, num, n):
+        return num^n
+    # n次方根
+    def __(self):
+        pass
+
+    #########################计算算法 #######################结束
 
 

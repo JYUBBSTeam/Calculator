@@ -42,7 +42,7 @@ class initSplash(QWidget):
         self.p.setPen(QPen())
         self.p.setBrush(QBrush())
         self.p.drawPixmap(const.PIXMAP_X, const.PIXMAP_Y, QPixmap("./image/history.jpg"))    # 加载图片
-        self.p.drawText(QRect(const.TEXT_X, const.TEXT_Y, const.TEXT_WIDTH, const.TEXT_HEIGHT), Qt.AlignCenter, self.text)    #showMessage
+        self.p.drawText(QRect(const.TEXT_X, const.TEXT_Y, const.TEXT_WIDTH, const.TEXT_HEIGHT), Qt.AlignCenter, self.text)    # showMessage
 
     def setText(self, text):
         self.text = text

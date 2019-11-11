@@ -34,6 +34,10 @@ class calculator(QWidget):
         self.setObjectName('calculator')
         # self.resize(1046, 704)
 
+        self.dis_Text = []  # 储存算式字符
+        self.dis_TextSubscript = -1 # 记录下标，-1为空
+        self.disTextTop = ''
+
         # 初始化栈
         self.char_stack = []  # 操作符号的栈
         self.num_stack = []  # 操作数的栈
@@ -48,15 +52,17 @@ class calculator(QWidget):
         self.num_top = 0  # 保留栈顶的数值
         self.result = 0  # 保留计算结果， 看计算器计算一次后，再继续按等号，还会重复 最近一次计算
 
-        # 各种操作符输入情况（'>'取前面一个操作符，'<'取后面一个操作符
-        self.priority_map = {
-            '++': '>', '+-': '>', '-+': '>', '--': '>',
-            '+*': '<', '+/': '<', '-*': '<', '-/': '<',
-            '**': '>', '//': '>', '*+': '>', '/+': '>',
-            '*-': '>', '/-': '>', '*/': '>', '/*': '>',
-        }
+        # # 各种操作符输入情况（'>'取前面一个操作符，'<'取后面一个操作符
+        # self.priority_map = {
+        #     '++': '>', '+-': '>', '-+': '>', '--': '>',
+        #     '+*': '<', '+/': '<', '-*': '<', '-/': '<',
+        #     '**': '>', '//': '>', '*+': '>', '/+': '>',
+        #     '*-': '>', '/-': '>', '*/': '>', '/*': '>',
+        # }
 
         self.setup_UI()
+        self.resultClear()
+        self.calculatorDisplayClear()
 
     def setup_UI(self):
         '''
@@ -133,7 +139,7 @@ class calculator(QWidget):
                 self.button = QPushButton(name)
                 self.button.setObjectName('button')
                 self.button.setFixedSize(QSize(const.BUTTON_WIDTH, const.BUTTON_HEIGHT))
-                # button.clicked.connect()
+                self.button.clicked.connect(self.setCaculatorText)
 
                 # 往网格布局里添加按钮
                 grid.addWidget(self.button, pos[ORDER_NUMBER][0] + 1, pos[ORDER_NUMBER][1])
@@ -159,7 +165,7 @@ class calculator(QWidget):
         self.setLayout(VBoxLayout)
 
     ####################################################################################################################
-    #  以下为计算器界面按钮点击事件函数
+    #  槽函数
     ####################################################################################################################
     #
     # 清空函数
@@ -167,62 +173,84 @@ class calculator(QWidget):
         self.display.clear()
         self.display.setText('0')
         self.result = 0
-        self.empty_flag = True
     def calculatorDisplayClear(self):
         self.calculator_display.clear()
+        self.empty_flag = True
 
+    # 算式文本展示
+    def setCaculatorText(self):
+        '''
 
+        :return:
+        '''
+        self.sender = self.sender()
+        self.sender_text = self.sender.text()
+        try:
+            if self.empty_flag == True:
+                self.disTextTop = self.sender_text
+                self.dis_Text.append(self.disTextTop)
+                self.dis_TextSubscript += 1
+                self.empty_flag = False
+            elif self.is_number(self.sender_text):
+                self.disTextTop = self.sender_text
+                self.dis_Text.append(self.disTextTop)
+                self.dis_TextSubscript += 1
+            elif self.sender_text in self.operators:
+                if self.dis_Text[self.dis_TextSubscript - 1] in self.operators:
+                    self.calculator_display.setToolTip("Error!!!")
+                else:
+                    self.disTextTop = self.sender_text
+                    self.dis_Text.append(self.disTextTop)
+                    self.dis_TextSubscript += 1
+                # 未完成
+            pass
+            self.calculatorDisplayClear()
+            # 展示算式文本
+            self.calculator_display.setText(self.changeArrayToString())
 
-
-
-
-
-
-
-
-
-
+        except TypeError:
+            pass
 
     #####################################################################################################################
     #
     #
     #
     #########################计算算法 #######################开始
-    import math
-    # 加法
-    def plus(self, num_1, num_2):
-       return num_1 + num_2
-
-    # 减法
-    def substraction(self, num_1, num_2):
-        return num_1 - num_2
-
-    # 乘法
-    def time(self, num_1, num_2):
-        return num_1 * num_2
-
-    # 除法
-    def devided(self, num_1, num_2):
-        return num_1 / num_2
-
-    # 阶乘
-    def factorial(self, num):
-        if num == 1:
-            return 1
-        else:
-            return self.factorial(self, num - 1)* num
-
-    # 倒数
-    def countDown(self, num):
-        return 1 / num
-
-    # n次方
-    def square(self, num, n):
-        return num^n
-    # n次方根
-    def __(self):
-        pass
-
+    '''
+        用C++写，再用python模块调用C++代码
+    '''
+    # 未完成
     #########################计算算法 #######################结束
+    # 判断是否是数字
+    def is_number(self, senderText):
+        '''
+
+        :param senderText:
+        :return:
+        '''
+        try:
+            float(senderText)
+            return True
+        except ValueError:
+            pass
+        try:
+            import unicodedata
+            unicodedata.numeric(senderText)
+            return True
+        except (TypeError, ValueError):
+            pass
+            return False
+
+    # 数组转换为字符串
+    def changeArrayToString(self):
+        str = ','.join(self.dis_Text)
+        return str
+
+
+
+
+
+
+
 
 

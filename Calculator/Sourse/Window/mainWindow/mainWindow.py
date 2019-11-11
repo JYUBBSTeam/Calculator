@@ -11,11 +11,12 @@
 '''
 
 import const
-from PyQt5.QtWidgets import QMenu, QMainWindow, QFileDialog
+from PyQt5.QtWidgets import QMenu, QWidget, QMainWindow, QFileDialog, QHBoxLayout
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon, QCursor, QPixmap
 from Calculator.Sourse.Window.childWindow.calculatorWindow.calculatorMainWindow import calculatorMainWindow
 from Calculator.Sourse.Window.mainWindow.QAction.qAction import Action
+from Calculator.Sourse.Window.mainWindow.function import Ui_Form
 
 const.WIN_X = 250
 const.WIN_Y = 150
@@ -36,6 +37,8 @@ class mainWindow(QMainWindow):
         self.setWindowTitle('智能公式识别IFR')
         self.setup_UI()
         self.createContextMenu()
+        self.setFormLayout()
+
 
     def setup_UI(self):
         '''
@@ -221,6 +224,33 @@ class mainWindow(QMainWindow):
         # self.pasteAction.triggered.connect(self.)
         # self.delectAction.triggered.connect(self.)
 
+    def setFormLayout(self):
+        '''
+            窗体布局
+        :return:
+        '''
+        # 功能窗口
+        self.functionWinsow = Ui_Form()
+        self.functionWinsow.setObjectName('functionWinsow')
+        # self.functionWinsow.show()
+
+        # 水平布局
+        AllLayout = QHBoxLayout()
+        AllLayout.setObjectName('AllLayout')
+        # 功能窗口加入布局中
+        AllLayout.addWidget(self.functionWinsow)
+
+        # 创建widget窗口实例
+        self.main_frame = QWidget()
+        self.main_frame.setObjectName('main_frame')
+        self.main_frame.setLayout(AllLayout)
+        self.setCentralWidget(self.main_frame)
+
+
+
+
+
+    ####################################################################################################################
     def showContextMenu(self):
         '''
             右键点击时调用的函数

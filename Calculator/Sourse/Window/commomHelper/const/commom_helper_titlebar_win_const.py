@@ -20,6 +20,10 @@ class Const:
     '''
     设置常量
     '''
+
+    ICON_WIDTH = 30
+    ICON_HEIGHT = 30
+
     TITLE_BAR_HEIGHT = 40
     TITLE_BUTTON_SIZE = 40
     TITLE_MIN_ICON = './image/min.png'

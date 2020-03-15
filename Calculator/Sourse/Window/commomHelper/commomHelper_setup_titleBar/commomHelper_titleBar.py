@@ -1,46 +1,48 @@
 # !/usr/bin/env python
 # _*_ coding: UTF-8 _*_
-
 """
-    @创建人：Liang
-    @创建时间：2019/7/18
-    @最后一次编辑时间：
-    @描述：创建一个自定义标题栏的功能帮助类
-    @类：CommonHelper_titleBar:自定义标题栏的功能帮助类
-    @函数：
+-----------------------------------
+    @author: Liang
+    @file: main.py
+    @date: 2019/7/18
+    @Software: PyCharm
+-----------------------------------
+    @Change Activity:
+           2020/2/23
+-----------------------------------
+    @desc:
+        创建一个自定义标题栏公共类
+-----------------------------------
 """
 
 from PyQt5.QtWidgets import QWidget, QLabel, QPushButton, QHBoxLayout
-from PyQt5.QtCore import Qt
+from PyQt5.QtCore import Qt, QSize
 from PyQt5.QtGui import QIcon, QCursor
 from Calculator.Sourse.Window.commomHelper.const.commom_helper_titlebar_win_const import Const
 from Calculator.Sourse.Window.commomHelper.commomHelper_loadQss.commomHelper_Qss import CommonhelperQss
 
 
 # 自定义标题栏公共类
-class CommonhelperTitlebar(QWidget):
+class CommonhelperTitleBar(QWidget):
     """
-    功能：  1.关闭，最小化，复原三个按钮的基本功能
-            2.双击标题栏窗口最大化或者缩小
-            3.鼠标点击拖动窗口
-            4.显示标题和图标
+    功能：
+        1.关闭，最小化，最大化，复原按钮的基本功能
+        2.显示标题和图标
     """
 
     def __init__(self):
-        super(CommonhelperTitlebar, self).__init__()
-
-        # # 加载qss样式表
-        # style_file = './Window/commomHelper/commomHelper_setup_Win/Qss/titleBar.qss'
-        # qss_style = CommonhelperQss.read_qss(style_file)
-        # self.setStyleSheet(qss_style)
+        super(CommonhelperTitleBar, self).__init__()
 
         self.initialize_window()
+        self.load_qss()
 
     def initialize_window(self):
         """
 
         :return:
         """
+        self.setObjectName('titleBar')
+
         self.isPressed = False
         self.setFixedHeight(Const.TITLE_BAR_HEIGHT)
         self.initialize_views()
@@ -58,16 +60,21 @@ class CommonhelperTitlebar(QWidget):
         self.titleLabel.setObjectName('titleLabel')
         # 最小化按钮
         self.minButton = QPushButton(self)
-        self.setObjectName('minButton')
+        self.minButton.setObjectName('titleBarButton')
+        self.minButton.setIconSize(QSize(30, 30))
+
         # 复原按钮
         self.restoreButton = QPushButton(self)
-        self.restoreButton.setObjectName('restoreButton')
+        self.restoreButton.setObjectName('titleBarButton')
+        self.restoreButton.setIconSize(QSize(Const.ICON_WIDTH, Const.ICON_HEIGHT))
         # 最大化按钮
         self.maxButton = QPushButton(self)
-        self.maxButton.setObjectName("maxButton")
+        self.maxButton.setObjectName("titleBarButton")
+        self.maxButton.setIconSize(QSize(Const.ICON_WIDTH, Const.ICON_HEIGHT))
         # 关闭按钮
         self.closeButton = QPushButton(self)
-        self.closeButton.setObjectName('closeButton')
+        self.closeButton.setObjectName('titleBarButton')
+        self.closeButton.setIconSize(QSize(Const.ICON_WIDTH, Const.ICON_HEIGHT))
         # 设置大小
         self.minButton.setFixedSize(Const.TITLE_BUTTON_SIZE, Const.TITLE_BUTTON_SIZE)
         self.restoreButton.setFixedSize(Const.TITLE_BUTTON_SIZE, Const.TITLE_BUTTON_SIZE)
@@ -94,17 +101,22 @@ class CommonhelperTitlebar(QWidget):
         self.closeButton.setCursor(QCursor(Qt.PointingHandCursor))
 
         # 水平布局
-        self.lay = QHBoxLayout(self)
-        self.lay.setObjectName('lay')
-        self.setLayout(self.lay)
+        self.allLayout = QHBoxLayout(self)
+        self.allLayout.setObjectName('allLayout')
+        self.setLayout(self.allLayout)
 
-        self.lay.setSpacing(Const.SPACING)  # 去除控件之间的距离
-        self.lay.setContentsMargins(Const.MARGINS, Const.MARGINS, Const.MARGINS, Const.MARGINS)
+        self.allLayout.setSpacing(Const.SPACING)  # 去除控件之间的距离
+        self.allLayout.setContentsMargins(Const.MARGINS, Const.MARGINS, Const.MARGINS, Const.MARGINS)
 
         # 往布局里添加控件
-        self.lay.addWidget(self.iconLabel)
-        self.lay.addWidget(self.titleLabel)
-        self.lay.addWidget(self.minButton)
-        self.lay.addWidget(self.restoreButton)
-        self.lay.addWidget(self.maxButton)
-        self.lay.addWidget(self.closeButton)
+        self.allLayout.addWidget(self.iconLabel)
+        self.allLayout.addWidget(self.titleLabel)
+        self.allLayout.addWidget(self.minButton)
+        self.allLayout.addWidget(self.restoreButton)
+        self.allLayout.addWidget(self.maxButton)
+        self.allLayout.addWidget(self.closeButton)
+
+    def load_qss(self):
+        style_file = './Window/commomHelper/Qss/commomHelper_titleBar.qss'
+        qss_style = CommonhelperQss.read_qss(style_file)
+        self.setStyleSheet(qss_style)

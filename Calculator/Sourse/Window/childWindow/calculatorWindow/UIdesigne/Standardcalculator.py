@@ -59,6 +59,13 @@ class Standardcalculator(QWidget):
         self.MS_btn = QPushButton("MS")
         self.M_btn = QPushButton("M^")
 
+        self.MC_btn.setObjectName('standardCalculatorBtn')
+        self.MR_btn.setObjectName('standardCalculatorBtn')
+        self.M_ADD_btn.setObjectName('standardCalculatorBtn')
+        self.M_SUB_btn.setObjectName('standardCalculatorBtn')
+        self.MS_btn.setObjectName('standardCalculatorBtn')
+        self.M_btn.setObjectName('standardCalculatorBtn')
+
         # 加载布局
         self.set_base_layout()
 

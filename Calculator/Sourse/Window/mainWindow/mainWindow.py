@@ -20,7 +20,7 @@ from PyQt5.QtGui import QIcon, QCursor, QPixmap
 from PyQt5.QtWidgets import QMenu, QMainWindow, QWidget, QListWidget, QStackedWidget, QListWidgetItem, QHBoxLayout, \
     QSplitter, QFrame, QVBoxLayout, QGridLayout, QStatusBar, QMenuBar, QTextEdit, QPushButton, QLabel
 
-from Calculator.Sourse.Window.childWindow.calculatorWindow.Calculatormainwindow import Calculatormainwindow
+from Calculator.Sourse.Window.childWindow.calculatorWindow.CalculatorMainWindow import Calculatormainwindow
 from Calculator.Sourse.Window.commomHelper.commomHelper_loadQss.commomHelper_Qss import CommonhelperQss
 from Calculator.Sourse.Window.mainWindow.QAction.qAction import Action
 from Calculator.Sourse.Window.mainWindow.const.mainWindow_const import Const
@@ -49,7 +49,7 @@ class MainWindow(QMainWindow):
         # 主框体设计
         self.set_main_form()
         # 加载qss样式
-        self.set_stylesheet()
+        self.load_qss()
 
     def init(self):
         self.setGeometry(Const.WIN_X, Const.WIN_Y, Const.WIN_WIDTH, Const.WIN_HEIGHT)
@@ -244,7 +244,7 @@ class MainWindow(QMainWindow):
         # self.delectAction.triggered.connect(self.)
 
     # ****************************** 业务逻辑 *********************************
-    def set_stylesheet(self):
+    def load_qss(self):
         """
          加载Qss样式表
         :return:

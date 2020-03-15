@@ -26,6 +26,15 @@ QListWidget#leftListWidget::Item:selected {
     border-right: 5px solid red;
 }
 
+QListWidget#formulaSybolListWidget {
+    max-width: 204px;
+}
+
+QListWidget#formulaSybolListWidget::Item:selected {
+    background: lightGray;
+    border-left: 5px solid blue;
+}
+
 QFrame#rightBar {
     background: lightGray;
 }
@@ -36,15 +45,6 @@ QFrame#bottomBar{
 
 QFrame#leftWidget {
     background: white;
-}
-
-QListWidget#formulaSybolListWidget {
-    max-width: 204px;
-}
-
-QListWidget#formulaSybolListWidget::Item:selected {
-    background: lightGray;
-    border-left: 5px solid blue;
 }
 
 QFrame#barFrame {
@@ -84,7 +84,34 @@ QStackedWidget#symbolStackedWidget {
     background-color: lightGray;
 }
 
+QTabWidget::pane {
+        border: none;
+        border-top: 3px solid rgb(0, 160, 230);
+        background: transparent;
+}
 
+QTabWidget::tab-bar {
+        border: none;
+}
 
+QTabBar::tab {
+        border: none;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        color: rgb(0, 0, 0);
+        background: rgb(255, 255, 255, 30);
+        height: 28px;
+        min-width: 85px;
+        margin-right: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+}
 
+QTabBar::tab:hover {
+   background: rgb(0, 0, 255, 40);
+}
 
+QTabBar::tab:selected {
+        color: white;
+        background: rgb(0, 160, 230);
+}

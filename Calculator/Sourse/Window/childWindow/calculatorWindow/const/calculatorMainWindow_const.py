@@ -20,7 +20,7 @@ class Const:
     # MINIMUMHEIGHT = 608
     # MINIMUMWIDTH = 1068
 
-    MINIMUMHEIGHT = 800
+    MINIMUMHEIGHT = 850
     MINIMUMWIDTH = 1068
 
     # 设置边界宽度为4

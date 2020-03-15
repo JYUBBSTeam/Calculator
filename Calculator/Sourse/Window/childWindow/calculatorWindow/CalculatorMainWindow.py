@@ -15,14 +15,15 @@ import math
 
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QPushButton, QToolTip, QMessageBox, QTabWidget
 from PyQt5.QtCore import Qt, QSize, QPoint, QThread, pyqtSignal
-from PyQt5.QtGui import QMouseEvent, QPainterPath, QPainter, QColor, QBrush, QPixmap, QIcon, QFont
+from PyQt5.QtGui import QMouseEvent, QPainterPath, QPainter, QColor, QBrush, QPixmap, QIcon, QFont, QCursor
 
 from Calculator.Sourse.Window.childWindow.calculatorWindow.UIdesigne.baseConversion import Uiconversionofnumbersystems
-from Calculator.Sourse.Window.commomHelper.commomHelper_setup_Win.commomHelper_titleBar_Win import \
-    CommonhelperTitlebar  # 加载自定义标题栏的类
-# from Calculator.Sourse.Window.commomHelper.commomHelper_loadQss.commomHelper_Qss import CommonhelperQss
+from Calculator.Sourse.Window.commomHelper.commomHelper_setup_titleBar.commomHelper_titleBar import \
+     CommonhelperTitleBar  # 加载自定义标题栏的类
+from Calculator.Sourse.Window.commomHelper.commomHelper_loadQss.commomHelper_Qss import CommonhelperQss
 from Calculator.Sourse.Window.childWindow.calculatorWindow.UIdesigne.Standardcalculator import Standardcalculator
 from Calculator.Sourse.Window.childWindow.calculatorWindow.UIdesigne.Sciencecalculator import Sciencecalculator
+
 # 加载定义的常量
 from Calculator.Sourse.Window.childWindow.calculatorWindow.const.calculatorMainWindow_const import Const
 
@@ -37,12 +38,21 @@ class Calculatormainwindow(QWidget):
 
     def __init__(self):
         super(Calculatormainwindow, self).__init__()
-        self.fla = True
-        self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowSystemMenuHint)  # 设置无边框
-        self.setAttribute(Qt.WA_TranslucentBackground, self.fla)  # 将form设置为透明
+
+        self.init()
+        self.setup_ui()
+        self.load_qss()
+
+    def init(self):
+        self.setWindowFlags(Qt.FramelessWindowHint)  # 设置无边框
+        self.setAttribute(Qt.WA_TranslucentBackground, True)  # 将form设置为透明
         self.setMinimumHeight(Const.MINIMUMHEIGHT)  # 设置窗体最小高度
         self.setMinimumWidth(Const.MINIMUMWIDTH)  # 设置窗体最小宽度
 
+        self.setWindowTitle('计算器')
+        self.setWindowIcon(QIcon("./image/calculator.jpg"))
+
+    def setup_ui(self):
         # 布局
         all_layout = QVBoxLayout()
         all_layout.setObjectName('all_layout')
@@ -54,16 +64,16 @@ class Calculatormainwindow(QWidget):
                                       Const.SET_CONTENTSMARGINS)
 
         # 调用自定义标题栏
-        self.title = CommonhelperTitlebar()
+        self.title = CommonhelperTitleBar()
         self.title.setObjectName('title')
 
         self.title.spinnerBtn = QPushButton(self.title)  # 创建下拉列表按钮
         self.title.spinnerBtn.setObjectName("spinnerBtn")
         self.title.spinnerBtn.resize(40, 40)
+        self.title.spinnerBtn.setIconSize(QSize(30, 30))
         self.title.spinnerBtn.setIcon(QIcon(Const.SPINNERBTN_ICON))
-        self.title.spinnerBtn.setStyleSheet("background-color:white;")
         self.title.spinnerBtn.move(60, 0)
-        QToolTip.setFont(QFont("sansSerif", 10))
+        self.title.spinnerBtn.setCursor(QCursor(Qt.PointingHandCursor))
         self.title.spinnerBtn.setToolTip("功能列表")
         self.title.spinnerBtn.clicked.connect(self.spinner_btn_pressed)
 
@@ -72,8 +82,8 @@ class Calculatormainwindow(QWidget):
         self.title.closeButton.clicked.connect(self.close_window)
 
         # 隐藏复原和最大化按钮(不可用）
-        self.title.restoreButton.setHidden(self.fla)
-        self.title.maxButton.setHidden(self.fla)
+        self.title.restoreButton.setHidden(True)
+        self.title.maxButton.setHidden(True)
 
         # 自定义标题Icon和内容
         title_icon = QPixmap("./image/calculator.jpg")
@@ -89,15 +99,21 @@ class Calculatormainwindow(QWidget):
         all_layout.addWidget(self.title)
         all_layout.addWidget(self.centerWidget)
 
-        self.setWindowTitle('计算器')
-        self.setWindowIcon(QIcon("./image/calculator.jpg"))
-
         # 下拉列表
         self.spinner()
         # 加载窗口
         self.show_win()
 
     # ************************** 业务逻辑 *************************
+    def load_qss(self):
+        """
+        加载样式表
+        :return:
+        """
+        style_file = './Window/childWindow/calculatorWindow/Qss/CalculatorMainWindow.qss'
+        qss_style = CommonhelperQss.read_qss(style_file)
+        self.setStyleSheet(qss_style)
+
     def show_win(self):
         """
         显示默认窗口你（高级计算器窗口）
@@ -120,7 +136,7 @@ class Calculatormainwindow(QWidget):
         path.setFillRule(Qt.WindingFill)
         path.addRect(10, 10, self.width() - 20, self.height() - 20)
         painter = QPainter(self)
-        painter.setRenderHint(QPainter.Antialiasing, self.fla)
+        painter.setRenderHint(QPainter.Antialiasing, True)
         painter.fillPath(path, QBrush(Qt.white))
         color = QColor(0, 0, 0, 50)
         for i in range(0, 10):

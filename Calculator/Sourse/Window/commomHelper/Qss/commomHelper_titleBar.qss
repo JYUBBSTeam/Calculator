@@ -1,0 +1,18 @@
+QWidget {
+    background-color: orange;
+}
+
+QPushButton#titleBarButton, #spinnerBtn {
+    background-color: orange;
+    border: none;
+}
+
+QPushButton#titleBarButton:hover {
+    background-color: lightGray;
+    border: none;
+}
+
+QPushButton#spinnerBtn:hover {
+    background-color: lightGray;
+    border: none;
+}

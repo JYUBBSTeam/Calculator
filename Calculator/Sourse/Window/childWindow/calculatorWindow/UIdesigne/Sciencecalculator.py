@@ -57,27 +57,27 @@ class Sciencecalculator(QWidget):
 
         # 存储器操作按钮
         self.DEG_btn = QPushButton("DEG")
-        self.DEG_btn.setObjectName("DEG_btn")
+        self.DEG_btn.setObjectName("btn")
         self.F_E_btn = QPushButton("F-E")
-        self.F_E_btn.setObjectName("F_E_btn")
+        self.F_E_btn.setObjectName("btn")
         self.MC_btn = QPushButton("MC")
-        self.MC_btn.setObjectName("MC_btn")
+        self.MC_btn.setObjectName("btn")
         self.MR_btn = QPushButton("MR")
-        self.MR_btn.setObjectName("MR_btn")
+        self.MR_btn.setObjectName("btn")
         self.M_ADD_btn = QPushButton("M+")
-        self.M_ADD_btn.setObjectName("M_ADD_btn")
+        self.M_ADD_btn.setObjectName("btn")
         self.M_SUB_btn = QPushButton("M-")
-        self.M_SUB_btn.setObjectName("M_SUB_btn")
+        self.M_SUB_btn.setObjectName("btn")
         self.MS_btn = QPushButton("MS")
-        self.MS_btn.setObjectName("MS_btn")
+        self.MS_btn.setObjectName("btn")
         self.M_btn = QPushButton("M^")
-        self.M_btn.setObjectName("M_btn")
+        self.M_btn.setObjectName("btn")
 
         # 函数按钮
         self.circular_btn = QPushButton("三角学")  # 点击打开三角函数按钮框
-        self.circular_btn.setObjectName("circular_btn")
+        self.circular_btn.setObjectName("btn")
         self.baseFunction_btn = QPushButton("函数")  # 函数
-        self.baseFunction_btn.setObjectName("baseFunction_btn")
+        self.baseFunction_btn.setObjectName("btn")
 
         self.circular_btn.clicked.connect(self.circular_btn_win)
         self.baseFunction_btn.clicked.connect(self.function_btn_win)
@@ -154,32 +154,31 @@ class Sciencecalculator(QWidget):
         :return:
         """
         self.circular_Win = QWidget(self)
-        self.circular_Win.setObjectName("circular_Win")
-        self.circular_Win.setFixedSize(400, 200)
-        self.circular_Win.move(80, 175)
-        self.circular_Win.setStyleSheet('background-color:white')
+        self.circular_Win.setObjectName("btnWin")
+        self.circular_Win.setFixedSize(300, 230)
+        self.circular_Win.move(40, 210)
 
         # 三角函数框界面按钮
         self.two_nd_btn = QPushButton('2nd')
-        self.two_nd_btn.setObjectName('two_nd_btn')
+        self.two_nd_btn.setObjectName('btn')
         self.sin_btn = QPushButton('sin')
-        self.sin_btn.setObjectName('sin_btn')
+        self.sin_btn.setObjectName('btn')
         self.cos_btn = QPushButton('cos')
-        self.cos_btn.setObjectName('cos_btn')
+        self.cos_btn.setObjectName('btn')
         self.tan_btn = QPushButton('tan')
-        self.tan_btn.setObjectName('tan_btn')
+        self.tan_btn.setObjectName('btn')
         self.hyp_btn = QPushButton('hyp')
-        self.hyp_btn.setObjectName('hyp_btn')
+        self.hyp_btn.setObjectName('btn')
         self.sec_btn = QPushButton('sec')
-        self.sec_btn.setObjectName('sec_btn')
+        self.sec_btn.setObjectName('btn')
         self.csc_btn = QPushButton('csc')
-        self.csc_btn.setObjectName('csc_btn')
+        self.csc_btn.setObjectName('btn')
         self.cot_btn = QPushButton('cot')
-        self.cot_btn.setObjectName('cot_btn')
+        self.cot_btn.setObjectName('btn')
 
         # 关闭按钮
         self.circular_Win_quit_btn = QPushButton('关闭')
-        self.circular_Win_quit_btn.setObjectName('circular_Win_quit_btn')
+        self.circular_Win_quit_btn.setObjectName('quit_btn')
 
         # 布局
         btn_grid_1 = QGridLayout()
@@ -207,28 +206,27 @@ class Sciencecalculator(QWidget):
         :return:
         """
         self.function_win = QWidget(self)
-        self.function_win.setObjectName("function_btn_win")
-        self.function_win.setFixedSize(300, 200)
-        self.function_win.move(400, 175)
-        self.function_win.setStyleSheet('background-color:white')
+        self.function_win.setObjectName("btnWin")
+        self.function_win.setFixedSize(300, 230)
+        self.function_win.move(400, 210)
 
         # 函数框界面按钮
         self.x_one_btn = QPushButton('')
-        self.x_one_btn.setObjectName('')
+        self.x_one_btn.setObjectName('btn')
         self.x_two_btn = QPushButton('')
-        self.x_two_btn.setObjectName('')
+        self.x_two_btn.setObjectName('btn')
         self.x_three_btn = QPushButton('')
-        self.x_three_btn.setObjectName('')
+        self.x_three_btn.setObjectName('btn')
         self.rand_btn = QPushButton('rand')
-        self.rand_btn.setObjectName('rand_btn')
+        self.rand_btn.setObjectName('btn')
         self._dns_btn = QPushButton('->dns')
-        self._dns_btn.setObjectName('_dns_btn')
+        self._dns_btn.setObjectName('btn')
         self._deg_btn = QPushButton('->deg')
-        self._deg_btn.setObjectName('_deg_btn')
+        self._deg_btn.setObjectName('btn')
 
         # 关闭按钮
         self.function_Win_quit_btn = QPushButton('关闭')
-        self.function_Win_quit_btn.setObjectName('function_Win_quit_btn')
+        self.function_Win_quit_btn.setObjectName('quit_btn')
 
         # 布局
         btn_grid_2 = QGridLayout()

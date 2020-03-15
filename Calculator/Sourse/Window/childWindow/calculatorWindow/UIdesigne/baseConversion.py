@@ -1,11 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'baseConversion.ui'
-#
-# Created by: PyQt5 UI code generator 5.13.0
-#
-# WARNING! All changes made in this file will be lost!
-
 import sys
 from PyQt5 import QtCore, QtWidgets
 from PyQt5.QtWidgets import QWidget, QApplication
@@ -29,16 +23,16 @@ class Uiconversionofnumbersystems(QWidget):
         """
         self.HEX_lineEdit = QtWidgets.QLineEdit(self)
         self.HEX_lineEdit.setGeometry(QtCore.QRect(360, 30, 631, 41))
-        self.HEX_lineEdit.setObjectName("HEX_lineEdit")
+        self.HEX_lineEdit.setObjectName("lineEdit")
         self.DEC_lineEdit = QtWidgets.QLineEdit(self)
         self.DEC_lineEdit.setGeometry(QtCore.QRect(360, 90, 631, 41))
-        self.DEC_lineEdit.setObjectName("DEC_lineEdit")
+        self.DEC_lineEdit.setObjectName("lineEdit")
         self.Bin_lineEdit = QtWidgets.QLineEdit(self)
         self.Bin_lineEdit.setGeometry(QtCore.QRect(360, 150, 631, 41))
-        self.Bin_lineEdit.setObjectName("Bin_lineEdit")
+        self.Bin_lineEdit.setObjectName("lineEdit")
         self.Otc_lineEdit = QtWidgets.QLineEdit(self)
         self.Otc_lineEdit.setGeometry(QtCore.QRect(360, 210, 631, 41))
-        self.Otc_lineEdit.setObjectName("Otc_lineEdit")
+        self.Otc_lineEdit.setObjectName("lineEdit")
         self.lineEdit = QtWidgets.QLineEdit(self)
         self.lineEdit.setGeometry(QtCore.QRect(360, 290, 631, 91))
         self.lineEdit.setObjectName("lineEdit")
@@ -53,110 +47,70 @@ class Uiconversionofnumbersystems(QWidget):
         self.label_2.setObjectName("label_2")
         self.reseting_Btn = QtWidgets.QPushButton(self)
         self.reseting_Btn.setGeometry(QtCore.QRect(40, 130, 93, 51))
-        self.reseting_Btn.setObjectName("reseting_Btn")
+        self.reseting_Btn.setObjectName("btn")
         self.refresh_Btn = QtWidgets.QPushButton(self)
         self.refresh_Btn.setGeometry(QtCore.QRect(40, 40, 93, 51))
-        self.refresh_Btn.setObjectName("refresh_Btn")
+        self.refresh_Btn.setObjectName("btn")
         self.widget = QtWidgets.QWidget(self)
         self.widget.setGeometry(QtCore.QRect(180, 400, 811, 291))
-        self.widget.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, "
-                                  "stop:0.995 rgba(255, 255, 255, 255), stop:1 rgba(255, 0, 0, 255));")
         self.widget.setObjectName("widget")
         self.seven_Btn = QtWidgets.QPushButton(self.widget)
         self.seven_Btn.setGeometry(QtCore.QRect(300, 10, 100, 50))
-        self.seven_Btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,"
-                                     " stop:1 rgba(173, 173, 173, 255));")
-        self.seven_Btn.setObjectName("seven_Btn")
+        self.seven_Btn.setObjectName("btn")
         self.eight_Btn = QtWidgets.QPushButton(self.widget)
         self.eight_Btn.setGeometry(QtCore.QRect(430, 10, 100, 50))
-        self.eight_Btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, "
-                                     "stop:1 rgba(173, 173, 173, 255));")
-        self.eight_Btn.setObjectName("eight_Btn")
+        self.eight_Btn.setObjectName("btn")
         self.night_Btn = QtWidgets.QPushButton(self.widget)
         self.night_Btn.setGeometry(QtCore.QRect(560, 10, 100, 50))
-        self.night_Btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, "
-                                     "stop:1 rgba(173, 173, 173, 255));")
-        self.night_Btn.setObjectName("night_Btn")
+        self.night_Btn.setObjectName("btn")
         self.clear_Btn = QtWidgets.QPushButton(self.widget)
         self.clear_Btn.setGeometry(QtCore.QRect(690, 10, 100, 50))
-        self.clear_Btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,"
-                                     " stop:1 rgba(173, 173, 173, 255));")
-        self.clear_Btn.setObjectName("clear_Btn")
+        self.clear_Btn.setObjectName("btn")
         self.D_Btn = QtWidgets.QPushButton(self.widget)
         self.D_Btn.setGeometry(QtCore.QRect(150, 90, 100, 50))
-        self.D_Btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, "
-                                 "stop:1 rgba(173, 173, 173, 255));")
-        self.D_Btn.setObjectName("D_Btn")
+        self.D_Btn.setObjectName("btn")
         self.B_Btn = QtWidgets.QPushButton(self.widget)
         self.B_Btn.setGeometry(QtCore.QRect(150, 10, 100, 50))
-        self.B_Btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, "
-                                 "stop:1 rgba(173, 173, 173, 255));")
-        self.B_Btn.setObjectName("B_Btn")
+        self.B_Btn.setObjectName("btn")
         self.four_Btn = QtWidgets.QPushButton(self.widget)
         self.four_Btn.setGeometry(QtCore.QRect(300, 90, 100, 50))
-        self.four_Btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, "
-                                    "stop:1 rgba(173, 173, 173, 255));")
-        self.four_Btn.setObjectName("four_Btn")
+        self.four_Btn.setObjectName("btn")
         self.five_Btn = QtWidgets.QPushButton(self.widget)
         self.five_Btn.setGeometry(QtCore.QRect(430, 90, 100, 50))
-        self.five_Btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, "
-                                    "stop:1 rgba(173, 173, 173, 255));")
-        self.five_Btn.setObjectName("five_Btn")
+        self.five_Btn.setObjectName("btn")
         self.six_Btn = QtWidgets.QPushButton(self.widget)
         self.six_Btn.setGeometry(QtCore.QRect(560, 90, 100, 50))
-        self.six_Btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, "
-                                   "stop:1 rgba(173, 173, 173, 255));")
-        self.six_Btn.setObjectName("six_Btn")
+        self.six_Btn.setObjectName("btn")
         self.delect_btn = QtWidgets.QPushButton(self.widget)
         self.delect_btn.setGeometry(QtCore.QRect(690, 90, 100, 50))
-        self.delect_btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, "
-                                      "stop:1 rgba(173, 173, 173, 255));")
-        self.delect_btn.setObjectName("delect_btn")
+        self.delect_btn.setObjectName("btn")
         self.A_Btn = QtWidgets.QPushButton(self.widget)
         self.A_Btn.setGeometry(QtCore.QRect(20, 10, 100, 50))
-        self.A_Btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, "
-                                 "stop:1 rgba(173, 173, 173, 255));")
-        self.A_Btn.setObjectName("A_Btn")
+        self.A_Btn.setObjectName("btn")
         self.C_Btn = QtWidgets.QPushButton(self.widget)
         self.C_Btn.setGeometry(QtCore.QRect(20, 90, 100, 50))
-        self.C_Btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, "
-                                 "stop:1 rgba(173, 173, 173, 255));")
-        self.C_Btn.setObjectName("C_Btn")
+        self.C_Btn.setObjectName("btn")
         self.E_Btn = QtWidgets.QPushButton(self.widget)
         self.E_Btn.setGeometry(QtCore.QRect(20, 170, 100, 50))
-        self.E_Btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, "
-                                 "stop:1 rgba(173, 173, 173, 255));")
-        self.E_Btn.setObjectName("E_Btn")
+        self.E_Btn.setObjectName("btn")
         self.F_Btn = QtWidgets.QPushButton(self.widget)
         self.F_Btn.setGeometry(QtCore.QRect(150, 170, 100, 50))
-        self.F_Btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, "
-                                 "stop:1 rgba(173, 173, 173, 255));")
-        self.F_Btn.setObjectName("F_Btn")
+        self.F_Btn.setObjectName("btn")
         self.one_Btn = QtWidgets.QPushButton(self.widget)
         self.one_Btn.setGeometry(QtCore.QRect(300, 170, 100, 50))
-        self.one_Btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, "
-                                   "stop:1 rgba(173, 173, 173, 255));")
-        self.one_Btn.setObjectName("one_Btn")
+        self.one_Btn.setObjectName("btn")
         self.two_Btn = QtWidgets.QPushButton(self.widget)
         self.two_Btn.setGeometry(QtCore.QRect(430, 170, 100, 50))
-        self.two_Btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,"
-                                   " stop:1 rgba(173, 173, 173, 255));")
-        self.two_Btn.setObjectName("two_Btn")
+        self.two_Btn.setObjectName("btn")
         self.three_Btn = QtWidgets.QPushButton(self.widget)
         self.three_Btn.setGeometry(QtCore.QRect(560, 170, 100, 50))
-        self.three_Btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,"
-                                     " stop:1 rgba(173, 173, 173, 255));")
-        self.three_Btn.setObjectName("three_Btn")
+        self.three_Btn.setObjectName("btn")
         self.point_Btn = QtWidgets.QPushButton(self.widget)
         self.point_Btn.setGeometry(QtCore.QRect(690, 170, 100, 50))
-        self.point_Btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, "
-                                     "stop:1 rgba(173, 173, 173, 255));")
-        self.point_Btn.setObjectName("point_Btn")
+        self.point_Btn.setObjectName("btn")
         self.zero_Btn = QtWidgets.QPushButton(self.widget)
         self.zero_Btn.setGeometry(QtCore.QRect(20, 240, 771, 41))
-        self.zero_Btn.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,"
-                                    " stop:1 rgba(173, 173, 173, 255));")
-        self.zero_Btn.setObjectName("zero_Btn")
+        self.zero_Btn.setObjectName("btn")
         self.Hex = QtWidgets.QRadioButton(self)
         self.Hex.setGeometry(QtCore.QRect(180, 40, 131, 19))
         self.Hex.setObjectName("Hex")

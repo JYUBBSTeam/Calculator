@@ -1,2 +1,90 @@
-QMainWindow {background-color:white;}
-QMainWindow
+QStatusBar {
+    background: lightGray;
+}
+
+QMenuBar {
+    background: lightGray;
+}
+
+QToolBar {
+    background: lightGray;
+}
+
+QListWidget, QListview {
+    outline: 0px;
+}
+
+QListWidget#leftListWidget {
+    max-width: 204px;
+    border: none;
+    background: white;
+}
+
+QListWidget#leftListWidget::Item:selected {
+    max-width: 204px;
+    background: lightGray;
+    border-right: 5px solid red;
+}
+
+QFrame#rightBar {
+    background: lightGray;
+}
+
+QFrame#bottomBar{
+    background: lightGray;
+}
+
+QFrame#leftWidget {
+    background: white;
+}
+
+QListWidget#formulaSybolListWidget {
+    max-width: 204px;
+}
+
+QListWidget#formulaSybolListWidget::Item:selected {
+    background: lightGray;
+    border-left: 5px solid blue;
+}
+
+QFrame#barFrame {
+    background: lightGray;
+}
+
+QPushButton#informBtn {
+    border: none;
+}
+
+QPushButton#informBtn:hover {
+    background-color: grey;
+    border-color: grey;
+    border-radius: 2px;
+}
+
+QPushButton#barBtn {
+    border: none;
+}
+
+QPushButton#barBtn:hover {
+    background-color: lightGray;
+    border-color: lightGray;
+    border-radius: 4px;
+}
+
+QPushButton#symbolBtn {
+    background-color: white;
+    border-color: white;
+}
+
+QStackedWidget#rightWidget {
+    border: none;
+}
+
+QStackedWidget#symbolStackedWidget {
+    background-color: lightGray;
+}
+
+
+
+
+

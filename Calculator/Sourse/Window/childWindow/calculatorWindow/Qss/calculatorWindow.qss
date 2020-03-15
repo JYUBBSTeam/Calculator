@@ -1,5 +1,0 @@
-QWidget#centerWidget {background:qlineargradient(spread:pad,x1:1, y1:0, x2:0, y2:1, stop:0 rgba(51,146,255,255), stop:1 rgba(255,255,255,255)) }
-
-QWidget#button {background-color:black; border-radius:15px; color:white}
-QWidget#button:hover {background-color:gray; border-radius:15px; color:white}
-QWidget#button:pressed {background-color:black; border-radius:15px; color:white}

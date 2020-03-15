@@ -8,11 +8,17 @@
 '''
 
 
-class CommonHelper_qss:
-    def __init__(self):
-        pass
+class CommonhelperQss:
+    """
+    加载样式表公共类
+    """
 
     @staticmethod
-    def readQss(style):
-        with open(style, 'r') as f:
+    def read_qss(style_path):
+        """
+
+        :param style_path:
+        :return:
+        """
+        with open(style_path, 'r') as f:
             return f.read()

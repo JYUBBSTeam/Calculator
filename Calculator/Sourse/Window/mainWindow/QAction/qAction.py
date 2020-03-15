@@ -7,45 +7,99 @@
     函数：
 '''
 
+from Calculator.Sourse.Window.mainWindow.QAction.actoinInterface import ActionInterface
 from PyQt5.QtWidgets import QAction, QMenu
 from PyQt5.QtGui import QIcon
 
-class Action:
-    def action_1(self, action, qIcon, textTip, shortCut, statusTip, _Menu):
-        action = QAction(QIcon(qIcon), textTip, self)
-        action.setShortcut(shortCut)
-        action.setStatusTip(statusTip)
-        _Menu.addAction(action)
-        return action
 
-    def action_2(self, action, textTip, shortCut, statusTip, _Menu):
-        action = QAction(textTip, self)
-        action.setShortcut(shortCut)
-        action.setStatusTip(statusTip)
-        _Menu.addAction(action)
-        return action
+class Action(ActionInterface):      # 继承自ActionInterface接口
+    '''
+    添加菜单模块
+    '''
 
-    def action_3_a(self, action, qIcon, textTip, shortCut, statusTip):
-        # 二级菜单下命令属性设置
-        action = QAction(QIcon(qIcon), textTip, self)
-        action.setShortcut(shortCut)
-        action.setStatusTip(statusTip)
-        return action
-    def action_3_b(self, action, textTip, shortCut, statusTip):
-        # 二级菜单下命令属性设置
-        action = QAction(textTip, self)
-        action.setShortcut(shortCut)
-        action.setStatusTip(statusTip)
-        return action
+    def action_a_1(self, _action, q_icon, text_tip, short_cut, status_tip, _menu):
+        '''
+        新增一级菜单
+        :param _action:
+        :param q_icon:
+        :param text_tip:
+        :param short_cut:
+        :param status_tip:
+        :param _menu:
+        :return:
+        '''
+        _action = QAction(QIcon(q_icon), text_tip, self)
+        _action.setShortcut(short_cut)
+        _action.setStatusTip(status_tip)
+        _menu.addAction(_action)
+        return _action
 
-    def action_3_c(self, secondMenu, textTip, statusTip, _Menu):
-        # 新增二级菜单
-        secondMenu = QMenu(textTip, self)
-        secondMenu.setStatusTip(statusTip)
-        _Menu.addMenu(secondMenu)
-        return secondMenu
+    def action_a_2(self, _action, text_tip, short_cut, status_tip, _menu):
+        '''
+        新增一级菜单
+        :param _action:
+        :param text_tip:
+        :param short_cut:
+        :param status_tip:
+        :param _menu:
+        :return:
+        '''
+        _action = QAction(text_tip, self)
+        _action.setShortcut(short_cut)
+        _action.setStatusTip(status_tip)
+        _menu.addAction(_action)
+        return _action
 
-    def action_3_d(self, secondMenu, textTip, _Menu):
-        # 新增二级菜单
-        secondMenu = QMenu(textTip, self)
-        _Menu.addMenu(secondMenu)
+    def action_b_1(self, _action, q_icon, text_tip, short_cut, status_tip):
+        '''
+        二级菜单下命令属性设置
+        :param _action:
+        :param q_icon:
+        :param text_tip:
+        :param short_cut:
+        :param status_tip:
+        :return:
+        '''
+        _action = QAction(QIcon(q_icon), text_tip, self)
+        _action.setShortcut(short_cut)
+        _action.setStatusTip(status_tip)
+        return _action
+
+    def action_b_2(self, _action, text_tip, short_cut, status_tip):
+        '''
+        二级菜单下命令属性设置
+        :param _action:
+        :param text_tip:
+        :param short_cut:
+        :param status_tip:
+        :return:
+        '''
+        _action = QAction(text_tip, self)
+        _action.setShortcut(short_cut)
+        _action.setStatusTip(status_tip)
+        return _action
+
+    def action_b_3(self, _second_menu, text_tip, status_tip, _menu):
+        '''
+        新增二级菜单
+        :param _second_menu:
+        :param text_tip:
+        :param status_tip:
+        :param _menu:
+        :return:
+        '''
+        _second_menu = QMenu(text_tip, self)
+        _second_menu.setStatusTip(status_tip)
+        _menu.addMenu(_second_menu)
+        return _second_menu
+
+    def action_b_4(self, _second_menu, text_tip, _menu):
+        '''
+        新增二级菜单
+        :param _second_menu:
+        :param text_tip:
+        :param _menu:
+        :return:
+        '''
+        _second_menu = QMenu(text_tip, self)
+        _menu.addMenu(_second_menu)

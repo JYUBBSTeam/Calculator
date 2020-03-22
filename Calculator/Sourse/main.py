@@ -15,15 +15,13 @@
 -----------------------------------
 """
 
-import sys
 import cgitb
-import time
+import sys
 
-from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox, qApp
 from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QFont, QPixmap, QImage
+from PyQt5.QtWidgets import QApplication, QMessageBox
+
 from Calculator.Sourse.Window.mainWindow.mainWindow import MainWindow
-from Calculator.Sourse.Window.mainWindow.StartFace.StartFace import SplashScreen
 
 
 def load_message(splash):

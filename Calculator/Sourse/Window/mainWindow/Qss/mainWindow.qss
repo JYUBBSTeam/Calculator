@@ -51,6 +51,10 @@ QFrame#barFrame {
     background: lightGray;
 }
 
+QFrame#writingPad {
+    background-color: white;
+}
+
 QPushButton#informBtn {
     border: none;
 }
@@ -74,6 +78,16 @@ QPushButton#barBtn:hover {
 QPushButton#symbolBtn {
     background-color: white;
     border-color: white;
+}
+
+QPushButton#paintBtn {
+    border: none;
+    background-color:white;
+}
+
+QPushButton#paintBtn:hover {
+    background-color:lightgrey;
+    border-radius: 2px;
 }
 
 QStackedWidget#rightWidget {
@@ -114,4 +128,38 @@ QTabBar::tab:hover {
 QTabBar::tab:selected {
         color: white;
         background: rgb(0, 160, 230);
+}
+
+QLabel#colorLabel1 {
+    background-color:red;
+}
+
+QLabel#colorLabel2 {
+    width: 50;
+    background-color:orange;
+}
+
+QLabel#colorLabel3 {
+    width: 50;
+    background-color:yellow;
+}
+
+QLabel#colorLabel4 {
+    width: 50;
+    background-color:green;
+}
+
+QLabel#colorLabel5 {
+    width: 50;
+    background-color:cyan;
+}
+
+QLabel#colorLabel6 {
+    width: 50;
+    background-color:blue;
+}
+
+QLabel#colorLabel7 {
+    width: 50;
+    background-color:purple;
 }
